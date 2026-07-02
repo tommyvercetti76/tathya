@@ -274,6 +274,99 @@ a { color: var(--accent-soft); text-decoration-thickness: 1px; text-underline-of
 .bustkit { border: 1px solid var(--verdict-legit); border-radius: 10px; background: var(--bg-inset); padding: 12px 16px; margin: 14px 0; }
 .bustkit pre { white-space: pre-wrap; font-family: inherit; font-size: 0.88rem; margin: 8px 0 0; color: var(--text); }
 
+/* ---------------- drill (inoculation game) ---------------- */
+.drill-hud { display: flex; align-items: center; gap: 14px; margin: 20px 0 14px; }
+.drill-progress { flex: 1; height: 6px; background: var(--bg-inset); border-radius: 999px; overflow: hidden; border: 1px solid var(--line); }
+.drill-progress-fill { height: 100%; background: var(--ledger-accent); transition: width 0.3s ease; }
+.post-card { background: #000; border: 1px solid var(--line); border-radius: 14px; padding: 16px 18px; margin: 10px 0 18px; }
+.post-head { display: flex; gap: 10px; align-items: center; }
+.post-avatar {
+  width: 40px; height: 40px; border-radius: 50%; background: var(--bg-raised);
+  border: 1px solid var(--line); display: inline-flex; align-items: center; justify-content: center;
+  color: var(--ledger-accent-soft); font-weight: 700;
+}
+.post-body { font-size: 1.05rem; line-height: 1.5; margin: 12px 0 2px; }
+.drill-q { color: var(--ledger-accent-soft); font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.1em; }
+.choice-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+@media (max-width: 640px) { .choice-grid { grid-template-columns: 1fr; } }
+.choice {
+  background: var(--bg-raised); border: 1px solid var(--line); color: var(--text);
+  border-radius: 10px; padding: 12px 16px; font: inherit; font-size: 0.92rem; cursor: pointer; text-align: left;
+}
+.choice:hover:not(:disabled) { border-color: var(--ledger-accent); }
+.choice.right { border-color: var(--verdict-legit); color: var(--verdict-legit); background: rgba(121,201,162,0.08); }
+.choice.wrong { border-color: var(--verdict-misrep); color: var(--verdict-misrep); background: rgba(217,112,124,0.08); }
+.choice.dim { opacity: 0.45; }
+.drill-feedback { border-radius: 10px; padding: 14px 18px; margin: 14px 0; border: 1px solid; }
+.drill-feedback.ok { border-color: var(--verdict-legit); background: rgba(121,201,162,0.06); }
+.drill-feedback.miss { border-color: var(--verdict-misrep); background: rgba(217,112,124,0.06); }
+.drill-feedback p { margin: 8px 0; font-size: 0.92rem; }
+.drill-done { text-align: center; padding: 40px 0; }
+.drill-score-big { font-family: var(--font-serif); font-size: 3rem; color: var(--ledger-accent-soft); }
+
+/* ---------------- playbook cards & tradecraft ---------------- */
+.pb-grid { margin: 16px 0; }
+.pb-card {
+  background: var(--bg-raised); border: 1px solid var(--line); border-radius: 10px;
+  margin: 8px 0; padding: 0 16px;
+}
+.pb-card[open] { border-color: var(--ledger-accent); }
+.pb-card summary {
+  cursor: pointer; padding: 13px 0; display: flex; gap: 12px; align-items: baseline; flex-wrap: wrap;
+  list-style: none;
+}
+.pb-card summary::before { content: "▸"; color: var(--text-dim); transition: transform 0.15s; }
+.pb-card[open] summary::before { transform: rotate(90deg); }
+.pb-card summary b { font-family: var(--font-serif); font-size: 1.02rem; }
+.pb-tell { color: var(--text-dim); font-size: 0.82rem; flex: 1; min-width: 200px; }
+.pb-card > *:not(summary) { margin-bottom: 12px; }
+.tc-drill {
+  border-left: 3px solid var(--ledger-accent); background: var(--bg-inset);
+  padding: 8px 14px; border-radius: 0 8px 8px 0; font-size: 0.9rem; color: var(--ledger-accent-soft);
+}
+
+/* ---------------- live tools: grader & ACH ---------------- */
+.grader { border: 1px solid var(--line); border-radius: 10px; padding: 16px; background: var(--bg-raised); margin: 12px 0 24px; }
+.grader-cols { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+@media (max-width: 640px) { .grader-cols { grid-template-columns: 1fr; } }
+.grader-axis { font-size: 0.76rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--ledger-accent-soft); margin-bottom: 8px; }
+.grader-opt {
+  display: block; width: 100%; text-align: left; background: var(--bg-inset); color: var(--text-dim);
+  border: 1px solid var(--line); border-radius: 8px; padding: 7px 12px; margin: 4px 0; font: inherit; font-size: 0.84rem; cursor: pointer;
+}
+.grader-opt.on { border-color: var(--ledger-accent); color: var(--text); background: var(--ledger-glow); }
+.grader-opt b { margin-right: 8px; color: var(--ledger-accent-soft); }
+.grader-verdict {
+  margin-top: 14px; padding: 12px 16px; border: 1px solid var(--ledger-accent); border-radius: 8px;
+  display: flex; gap: 14px; align-items: center; font-size: 0.92rem;
+}
+.grader-code { font-family: var(--font-serif); font-size: 1.6rem; color: var(--ledger-accent-soft); }
+
+.ach { border: 1px solid var(--line); border-radius: 10px; padding: 16px; background: var(--bg-raised); margin: 12px 0 24px; overflow-x: auto; }
+.ach-q { margin: 0 0 4px; }
+.ach-table { width: 100%; border-collapse: collapse; font-size: 0.86rem; margin: 10px 0; }
+.ach-table th, .ach-table td { border: 1px solid var(--line); padding: 8px 10px; text-align: left; vertical-align: top; }
+.ach-table th { color: var(--ledger-accent-soft); font-size: 0.8rem; }
+.ach-cell { text-align: center; }
+.ach-mark {
+  width: 34px; height: 34px; border-radius: 8px; border: 1px solid var(--line); background: var(--bg-inset);
+  color: var(--text-dim); font: inherit; font-weight: 700; cursor: pointer;
+}
+.ach-mark.m-C { border-color: var(--verdict-legit); color: var(--verdict-legit); }
+.ach-mark.m-I { border-color: var(--verdict-misrep); color: var(--verdict-misrep); }
+.ach-total { font-family: var(--font-serif); font-size: 1.1rem; color: var(--ledger-accent-soft); text-align: center; }
+.ach-warn { border-left: 3px solid var(--dating-contested); background: var(--bg-inset); padding: 8px 14px; font-size: 0.88rem; border-radius: 0 8px 8px 0; }
+
+/* ---------------- flag inspector ---------------- */
+.inspected {
+  background: #000; border: 1px solid var(--line); border-radius: 12px;
+  padding: 14px 18px; margin: 8px 0 16px; font-size: 1.02rem; line-height: 1.6; white-space: pre-wrap;
+}
+.hit-mark {
+  background: rgba(217, 112, 124, 0.22); color: var(--verdict-misrep);
+  border-bottom: 2px solid var(--verdict-misrep); border-radius: 3px; padding: 0 2px; cursor: help;
+}
+
 /* ---------------- flag form ---------------- */
 .flag-form { display: flex; flex-direction: column; gap: 16px; margin-top: 26px; }
 .flag-form label { font-size: 0.86rem; color: var(--accent-soft); display: block; margin-bottom: 6px; }

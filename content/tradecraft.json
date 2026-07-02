@@ -1,0 +1,101 @@
+{
+  "kautilya": {
+    "title": "Kauṭilya's desk — the Arthaśāstra as counter-intelligence manual",
+    "intro": "The Arthaśāstra (c. Mauryan core, redacted by the early centuries CE) contains a complete intelligence doctrine: agent networks, integrity testing, disinformation, subversion, counter-espionage. The information war over Sanātana Dharma is being fought with techniques its own tradition codified two thousand years ago — so use its own countermeasures.",
+    "items": [
+      {
+        "id": "upadha",
+        "name": "Upadhā — test before trust",
+        "source": "Arthaśāstra 1.10",
+        "ancient": "Kauṭilya vetted ministers with staged integrity tests (the dharma, artha, kāma and bhaya upadhās) — loyalty was never assessed from words alone.",
+        "modern": "Apply upadhā to content: the source test (who is this account, what else do they post?), the evidence test (can you reach a primary source in two minutes?), the incentive test (does the poster profit from your outrage?), the fear test (is it engineered to scare you into sharing?).",
+        "drill": "Run ONE upadhā before amplifying. If the primary source can't be found in two minutes, the post has failed the test."
+      },
+      {
+        "id": "gudhapurusha",
+        "name": "Gūḍhapuruṣa — assume organized actors",
+        "source": "Arthaśāstra 1.11–1.14",
+        "ancient": "Entire chapters on covert agents run under cover identities — wandering ascetics, merchants, students — with separate handlers and cover stories. Kauṭilya assumes the information space is contested by professionals, not amateurs.",
+        "modern": "So do modern platforms: 'coordinated inauthentic behavior' is standard doctrine. The 'random account' posting identical 'ancient Pakistan' templates across handles is a network, not a person — the NCRI's network analyses trace exactly these structures.",
+        "drill": "Profile the account, not just the post: creation date, follower symmetry, posting cadence, template reuse across accounts."
+      },
+      {
+        "id": "trivarga-verification",
+        "name": "The three-report rule — convergence before belief",
+        "source": "Arthaśāstra 1.12 (trayāṇām ekavākye sampratyayaḥ)",
+        "ancient": "Intelligence was accepted only when three INDEPENDENT agents' reports converged; agents who diverged were re-tasked or investigated. Independence, then convergence, then belief.",
+        "modern": "The same doctrine as the NATO Admiralty code and tathya's own rule (flagship claims: ≥5 independent sources). A screenshot quoting a screenshot quoting a blog is one source wearing three coats.",
+        "drill": "Count truly independent lines of evidence. One is an anecdote, two is a lead, three converging is a fact you can repeat."
+      },
+      {
+        "id": "bheda",
+        "name": "Bheda — division is the cheapest weapon",
+        "source": "Arthaśāstra Book 11 (Saṅghavṛtta)",
+        "ancient": "Kauṭilya's manual for breaking enemy confederacies: agents plant stories that set allies against each other. The weapon is a narrative, not a sword — and it is listed as the CHEAPEST of the four upāyas (sāma, dāna, bheda, daṇḍa).",
+        "modern": "Wedge content — caste vs caste, sect vs sect, Hindu vs Sikh, north vs south — that surges precisely when unity trends is bheda at platform scale. The rage you feel at your neighbor is the payload detonating.",
+        "drill": "When a post makes you furious at a neighboring community, pause: who profits from this split? Check what else the account posts."
+      },
+      {
+        "id": "upajapa",
+        "name": "Upajāpa — demoralization warfare",
+        "source": "Arthaśāstra 13.1",
+        "ancient": "Before a siege, agents and astrologers seed the enemy population with omens and despair — the fortress is softened by narrative before any weapon is raised.",
+        "modern": "'Your civilization is fake / stolen / backward / invented by the British' is upajāpa at scale: the target is morale, not truth. The counter is not louder shouting — it is documented pride: receipts, provenance, the atlas.",
+        "drill": "Counter demoralization with one sourced fact, not ten angry replies. Calm receipts outperform outrage in every audience that matters."
+      }
+    ]
+  },
+  "analyst": {
+    "title": "The analyst's desk — declassified structured tradecraft",
+    "intro": "The CIA publishes its analytic tradecraft precisely because smart people fool themselves in predictable ways. These are the techniques professionals use to keep their own biases out of the verdict — use them on every claim, including the ones you want to be true.",
+    "items": [
+      {
+        "id": "ach",
+        "name": "Analysis of Competing Hypotheses (ACH)",
+        "source": "Heuer, Psychology of Intelligence Analysis (CIA Center for the Study of Intelligence, 1999), ch. 8",
+        "how": "List the hypotheses FIRST, then score each piece of evidence against ALL of them. The winner is the hypothesis with the LEAST inconsistent evidence — not the most support. This inverts confirmation bias: you try to refute, not to confirm. Run the live matrix below on the Indo-Aryan question.",
+        "drill": "If your matrix shows one hypothesis with zero inconsistencies on a contested question, you filled it in wrong."
+      },
+      {
+        "id": "admiralty",
+        "name": "Source grading — the Admiralty code",
+        "source": "NATO AJP-2.1 (Admiralty / NATO system)",
+        "how": "Grade the SOURCE (A–F reliability) and the CLAIM (1–6 credibility) separately — a reliable source can carry an unconfirmed claim, and an unknown account can post a true one. Fusing the two axes is how good sources launder bad claims. Try the grader below.",
+        "drill": "Never say 'true/false' about a post again — say 'B2' or 'F5' and watch your own thinking sharpen."
+      },
+      {
+        "id": "sift",
+        "name": "SIFT — lateral reading",
+        "source": "Caulfield (2019); Wineburg & McGrew, Stanford History Education Group (2017)",
+        "how": "Stop. Investigate the source. Find better coverage. Trace to the original. Professional fact-checkers read ACROSS the web about a source rather than down its page — Stanford's studies showed they beat PhD historians at spotting fakes this way.",
+        "drill": "Open three tabs about the SOURCE before reading the post twice. Two minutes, every time."
+      },
+      {
+        "id": "abcde",
+        "name": "ABCDE — analyze the campaign, not the claim",
+        "source": "Pamment, The EU's Role in Fighting Disinformation (2020); standard disinfo-analysis framing",
+        "how": "Actor, Behavior, Content, Degree, Effect. A single false post is noise; the same template across fifty accounts with synchronized timing is an operation. tathya's flag form captures exactly these fields — channel, account pattern, variant text, spread — so flags aggregate into campaign pictures.",
+        "drill": "Before rebutting content, note the behavior: how many accounts, what cadence, which audience? Sometimes the right response is documentation, not debate."
+      },
+      {
+        "id": "key-assumptions",
+        "name": "Key assumptions check",
+        "source": "CIA, A Tradecraft Primer: Structured Analytic Techniques (2009)",
+        "how": "List what must be true for the claim to hold, then attack each assumption separately. 'Taxila was a university' assumes institutional structure — one assumption, checkable, false. Most propaganda dies at its weakest hidden assumption.",
+        "drill": "Write the claim's hidden assumptions as bullet points. Attack the weakest one first — it usually takes the whole post with it."
+      }
+    ]
+  },
+  "achDemo": {
+    "question": "Who were the Indo-Aryan speakers — migrants or indigenous? (the ledger's category-12 flagship)",
+    "hypotheses": ["H1 · Steppe migration model", "H2 · Indigenous continuity model"],
+    "evidence": [
+      "Narasimhan et al. 2019 (Science): Steppe-pastoralist-related ancestry appears in South Asia in the 2nd millennium BCE",
+      "Shinde et al. 2019 (Cell): the Rakhigarhi Indus-city genome shows no Steppe ancestry",
+      "Indus-periphery ancestry remains the largest single component of most modern South Asians",
+      "Philology places Indo-Aryan inside the Indo-European family, with its closest kin (Iranian) outside India",
+      "The Ṛgveda's geography centers on the Punjab and names no homeland elsewhere",
+      "Mature Harappan strata have yielded no uncontested horse or spoked-chariot remains"
+    ]
+  }
+}

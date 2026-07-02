@@ -1,0 +1,167 @@
+{
+  "about": "Drill items for the inoculation game. Modeled on real circulating posts (paraphrased); three items are deliberately LEGITIMATE — learning not to fire on genuine scholarship is half the training. Pattern: Roozenbeek & van der Linden's prebunking games (Bad News, Go Viral!), whose effect is RCT-validated.",
+  "items": [
+    {
+      "id": "d01",
+      "channel": "x-twitter",
+      "handle": "@heritage_reborn",
+      "post": "Sanskrit was codified into its classical form by the ancient Pakistani grammarian Panini around the 4th-5th century BCE. 🇵🇰",
+      "choices": ["nation-retrojection", "literalized-idiom", "exception-as-norm", "legitimate"],
+      "answer": "nation-retrojection",
+      "explanation": "Pakistan: founded 1947, name coined 1933. Pāṇini: ~5th century BCE. A modern flag pinned on a man 2,400 years older than the state — and the post never mentions what he codified Sanskrit FOR (the Vedic tradition his grammar serves)."
+    },
+    {
+      "id": "d02",
+      "channel": "x-twitter",
+      "handle": "@truth_unsealed",
+      "post": "This Zebu bull seal from the Indus Valley is 2,400 years OLDER than Hinduism! Let that sink in. 🕉️",
+      "choices": ["founding-date-fallacy", "term-inflation", "fabricated-endorsement", "legitimate"],
+      "answer": "founding-date-fallacy",
+      "explanation": "'Older than Hinduism' requires a founding date no scholar can give — evolved traditions don't have birthdays. Bonus tell: zebu iconography is one of the motifs continuity scholars trace INTO later Hinduism. The subtraction is theater."
+    },
+    {
+      "id": "d03",
+      "channel": "whatsapp",
+      "handle": "family group",
+      "post": "PROUD MOMENT! NASA has officially declared Sanskrit the most scientific language and will use it for their next-generation computers! Forward to every Indian!",
+      "choices": ["fabricated-endorsement", "severed-origin", "context-stripping", "legitimate"],
+      "answer": "fabricated-endorsement",
+      "explanation": "No such NASA declaration exists — ask for the link. The kernel: ONE 1985 AI Magazine paper by one researcher (Rick Briggs) on Sanskrit semantics and knowledge representation. Real and interesting; the 'official declaration' was invented in the retelling."
+    },
+    {
+      "id": "d04",
+      "channel": "youtube",
+      "handle": "AncientTruthsTV",
+      "post": "The Vaimanika Shastra contains complete blueprints of ancient Indian aircraft. Our ancestors flew millennia before the Wright brothers — mainstream science just can't admit it.",
+      "choices": ["mythology-as-engineering", "word-thing-fallacy", "colonial-category-laundering", "legitimate"],
+      "answer": "mythology-as-engineering",
+      "explanation": "The text was produced 1900–1922 (by its own transmission history) and IISc aeronautical engineers found none of its designs can fly (Mukunda et al., 1974). Category 9 exists precisely for this: the real record — Piṅgala, zero, Kerala series — is corroded by fake aircraft, not helped."
+    },
+    {
+      "id": "d05",
+      "channel": "reddit",
+      "handle": "u/debate_lord_99",
+      "post": "The word 'Hindu' appears in ZERO scriptures. 'Hinduism' was coined around 1830 by the British. It's not an ancient religion — it's a colonial invention.",
+      "choices": ["word-thing-fallacy", "founding-date-fallacy", "slur-dehumanization", "legitimate"],
+      "answer": "word-thing-fallacy",
+      "explanation": "Word-history offered as thing-history. 'Byzantine Empire' was coined in 1557 — Byzantium doesn't evaporate. 'Hindu' self-identity appears in vernacular texts centuries before the Raj (Lorenzen 1999), and insiders had their own umbrella terms (sanātana dharma, vaidika dharma)."
+    },
+    {
+      "id": "d06",
+      "channel": "instagram",
+      "handle": "@wellness.collective",
+      "post": "Reminder: yoga has nothing to do with any religion. It's an ancient universal wellness practice that belongs to everyone. Namaste ✨",
+      "choices": ["severed-origin", "term-inflation", "false-certainty", "legitimate"],
+      "answer": "severed-origin",
+      "explanation": "The severing move. Yoga belongs to everyone to PRACTICE — but its charter texts are Kaṭha Upaniṣad 6.10–11, Gītā ch. 6, and the Yogasūtras (one of Hinduism's six darśanas). 'Universal access' is true; 'nothing to do with religion' erases a 2,500-year paper trail."
+    },
+    {
+      "id": "d07",
+      "channel": "x-twitter",
+      "handle": "@exposing_dharma",
+      "post": "Manusmriti 9.3 says a woman must never be independent. This is Hinduism's core text. This is what the religion IS. Screenshot and share.",
+      "choices": ["context-stripping", "mythology-as-engineering", "nation-retrojection", "legitimate"],
+      "answer": "context-stripping",
+      "explanation": "Real verse, false frame. Dharmaśāstra is a genre of disagreeing jurists' treatises; no community recites Manusmṛti as liturgy, and its 'core text' status was substantially manufactured by British colonial law (1794). Criticism of the text is legitimate; 'Hinduism in one verse' is the distortion."
+    },
+    {
+      "id": "d08",
+      "channel": "youtube",
+      "handle": "ComparativeReligion101",
+      "post": "Hindus worship 330 million gods. Literally. Three hundred and thirty million separate deities. How is that even a coherent religion?",
+      "choices": ["literalized-idiom", "severed-origin", "fabricated-endorsement", "legitimate"],
+      "answer": "literalized-idiom",
+      "explanation": "'33 koṭi' — koṭi means 'class/kind' as well as 'crore'. The canonical count is 33 devas, and the source text itself (Bṛhadāraṇyaka 3.9.1) walks the answer down from 3,306 to 33 to ONE. The literalized number deletes the punchline."
+    },
+    {
+      "id": "d09",
+      "channel": "instagram",
+      "handle": "@bharat_pride_daily",
+      "post": "Takshashila — the world's FIRST university, established 700 BCE, with 10,500 students and 64 departments. Be proud!",
+      "choices": ["term-inflation", "context-stripping", "word-thing-fallacy", "legitimate"],
+      "answer": "term-inflation",
+      "explanation": "An internal overclaim (category 9) — this drill cuts both ways. Taxila was a famed hub of individual teacher-run schools; the numbers are invented and 'university' is a projection (Scharfe 2002). The institutional title belongs to Nālandā — inflating Taxila cheapens the real claim."
+    },
+    {
+      "id": "d10",
+      "channel": "x-twitter",
+      "handle": "@final_word_history",
+      "post": "The Aryan Invasion Theory has been completely DEBUNKED by genetics. Settled. Anyone still teaching it is pushing a colonial hoax.",
+      "choices": ["false-certainty", "founding-date-fallacy", "exception-as-norm", "legitimate"],
+      "answer": "false-certainty",
+      "explanation": "The racialized 'invasion' story IS dead — but the same aDNA record shows Steppe-related ancestry arriving in the 2nd millennium BCE (Narasimhan 2019), so 'migration fully debunked' is false too. An open research question asserted as settled, in either direction, is the technique."
+    },
+    {
+      "id": "d11",
+      "channel": "tiktok",
+      "handle": "@history.hot.takes",
+      "post": "Hinduism literally commands widows to burn themselves alive. It's in the scriptures. That's the religion.",
+      "choices": ["exception-as-norm", "literalized-idiom", "term-inflation", "legitimate"],
+      "answer": "exception-as-norm",
+      "explanation": "Satī was real — and regionally bounded, never a general obligation, contested inside the tradition (the Ṛgveda's funeral hymn sends the widow back to the living; jurists condemned it), and abolished through a Hindu reformer's śāstra-based campaign. 'Scriptural command' fails every part of the record."
+    },
+    {
+      "id": "d12",
+      "channel": "facebook",
+      "handle": "World History Explained",
+      "post": "The caste system: the exact same four-tier pyramid, unchanged for 3,000 years, straight from Hindu scripture. Here's the diagram.",
+      "choices": ["colonial-category-laundering", "fabricated-endorsement", "severed-origin", "legitimate"],
+      "answer": "colonial-category-laundering",
+      "explanation": "The tidy pan-India pyramid is substantially a colonial census artifact (1871–1901) hardened by Anglo-Hindu law — while caste hierarchy itself IS old and indigenous. The honest correction runs both directions at once; the timeless-diagram version launders an administrative schema as ancient fact."
+    },
+    {
+      "id": "d13",
+      "channel": "x-twitter",
+      "handle": "@science_desk_intl",
+      "post": "New in Cell: the first genome from an Indus Valley burial (Rakhigarhi) shows no Steppe pastoralist ancestry; the authors argue farming developed locally rather than by migration from the Fertile Crescent.",
+      "choices": ["false-certainty", "severed-origin", "legitimate", "founding-date-fallacy"],
+      "answer": "legitimate",
+      "explanation": "This one is real, sourced, and stated within its evidence (Shinde et al. 2019, Cell). Not every claim you dislike is propaganda — firing on genuine scholarship is exactly the false positive category 12 exists to prevent. Check before you flag; then cite it yourself."
+    },
+    {
+      "id": "d14",
+      "channel": "whatsapp",
+      "handle": "uncle ji",
+      "post": "Even Einstein admitted it: 'We owe a lot to the Indians, who taught us how to count, without which no worthwhile scientific discovery could have been made.'",
+      "choices": ["fabricated-endorsement", "context-stripping", "legitimate", "mythology-as-engineering"],
+      "answer": "fabricated-endorsement",
+      "explanation": "No credible source places this sentence in Einstein's writings or recorded remarks — it circulates citation-free. The painful irony: the underlying FACT (decimal place value and zero are Indian, transmitted worldwide) is completely documented. Real history doesn't need fake quotes."
+    },
+    {
+      "id": "d15",
+      "channel": "x-twitter",
+      "handle": "@museum_watch",
+      "post": "The Fasting Buddha, one of Gandhāra's greatest sculptures, is held at Lahore Museum — Pakistani museums are the physical custodians of Gandhāran heritage.",
+      "choices": ["nation-retrojection", "severed-origin", "legitimate", "term-inflation"],
+      "answer": "legitimate",
+      "explanation": "Custodianship is a fact: the Fasting Buddha IS in Lahore Museum, and Pakistan IS the custodian of Gandhāran sites. The manipulation only begins when custody becomes retro-projected identity ('9,000-year-old Pakistani civilization') or when the heritage is severed from its Indic/Buddhist context. Learn the exact line."
+    },
+    {
+      "id": "d16",
+      "channel": "youtube",
+      "handle": "VedicScienceNow",
+      "post": "100 Kauravas born from one embryo divided into 100 pots — ancient India clearly had stem-cell and test-tube baby technology thousands of years ago!",
+      "choices": ["mythology-as-engineering", "word-thing-fallacy", "colonial-category-laundering", "legitimate"],
+      "answer": "mythology-as-engineering",
+      "explanation": "Epic narrative read as a lab report — an actual claim made at the Indian Science Congress (2019). The Mahābhārata is great literature and a civilizational epic; treating its miracles as biotech documentation is a category-9 overclaim that hands ammunition to every bad-faith critic."
+    },
+    {
+      "id": "d17",
+      "channel": "x-twitter",
+      "handle": "@quant_historian",
+      "post": "Bhāskara II computed the instantaneous velocity of planets around 1150 CE using a relation equivalent to a derivative — five centuries before European calculus formalized the idea (Plofker, Mathematics in India, 2009).",
+      "choices": ["term-inflation", "legitimate", "fabricated-endorsement", "false-certainty"],
+      "answer": "legitimate",
+      "explanation": "Bounded, sourced, and precise — it claims an instantaneous-rate computation in one astronomical context, NOT 'Bhāskara invented calculus'. This is what an honest strong claim looks like: the boundary is stated and the citation is real. Amplify things like this."
+    },
+    {
+      "id": "d18",
+      "channel": "reddit",
+      "handle": "u/geopolitics_anon",
+      "post": "Notice how every time Hindus and Sikhs start uniting on anything, accounts appear reminding both sides of 1984 with maximum gore? Anyway, here's a thread of why your neighbor community secretly hates you…",
+      "choices": ["slur-dehumanization", "founding-date-fallacy", "legitimate", "context-stripping"],
+      "answer": "slur-dehumanization",
+      "explanation": "Closest listed technique — but the real lesson is Kauṭilyan: this is bheda, division as a weapon (Arthaśāstra Book 11). Wedge content that appears precisely when unity trends is a campaign pattern, not a coincidence. Ask of every enraging post: who profits from this split? Then check the account's history."
+    }
+  ]
+}

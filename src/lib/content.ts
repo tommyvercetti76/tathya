@@ -50,6 +50,38 @@ export function loadTechniques(): { about: string; techniques: Technique[] } {
   return JSON.parse(fs.readFileSync(path.join(ROOT, "techniques.json"), "utf8"));
 }
 
+export type DrillItem = {
+  id: string;
+  channel: string;
+  handle: string;
+  post: string;
+  choices: string[];
+  answer: string;
+  explanation: string;
+};
+
+export function loadDrills(): { about: string; items: DrillItem[] } {
+  return JSON.parse(fs.readFileSync(path.join(ROOT, "drills.json"), "utf8"));
+}
+
+export type TradecraftItem = {
+  id: string;
+  name: string;
+  source: string;
+  ancient?: string;
+  modern?: string;
+  how?: string;
+  drill: string;
+};
+
+export function loadTradecraft(): {
+  kautilya: { title: string; intro: string; items: TradecraftItem[] };
+  analyst: { title: string; intro: string; items: TradecraftItem[] };
+  achDemo: { question: string; hypotheses: string[]; evidence: string[] };
+} {
+  return JSON.parse(fs.readFileSync(path.join(ROOT, "tradecraft.json"), "utf8"));
+}
+
 export function loadTaxonomy(): {
   categories: { id: number; key: string; name: string; description: string; example: string }[];
   verdictDirections: { key: string; name: string; color: string; meaning: string }[];

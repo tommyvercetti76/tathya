@@ -4,6 +4,35 @@ import { useState } from "react";
 import { buildBustKit, type BustEntry, type TechniqueInfo, type BustKit } from "@/lib/detect/bustkit";
 import { CopyButton } from "@/components/CopyButton";
 
+/** Highlight the exact spans that fired rules, in the post text itself. */
+function HighlightedText({ text, hits }: { text: string; hits: { rule: string; matched: string }[] }) {
+  // rule hits quote the fired span first: `"ancient Pakistan" (…)`
+  const frags = [
+    ...new Set(
+      hits
+        .map((h) => /^"([^"]{2,80})"/.exec(h.matched)?.[1])
+        .filter((f): f is string => !!f && f.length > 2)
+    ),
+  ];
+  if (frags.length === 0) return <>{text}</>;
+  const re = new RegExp(`(${frags.map((f) => f.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")).join("|")})`, "gi");
+  const parts = text.split(re);
+  return (
+    <>
+      {parts.map((p, i) => {
+        const hit = hits.find((h) => /^"([^"]+)"/.exec(h.matched)?.[1]?.toLowerCase() === p.toLowerCase());
+        return hit ? (
+          <mark className="hit-mark" key={i} title={hit.rule}>
+            {p}
+          </mark>
+        ) : (
+          <span key={i}>{p}</span>
+        );
+      })}
+    </>
+  );
+}
+
 const CHANNELS = [
   "x-twitter",
   "instagram",
@@ -171,6 +200,14 @@ export function FlagForm({
 
       {kit !== null && (
         <div>
+          {kit.ruleHits.length > 0 && (
+            <>
+              <label>The manipulation, in place — highlighted spans fired a rule (hover for which)</label>
+              <div className="inspected">
+                <HighlightedText text={text} hits={kit.ruleHits} />
+              </div>
+            </>
+          )}
           <label>Rule hits (transparent, deterministic — these rank the queue, they are not a verdict)</label>
           {kit.ruleHits.length === 0 && (
             <p className="note">

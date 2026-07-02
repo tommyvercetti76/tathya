@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export function Masthead({ side }: { side: "atlas" | "ledger" | "playbook" | "flag" }) {
+export function Masthead({ side }: { side: "atlas" | "ledger" | "playbook" | "drill" | "flag" }) {
   return (
     <header className="masthead">
       <div>
@@ -18,6 +18,9 @@ export function Masthead({ side }: { side: "atlas" | "ledger" | "playbook" | "fl
         </Link>
         <Link href="/playbook" className={side === "playbook" ? "active" : ""}>
           Playbook
+        </Link>
+        <Link href="/drill" className={side === "drill" ? "active" : ""}>
+          Drill
         </Link>
         <Link href="/flag" className={side === "flag" ? "active" : ""}>
           Flag it

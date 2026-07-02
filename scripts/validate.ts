@@ -106,6 +106,23 @@ for (const [rel, raw] of entriesIn("ledger")) {
   }
 }
 
+// drills must reference real technique ids (or "legitimate") and carry explanations
+const drillsPath = path.join(ROOT, "drills.json");
+if (fs.existsSync(drillsPath)) {
+  const drills = JSON.parse(fs.readFileSync(drillsPath, "utf8")) as {
+    items: { id: string; answer: string; choices: string[]; explanation?: string }[];
+  };
+  for (const d of drills.items) {
+    for (const c of d.choices)
+      if (c !== "legitimate" && !techniqueIds.has(c)) fail("drills.json", `${d.id}: unknown choice "${c}"`);
+    if (!d.choices.includes(d.answer)) fail("drills.json", `${d.id}: answer not among choices`);
+    if (!d.explanation) fail("drills.json", `${d.id}: missing explanation — the feedback IS the inoculation`);
+  }
+  const legit = drills.items.filter((d) => d.answer === "legitimate").length;
+  if (legit < 2)
+    fail("drills.json", `only ${legit} legitimate item(s) — the drill must also train NOT firing on real scholarship`);
+}
+
 const erasRaw = JSON.parse(fs.readFileSync(path.join(ROOT, "eras.json"), "utf8")) as unknown[];
 erasRaw.forEach((e, i) => {
   try {
