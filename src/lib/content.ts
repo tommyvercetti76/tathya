@@ -36,6 +36,20 @@ export function loadFlags(): Flag[] {
   return (JSON.parse(fs.readFileSync(p, "utf8")) as unknown[]).map((f) => Flag.parse(f));
 }
 
+export type Technique = {
+  id: string;
+  name: string;
+  definition: string;
+  tell: string;
+  counter: string;
+  example: string;
+  categories: number[];
+};
+
+export function loadTechniques(): { about: string; techniques: Technique[] } {
+  return JSON.parse(fs.readFileSync(path.join(ROOT, "techniques.json"), "utf8"));
+}
+
 export function loadTaxonomy(): {
   categories: { id: number; key: string; name: string; description: string; example: string }[];
   verdictDirections: { key: string; name: string; color: string; meaning: string }[];

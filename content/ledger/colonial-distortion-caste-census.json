@@ -4,11 +4,19 @@
   "claim": {
     "text": "Caste is a single, timeless, pan-Indian system fixed by scripture and unchanged for 3,000 years.",
     "asCirculated": "\"The caste system: 3,000 years of the exact same four-box hierarchy, straight from the Vedas\" — the standard textbook/graphic version.",
-    "channels": ["textbooks", "x-twitter", "documentaries", "reference sites"],
+    "channels": [
+      "textbooks",
+      "x-twitter",
+      "documentaries",
+      "reference sites"
+    ],
     "exampleRefs": []
   },
   "category": 4,
-  "techniques": ["essentialization", "colonial-category laundering (administrative schema presented as ancient fact)"],
+  "techniques": [
+    "colonial-category-laundering",
+    "false-certainty"
+  ],
   "whatsTrue": "Caste hierarchy, endogamy, and untouchability are real, old, and indigenous — inscriptional and textual evidence long predates colonialism, and their harms are not a colonial invention. Any entry that used 'the British constructed caste' to absolve the tradition would itself be filed under category 9. B.R. Ambedkar's analysis of caste's religious sanction remains a serious, standing indictment.",
   "whatsDistorted": "The 'single timeless system' picture is substantially a colonial artifact: the British census (from 1871–72, hardened under H.H. Risley's 1901 census) forced thousands of fluid, regional jāti identities into ranked all-India varṇa boxes; Anglo-Hindu law elevated Manusmṛti into 'the' code; enumeration created incentives to petition for rank. Scholarship (Dirks, Bayly, Cohn) shows precolonial caste was regionally variable, occupationally mobile at the jāti level in places, and differently entangled with state power. 'Unchanged for 3,000 years' erases both that history and the tradition's own anti-caste currents (many bhakti sants, Vīraśaivas...).",
   "evidence": {
@@ -16,8 +24,16 @@
       {
         "point": "Deep pre-colonial roots of hierarchy and untouchability are documented; colonialism did not invent caste.",
         "sources": [
-          { "label": "Jha, V., \"Stages in the History of Untouchables\", Indian Historical Review 2 (1975)", "kind": "peer-reviewed", "independent": true },
-          { "label": "Ambedkar, B.R., Annihilation of Caste (1936)", "kind": "primary", "independent": true }
+          {
+            "label": "Jha, V., \"Stages in the History of Untouchables\", Indian Historical Review 2 (1975)",
+            "kind": "peer-reviewed",
+            "independent": true
+          },
+          {
+            "label": "Ambedkar, B.R., Annihilation of Caste (1936)",
+            "kind": "primary",
+            "independent": true
+          }
         ]
       }
     ],
@@ -25,9 +41,21 @@
       {
         "point": "The rigid, enumerated, pan-Indian ranked schema is a product of colonial knowledge-making: census, ethnographic surveys, and law.",
         "sources": [
-          { "label": "Dirks, N., Castes of Mind: Colonialism and the Making of Modern India (Princeton, 2001)", "kind": "monograph", "independent": true },
-          { "label": "Bayly, S., Caste, Society and Politics in India (Cambridge, 1999)", "kind": "monograph", "independent": true },
-          { "label": "Cohn, B., \"The Census, Social Structure and Objectification in South Asia\", in An Anthropologist among the Historians (1987)", "kind": "peer-reviewed", "independent": true }
+          {
+            "label": "Dirks, N., Castes of Mind: Colonialism and the Making of Modern India (Princeton, 2001)",
+            "kind": "monograph",
+            "independent": true
+          },
+          {
+            "label": "Bayly, S., Caste, Society and Politics in India (Cambridge, 1999)",
+            "kind": "monograph",
+            "independent": true
+          },
+          {
+            "label": "Cohn, B., \"The Census, Social Structure and Objectification in South Asia\", in An Anthropologist among the Historians (1987)",
+            "kind": "peer-reviewed",
+            "independent": true
+          }
         ]
       }
     ]
@@ -38,12 +66,47 @@
   },
   "relatedAtlas": [],
   "sources": [
-    { "label": "Dirks, N., Castes of Mind (2001)", "kind": "monograph", "independent": true },
-    { "label": "Bayly, S., Caste, Society and Politics in India (1999)", "kind": "monograph", "independent": true },
-    { "label": "Cohn, B., An Anthropologist among the Historians (1987)", "kind": "peer-reviewed", "independent": true },
-    { "label": "Ambedkar, B.R., Annihilation of Caste (1936)", "kind": "primary", "independent": true },
-    { "label": "Jha, V., Indian Historical Review 2 (1975)", "kind": "peer-reviewed", "independent": true }
+    {
+      "label": "Dirks, N., Castes of Mind (2001)",
+      "kind": "monograph",
+      "independent": true
+    },
+    {
+      "label": "Bayly, S., Caste, Society and Politics in India (1999)",
+      "kind": "monograph",
+      "independent": true
+    },
+    {
+      "label": "Cohn, B., An Anthropologist among the Historians (1987)",
+      "kind": "peer-reviewed",
+      "independent": true
+    },
+    {
+      "label": "Ambedkar, B.R., Annihilation of Caste (1936)",
+      "kind": "primary",
+      "independent": true
+    },
+    {
+      "label": "Jha, V., Indian Historical Review 2 (1975)",
+      "kind": "peer-reviewed",
+      "independent": true
+    }
   ],
-  "contributors": ["seed:ai-draft (claude-fable-5)"],
-  "vetting": { "status": "in-review", "vetters": [], "aiAssisted": true }
+  "contributors": [
+    "seed:ai-draft (claude-fable-5)"
+  ],
+  "vetting": {
+    "status": "in-review",
+    "vetters": [],
+    "aiAssisted": true
+  },
+  "quickRebuttal": "Both flanks fail the evidence. Caste hierarchy and untouchability are old and indigenous — colonialism didn't invent them (Ambedkar's indictment stands). AND the rigid, enumerated, one-ladder-for-all-India system is substantially a colonial artifact: the 1871–1901 censuses forced fluid regional jātis into ranked boxes, and Anglo-Hindu law crowned one text (Dirks, Castes of Mind, 2001; Cohn 1987). Old in substance, colonially rigidified in form.",
+  "spread": {
+    "recurrence": "evergreen",
+    "note": "The 'timeless four-box pyramid' graphic is the standard textbook/infographic form.",
+    "knownVariants": [
+      "3,000 years of the same caste pyramid",
+      "The British invented caste (the mirror overclaim)"
+    ]
+  }
 }

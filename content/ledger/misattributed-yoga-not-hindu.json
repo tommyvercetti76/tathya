@@ -1,0 +1,64 @@
+{
+  "id": "misattributed-yoga-not-hindu",
+  "side": "ledger",
+  "claim": {
+    "text": "Yoga has nothing to do with Hinduism — it is a universal wellness practice that predates or transcends any religion.",
+    "asCirculated": "\"Yoga isn't Hindu. It's just breathing and stretching — the religious framing was added later.\" / \"Yoga predates Hinduism.\"",
+    "channels": ["instagram", "tiktok", "wellness media", "x-twitter"],
+    "exampleRefs": []
+  },
+  "category": 6,
+  "techniques": ["severed-origin", "false-certainty"],
+  "quickRebuttal": "Yoga's charter texts are Hindu scripture and philosophy: the earliest formal definition is in the Kaṭha Upaniṣad (6.10–11), the Bhagavad Gītā devotes chapters to it, Patañjali's Yogasūtras are one of Hinduism's six darśanas, and the posture corpus comes from the Śaiva haṭha tradition (Haṭhapradīpikā, 15th c.). Two things are true at once: the modern studio product is a 20th-century synthesis with physical culture (Singleton 2010), AND its root system is documented dharmic text — Hindu foremost, with Buddhist and Jain branches honestly included. 'Nothing to do with Hinduism' erases a paper trail two and a half millennia long (Mallinson & Singleton, Roots of Yoga, 2017).",
+  "spread": {
+    "recurrence": "evergreen",
+    "note": "Strongest in wellness-industry marketing, where de-religionizing widens the market; also appears as legal argument in school-yoga litigation.",
+    "knownVariants": [
+      "Yoga is older than Hinduism",
+      "Yoga is secular — it belongs to everyone, not a religion",
+      "Modern yoga was invented by Europeans anyway, so no one owns it"
+    ]
+  },
+  "whatsTrue": "Modern postural yoga IS a 20th-century synthesis — Krishnamacharya's Mysore lineage and its peers hybridized haṭha inheritance with modern physical culture (Singleton, Yoga Body, 2010; see the atlas entry). Yoga was never a Hindu monopoly: Buddhist and Jain traditions developed their own yogas inside the same śramaṇa-dharmic world, and some early haṭha texts (Amṛtasiddhi) have tantric Buddhist context. And no one needs to convert to practice āsana.",
+  "whatsDistorted": "The severing. 'Not a monopoly' does not mean 'nothing to do with': the practice's defining texts — Kaṭha and Śvetāśvatara Upaniṣads, Gītā chapters 5–6, Yogasūtras (a Hindu darśana), the Nāth Śaiva haṭha corpus — are dharmic literature, most of it Hindu scripture in the plainest sense. 'Yoga predates Hinduism' has no textual referent at all. The honest sentence credits the root and the modern synthesis together — which is exactly what the scholarship does.",
+  "evidence": {
+    "supporting": [
+      {
+        "point": "The modern studio form is substantially a 20th-century hybrid, and yoga traditions span Buddhist and Jain lineages too.",
+        "sources": [
+          { "label": "Singleton, M., Yoga Body: The Origins of Modern Posture Practice (OUP, 2010)", "kind": "monograph", "independent": true },
+          { "label": "Mallinson, J., \"The Amṛtasiddhi: Haṭhayoga's Tantric Buddhist Source Text\" (2020)", "kind": "peer-reviewed", "independent": true }
+        ]
+      }
+    ],
+    "countering": [
+      {
+        "point": "The charter texts of yoga as a discipline are Hindu scripture and philosophy, with a continuous textual lineage into the haṭha corpus.",
+        "sources": [
+          { "label": "Mallinson, J. & Singleton, M., Roots of Yoga (Penguin, 2017) — the sourcebook of the textual lineage", "kind": "reference", "independent": true },
+          { "label": "Kaṭha Upaniṣad 6.10–11 (Olivelle, The Early Upaniṣads, 1998)", "kind": "primary", "independent": true },
+          { "label": "Bryant, E., The Yoga Sūtras of Patañjali (2009) — the darśana context", "kind": "reference", "independent": true }
+        ]
+      },
+      {
+        "point": "'Predates Hinduism' is asserted without any text or artifact; the only candidate ever offered (the Indus 'proto-yogic' seal) is itself a contested reading.",
+        "sources": [
+          { "label": "Srinivasan, D., \"Unhinging Śiva from the Indus Civilization\", JRAS (1984)", "kind": "peer-reviewed", "independent": true }
+        ]
+      }
+    ]
+  },
+  "verdict": {
+    "direction": "misrepresentation",
+    "rationale": "Severed origin: the true observations (modern synthesis; multi-tradition history; universal accessibility) are stretched into a false conclusion ('nothing to do with Hinduism') that the textual record flatly contradicts. The mirror overclaim — 'every studio vinyāsa is 5,000 years old' — is handled in the atlas's modern-yoga entry with the same honesty."
+  },
+  "relatedAtlas": ["yogasutras", "modern-postural-yoga", "upanishads-early"],
+  "sources": [
+    { "label": "Mallinson, J. & Singleton, M., Roots of Yoga (2017)", "kind": "reference", "independent": true },
+    { "label": "Singleton, M., Yoga Body (2010)", "kind": "monograph", "independent": true },
+    { "label": "Bryant, E., The Yoga Sūtras of Patañjali (2009)", "kind": "reference", "independent": true },
+    { "label": "Olivelle, P., The Early Upaniṣads (1998)", "kind": "primary", "independent": true }
+  ],
+  "contributors": ["seed:ai-draft (claude-fable-5)"],
+  "vetting": { "status": "in-review", "vetters": [], "aiAssisted": true }
+}

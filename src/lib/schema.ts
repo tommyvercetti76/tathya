@@ -219,7 +219,17 @@ export const LedgerEntry = z.object({
     exampleRefs: z.array(z.string()).optional(), // archived URLs / flag ids
   }),
   category: LedgerCategory,
-  techniques: z.array(z.string()).optional(), // rhetorical technique tags (SemEval-style)
+  techniques: z.array(z.string()).optional(), // ids into content/techniques.json (validated)
+  /** The 10-second, copy-ready answer — the shareable payload of the entry. */
+  quickRebuttal: z.string().optional(), // required by validator when a verdict is present
+  /** How the claim circulates over time — recurrence intelligence for triage. */
+  spread: z
+    .object({
+      recurrence: z.enum(["evergreen", "seasonal", "burst"]),
+      note: z.string().optional(),
+      knownVariants: z.array(z.string()).optional(), // paraphrases seen in the wild (feeds matching)
+    })
+    .optional(),
   whatsTrue: z.string().optional(), // the kernel of truth, honestly conceded
   whatsDistorted: z.string().optional(),
   evidence: z.object({

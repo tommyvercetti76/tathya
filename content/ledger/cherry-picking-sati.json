@@ -4,11 +4,19 @@
   "claim": {
     "text": "Satī (widow immolation) is a core, scripturally commanded Hindu practice — 'what Hinduism does to widows'.",
     "asCirculated": "\"Hinduism commands widows to burn themselves\" — usually with a colonial-era painting attached.",
-    "channels": ["x-twitter", "youtube", "reddit", "polemical sites"],
+    "channels": [
+      "x-twitter",
+      "youtube",
+      "reddit",
+      "polemical sites"
+    ],
     "exampleRefs": []
   },
   "category": 8,
-  "techniques": ["exception-as-norm", "omitting internal opposition", "static-present framing of a historical practice"],
+  "techniques": [
+    "exception-as-norm",
+    "context-stripping"
+  ],
   "whatsTrue": "Satī happened. It is attested in inscriptions (satī stones across the Deccan and Rajasthan), praised in some medieval texts, and occurred often enough in early colonial Bengal for the East India Company to tabulate hundreds of cases per year before the 1829 prohibition. Any account that minimizes this — 'satī never really happened' — earns its own category-9 entry.",
   "whatsDistorted": "'Core and commanded' is the cherry-pick. The Ṛgveda's funeral hymn (10.18.8) has the widow return to the living world; śrauta ritual has no satī. The dharmaśāstra record is a live DEBATE — Brick's study traces jurists arguing for and against, with the anti-satī position (e.g. Medhātithi, calling it suicide contrary to dharma) among the most authoritative voices. Bāṇabhaṭṭa (7th c.) condemned it outright. It was always regionally and socially bounded (heavily kṣatriya/court-associated), never a general obligation; and the decisive 19th-century campaign against it was led by a Hindu reformer, Rammohan Roy, arguing from the śāstras themselves, with William Bentinck's 1829 regulation following.",
   "evidence": {
@@ -16,7 +24,11 @@
       {
         "point": "Real practice with real textual defenders in the medieval period; colonial-era Bengal counts are documented.",
         "sources": [
-          { "label": "Mani, L., Contentious Traditions: The Debate on Sati in Colonial India (California, 1998)", "kind": "monograph", "independent": true }
+          {
+            "label": "Mani, L., Contentious Traditions: The Debate on Sati in Colonial India (California, 1998)",
+            "kind": "monograph",
+            "independent": true
+          }
         ]
       }
     ],
@@ -24,15 +36,31 @@
       {
         "point": "The śāstric record is a debate, not a command; major jurists condemned the practice.",
         "sources": [
-          { "label": "Brick, D., \"The Dharmaśāstric Debate on Widow-Burning\", Journal of the American Oriental Society 130:2 (2010)", "kind": "peer-reviewed", "independent": true },
-          { "label": "Kane, P.V., History of Dharmaśāstra, Vol. II — satī section", "kind": "reference", "independent": true }
+          {
+            "label": "Brick, D., \"The Dharmaśāstric Debate on Widow-Burning\", Journal of the American Oriental Society 130:2 (2010)",
+            "kind": "peer-reviewed",
+            "independent": true
+          },
+          {
+            "label": "Kane, P.V., History of Dharmaśāstra, Vol. II — satī section",
+            "kind": "reference",
+            "independent": true
+          }
         ]
       },
       {
         "point": "Internal opposition is old (Bāṇa, 7th c.) and internally decisive in the modern era (Rammohan Roy's śāstra-based campaign).",
         "sources": [
-          { "label": "Bāṇabhaṭṭa, Kādambarī — condemnation passage", "kind": "primary", "independent": true },
-          { "label": "Rammohan Roy, tracts on satī (1818–1830, collected works)", "kind": "primary", "independent": true }
+          {
+            "label": "Bāṇabhaṭṭa, Kādambarī — condemnation passage",
+            "kind": "primary",
+            "independent": true
+          },
+          {
+            "label": "Rammohan Roy, tracts on satī (1818–1830, collected works)",
+            "kind": "primary",
+            "independent": true
+          }
         ]
       }
     ]
@@ -43,11 +71,42 @@
   },
   "relatedAtlas": [],
   "sources": [
-    { "label": "Brick, D., JAOS 130:2 (2010)", "kind": "peer-reviewed", "independent": true },
-    { "label": "Mani, L., Contentious Traditions (1998)", "kind": "monograph", "independent": true },
-    { "label": "Kane, P.V., History of Dharmaśāstra, Vol. II", "kind": "reference", "independent": true },
-    { "label": "Yang, A., \"Whose Sati? Widow Burning in Early 19th Century India\", Journal of Women's History 1:2 (1989)", "kind": "peer-reviewed", "independent": true }
+    {
+      "label": "Brick, D., JAOS 130:2 (2010)",
+      "kind": "peer-reviewed",
+      "independent": true
+    },
+    {
+      "label": "Mani, L., Contentious Traditions (1998)",
+      "kind": "monograph",
+      "independent": true
+    },
+    {
+      "label": "Kane, P.V., History of Dharmaśāstra, Vol. II",
+      "kind": "reference",
+      "independent": true
+    },
+    {
+      "label": "Yang, A., \"Whose Sati? Widow Burning in Early 19th Century India\", Journal of Women's History 1:2 (1989)",
+      "kind": "peer-reviewed",
+      "independent": true
+    }
   ],
-  "contributors": ["seed:ai-draft (claude-fable-5)"],
-  "vetting": { "status": "in-review", "vetters": [], "aiAssisted": true }
+  "contributors": [
+    "seed:ai-draft (claude-fable-5)"
+  ],
+  "vetting": {
+    "status": "in-review",
+    "vetters": [],
+    "aiAssisted": true
+  },
+  "quickRebuttal": "Satī was real — and it was regional, socially bounded, and contested INSIDE the tradition: the Ṛgveda's funeral hymn (10.18.8) sends the widow back to the living; major jurists like Medhātithi condemned the practice as contrary to dharma (Brick, JAOS 2010); Bāṇa attacked it in the 7th century; and a Hindu reformer, Rammohan Roy, led the campaign that outlawed it in 1829 — arguing from the śāstras. 'Universal scriptural command' fails every part of that record.",
+  "spread": {
+    "recurrence": "evergreen",
+    "note": "Usually mounted on a colonial-era painting; resurges whenever Hinduism trends.",
+    "knownVariants": [
+      "Hinduism commands widow burning",
+      "Sati shows what Hindu scripture thinks of women"
+    ]
+  }
 }

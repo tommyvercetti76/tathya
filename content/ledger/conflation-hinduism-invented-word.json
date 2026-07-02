@@ -1,0 +1,68 @@
+{
+  "id": "conflation-hinduism-invented-word",
+  "side": "ledger",
+  "claim": {
+    "text": "'Hinduism' was invented by the British in the 19th century — before that no such religion existed.",
+    "asCirculated": "\"The word 'Hindu' appears in no scripture. 'Hinduism' was coined around 1830. The British invented it — it's not a real ancient religion.\"",
+    "channels": ["x-twitter", "reddit", "youtube", "op-eds"],
+    "exampleRefs": []
+  },
+  "category": 5,
+  "techniques": ["word-thing-fallacy", "colonial-category-laundering"],
+  "quickRebuttal": "Names are newer than things — 'Byzantine Empire' was coined in 1557; Byzantium doesn't evaporate. 'Hindu' as a self-identity appears in pre-colonial vernacular literature centuries before the British (Lorenzen, 'Who Invented Hinduism?', 1999), insiders had their own umbrella terms (sanātana dharma, vaidika dharma, āstika), and pre-colonial doxographies already unified the āstika systems (Nicholson 2010). The ENGLISH label is modern; the referent — texts, ritual grammar, pilgrimage networks, philosophical schools in continuous conversation — is documented for millennia.",
+  "spread": {
+    "recurrence": "evergreen",
+    "note": "The scholarly 'construction of Hinduism' debate, flattened into a gotcha. Often deployed alongside its exact opposite ('Hinduism is fake AND commands terrible things') without noticing the contradiction.",
+    "knownVariants": [
+      "Hinduism is a colonial construct",
+      "There were only castes and sects before the British — no Hinduism",
+      "The word Hindu is Persian, so the religion is foreign-made"
+    ]
+  },
+  "whatsTrue": "The English word 'Hinduism' is early-19th-century (Rammohan Roy was among its first users). 'Hindu' began as a Persian geographic exonym (from Sindhu, the Indus). Colonial administration and law did consolidate diverse traditions under one legal label, and there is a genuine, serious scholarly debate about how much unification is modern (von Stietencron, Pennington) — that debate belongs to category 12 and is not the target here.",
+  "whatsDistorted": "The jump from word-history to thing-history. Lorenzen documents 'Hindu' as a religious self-identity in vernacular texts from the 15th–18th centuries (Eknāth, Vidyāpati, bhakti literature contrasting Hindu and Turk dharma) — centuries pre-Raj. Nicholson shows pre-colonial doxographers (12th–16th c.) already treating the āstika systems as one family. And the tradition's own umbrella terms (sanātana dharma, vaidika dharma) are ancient. By the circulated logic, 'Judaism' (an English word) and the 'Byzantine Empire' would also be fakes.",
+  "evidence": {
+    "supporting": [
+      {
+        "point": "The English term and the unified legal category are genuinely modern; scholars seriously study colonial construction effects.",
+        "sources": [
+          { "label": "Pennington, B., Was Hinduism Invented? Britons, Indians, and the Colonial Construction of Religion (OUP, 2005)", "kind": "monograph", "independent": true },
+          { "label": "von Stietencron, H., \"Hinduism: On the Proper Use of a Deceptive Term\", in Hinduism Reconsidered (1989)", "kind": "peer-reviewed", "independent": true }
+        ]
+      }
+    ],
+    "countering": [
+      {
+        "point": "Pre-colonial 'Hindu' religious self-identity is documented in vernacular literature centuries before British rule.",
+        "sources": [
+          { "label": "Lorenzen, D., \"Who Invented Hinduism?\", Comparative Studies in Society and History 41:4 (1999)", "kind": "peer-reviewed", "independent": true }
+        ]
+      },
+      {
+        "point": "Pre-colonial Sanskrit doxographies already unified the āstika philosophical systems into one family — indigenous unification, not a British invention.",
+        "sources": [
+          { "label": "Nicholson, A., Unifying Hinduism: Philosophy and Identity in Indian Intellectual History (Columbia, 2010)", "kind": "monograph", "independent": true }
+        ]
+      },
+      {
+        "point": "The word–thing inference fails on its own terms: categories like 'Byzantine Empire' (1557) and 'religion' itself are modern coinages for older referents.",
+        "sources": [
+          { "label": "Flood, G., An Introduction to Hinduism (1996), ch. 1 — on the term and the tradition", "kind": "monograph", "independent": true }
+        ]
+      }
+    ]
+  },
+  "verdict": {
+    "direction": "misrepresentation",
+    "rationale": "A real scholarly debate about categories, laundered into 'the religion is fake'. The evidence supports: modern label, colonially consolidated category, ancient and internally connected referent — with documented pre-colonial self-identity. All three at once."
+  },
+  "relatedAtlas": ["rigveda", "bhakti-movement", "adi-shankara"],
+  "sources": [
+    { "label": "Lorenzen, D., CSSH 41:4 (1999)", "kind": "peer-reviewed", "independent": true },
+    { "label": "Nicholson, A., Unifying Hinduism (2010)", "kind": "monograph", "independent": true },
+    { "label": "Pennington, B., Was Hinduism Invented? (2005)", "kind": "monograph", "independent": true },
+    { "label": "Flood, G., An Introduction to Hinduism (1996)", "kind": "monograph", "independent": true }
+  ],
+  "contributors": ["seed:ai-draft (claude-fable-5)"],
+  "vetting": { "status": "in-review", "vetters": [], "aiAssisted": true }
+}

@@ -4,11 +4,21 @@
   "claim": {
     "text": "Taxila (Takṣaśilā) was an ancient university — often 'the world's first university'.",
     "asCirculated": "\"Taxila university, one of the world's greatest centers of learning\" / \"the world's first university, established 700 BCE\"",
-    "channels": ["x-twitter", "instagram", "quora", "listicles", "school materials"],
-    "exampleRefs": ["flag-2026-0001"]
+    "channels": [
+      "x-twitter",
+      "instagram",
+      "quora",
+      "listicles",
+      "school materials"
+    ],
+    "exampleRefs": [
+      "flag-2026-0001"
+    ]
   },
   "category": 1,
-  "techniques": ["term-inflation", "round-number invention ('700 BCE')"],
+  "techniques": [
+    "term-inflation"
+  ],
   "whatsTrue": "Taxila was a genuinely famous center of learning across Buddhist and Brahmanical sources — Jātakas send princes and physicians (Jīvaka) there to study; Pāṇini is associated with the region; the excavated city complexes are a UNESCO World Heritage Site.",
   "whatsDistorted": "'University' implies a corporate institution — shared campus, admission, degrees, faculties. The sources describe teacher-centered gurukula-style schools: individual masters hosting students in their homes. Nālandā (5th c. CE) IS institutional — endowed, residential, corporate — which is why precision matters: inflating Taxila cheapens the real institutional claim Nālandā has.",
   "evidence": {
@@ -16,7 +26,11 @@
       {
         "point": "Textual fame as a learning destination is real and multi-source (Pāli Jātakas, Sanskrit sources, Greek accounts of the region).",
         "sources": [
-          { "label": "Marshall, J., Taxila: An Illustrated Account of Archaeological Excavations, 3 vols. (Cambridge, 1951)", "kind": "primary", "independent": true }
+          {
+            "label": "Marshall, J., Taxila: An Illustrated Account of Archaeological Excavations, 3 vols. (Cambridge, 1951)",
+            "kind": "primary",
+            "independent": true
+          }
         ]
       }
     ],
@@ -24,8 +38,16 @@
       {
         "point": "Scharfe's standard study concludes Taxila had no institutional organization — 'university' is a modern projection; education there was private and teacher-run.",
         "sources": [
-          { "label": "Scharfe, H., Education in Ancient India (Brill, 2002), ch. on Taxila", "kind": "monograph", "independent": true },
-          { "label": "Altekar, A.S., Education in Ancient India (1944) — earlier, similar assessment", "kind": "monograph", "independent": true }
+          {
+            "label": "Scharfe, H., Education in Ancient India (Brill, 2002), ch. on Taxila",
+            "kind": "monograph",
+            "independent": true
+          },
+          {
+            "label": "Altekar, A.S., Education in Ancient India (1944) — earlier, similar assessment",
+            "kind": "monograph",
+            "independent": true
+          }
         ]
       }
     ]
@@ -34,13 +56,46 @@
     "direction": "overclaim",
     "rationale": "Used by boosters on multiple sides (it appears in both Indian 'first university' listicles and the 'ancient Pakistan' posts). The accurate sentence — 'Taxila was among the ancient world's most famous hubs of higher learning' — needs no inflation."
   },
-  "relatedAtlas": ["panini-ashtadhyayi"],
-  "sources": [
-    { "label": "Scharfe, H., Education in Ancient India (2002)", "kind": "monograph", "independent": true },
-    { "label": "Altekar, A.S., Education in Ancient India (1944)", "kind": "monograph", "independent": true },
-    { "label": "Marshall, J., Taxila (1951)", "kind": "primary", "independent": true },
-    { "label": "UNESCO World Heritage Centre: Taxila", "url": "https://whc.unesco.org/en/list/139/", "kind": "archival", "independent": true }
+  "relatedAtlas": [
+    "panini-ashtadhyayi"
   ],
-  "contributors": ["seed:ai-draft (claude-fable-5)"],
-  "vetting": { "status": "in-review", "vetters": [], "aiAssisted": true }
+  "sources": [
+    {
+      "label": "Scharfe, H., Education in Ancient India (2002)",
+      "kind": "monograph",
+      "independent": true
+    },
+    {
+      "label": "Altekar, A.S., Education in Ancient India (1944)",
+      "kind": "monograph",
+      "independent": true
+    },
+    {
+      "label": "Marshall, J., Taxila (1951)",
+      "kind": "primary",
+      "independent": true
+    },
+    {
+      "label": "UNESCO World Heritage Centre: Taxila",
+      "url": "https://whc.unesco.org/en/list/139/",
+      "kind": "archival",
+      "independent": true
+    }
+  ],
+  "contributors": [
+    "seed:ai-draft (claude-fable-5)"
+  ],
+  "vetting": {
+    "status": "in-review",
+    "vetters": [],
+    "aiAssisted": true
+  },
+  "quickRebuttal": "Taxila was a famed hub of individual teacher-run schools — students lived with masters, no campus, no degrees, no corporation (Scharfe, Education in Ancient India, 2002). The institutional-university title belongs to Nālandā (5th c. CE: endowed, residential, admission exams). The accurate sentence — 'among the ancient world's most famous centers of learning' — needs no inflation.",
+  "spread": {
+    "recurrence": "evergreen",
+    "note": "Used by both Indian 'first university' listicles and 'ancient Pakistan' posts — same inflation, opposite flags.",
+    "knownVariants": [
+      "Takshashila, the world's first university, established 700 BCE"
+    ]
+  }
 }

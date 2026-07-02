@@ -1,0 +1,140 @@
+{
+  "about": "The propaganda playbook: named, recognizable manipulation techniques. Prebunking (inoculation theory: McGuire 1961; Roozenbeek & van der Linden 2019–22) shows that teaching people the SHAPE of a manipulation before they meet it in the wild measurably reduces its effect. Each technique names the shape, the tell, and the counter.",
+  "techniques": [
+    {
+      "id": "nation-retrojection",
+      "name": "Nation retrojection",
+      "definition": "Projecting a modern nation-state onto a past that predates it, to claim (or sever) heritage.",
+      "tell": "A modern country's name or flag attached to people/objects older than the country: 'ancient Pakistani grammarian', 'Pakistan: a 9,000-year-old civilisation'.",
+      "counter": "Name the founding date next to the claimed date. 'Pakistan: founded 1947, name coined 1933. Pāṇini: ~5th century BCE. The gap is 2,400 years.' Then supply what was severed: what tradition the person/object actually belonged to.",
+      "example": "\"Sanskrit was codified by the ancient Pakistani grammarian Panini\"",
+      "categories": [7]
+    },
+    {
+      "id": "founding-date-fallacy",
+      "name": "Founding-date fallacy",
+      "definition": "Treating an evolved, unfounded tradition as if it began on a datable day, so something can be declared 'older than' it.",
+      "tell": "'X is N years older than Hinduism' — a subtraction that requires a start date no scholar can give.",
+      "counter": "'Older than Hinduism' is like 'older than the English language' — evolved things don't have birthdays. Then note the irony where present: the artifact cited is often one continuity scholars point INTO the tradition.",
+      "example": "\"This seal is 2,400 years older than Hinduism!\"",
+      "categories": [5]
+    },
+    {
+      "id": "word-thing-fallacy",
+      "name": "Word–thing fallacy",
+      "definition": "Arguing the thing is recent (or fake) because the WORD for it is recent.",
+      "tell": "'The word Hindu appears in no scripture' / 'Hinduism was invented in 1830' offered as proof the religion itself is a construction.",
+      "counter": "Names are newer than things: 'Byzantine Empire' was coined in 1557. Show the referent's continuity (texts, ritual grammar, pilgrimage networks) and the insiders' own umbrella terms (sanātana dharma, vaidika dharma) — plus documented pre-colonial 'Hindu' self-identity (Lorenzen 1999).",
+      "example": "\"There was no Hinduism before the British — the word didn't exist.\"",
+      "categories": [5, 4]
+    },
+    {
+      "id": "severed-origin",
+      "name": "Severed origin",
+      "definition": "Detaching a practice, discovery, or figure from the tradition it demonstrably belongs to — the appropriation move.",
+      "tell": "'X has nothing to do with Hinduism' / origin reassigned wholesale to another culture ('Arabic numerals', 'yoga is just exercise').",
+      "counter": "Produce the charter documents: the texts that constitute the practice, with dates. For numerals: the Arabs' own name for them was 'Indian reckoning'. For yoga: Kaṭha Upaniṣad, Gītā 6, Yogasūtras. Concede honestly what IS shared or modern — that concession is what makes the core stick.",
+      "example": "\"Yoga isn't Hindu — it's a universal wellness practice.\"",
+      "categories": [6]
+    },
+    {
+      "id": "term-inflation",
+      "name": "Term inflation",
+      "definition": "Upgrading an entity with a grander modern label than the evidence supports.",
+      "tell": "'University', 'empire', 'metric system', 'first in the world' where the sources show something real but different.",
+      "counter": "Give the accurate term and show it's impressive enough: 'Taxila was among the ancient world's most famous hubs of higher learning' needs no inflation — and inflating it cheapens Nālandā's real institutional claim.",
+      "example": "\"Taxila University, established 700 BCE\"",
+      "categories": [1, 9]
+    },
+    {
+      "id": "context-stripping",
+      "name": "Context stripping",
+      "definition": "A real quote presented without the genre, adjacent text, or contested authority that changes its meaning.",
+      "tell": "A single translated verse screenshot + 'this is what Hinduism teaches'. No genre, no counter-verses, no note on whether the text carries the claimed authority.",
+      "counter": "Restore all three contexts: genre (jurists' treatises that disagree with each other), adjacency (the verses beside it), and authority (who actually treats this text as binding — often: the British legal system, more than Hindu communities).",
+      "example": "\"Manusmriti 9.3 — Hinduism in one verse.\"",
+      "categories": [2, 3]
+    },
+    {
+      "id": "literalized-idiom",
+      "name": "Literalized idiom",
+      "definition": "A polysemous or idiomatic expression frozen at its most sensational literal reading.",
+      "tell": "A big round number or lurid image doing rhetorical work: '330 million gods'.",
+      "counter": "Show the word's semantic range and the source text's own resolution — Bṛhadāraṇyaka 3.9.1 walks the count from 3,306 down to 33 down to one.",
+      "example": "\"Hindus literally worship 330 million gods.\"",
+      "categories": [3]
+    },
+    {
+      "id": "fabricated-endorsement",
+      "name": "Fabricated endorsement",
+      "definition": "A prestige institution or genius invented as the claim's sponsor.",
+      "tell": "'NASA declared...', 'Einstein said...' + superlative + no link. The citation is always missing or circular.",
+      "counter": "One question: 'link the declaration.' Then supply the real kernel if one exists (a 1985 AI Magazine paper by one researcher) — the honest version is usually still interesting.",
+      "example": "\"NASA says Sanskrit is the best language for computers.\"",
+      "categories": [10]
+    },
+    {
+      "id": "kernel-inflation",
+      "name": "Kernel inflation",
+      "definition": "A real but modest fact inflated into a grand institutional claim.",
+      "tell": "The chain from 'a researcher wrote a paper' to 'NASA is building Sanskrit computers' — each retelling adds a rank.",
+      "counter": "Locate the kernel, credit it precisely, and show the inflation steps. Precision is the rebuttal.",
+      "example": "One journal article → 'official NASA program'.",
+      "categories": [10, 9]
+    },
+    {
+      "id": "mythology-as-engineering",
+      "name": "Mythology as engineering",
+      "definition": "Reading epic imagery as technical documentation — flying chariots as aircraft, divine weapons as nuclear physics.",
+      "tell": "'Ancient India had aircraft/nuclear weapons/plastic surgery' sourced to epic narrative or to backdated modern texts.",
+      "counter": "Check the text's provenance (the Vaimānika Śāstra is from 1900–1922) and the physics (IISc 1974: none of it flies). Then point at the REAL record — Piṅgala, zero, Kerala series, Suśruta — which needs no inflation and is corroded by it.",
+      "example": "\"The Vaimanika Shastra contains ancient aircraft blueprints.\"",
+      "categories": [9]
+    },
+    {
+      "id": "prestige-borrowing",
+      "name": "Prestige borrowing",
+      "definition": "Using the credibility of a tradition's genuine achievements to launder fabricated ones — or using its fabrications to dismiss the genuine ones.",
+      "tell": "Real and fake achievements bundled in one list; or a debunked overclaim used to wave away the documented record ('they lie about vimanas, so the zero claim is also fake').",
+      "counter": "Unbundle. Verdict each claim separately. This is exactly why tathya's category 9 exists: correcting our own side's inflations is what keeps the documented record unassailable.",
+      "example": "Listicle mixing zero (real) with vimāna aircraft (fake).",
+      "categories": [9]
+    },
+    {
+      "id": "exception-as-norm",
+      "name": "Exception as norm",
+      "definition": "A real but bounded practice presented as the tradition's universal, timeless command.",
+      "tell": "'Hinduism commands X' where the record shows regional/temporal boundedness and internal opposition.",
+      "counter": "Concede the reality fully (satī happened; the numbers are documented), then restore the boundaries and the internal opposition — Ṛgveda 10.18.8 sends the widow back to the living; jurists condemned it; a Hindu reformer led the abolition.",
+      "example": "\"Hinduism commands widows to burn.\"",
+      "categories": [8]
+    },
+    {
+      "id": "colonial-category-laundering",
+      "name": "Colonial category laundering",
+      "definition": "A schema manufactured or hardened by colonial administration circulating as timeless indigenous fact.",
+      "tell": "Census-shaped 'facts': one pan-India caste ladder, one law book, 'unchanged for 3,000 years'.",
+      "counter": "Date the schema: 1871–1901 censuses, 1794 Anglo-Hindu law. Then state honestly what predates it (hierarchy and untouchability are old and indigenous) — the both-directions correction is the credible one.",
+      "example": "\"The caste system: the same four boxes since the Vedas.\"",
+      "categories": [4]
+    },
+    {
+      "id": "slur-dehumanization",
+      "name": "Slur / dehumanization",
+      "definition": "Not an argument at all: disgust imagery and slur lexicons attached to a people.",
+      "tell": "'Pajeet', 'cow piss', disgust memes replying to anything Indian or Hindu. There is no claim to debunk.",
+      "counter": "Don't debate a slur. Document it (screenshot, hash, report), cite the prevalence research (NCRI 2022), and hold the line: criticism of ideas is legitimate; dehumanizing people is not — in both enforcement directions.",
+      "example": "Slur-swarm replies under any Hinduism post.",
+      "categories": [11]
+    },
+    {
+      "id": "false-certainty",
+      "name": "False certainty",
+      "definition": "An open scholarly question asserted as settled — in either direction.",
+      "tell": "'Debunked', 'proven', 'settled science' attached to questions the field itself calls open (Indus–Vedic continuity, Aryan migration details, Indus script).",
+      "counter": "State the actual score: what each side's best evidence is, with citations, and what remains open. Protecting the genuinely open question (category 12) is part of busting propaganda about it.",
+      "example": "\"Aryan Migration is a debunked colonial hoax\" / \"Invasion destroyed the Indus cities — settled.\"",
+      "categories": [12, 5]
+    }
+  ]
+}

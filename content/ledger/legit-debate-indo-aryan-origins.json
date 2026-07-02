@@ -4,8 +4,15 @@
   "claim": {
     "text": "The origins of Indo-Aryan speakers in South Asia, and the degree of continuity between the Indus Valley Civilization and Vedic/Hindu culture.",
     "asCirculated": "Weaponized in both directions: 'Aryan Invasion proves Hinduism is foreign' vs 'AIT is a colonial hoax, fully debunked'. The underlying scholarship is neither.",
-    "channels": ["x-twitter", "youtube", "op-eds", "academic press"],
-    "exampleRefs": ["flag-2026-0003"]
+    "channels": [
+      "x-twitter",
+      "youtube",
+      "op-eds",
+      "academic press"
+    ],
+    "exampleRefs": [
+      "flag-2026-0003"
+    ]
   },
   "category": 12,
   "techniques": [],
@@ -16,8 +23,17 @@
       {
         "point": "Migration + admixture model with 2nd-millennium Steppe-related inflow.",
         "sources": [
-          { "label": "Narasimhan, V. et al., \"The formation of human populations in South and Central Asia\", Science 365 (2019)", "url": "https://www.science.org/doi/10.1126/science.aat7487", "kind": "peer-reviewed", "independent": true },
-          { "label": "Anthony, D., The Horse, the Wheel, and Language (2007)", "kind": "monograph", "independent": true }
+          {
+            "label": "Narasimhan, V. et al., \"The formation of human populations in South and Central Asia\", Science 365 (2019)",
+            "url": "https://www.science.org/doi/10.1126/science.aat7487",
+            "kind": "peer-reviewed",
+            "independent": true
+          },
+          {
+            "label": "Anthony, D., The Horse, the Wheel, and Language (2007)",
+            "kind": "monograph",
+            "independent": true
+          }
         ]
       }
     ],
@@ -25,8 +41,17 @@
       {
         "point": "IVC individual without Steppe ancestry; strong IVC genetic continuity into modern populations; authors' own emphasis on indigenous development of farming.",
         "sources": [
-          { "label": "Shinde, V. et al., \"An Ancient Harappan Genome Lacks Ancestry from Steppe Pastoralists or Iranian Farmers\", Cell 179 (2019)", "url": "https://www.cell.com/cell/fulltext/S0092-8674(19)30967-5", "kind": "peer-reviewed", "independent": true },
-          { "label": "Bryant, E., The Quest for the Origins of Vedic Culture (2001) — the fairest book-length survey of both camps", "kind": "monograph", "independent": true }
+          {
+            "label": "Shinde, V. et al., \"An Ancient Harappan Genome Lacks Ancestry from Steppe Pastoralists or Iranian Farmers\", Cell 179 (2019)",
+            "url": "https://www.cell.com/cell/fulltext/S0092-8674(19)30967-5",
+            "kind": "peer-reviewed",
+            "independent": true
+          },
+          {
+            "label": "Bryant, E., The Quest for the Origins of Vedic Culture (2001) — the fairest book-length survey of both camps",
+            "kind": "monograph",
+            "independent": true
+          }
         ]
       }
     ]
@@ -35,14 +60,52 @@
     "direction": "legitimate",
     "rationale": "No verdict on the underlying question — that is the point of category 12. Verdicts ARE issued on the weaponized versions: 'invasion destroyed the IVC' (superseded by the field itself) and 'migration fully debunked' (contradicted by the aDNA record) both fail the evidence."
   },
-  "relatedAtlas": ["rigveda", "pashupati-seal"],
-  "sources": [
-    { "label": "Narasimhan et al., Science 365 (2019)", "kind": "peer-reviewed", "independent": true },
-    { "label": "Shinde et al., Cell 179 (2019)", "kind": "peer-reviewed", "independent": true },
-    { "label": "Bryant, E., The Quest for the Origins of Vedic Culture (2001)", "kind": "monograph", "independent": true },
-    { "label": "Joseph, T., Early Indians (Juggernaut, 2018) — accessible synthesis", "kind": "monograph", "independent": true },
-    { "label": "Trautmann, T., Aryans and British India (California, 1997) — how the racialized version was built and dismantled", "kind": "monograph", "independent": true }
+  "relatedAtlas": [
+    "rigveda",
+    "pashupati-seal"
   ],
-  "contributors": ["seed:ai-draft (claude-fable-5)"],
-  "vetting": { "status": "in-review", "vetters": [], "aiAssisted": true }
+  "sources": [
+    {
+      "label": "Narasimhan et al., Science 365 (2019)",
+      "kind": "peer-reviewed",
+      "independent": true
+    },
+    {
+      "label": "Shinde et al., Cell 179 (2019)",
+      "kind": "peer-reviewed",
+      "independent": true
+    },
+    {
+      "label": "Bryant, E., The Quest for the Origins of Vedic Culture (2001)",
+      "kind": "monograph",
+      "independent": true
+    },
+    {
+      "label": "Joseph, T., Early Indians (Juggernaut, 2018) — accessible synthesis",
+      "kind": "monograph",
+      "independent": true
+    },
+    {
+      "label": "Trautmann, T., Aryans and British India (California, 1997) — how the racialized version was built and dismantled",
+      "kind": "monograph",
+      "independent": true
+    }
+  ],
+  "contributors": [
+    "seed:ai-draft (claude-fable-5)"
+  ],
+  "vetting": {
+    "status": "in-review",
+    "vetters": [],
+    "aiAssisted": true
+  },
+  "quickRebuttal": "The honest scoreboard: ancient-DNA shows Steppe-related ancestry arriving in the 2nd millennium BCE (Narasimhan 2019, Science) — a migration signal, not the racialized 'invasion' story, which the field discarded. The Rakhigarhi Indus genome lacks Steppe ancestry (Shinde 2019, Cell), and Indus-periphery ancestry remains the LARGEST component of most modern South Asians. 'Invasion destroyed the cities' is dead; 'migration fully debunked' is false. It's live science — treat anyone selling certainty as selling something.",
+  "spread": {
+    "recurrence": "evergreen",
+    "note": "Weaponized in both directions; every aDNA paper triggers a burst of both distortions.",
+    "knownVariants": [
+      "AIT is a debunked colonial hoax",
+      "Genetics proves Hinduism is foreign to India"
+    ]
+  }
 }

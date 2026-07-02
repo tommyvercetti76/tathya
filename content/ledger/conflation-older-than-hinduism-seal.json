@@ -4,11 +4,21 @@
   "claim": {
     "text": "Indus Valley artifacts are '2,400 years older than Hinduism', so the Indus civilization — reframed as 'ancient Pakistan' — has no connection to Hindu tradition.",
     "asCirculated": "\"This Zebu bull seal from ancient Pakistan (Indus valley) is 2,400 years older than Hinduism! 🕉️\"",
-    "channels": ["x-twitter", "instagram", "reddit"],
-    "exampleRefs": ["flag-2026-0002"]
+    "channels": [
+      "x-twitter",
+      "instagram",
+      "reddit"
+    ],
+    "exampleRefs": [
+      "flag-2026-0002"
+    ]
   },
   "category": 5,
-  "techniques": ["founding-date fallacy", "nation-retrojection", "asserting an open question as settled", "ironic emoji framing"],
+  "techniques": [
+    "founding-date-fallacy",
+    "nation-retrojection",
+    "false-certainty"
+  ],
   "whatsTrue": "Mature Harappan seals (c. 2600–1900 BCE) do predate the mainstream dating of the Vedic corpus (c. 1500–1000 BCE) by roughly a millennium. If 'Hinduism' is defined as 'the Vedic religion and later', the seal is older than that definition's start point. The zebu seal itself is a genuine and magnificent artifact.",
   "whatsDistorted": "Two conflations do the work. (1) Religion-as-founded-event: Hinduism has no founder or founding date — scholars describe it as a composite tradition that absorbed multiple streams, possibly including Indus-era elements; 'X years older than Hinduism' treats an evolved tradition like a chartered company. (2) Nation/civilization: 'ancient Pakistan' retrojects a 1947 state. The post also asserts as settled (discontinuity) what is actually one of South Asian archaeology's liveliest open questions — while, ironically, zebu-bull iconography is one of the very motifs continuity scholars point to in later Indian religion.",
   "evidence": {
@@ -16,7 +26,11 @@
       {
         "point": "Chronological kernel: Mature Harappan predates the Vedic corpus in mainstream dating.",
         "sources": [
-          { "label": "Kenoyer, J.M., Ancient Cities of the Indus Valley Civilization (1998)", "kind": "monograph", "independent": true }
+          {
+            "label": "Kenoyer, J.M., Ancient Cities of the Indus Valley Civilization (1998)",
+            "kind": "monograph",
+            "independent": true
+          }
         ]
       }
     ],
@@ -24,22 +38,46 @@
       {
         "point": "Hinduism is characterized in scholarship as an unfounded, evolved, composite tradition — a start date is a category error, so 'older than Hinduism' has no fixed referent.",
         "sources": [
-          { "label": "Flood, G., An Introduction to Hinduism (Cambridge, 1996), ch. 1–2", "kind": "monograph", "independent": true },
-          { "label": "Lipner, J., Hindus: Their Religious Beliefs and Practices (Routledge, 2nd ed. 2010)", "kind": "monograph", "independent": true }
+          {
+            "label": "Flood, G., An Introduction to Hinduism (Cambridge, 1996), ch. 1–2",
+            "kind": "monograph",
+            "independent": true
+          },
+          {
+            "label": "Lipner, J., Hindus: Their Religious Beliefs and Practices (Routledge, 2nd ed. 2010)",
+            "kind": "monograph",
+            "independent": true
+          }
         ]
       },
       {
         "point": "Indus–later-Hinduism continuity is an open scholarly question with serious proponents of continuity elements (zebu, pipal veneration, water ritual, possible proto-Śiva) and serious skeptics — the post asserts one side as fact.",
         "sources": [
-          { "label": "Parpola, A., The Roots of Hinduism (OUP, 2015)", "kind": "monograph", "independent": true },
-          { "label": "Srinivasan, D., \"Unhinging Śiva from the Indus Civilization\", JRAS (1984)", "kind": "peer-reviewed", "independent": true },
-          { "label": "Possehl, G., The Indus Civilization (2002)", "kind": "monograph", "independent": true }
+          {
+            "label": "Parpola, A., The Roots of Hinduism (OUP, 2015)",
+            "kind": "monograph",
+            "independent": true
+          },
+          {
+            "label": "Srinivasan, D., \"Unhinging Śiva from the Indus Civilization\", JRAS (1984)",
+            "kind": "peer-reviewed",
+            "independent": true
+          },
+          {
+            "label": "Possehl, G., The Indus Civilization (2002)",
+            "kind": "monograph",
+            "independent": true
+          }
         ]
       },
       {
         "point": "'Ancient Pakistan' framing: see the anachronism entry — the state dates to 1947.",
         "sources": [
-          { "label": "Talbot, I., Pakistan: A Modern History (1998)", "kind": "monograph", "independent": true }
+          {
+            "label": "Talbot, I., Pakistan: A Modern History (1998)",
+            "kind": "monograph",
+            "independent": true
+          }
         ]
       }
     ]
@@ -48,14 +86,52 @@
     "direction": "misrepresentation",
     "rationale": "The true chronological kernel is dressed in two conflations to manufacture a discontinuity verdict that the field itself has not reached. The mirror-image error — asserting PROVEN continuity ('the seal is Hindu, settled') — would be a category-9 overclaim; see the Pashupati-seal atlas entry for the evidence-grade statement of what is and isn't known."
   },
-  "relatedAtlas": ["pashupati-seal", "mehrgarh"],
-  "sources": [
-    { "label": "Flood, G., An Introduction to Hinduism (1996)", "kind": "monograph", "independent": true },
-    { "label": "Parpola, A., The Roots of Hinduism (2015)", "kind": "monograph", "independent": true },
-    { "label": "Srinivasan, D., JRAS (1984)", "kind": "peer-reviewed", "independent": true },
-    { "label": "Possehl, G., The Indus Civilization (2002)", "kind": "monograph", "independent": true },
-    { "label": "Kenoyer, J.M., Ancient Cities of the Indus Valley Civilization (1998)", "kind": "monograph", "independent": true }
+  "relatedAtlas": [
+    "pashupati-seal",
+    "mehrgarh"
   ],
-  "contributors": ["seed:ai-draft (claude-fable-5)"],
-  "vetting": { "status": "in-review", "vetters": [], "aiAssisted": true }
+  "sources": [
+    {
+      "label": "Flood, G., An Introduction to Hinduism (1996)",
+      "kind": "monograph",
+      "independent": true
+    },
+    {
+      "label": "Parpola, A., The Roots of Hinduism (2015)",
+      "kind": "monograph",
+      "independent": true
+    },
+    {
+      "label": "Srinivasan, D., JRAS (1984)",
+      "kind": "peer-reviewed",
+      "independent": true
+    },
+    {
+      "label": "Possehl, G., The Indus Civilization (2002)",
+      "kind": "monograph",
+      "independent": true
+    },
+    {
+      "label": "Kenoyer, J.M., Ancient Cities of the Indus Valley Civilization (1998)",
+      "kind": "monograph",
+      "independent": true
+    }
+  ],
+  "contributors": [
+    "seed:ai-draft (claude-fable-5)"
+  ],
+  "vetting": {
+    "status": "in-review",
+    "vetters": [],
+    "aiAssisted": true
+  },
+  "quickRebuttal": "Hinduism has no founding date — scholars describe an evolved, composite tradition (Flood 1996), so 'X years older than Hinduism' is like 'older than the English language': a category error. Bonus irony: zebu, pipal, and water-ritual imagery on Indus objects are among the very motifs continuity scholars trace INTO later Hinduism (Parpola 2015) — an open question, not a settled 'no connection'.",
+  "spread": {
+    "recurrence": "evergreen",
+    "note": "Any Indus artifact photo can host this caption; the number changes, the fallacy doesn't.",
+    "knownVariants": [
+      "The Indus Valley Civilization predates Hinduism by thousands of years",
+      "This seal is older than the Vedas — so it can't be Hindu"
+    ]
+  }
 }

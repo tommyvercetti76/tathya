@@ -1,8 +1,8 @@
 "use client";
 
 import { useState } from "react";
-import { runRules, type RuleHit } from "@/lib/detect/rules";
-import { matchClaims, type MatchCandidate } from "@/lib/detect/match";
+import { buildBustKit, type BustEntry, type TechniqueInfo, type BustKit } from "@/lib/detect/bustkit";
+import { CopyButton } from "@/components/CopyButton";
 
 const CHANNELS = [
   "x-twitter",
@@ -21,10 +21,12 @@ const REPO_ISSUES_URL = "https://github.com/OWNER/tathya/issues/new";
 
 export function FlagForm({
   flagForOptions,
-  candidates,
+  entries,
+  techniques,
 }: {
   flagForOptions: string[];
-  candidates: MatchCandidate[];
+  entries: BustEntry[];
+  techniques: TechniqueInfo[];
 }) {
   const [channel, setChannel] = useState<string>("x-twitter");
   const [url, setUrl] = useState("");
@@ -32,8 +34,7 @@ export function FlagForm({
   const [reasons, setReasons] = useState<string[]>([]);
   const [bespoke, setBespoke] = useState("");
   const [ocrState, setOcrState] = useState<"idle" | "working" | "done" | "error">("idle");
-  const [hits, setHits] = useState<RuleHit[] | null>(null);
-  const [matches, setMatches] = useState<{ id: string; score: number }[] | null>(null);
+  const [kit, setKit] = useState<BustKit | null>(null);
 
   async function handleImage(file: File) {
     setOcrState("working");
@@ -56,8 +57,7 @@ export function FlagForm({
   function analyze() {
     const t = text.trim();
     if (!t) return;
-    setHits(runRules(t));
-    setMatches(matchClaims(t, candidates));
+    setKit(buildBustKit(t, entries, techniques, window.location.origin));
   }
 
   function toggleReason(r: string) {
@@ -78,8 +78,10 @@ export function FlagForm({
       ...reasons.map((r) => `- ${r}`),
       bespoke ? `- Other: ${bespoke}` : "",
       "### Automatic triage (local rules — not a verdict)",
-      ...(hits ?? []).map((h) => `- [cat ${h.category} · ${h.confidence}] ${h.rule}: ${h.matched}`),
-      ...(matches ?? []).map((m) => `- possible existing entry: \`${m.id}\` (score ${m.score})`),
+      ...(kit?.ruleHits ?? []).map((h) => `- [cat ${h.category} · ${h.confidence}] ${h.rule}: ${h.matched}`),
+      ...(kit?.matches ?? []).map(
+        (m) => `- possible existing entry: \`${m.id}\` (score ${m.score}${m.nearDuplicate ? ", near-duplicate" : ""})`
+      ),
     ]
       .filter(Boolean)
       .join("\n");
@@ -167,15 +169,15 @@ export function FlagForm({
         Analyze locally
       </button>
 
-      {hits !== null && (
+      {kit !== null && (
         <div>
           <label>Rule hits (transparent, deterministic — these rank the queue, they are not a verdict)</label>
-          {hits.length === 0 && (
+          {kit.ruleHits.length === 0 && (
             <p className="note">
               No deterministic rule fired. That does not mean the post is clean — it means a human should look.
             </p>
           )}
-          {hits.map((h, i) => (
+          {kit.ruleHits.map((h, i) => (
             <div className="rule-hit" key={i}>
               <b>
                 cat {h.category} · {h.rule} · {h.confidence}
@@ -184,15 +186,30 @@ export function FlagForm({
               {h.matched}
             </div>
           ))}
-          {matches && matches.length > 0 && (
+          {kit.matches.length > 0 && (
             <>
               <label style={{ marginTop: 12 }}>Already documented? Closest ledger entries:</label>
-              {matches.map((m) => (
+              {kit.matches.map((m) => (
                 <div className="match-hit" key={m.id}>
                   <a href={`/ledger#${m.id}`}>{m.id}</a> — similarity {m.score}
+                  {m.nearDuplicate && <b> · near-duplicate of a known variant</b>}
                 </div>
               ))}
             </>
+          )}
+          {kit.text && (
+            <div className="bustkit">
+              <div className="rebuttal-head">
+                <span className="rebuttal-label">Bust kit — sourced reply, ready to paste</span>
+                <CopyButton text={kit.text} label="Copy bust kit" />
+              </div>
+              <pre>{kit.text}</pre>
+            </div>
+          )}
+          {kit.isNewClaim && (
+            <p className="note">
+              Known technique, new claim — submitting this flag helps a vetter add it to the ledger with sources.
+            </p>
           )}
           <a className="btn" style={{ display: "inline-block", marginTop: 14, textDecoration: "none" }} href={issueUrl()} target="_blank" rel="noreferrer">
             Submit flag for human review →

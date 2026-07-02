@@ -186,6 +186,91 @@ export function lfInstitutionInflation(text: string): RuleHit[] {
   ];
 }
 
+/** LF7 — severed origin: "(yoga|zero|numerals...) has nothing to do with / is not Hindu". */
+export function lfSeveredOrigin(text: string): RuleHit[] {
+  const re =
+    /\b(yoga|sanskrit|zero|ayurveda|meditation|chess|the\s+numerals?)\b[^.!?]{0,60}?\b(has\s+nothing\s+to\s+do\s+with|is\s+not|isn'?t|was\s+never|doesn'?t\s+belong\s+to)\s+(hindu(?:ism)?|india[n]?)/i;
+  const m = re.exec(text);
+  if (!m) return [];
+  return [
+    {
+      rule: "severed-origin",
+      category: 6,
+      technique: "severed-origin",
+      matched: `"${m[0].trim()}" (check the charter texts before accepting the severing)`,
+      confidence: "medium",
+    },
+  ];
+}
+
+/** LF8 — word–thing fallacy: "the word Hindu(ism) was invented/coined by...". */
+export function lfWordThingFallacy(text: string): RuleHit[] {
+  const re =
+    /(word|term|name)\s+['"]?hindu(?:ism)?['"]?\s+(?:was\s+|is\s+)?(invented|coined|created|made\s+up|doesn'?t\s+(appear|exist))/i;
+  const m = re.exec(text);
+  if (!m) return [];
+  return [
+    {
+      rule: "word-thing-fallacy",
+      category: 5,
+      technique: "word-thing-fallacy",
+      matched: `"${m[0].trim()}" (word-history offered as thing-history)`,
+      confidence: "high",
+    },
+  ];
+}
+
+/** LF9 — scripture snippet as verdict: "<text> <chap.verse> proves/teaches/commands...". */
+export function lfScriptureSnippet(text: string): RuleHit[] {
+  const re =
+    /(manusmriti|manu\s*smriti|gita|bhagavad\s*gita|vedas?|rig\s*veda|quran|upanishads?)\s*,?\s*\d{1,3}[.:]\d{1,3}[^.!?]{0,80}?\b(proves?|teaches|commands?|shows?\s+that|is\s+what\s+\w+\s+really)/i;
+  const m = re.exec(text);
+  if (!m) return [];
+  return [
+    {
+      rule: "scripture-snippet-verdict",
+      category: 2,
+      technique: "context-stripping",
+      matched: `"${m[0].trim()}" (single verse + universal conclusion — check genre, adjacency, authority)`,
+      confidence: "medium",
+    },
+  ];
+}
+
+/** LF10 — slur lexicon: dehumanization is documented, not debated. */
+export function lfSlurLexicon(text: string): RuleHit[] {
+  // Detection requires naming the tokens; they are documented in the NCRI (2022) report.
+  const re = /\b(pajeet|street\s*shitter|cow\s*piss\s*(drinker|land)?|poo\s*in\s*(the\s*)?loo)\b/i;
+  const m = re.exec(text);
+  if (!m) return [];
+  return [
+    {
+      rule: "slur-lexicon",
+      category: 11,
+      technique: "slur-dehumanization",
+      matched: `dehumanizing token "${m[0]}" (document and report — do not debate)`,
+      confidence: "high",
+    },
+  ];
+}
+
+/** LF11 — false certainty on open questions: "aryan migration/invasion ... hoax/proven/settled". */
+export function lfFalseCertainty(text: string): RuleHit[] {
+  const re =
+    /(aryan\s+(invasion|migration)|indus\s+(script|valley\s+civili[sz]ation)|out\s+of\s+india)[^.!?]{0,60}?\b(hoax|debunked|proven|settled|fact|myth\s+busted|deciphered)/i;
+  const m = re.exec(text);
+  if (!m) return [];
+  return [
+    {
+      rule: "false-certainty",
+      category: 12,
+      technique: "false-certainty",
+      matched: `"${m[0].trim()}" (an open research question asserted as settled — see the category-12 entry)`,
+      confidence: "medium",
+    },
+  ];
+}
+
 const ALL_RULES = [
   lfNationRetrojection,
   lfFoundingDateFallacy,
@@ -193,6 +278,11 @@ const ALL_RULES = [
   lfFabricatedEndorsement,
   lfAncientTech,
   lfInstitutionInflation,
+  lfSeveredOrigin,
+  lfWordThingFallacy,
+  lfScriptureSnippet,
+  lfSlurLexicon,
+  lfFalseCertainty,
 ];
 
 /** Run every labeling function; dedupe identical (rule, matched) pairs. */

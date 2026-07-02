@@ -76,6 +76,14 @@ for (const [rel, raw] of entriesIn("atlas")) {
   }
 }
 
+const techniqueIds = new Set<string>(
+  (
+    JSON.parse(fs.readFileSync(path.join(ROOT, "techniques.json"), "utf8")) as {
+      techniques: { id: string }[];
+    }
+  ).techniques.map((t) => t.id)
+);
+
 const seenCategories = new Set<number>();
 for (const [rel, raw] of entriesIn("ledger")) {
   try {
@@ -83,6 +91,10 @@ for (const [rel, raw] of entriesIn("ledger")) {
     seenCategories.add(e.category);
     if (e.evidence.countering.length === 0 && e.category !== 12)
       fail(rel, `ledger entry has no countering evidence`);
+    if (e.verdict && !e.quickRebuttal)
+      fail(rel, `entry has a verdict but no quickRebuttal — every busted claim needs its 10-second answer`);
+    for (const t of e.techniques ?? [])
+      if (!techniqueIds.has(t)) fail(rel, `unknown technique "${t}" — add it to content/techniques.json or fix the id`);
     if (e.category === 12 && e.verdict && e.verdict.direction !== "legitimate")
       fail(rel, `category 12 (legitimate debate) cannot carry an accusatory verdict`);
     if (e.vetting.status === "published" && e.vetting.vetters.length === 0)

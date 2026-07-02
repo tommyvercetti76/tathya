@@ -4,11 +4,19 @@
   "claim": {
     "text": "Isolated Manusmṛti verses (e.g. 9.3 on women's non-independence) prove 'what Hinduism teaches'.",
     "asCirculated": "Screenshot of a single translated verse captioned 'this is the core text of Hinduism' / 'Hinduism in one verse'.",
-    "channels": ["x-twitter", "reddit", "facebook", "youtube-shorts"],
+    "channels": [
+      "x-twitter",
+      "reddit",
+      "facebook",
+      "youtube-shorts"
+    ],
     "exampleRefs": []
   },
   "category": 2,
-  "techniques": ["genre erasure", "synecdoche (one text = whole tradition)", "authority inflation"],
+  "techniques": [
+    "context-stripping",
+    "colonial-category-laundering"
+  ],
   "whatsTrue": "The verses are real. Manusmṛti 9.3 does subordinate women to father/husband/son; the text encodes steep caste hierarchy. Criticism of the text is a long and legitimate tradition — Ambedkar publicly burned it in 1927 as a political act, and modern scholars treat its social vision as hierarchical by design. That criticism belongs to category 12, not to this entry.",
   "whatsDistorted": "The strip is in the framing 'core text of Hinduism'. Dharmaśāstra is a genre of jurists' treatises — dozens of smṛtis that openly disagree with each other, none scriptural in the way the framing implies, with commentators (Medhātithi onward) reworking positions for centuries. Manusmṛti's modern prominence owes much to the British choice of it as the basis of Anglo-Hindu law (via Sir William Jones's 1794 translation) — see the colonial-distortion entry. Most practicing Hindus have never read it; no Hindu community treats it as liturgy. Presenting adjacent verses (3.55–56, 'where women are honored, the gods rejoice') would complicate the caption in the other direction — the honest statement is that the text is internally plural and historically contested, inside the tradition and out.",
   "evidence": {
@@ -16,7 +24,11 @@
       {
         "point": "The quoted verses exist and the text's hierarchical social vision is real (Olivelle's critical edition and translation).",
         "sources": [
-          { "label": "Olivelle, P., Manu's Code of Law: A Critical Edition and Translation of the Mānava-Dharmaśāstra (OUP, 2005)", "kind": "reference", "independent": true }
+          {
+            "label": "Olivelle, P., Manu's Code of Law: A Critical Edition and Translation of the Mānava-Dharmaśāstra (OUP, 2005)",
+            "kind": "reference",
+            "independent": true
+          }
         ]
       }
     ],
@@ -24,14 +36,26 @@
       {
         "point": "Dharmaśāstra is a plural jurists' genre, not a scripture with churchlike authority; its history is one of competing smṛtis and commentarial revision.",
         "sources": [
-          { "label": "Rocher, L., \"The Dharmaśāstras\", in The Blackwell Companion to Hinduism (2003)", "kind": "reference", "independent": true },
-          { "label": "Davis, D., The Spirit of Hindu Law (Cambridge, 2010)", "kind": "monograph", "independent": true }
+          {
+            "label": "Rocher, L., \"The Dharmaśāstras\", in The Blackwell Companion to Hinduism (2003)",
+            "kind": "reference",
+            "independent": true
+          },
+          {
+            "label": "Davis, D., The Spirit of Hindu Law (Cambridge, 2010)",
+            "kind": "monograph",
+            "independent": true
+          }
         ]
       },
       {
         "point": "Manusmṛti's 'core text' status was substantially a colonial legal construction.",
         "sources": [
-          { "label": "Rocher, R., \"The Creation of Anglo-Hindu Law\", in Hinduism and Law: An Introduction (Cambridge, 2010)", "kind": "peer-reviewed", "independent": true }
+          {
+            "label": "Rocher, R., \"The Creation of Anglo-Hindu Law\", in Hinduism and Law: An Introduction (Cambridge, 2010)",
+            "kind": "peer-reviewed",
+            "independent": true
+          }
         ]
       }
     ]
@@ -42,11 +66,42 @@
   },
   "relatedAtlas": [],
   "sources": [
-    { "label": "Olivelle, P., Manu's Code of Law (2005)", "kind": "reference", "independent": true },
-    { "label": "Rocher, L., \"The Dharmaśāstras\" (2003)", "kind": "reference", "independent": true },
-    { "label": "Davis, D., The Spirit of Hindu Law (2010)", "kind": "monograph", "independent": true },
-    { "label": "Moon, V. (ed.), Dr. Babasaheb Ambedkar: Writings and Speeches — Mahad satyagraha and Manusmṛti dahan (1927)", "kind": "archival", "independent": true }
+    {
+      "label": "Olivelle, P., Manu's Code of Law (2005)",
+      "kind": "reference",
+      "independent": true
+    },
+    {
+      "label": "Rocher, L., \"The Dharmaśāstras\" (2003)",
+      "kind": "reference",
+      "independent": true
+    },
+    {
+      "label": "Davis, D., The Spirit of Hindu Law (2010)",
+      "kind": "monograph",
+      "independent": true
+    },
+    {
+      "label": "Moon, V. (ed.), Dr. Babasaheb Ambedkar: Writings and Speeches — Mahad satyagraha and Manusmṛti dahan (1927)",
+      "kind": "archival",
+      "independent": true
+    }
   ],
-  "contributors": ["seed:ai-draft (claude-fable-5)"],
-  "vetting": { "status": "in-review", "vetters": [], "aiAssisted": true }
+  "contributors": [
+    "seed:ai-draft (claude-fable-5)"
+  ],
+  "vetting": {
+    "status": "in-review",
+    "vetters": [],
+    "aiAssisted": true
+  },
+  "quickRebuttal": "Real verse, false frame. Dharmaśāstra is a genre of jurists' treatises that openly disagree with each other — none is 'the core text of Hinduism', no community recites Manusmṛti as liturgy, and its modern prominence owes much to the British choosing it for Anglo-Hindu law in 1794 (Rocher). Criticism of the text is legitimate and old — Ambedkar burned it in 1927; presenting it as 'Hinduism in one verse' is the distortion.",
+  "spread": {
+    "recurrence": "evergreen",
+    "note": "Verse-screenshot format; 9.3 and 8.371 are the most recycled.",
+    "knownVariants": [
+      "Manusmriti is the Hindu constitution",
+      "This is what the core text of Hinduism says about women"
+    ]
+  }
 }

@@ -4,11 +4,17 @@
   "claim": {
     "text": "The decimal numerals and zero were invented by Arab mathematicians ('Arabic numerals').",
     "asCirculated": "\"Zero was invented by al-Khwarizmi\" / \"Arabic numerals, an Arab gift to the world\".",
-    "channels": ["reference sites", "x-twitter", "school materials"],
+    "channels": [
+      "reference sites",
+      "x-twitter",
+      "school materials"
+    ],
     "exampleRefs": []
   },
   "category": 6,
-  "techniques": ["name-inertia treated as origin", "transmission credited as invention"],
+  "techniques": [
+    "severed-origin"
+  ],
   "whatsTrue": "The Arab world's role was enormous and real: al-Khwārizmī's treatise carried the system to Baghdad and thence (in Latin translation) to Europe; 'algorithm' descends from his name; Islamic mathematicians extended the system (decimal fractions, algebra). Europe genuinely received the numerals from Arabic sources — the European name is honest about the messenger.",
   "whatsDistorted": "Origin: the numerals (Brahmi → Gupta → Nāgarī glyph lineage), decimal place value, and zero-as-number are Indian, and the Arabic tradition said so itself — al-Khwārizmī's book is 'On Calculation with HINDU Numerals' (c. 825); the Arabic term is ḥisāb al-hind, 'Indian reckoning'; Severus Sebokht already praised the Indians' 'nine signs' in 662 CE, before the Abbasids existed.",
   "evidence": {
@@ -16,7 +22,11 @@
       {
         "point": "Transmission to Europe was via the Arabic world; major mathematical development happened there.",
         "sources": [
-          { "label": "Berggren, J.L., Episodes in the Mathematics of Medieval Islam (Springer, 1986)", "kind": "monograph", "independent": true }
+          {
+            "label": "Berggren, J.L., Episodes in the Mathematics of Medieval Islam (Springer, 1986)",
+            "kind": "monograph",
+            "independent": true
+          }
         ]
       }
     ],
@@ -24,10 +34,26 @@
       {
         "point": "Arabic primary sources attribute the system to India by name; Syriac attestation predates the Arabic reception.",
         "sources": [
-          { "label": "al-Khwārizmī, Kitāb al-ḥisāb al-hindī (c. 825; Latin: Algoritmi de numero Indorum)", "kind": "primary", "independent": true },
-          { "label": "Severus Sebokht (662 CE), fragment on Indian numerals (ed. F. Nau, 1910)", "kind": "primary", "independent": true },
-          { "label": "Burnett, C., \"The Semantics of Indian Numerals...\", J. Indian Philosophy 34 (2006)", "kind": "peer-reviewed", "independent": true },
-          { "label": "Chrisomalis, S., Numerical Notation (2010)", "kind": "monograph", "independent": true }
+          {
+            "label": "al-Khwārizmī, Kitāb al-ḥisāb al-hindī (c. 825; Latin: Algoritmi de numero Indorum)",
+            "kind": "primary",
+            "independent": true
+          },
+          {
+            "label": "Severus Sebokht (662 CE), fragment on Indian numerals (ed. F. Nau, 1910)",
+            "kind": "primary",
+            "independent": true
+          },
+          {
+            "label": "Burnett, C., \"The Semantics of Indian Numerals...\", J. Indian Philosophy 34 (2006)",
+            "kind": "peer-reviewed",
+            "independent": true
+          },
+          {
+            "label": "Chrisomalis, S., Numerical Notation (2010)",
+            "kind": "monograph",
+            "independent": true
+          }
         ]
       }
     ]
@@ -36,13 +62,46 @@
     "direction": "misrepresentation",
     "rationale": "A transmission chain read backwards. The precise statement credits both: Indian invention, Arab development and transmission — which is exactly what the medieval Arabic mathematicians themselves wrote."
   },
-  "relatedAtlas": ["zero-place-value"],
-  "sources": [
-    { "label": "Burnett, C., J. Indian Philosophy 34 (2006)", "kind": "peer-reviewed", "independent": true },
-    { "label": "Chrisomalis, S., Numerical Notation (2010)", "kind": "monograph", "independent": true },
-    { "label": "Nau, F., \"Notes d'astronomie syrienne\" (1910) — Sebokht text", "kind": "primary", "independent": true },
-    { "label": "Berggren, J.L., Episodes in the Mathematics of Medieval Islam (1986)", "kind": "monograph", "independent": true }
+  "relatedAtlas": [
+    "zero-place-value"
   ],
-  "contributors": ["seed:ai-draft (claude-fable-5)"],
-  "vetting": { "status": "in-review", "vetters": [], "aiAssisted": true }
+  "sources": [
+    {
+      "label": "Burnett, C., J. Indian Philosophy 34 (2006)",
+      "kind": "peer-reviewed",
+      "independent": true
+    },
+    {
+      "label": "Chrisomalis, S., Numerical Notation (2010)",
+      "kind": "monograph",
+      "independent": true
+    },
+    {
+      "label": "Nau, F., \"Notes d'astronomie syrienne\" (1910) — Sebokht text",
+      "kind": "primary",
+      "independent": true
+    },
+    {
+      "label": "Berggren, J.L., Episodes in the Mathematics of Medieval Islam (1986)",
+      "kind": "monograph",
+      "independent": true
+    }
+  ],
+  "contributors": [
+    "seed:ai-draft (claude-fable-5)"
+  ],
+  "vetting": {
+    "status": "in-review",
+    "vetters": [],
+    "aiAssisted": true
+  },
+  "quickRebuttal": "The medieval Arabic mathematicians themselves credited India: al-Khwārizmī's book is 'On Calculation with HINDU Numerals' (c. 825), the Arabic term is ḥisāb al-hind ('Indian reckoning'), and Bishop Severus Sebokht praised the Indians' 'nine signs' in 662 CE — before the Abbasids existed. Indian invention, Arab development and transmission: credit both, as the sources do. (Burnett 2006; Chrisomalis 2010)",
+  "spread": {
+    "recurrence": "evergreen",
+    "note": "Name-inertia ('Arabic numerals') does most of the work; textbook shorthand keeps it alive.",
+    "knownVariants": [
+      "Zero was invented by al-Khwarizmi",
+      "Arabic numerals — an Arab gift to mathematics"
+    ]
+  }
 }
