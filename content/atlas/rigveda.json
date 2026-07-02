@@ -1,0 +1,55 @@
+{
+  "id": "rigveda",
+  "side": "atlas",
+  "era": "vedic",
+  "slice": "The oral corpus",
+  "title": { "en": "Ṛgveda", "deva": "ऋग्वेद", "iast": "Ṛgveda" },
+  "kind": "text",
+  "dating": {
+    "display": "composed c. 1500–1000 BCE; transmitted orally; oldest surviving manuscripts c. 14th century CE",
+    "edtf": "-1499/-0999",
+    "tag": "evolved",
+    "basis": "Linguistic stratigraphy (family books older than books 1 and 10), correlation with the Mitanni Indo-Aryan loanwords (c. 1400 BCE), and river geography. There is no direct physical evidence of the composition period: the text survived by oral transmission.",
+    "positions": [
+      {
+        "position": "Mainstream philology: core composition c. 1500–1000 BCE, Punjab region",
+        "holders": "Witzel, Jamison & Brereton, and most Vedic philologists",
+        "evidence": "Language stage close to Mitanni Indo-Aryan and Avestan; geography of the Sapta Sindhu; internal stratification."
+      },
+      {
+        "position": "Substantially earlier composition (3rd millennium BCE or before)",
+        "holders": "Indigenist / Out-of-India writers; some astronomical-dating arguments (e.g. readings of Vedic star lore)",
+        "evidence": "Proposed astronomical references and Sarasvatī-river readings; mainstream philology finds these inconclusive. Listed here because the atlas states competing positions rather than deciding by fiat where method itself is disputed."
+      }
+    ]
+  },
+  "summary": "1,028 hymns in ten maṇḍalas — the oldest stratum of the Vedic corpus and among the oldest religious texts in continuous liturgical use anywhere. Preserved for roughly three millennia by a redundant oral architecture (pada, krama, jaṭā, ghana pāṭhas) that encodes the text several ways at once so that errors are detectable — a checksum, built of human memory.",
+  "whyItMatters": "It is the root document of the Vedic tradition and the reference point for nearly every dating debate in this atlas. Its transmission system is itself a landmark of information engineering: the recitation survives essentially uncorrupted across regions that lost contact with each other centuries ago.",
+  "honestyNote": "The tag is 'evolved': composition spans centuries and the absolute dates are inferential. Claims of laser-precise dates in either direction — '1500 BCE, settled' or '7000 BCE, proven' — overstate what the evidence supports.",
+  "throughLines": [
+    {
+      "to": "Study of high-fidelity oral transmission; UNESCO-recognized living heritage",
+      "status": "documented",
+      "chain": [
+        "Vedic pāṭha recitation systems encode the text redundantly (word-by-word, chained, braided forms)",
+        "Regional recitation lineages preserved matching texts independently for centuries",
+        "UNESCO proclaimed the tradition of Vedic chanting a Masterpiece of the Oral and Intangible Heritage of Humanity (2003/2008 list)"
+      ],
+      "sources": [
+        { "label": "Staal, F., \"The Fidelity of Oral Tradition and the Origins of Science\" (North-Holland, 1986)", "kind": "monograph", "independent": true },
+        { "label": "UNESCO Intangible Cultural Heritage: Tradition of Vedic Chanting", "url": "https://ich.unesco.org/en/RL/tradition-of-vedic-chanting-00062", "kind": "archival", "independent": true }
+      ]
+    }
+  ],
+  "flagship": true,
+  "sources": [
+    { "label": "Jamison, S. & Brereton, J., The Rigveda: The Earliest Religious Poetry of India (OUP, 2014)", "kind": "reference", "independent": true },
+    { "label": "Witzel, M., \"Vedas and Upaniṣads\", in The Blackwell Companion to Hinduism (2003)", "kind": "reference", "independent": true },
+    { "label": "Staal, F., \"The Fidelity of Oral Tradition and the Origins of Science\" (1986)", "kind": "monograph", "independent": true },
+    { "label": "Anthony, D., The Horse, the Wheel, and Language (Princeton, 2007) — Mitanni synchronism", "kind": "monograph", "independent": true },
+    { "label": "Bryant, E., The Quest for the Origins of Vedic Culture (OUP, 2001) — survey of the dating debate on all sides", "kind": "monograph", "independent": true }
+  ],
+  "relatedLedger": ["legit-debate-indo-aryan-origins"],
+  "contributors": ["seed:ai-draft (claude-fable-5)"],
+  "vetting": { "status": "in-review", "vetters": [], "aiAssisted": true }
+}

@@ -1,0 +1,53 @@
+{
+  "id": "mehrgarh",
+  "side": "atlas",
+  "era": "foundations",
+  "slice": "Origins of settled life",
+  "title": { "en": "Mehrgarh", "deva": "मेहरगढ़", "iast": "Mehrgaṛh" },
+  "kind": "place",
+  "dating": {
+    "display": "c. 7000–2600 BCE (occupation)",
+    "edtf": "-6999/-2599",
+    "tag": "firm",
+    "basis": "Stratigraphy plus a long radiocarbon series from the French Archaeological Mission excavations (Jarrige et al., 1974–2000).",
+    "scientific": [
+      {
+        "method": "AMS radiocarbon",
+        "result": "Aceramic Neolithic Period I dated to c. 7000–5500 BCE across multiple charcoal and bone samples.",
+        "source": {
+          "label": "Jarrige, C. et al., Mehrgarh: Field Reports 1974–1985 (1995)",
+          "detail": "Excavation reports of the Department of Culture and Tourism, Sindh, with the C14 series.",
+          "kind": "archival",
+          "independent": true
+        }
+      },
+      {
+        "method": "AMS radiocarbon (dental sample context)",
+        "result": "Drilled human molars from graves dated between 9,000 and 7,500 years BP — the earliest evidence of proto-dentistry anywhere.",
+        "source": {
+          "label": "Coppa, A. et al., \"Early Neolithic tradition of dentistry\", Nature 440 (2006)",
+          "url": "https://www.nature.com/articles/440755a",
+          "kind": "peer-reviewed",
+          "independent": true
+        }
+      }
+    ]
+  },
+  "summary": "A Neolithic settlement on the Kacchi plain (Balochistan), at the foot of the Bolan Pass: the earliest known farming and herding village in South Asia, with wheat and barley cultivation, cattle domestication, mudbrick architecture, ornament craft — and eleven drilled molar crowns in nine adults, worked with flint drill heads: the oldest evidence of dentistry in the human record.",
+  "whyItMatters": "Mehrgarh anchors the deep-time start of the atlas. It shows continuous settled life on the subcontinent ~9,000 years ago and is widely treated as a precursor tradition to the Indus Valley Civilization — the substrate on which everything later in this atlas stands.",
+  "honestyNote": "Mehrgarh is pre-Vedic and pre-literate. Calling it 'Hindu' would itself be an overclaim (see ledger category 9); equally, calling it 'ancient Pakistan' as a civilizational identity is an anachronism (see ledger category 7). It belongs to the shared deep history of the subcontinent, and its physical custodianship is Pakistani.",
+  "locations": [
+    { "name": "Mehrgarh, Kacchi District, Balochistan, Pakistan", "lat": 29.38, "lng": 67.62, "note": "approximate; site is unexcavated backfill today" }
+  ],
+  "flagship": true,
+  "sources": [
+    { "label": "Jarrige, J.-F. & Meadow, R., \"The Antecedents of Civilization in the Indus Valley\", Scientific American 243 (1980)", "kind": "peer-reviewed", "independent": true },
+    { "label": "Coppa, A. et al., \"Early Neolithic tradition of dentistry\", Nature 440 (2006)", "url": "https://www.nature.com/articles/440755a", "kind": "peer-reviewed", "independent": true },
+    { "label": "Possehl, G., The Indus Civilization: A Contemporary Perspective (AltaMira, 2002)", "kind": "monograph", "independent": true },
+    { "label": "Kenoyer, J.M., Ancient Cities of the Indus Valley Civilization (OUP, 1998)", "kind": "monograph", "independent": true },
+    { "label": "UNESCO Tentative List: Archaeological Site of Mehrgarh", "url": "https://whc.unesco.org/en/tentativelists/1876/", "kind": "archival", "independent": true }
+  ],
+  "relatedLedger": ["anachronism-ancient-pakistan-panini", "conflation-older-than-hinduism-seal"],
+  "contributors": ["seed:ai-draft (claude-fable-5)"],
+  "vetting": { "status": "in-review", "vetters": [], "aiAssisted": true }
+}

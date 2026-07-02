@@ -1,0 +1,45 @@
+{
+  "id": "mistranslation-330-million-gods",
+  "side": "ledger",
+  "claim": {
+    "text": "Hindus worship 330 million distinct gods.",
+    "asCirculated": "\"Hinduism literally has 330 million gods\" — used both as mockery ('how do you even keep track') and as boast ('we have the most gods').",
+    "channels": ["x-twitter", "youtube", "casual reference works", "school materials"],
+    "exampleRefs": []
+  },
+  "category": 3,
+  "techniques": ["literalization of an idiom", "single-reading of a polysemous term"],
+  "whatsTrue": "The phrase trayastriṃśat koṭi ('33 koṭi') is genuinely Vedic-adjacent, and later tradition itself popularly speaks of '33 crore devas' — the number circulates inside the tradition too.",
+  "whatsDistorted": "The Vedic base count is thirty-three devas — Bṛhadāraṇyaka Upaniṣad 3.9.1 stages exactly this exchange: asked how many gods there are, Yājñavalkya walks the answer down from 'three thousand three hundred and six' to thirty-three (8 Vasus, 11 Rudras, 12 Ādityas, Indra, Prajāpati) and ultimately to one, brahman. Koṭi means both 'crore (10⁷)' and 'class/kind/pinnacle' — '33 koṭi' read as '33 classes of deity' matches the enumerated 33; read as arithmetic it becomes 330 million. The mistranslation freezes the arithmetic reading and deletes the passage's own punchline: the many resolve into one.",
+  "evidence": {
+    "supporting": [
+      {
+        "point": "'33 crore' is used devotionally/idiomatically within the living tradition; the number is not purely an external invention.",
+        "sources": [
+          { "label": "Monier-Williams, Sanskrit-English Dictionary, s.v. koṭi — both senses attested", "kind": "reference", "independent": true }
+        ]
+      }
+    ],
+    "countering": [
+      {
+        "point": "The canonical enumeration is 33, and the source text itself reduces even that toward one — the opposite of the 'endless literal pantheon' framing.",
+        "sources": [
+          { "label": "Bṛhadāraṇyaka Upaniṣad 3.9.1 (Olivelle, The Early Upaniṣads, OUP 1998)", "kind": "primary", "independent": true },
+          { "label": "Macdonell, A.A., Vedic Mythology (1897) — the 33-deva scheme", "kind": "reference", "independent": true }
+        ]
+      }
+    ]
+  },
+  "verdict": {
+    "direction": "misrepresentation",
+    "rationale": "A polysemous term rendered by its only sensational sense, contradicting the cited text's own resolution. When used as an internal boast, file the same facts under category 9 — the ledger's rule is symmetric."
+  },
+  "relatedAtlas": ["rigveda"],
+  "sources": [
+    { "label": "Olivelle, P., The Early Upaniṣads (1998) — BU 3.9.1", "kind": "primary", "independent": true },
+    { "label": "Monier-Williams, Sanskrit-English Dictionary, s.v. koṭi", "kind": "reference", "independent": true },
+    { "label": "Macdonell, A.A., Vedic Mythology (1897)", "kind": "reference", "independent": true }
+  ],
+  "contributors": ["seed:ai-draft (claude-fable-5)"],
+  "vetting": { "status": "in-review", "vetters": [], "aiAssisted": true }
+}

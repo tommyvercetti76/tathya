@@ -1,0 +1,50 @@
+{
+  "id": "sushruta-rhinoplasty",
+  "side": "atlas",
+  "era": "classical",
+  "slice": "Medicine",
+  "title": { "en": "Suśruta Saṃhitā — reconstructive surgery", "deva": "सुश्रुतसंहिता", "iast": "Suśruta Saṃhitā" },
+  "kind": "text",
+  "dating": {
+    "display": "core possibly mid-1st millennium BCE; extant text redacted over centuries, stabilizing by c. 500 CE",
+    "edtf": "-0599/0500",
+    "tag": "evolved",
+    "basis": "Meulenbeld's survey of Indian medical literature: the compendium is a layered text with a kernel attributed to Suśruta of Vārāṇasī and later redaction (traditionally by Nāgārjuna). Single-point dates for 'Suśruta the surgeon, 600 BCE' overstate the evidence.",
+    "positions": [
+      { "position": "Layered text, extant form by the Gupta period", "holders": "Meulenbeld and mainstream Indology", "evidence": "Internal stratification, citations, language." },
+      { "position": "Traditional date: Suśruta as a near-contemporary of the Buddha or earlier", "holders": "Traditional accounts; often repeated in popular medicine histories", "evidence": "Attribution and legend; reported as tradition." }
+    ]
+  },
+  "summary": "The surgical classic of Āyurveda: instruments, suturing, cataract couching, lithotomy, wound care, cadaver dissection for training — and pedicled-flap nasal reconstruction (nāsā-sandhāna), rebuilding a severed nose with living tissue from the cheek. Rhinoplasty had steady demand: nose-cutting was a judicial and war mutilation.",
+  "whyItMatters": "This is the atlas's cleanest example of a *documented* transmission chain from an ancient practice into modern medicine — not an analogy, an actual paper trail (below). Plastic-surgery textbooks still call pedicled-forehead-flap nasal reconstruction 'the Indian method'.",
+  "honestyNote": "The Suśruta Saṃhitā describes a cheek flap; the forehead-flap variant that Europe copied was documented from practitioners in Maharashtra in the 1790s — a living tradition, not a direct textual application. The chain below says exactly which hop is which.",
+  "throughLines": [
+    {
+      "to": "Modern reconstructive plastic surgery ('the Indian method')",
+      "status": "documented",
+      "chain": [
+        "Suśruta Saṃhitā, Sūtrasthāna ch. 16: pedicled cheek-flap nasal reconstruction",
+        "Living Indian practice: 1793, Pune — a Maratha cart-driver, Cowasjee, mutilated in war, has his nose rebuilt with a forehead flap by a local practitioner; witnessed by East India Company surgeons",
+        "'B.L.' letter with engraving, The Gentleman's Magazine, London, October 1794 — the operation reaches European print",
+        "J.C. Carpue studies the reports for 20 years, performs Europe's first two forehead-flap rhinoplasties (published 1816)",
+        "The technique enters European surgery as 'the Indian method'; the paramedian forehead flap remains a workhorse of nasal reconstruction today"
+      ],
+      "sources": [
+        { "label": "\"B.L.\", letter, The Gentleman's Magazine 64 (Oct 1794), p. 891, with engraving", "kind": "primary", "independent": true },
+        { "label": "Carpue, J.C., An Account of Two Successful Operations for Restoring a Lost Nose (London, 1816)", "kind": "primary", "independent": true },
+        { "label": "Whitaker, I.S. et al., \"The birth of plastic surgery: the story of nasal reconstruction from the Edwin Smith papyrus to the radial forearm flap\", Plast Reconstr Surg / historical review (2007)", "kind": "peer-reviewed", "independent": true }
+      ]
+    }
+  ],
+  "flagship": true,
+  "sources": [
+    { "label": "Bhishagratna, K.K. (tr.), An English Translation of the Sushruta Samhita, 3 vols. (Calcutta, 1907–16)", "kind": "reference", "independent": true },
+    { "label": "Meulenbeld, G.J., A History of Indian Medical Literature, Vol. IA (Groningen, 1999) — dating and stratification", "kind": "reference", "independent": true },
+    { "label": "The Gentleman's Magazine 64 (Oct 1794)", "kind": "primary", "independent": true },
+    { "label": "Carpue, J.C. (1816)", "kind": "primary", "independent": true },
+    { "label": "Wujastyk, D., The Roots of Ayurveda (Penguin, 2003)", "kind": "monograph", "independent": true }
+  ],
+  "relatedLedger": ["overclaim-vaimanika-shastra"],
+  "contributors": ["seed:ai-draft (claude-fable-5)"],
+  "vetting": { "status": "in-review", "vetters": [], "aiAssisted": true }
+}

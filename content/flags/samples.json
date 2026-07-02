@@ -1,0 +1,108 @@
+[
+  {
+    "id": "flag-2026-0001",
+    "submitted": "2026-06-28T14:03:00Z",
+    "channel": "x-twitter",
+    "url": "https://x.com/cyborg_reborn/status/EXAMPLE1",
+    "screenshotRef": "flags/img/flag-2026-0001.png",
+    "imagePHash": "d1c4a29e6b3f0e58",
+    "ocrText": "Sanskrit was codified into its classical form by the ancient Pakistani grammarian Panini around the 4th-5th century BCE. Born in Salatura, Gandhara, he later studied at Taxila university, which was one of the world's greatest centers of learning in ancient Pakistan!",
+    "flagFor": [
+      "Nation-state projected onto the ancient past (e.g. 'ancient Pakistan')",
+      "Heritage appropriation / severing from its living tradition"
+    ],
+    "submitterNote": "Presents the codifier of Sanskrit with zero mention of the Sanskrit/Vedic tradition; 'ancient Pakistan' repeated twice.",
+    "ruleHits": [
+      {
+        "rule": "nation-retrojection",
+        "category": 7,
+        "technique": "anachronism",
+        "matched": "\"ancient Pakistani\" + \"4th-5th century BCE\" (state founded 1947; gap ≈ 2,375 years)",
+        "confidence": "high"
+      },
+      {
+        "rule": "nation-retrojection",
+        "category": 7,
+        "technique": "anachronism",
+        "matched": "\"ancient Pakistan\"",
+        "confidence": "high"
+      },
+      {
+        "rule": "institution-inflation",
+        "category": 1,
+        "technique": "term-inflation",
+        "matched": "\"Taxila university\"",
+        "confidence": "medium"
+      }
+    ],
+    "matchedLedger": [
+      { "id": "anachronism-ancient-pakistan-panini", "score": 0.86 },
+      { "id": "factual-error-taxila-university", "score": 0.41 }
+    ],
+    "status": "merged-into-entry",
+    "resolution": "Matched existing entry anachronism-ancient-pakistan-panini; added as exampleRef; screenshot pHash stored for near-duplicate matching."
+  },
+  {
+    "id": "flag-2026-0002",
+    "submitted": "2026-06-29T09:41:00Z",
+    "channel": "x-twitter",
+    "url": "https://x.com/cyborg_reborn/status/EXAMPLE2",
+    "screenshotRef": "flags/img/flag-2026-0002.png",
+    "imagePHash": "9a07f3e12cd845b6",
+    "ocrText": "This Zebu bull seal from ancient Pakistan (Indus valley) is 2,400 years older than Hinduism!",
+    "flagFor": [
+      "Nation-state projected onto the ancient past (e.g. 'ancient Pakistan')",
+      "'Older than Hinduism' / founding-date fallacy"
+    ],
+    "submitterNote": "Uses the Om emoji ironically. Same account as flag-2026-0001 — pattern poster.",
+    "ruleHits": [
+      {
+        "rule": "nation-retrojection",
+        "category": 7,
+        "technique": "anachronism",
+        "matched": "\"ancient Pakistan\" + \"Indus valley\" (site context predates 1947 by millennia)",
+        "confidence": "high"
+      },
+      {
+        "rule": "founding-date-fallacy",
+        "category": 5,
+        "technique": "conflation",
+        "matched": "\"2,400 years older than Hinduism\" (assigns founding date to unfounded tradition)",
+        "confidence": "high"
+      }
+    ],
+    "matchedLedger": [
+      { "id": "conflation-older-than-hinduism-seal", "score": 0.91 }
+    ],
+    "status": "merged-into-entry",
+    "resolution": "Matched conflation-older-than-hinduism-seal. Account-level pattern noted for the spread map."
+  },
+  {
+    "id": "flag-2026-0003",
+    "submitted": "2026-06-29T16:20:00Z",
+    "channel": "x-twitter",
+    "url": "https://x.com/EYounaan32770/status/EXAMPLE3",
+    "screenshotRef": "flags/img/flag-2026-0003.png",
+    "imagePHash": "4be80c17d92a63f1",
+    "ocrText": "Pakistan: a 9,000-year-old civilisation, not just a nation. Proud custodian of the Indus Valley & Gandhara from Mohenjo-Daro to the Fasting Buddha. These artefacts belong to our soil, our museums, our identity.",
+    "flagFor": [
+      "Nation-state projected onto the ancient past (e.g. 'ancient Pakistan')",
+      "Something else (describe below)"
+    ],
+    "submitterNote": "Trickier than the first two: custodianship of the sites/museums is TRUE (Mohenjo-daro, Lahore Museum's Fasting Buddha). The distortion is only the '9,000-year-old civilisation' identity claim. Flagging for review, not auto-debunk.",
+    "ruleHits": [
+      {
+        "rule": "nation-age-inflation",
+        "category": 7,
+        "technique": "anachronism",
+        "matched": "\"Pakistan: a 9,000-year-old civilisation\" (state age 79; claimed age 9,000)",
+        "confidence": "high"
+      }
+    ],
+    "matchedLedger": [
+      { "id": "anachronism-ancient-pakistan-panini", "score": 0.47 }
+    ],
+    "status": "triaged",
+    "resolution": "Partial match only. Vetter decision: spawn a dedicated entry on 'custodianship vs identity' — the true custodianship kernel must be conceded explicitly, per the honesty rule. Until vetted, no verdict is published."
+  }
+]

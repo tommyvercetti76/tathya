@@ -1,0 +1,45 @@
+{
+  "id": "fabricated-nasa-sanskrit",
+  "side": "ledger",
+  "claim": {
+    "text": "NASA declared Sanskrit the most suitable language for computers / is building Sanskrit-based AI.",
+    "asCirculated": "\"NASA says Sanskrit is the only unambiguous language on Earth and will use it for their next-gen computers\" — often citing a 'NASA report'.",
+    "channels": ["whatsapp", "instagram", "x-twitter", "speeches"],
+    "exampleRefs": []
+  },
+  "category": 10,
+  "techniques": ["fabricated institutional endorsement", "kernel-inflation (real paper → fake program)"],
+  "whatsTrue": "There is a real kernel: Rick Briggs, a researcher at RIACS (based at NASA Ames), published 'Knowledge Representation in Sanskrit and Artificial Intelligence' in AI Magazine 6(1), 1985. It argues that the semantic analysis of śāstric Sanskrit (kāraka theory in the grammarian tradition) closely parallels knowledge-representation schemes in AI — a genuinely interesting, citable observation, and a real credit to the Pāṇinian tradition.",
+  "whatsDistorted": "Everything institutional: NASA has issued no declaration about Sanskrit; there is no 'NASA report', no 'mission Sanskrit', no Sanskrit-based computer program. One author's 8-page journal article about knowledge representation became 'NASA officially declared...'. The inflation is detectable by a single question the fabricated versions never answer: 'link the declaration.'",
+  "evidence": {
+    "supporting": [
+      {
+        "point": "The 1985 Briggs paper exists and says what it says.",
+        "sources": [
+          { "label": "Briggs, R., \"Knowledge Representation in Sanskrit and Artificial Intelligence\", AI Magazine 6:1 (1985)", "url": "https://ojs.aaai.org/aimagazine/index.php/aimagazine/article/view/466", "kind": "peer-reviewed", "independent": true }
+        ]
+      }
+    ],
+    "countering": [
+      {
+        "point": "No NASA declaration, program, or report exists; fact-checkers who traced the claim found only the Briggs article at its root.",
+        "sources": [
+          { "label": "Alt News, \"No, NASA is not using Sanskrit...\" (fact-check tracing the claim's lineage)", "kind": "reportage", "independent": true },
+          { "label": "AAAI AI Magazine archive — the article is a personal scholarly contribution, not an agency position", "kind": "archival", "independent": true }
+        ]
+      }
+    ]
+  },
+  "verdict": {
+    "direction": "overclaim",
+    "rationale": "Fabricated attribution wrapped around a real paper. The honest version — 'a NASA-affiliated AI researcher argued in 1985 that Pāṇinian semantic analysis anticipates knowledge representation' — is impressive on its own and has the advantage of being true."
+  },
+  "relatedAtlas": ["panini-ashtadhyayi"],
+  "sources": [
+    { "label": "Briggs, R., AI Magazine 6:1 (1985)", "url": "https://ojs.aaai.org/aimagazine/index.php/aimagazine/article/view/466", "kind": "peer-reviewed", "independent": true },
+    { "label": "Alt News fact-check on the NASA-Sanskrit claim", "kind": "reportage", "independent": true },
+    { "label": "AAAI archive metadata", "kind": "archival", "independent": true }
+  ],
+  "contributors": ["seed:ai-draft (claude-fable-5)"],
+  "vetting": { "status": "in-review", "vetters": [], "aiAssisted": true }
+}

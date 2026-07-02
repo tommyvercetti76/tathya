@@ -1,0 +1,46 @@
+name: "🚩 Flag propaganda"
+description: "Flag a post, image, or article that looks like misinformation/distortion — in either direction."
+title: "[flag] "
+labels: ["flag", "needs-triage"]
+body:
+  - type: dropdown
+    id: channel
+    attributes:
+      label: Channel
+      description: Where did you see it?
+      options: [x-twitter, instagram, facebook, youtube, tiktok, whatsapp, reddit, news-article, other]
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Link
+      placeholder: "https://…"
+  - type: textarea
+    id: text
+    attributes:
+      label: Text as it appears
+      description: Paste the post text, or attach a screenshot below and paste the OCR output from the Flag page.
+    validations:
+      required: true
+  - type: checkboxes
+    id: flagfor
+    attributes:
+      label: Flag for (pick all that apply — this trains the model)
+      options:
+        - label: "Nation-state projected onto the ancient past (e.g. 'ancient Pakistan')"
+        - label: "Heritage appropriation / severing from its living tradition"
+        - label: "'Older than Hinduism' / founding-date fallacy"
+        - label: "Fake quote or fake institutional endorsement (NASA, Einstein…)"
+        - label: "Ancient-technology overclaim (vimāna, nuclear, plastic surgery…)"
+        - label: "Scripture quoted out of context or mistranslated"
+        - label: "Slur / dehumanizing trope"
+        - label: "Wrong facts (date, place, person, number)"
+  - type: textarea
+    id: bespoke
+    attributes:
+      label: In your own words, what feels off about this post?
+      description: Optional but valuable — free-text reasons teach us patterns we haven't named yet.
+  - type: markdown
+    attributes:
+      value: "A vetter will triage this flag. Rules rank the queue; humans issue verdicts."

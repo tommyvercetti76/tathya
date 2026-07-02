@@ -1,0 +1,58 @@
+{
+  "id": "overclaim-vaimanika-shastra",
+  "side": "ledger",
+  "claim": {
+    "text": "Ancient India had operational flying machines (vimānas), as documented in the Vaimānika Śāstra.",
+    "asCirculated": "\"The Vaimanika Shastra, written by Maharishi Bharadwaja thousands of years ago, contains blueprints of aircraft — ancient Indians flew before the Wright brothers.\"",
+    "channels": ["whatsapp", "youtube", "x-twitter", "conference talks (e.g. Indian Science Congress 2015 session)"],
+    "exampleRefs": []
+  },
+  "category": 9,
+  "techniques": ["backdated text", "mythology literalized as engineering", "prestige borrowing"],
+  "whatsTrue": "Vimānas as celestial chariots are genuinely ancient as MYTHIC imagery (Rāmāyaṇa's puṣpaka vimāna, etc.) — a real and interesting feature of the literature. India's real, documented scientific record (Piṅgala, zero, Kerala school, Suśruta — see the atlas) needs no reinforcement from this text.",
+  "whatsDistorted": "The Vaimānika Śāstra is not ancient: it was produced between 1900 and 1922 by Pandit Subbaraya Shastry, who stated the content came to him in psychic revelation; it was first published in 1952 (G.R. Josyer's institute, full publication 1973). The definitive aeronautical assessment — Mukunda, Deshpande, Nagendra, Prabhu and Govindaraju at the Indian Institute of Science (1974) — concluded the described craft are 'poor concoctions' whose geometries and propulsion violate flight physics; 'none of the planes has properties or capabilities of being flown.' The claim's function is prestige transfer: borrowing the credibility of India's real scientific past for a fabricated one — and thereby corroding the credible record it borrows from.",
+  "evidence": {
+    "supporting": [
+      {
+        "point": "Vimāna imagery is authentically ancient in epic and purāṇic literature (as mythology).",
+        "sources": [
+          { "label": "Goldman, R. et al. (tr.), The Rāmāyaṇa of Vālmīki — puṣpaka vimāna passages", "kind": "reference", "independent": true }
+        ]
+      }
+    ],
+    "countering": [
+      {
+        "point": "Provenance: early-20th-century channeled text, per its own transmission history.",
+        "sources": [
+          { "label": "Mukunda, H.S. et al., \"A Critical Study of the Work 'Vymanika Shastra'\", Scientific Opinion (1974), pp. 5–12 — includes the provenance investigation", "kind": "peer-reviewed", "independent": true },
+          { "label": "Josyer, G.R. (ed.), Vymaanika-Shaastra (1973) — the publication itself, whose preface documents the 20th-c. origin", "kind": "primary", "independent": true }
+        ]
+      },
+      {
+        "point": "Aeronautics: the designs are aerodynamically unsound; the IISc team found no flight-capable configuration.",
+        "sources": [
+          { "label": "Mukunda, H.S. et al. (1974) — engineering analysis sections", "kind": "peer-reviewed", "independent": true }
+        ]
+      },
+      {
+        "point": "The 2015 Indian Science Congress session repeating the claims drew formal protest from working scientists.",
+        "sources": [
+          { "label": "Reportage on ISC 2015 (Mumbai) and the IISc/NASA-scientist petition", "kind": "reportage", "independent": true }
+        ]
+      }
+    ]
+  },
+  "verdict": {
+    "direction": "overclaim",
+    "rationale": "Category 9 exists precisely for this: a claim FOR the tradition, debunked with the same rigor applied to attacks on it. The genuinely ancient achievements in the atlas are the rebuttal to the idea that the record needs inflating."
+  },
+  "relatedAtlas": ["pingala-binary", "sushruta-rhinoplasty", "kerala-school-madhava", "zero-place-value"],
+  "sources": [
+    { "label": "Mukunda, H.S., Deshpande, S.M., Nagendra, H.R., Prabhu, A. & Govindaraju, S.P., Scientific Opinion (1974)", "kind": "peer-reviewed", "independent": true },
+    { "label": "Josyer, G.R., Vymaanika-Shaastra (1973)", "kind": "primary", "independent": true },
+    { "label": "Goldman, R. et al., The Rāmāyaṇa of Vālmīki (Princeton translation series)", "kind": "reference", "independent": true },
+    { "label": "ISC 2015 reportage and scientist petition", "kind": "reportage", "independent": true }
+  ],
+  "contributors": ["seed:ai-draft (claude-fable-5)"],
+  "vetting": { "status": "in-review", "vetters": [], "aiAssisted": true }
+}

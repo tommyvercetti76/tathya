@@ -1,0 +1,32 @@
+{
+  "id": "pashupati-seal",
+  "side": "atlas",
+  "era": "harappan",
+  "slice": "Artifacts & continuity questions",
+  "title": { "en": "The 'Pashupati' seal (Mohenjo-daro seal 420)", "deva": "पशुपति मुद्रा", "iast": "Paśupati mudrā" },
+  "kind": "artifact",
+  "dating": {
+    "display": "c. 2350–2000 BCE (Mature Harappan)",
+    "edtf": "-2349/-1999",
+    "tag": "firm",
+    "basis": "Excavated at Mohenjo-daro (DK area, 1928–29 season); dated by stratigraphic context within the Mature Harappan sequence.",
+    "positions": []
+  },
+  "summary": "A steatite seal showing a horned, seated figure — possibly three-faced — surrounded by animals, with what many read as a yogic posture (mūlabandhāsana). John Marshall (1931) dubbed it 'proto-Śiva as Paśupati, lord of beasts.' Whether it depicts a deity ancestral to Śiva, a generic horned lord of animals (a motif with Near-Eastern parallels), or something unreadable without the script, is one of the field's longest-running open questions.",
+  "whyItMatters": "This seal is the battleground object for the Indus–Hindu continuity debate — the strongest single visual for continuity, and the standard exhibit in critiques of over-reading. The atlas presents the readings side by side; the ledger handles the propaganda uses of Indus imagery (in both directions).",
+  "honestyNote": "The Indus script is undeciphered. Every religious interpretation of Indus imagery — including this entry's title — is inference. Marshall's 'proto-Śiva' is a hypothesis with modern supporters (e.g. Parpola's Dravidian-Śaiva reading) and serious critics (Srinivasan, Sullivan). Continuity of specific motifs (zebu, pipal, water ritual) into later Indian religion is plausible and argued by scholars; proof of identity of belief is not available.",
+  "locations": [
+    { "name": "Excavated: Mohenjo-daro, Sindh, Pakistan", "lat": 27.32, "lng": 68.14 },
+    { "name": "Current holder: National Museum, New Delhi, India (seal 420); other Indus seals held at Lahore & Karachi museums and internationally", "lat": 28.61, "lng": 77.22, "note": "custody split predates Partition-era distribution agreements" }
+  ],
+  "flagship": false,
+  "sources": [
+    { "label": "Marshall, J., Mohenjo-daro and the Indus Civilization, Vol. I (1931), ch. 5 — the original 'proto-Śiva' reading", "kind": "primary", "independent": true },
+    { "label": "Srinivasan, D., \"Unhinging Śiva from the Indus Civilization\", Journal of the Royal Asiatic Society (1984) — the standard critique", "kind": "peer-reviewed", "independent": true },
+    { "label": "Parpola, A., The Roots of Hinduism: The Early Aryans and the Indus Civilization (OUP, 2015) — continuity case", "kind": "monograph", "independent": true },
+    { "label": "Possehl, G., The Indus Civilization (2002), ch. on religion", "kind": "monograph", "independent": true }
+  ],
+  "relatedLedger": ["conflation-older-than-hinduism-seal", "legit-debate-indo-aryan-origins"],
+  "contributors": ["seed:ai-draft (claude-fable-5)"],
+  "vetting": { "status": "in-review", "vetters": [], "aiAssisted": true }
+}

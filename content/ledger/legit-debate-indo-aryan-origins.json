@@ -1,0 +1,48 @@
+{
+  "id": "legit-debate-indo-aryan-origins",
+  "side": "ledger",
+  "claim": {
+    "text": "The origins of Indo-Aryan speakers in South Asia, and the degree of continuity between the Indus Valley Civilization and Vedic/Hindu culture.",
+    "asCirculated": "Weaponized in both directions: 'Aryan Invasion proves Hinduism is foreign' vs 'AIT is a colonial hoax, fully debunked'. The underlying scholarship is neither.",
+    "channels": ["x-twitter", "youtube", "op-eds", "academic press"],
+    "exampleRefs": ["flag-2026-0003"]
+  },
+  "category": 12,
+  "techniques": [],
+  "whatsTrue": "This is genuine, active, multi-disciplinary research — filed under category 12 so that neither side's partisans can brand the scholarship itself as propaganda.",
+  "whatsDistorted": "Only the weaponized summaries. Current state, honestly compressed: (a) aDNA (Narasimhan et al. 2019, ~800 ancient genomes) finds Steppe-pastoralist–related ancestry arriving in South Asia in the 2nd millennium BCE — a MIGRATION signal, not the 19th-century racialized 'invasion' story, which genetics and archaeology alike have discarded. (b) The Rakhigarhi IVC genome (Shinde et al. 2019) shows no Steppe ancestry and its authors themselves framed the result divergently in the paper vs at press conferences — a live lesson in how one dataset feeds two narratives. (c) IVC ancestry remains the largest component of most modern South Asian ancestry — continuity of people is strong; the language/religion questions are argued on separate evidence. (d) Philology still supports Indo-Aryan's membership in the Indo-European family with its attendant geography; Out-of-India remains a minority position among linguists.",
+  "evidence": {
+    "supporting": [
+      {
+        "point": "Migration + admixture model with 2nd-millennium Steppe-related inflow.",
+        "sources": [
+          { "label": "Narasimhan, V. et al., \"The formation of human populations in South and Central Asia\", Science 365 (2019)", "url": "https://www.science.org/doi/10.1126/science.aat7487", "kind": "peer-reviewed", "independent": true },
+          { "label": "Anthony, D., The Horse, the Wheel, and Language (2007)", "kind": "monograph", "independent": true }
+        ]
+      }
+    ],
+    "countering": [
+      {
+        "point": "IVC individual without Steppe ancestry; strong IVC genetic continuity into modern populations; authors' own emphasis on indigenous development of farming.",
+        "sources": [
+          { "label": "Shinde, V. et al., \"An Ancient Harappan Genome Lacks Ancestry from Steppe Pastoralists or Iranian Farmers\", Cell 179 (2019)", "url": "https://www.cell.com/cell/fulltext/S0092-8674(19)30967-5", "kind": "peer-reviewed", "independent": true },
+          { "label": "Bryant, E., The Quest for the Origins of Vedic Culture (2001) — the fairest book-length survey of both camps", "kind": "monograph", "independent": true }
+        ]
+      }
+    ]
+  },
+  "verdict": {
+    "direction": "legitimate",
+    "rationale": "No verdict on the underlying question — that is the point of category 12. Verdicts ARE issued on the weaponized versions: 'invasion destroyed the IVC' (superseded by the field itself) and 'migration fully debunked' (contradicted by the aDNA record) both fail the evidence."
+  },
+  "relatedAtlas": ["rigveda", "pashupati-seal"],
+  "sources": [
+    { "label": "Narasimhan et al., Science 365 (2019)", "kind": "peer-reviewed", "independent": true },
+    { "label": "Shinde et al., Cell 179 (2019)", "kind": "peer-reviewed", "independent": true },
+    { "label": "Bryant, E., The Quest for the Origins of Vedic Culture (2001)", "kind": "monograph", "independent": true },
+    { "label": "Joseph, T., Early Indians (Juggernaut, 2018) — accessible synthesis", "kind": "monograph", "independent": true },
+    { "label": "Trautmann, T., Aryans and British India (California, 1997) — how the racialized version was built and dismantled", "kind": "monograph", "independent": true }
+  ],
+  "contributors": ["seed:ai-draft (claude-fable-5)"],
+  "vetting": { "status": "in-review", "vetters": [], "aiAssisted": true }
+}

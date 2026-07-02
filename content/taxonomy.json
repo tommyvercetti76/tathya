@@ -1,0 +1,104 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "key": "factual-error",
+      "name": "Factual error",
+      "description": "A checkable statement of fact that is simply wrong — wrong date, wrong place, wrong person, wrong number.",
+      "example": "\"Taxila was a university\" — it was a famed hub of individual teachers; the institutional-university model belongs to later Nālandā."
+    },
+    {
+      "id": 2,
+      "key": "stripped-context",
+      "name": "Stripped context",
+      "description": "A real quote or fact presented without the surrounding text, genre conventions, or historical setting that changes its meaning.",
+      "example": "A single Manusmṛti verse presented as 'the' Hindu position, with the text's contested authority and adjacent verses removed."
+    },
+    {
+      "id": 3,
+      "key": "mistranslation",
+      "name": "Mistranslation / selective scripture",
+      "description": "Meaning altered in translation, or one reading of a disputed term presented as the only reading.",
+      "example": "'33 koṭi devas' rendered as '330 million gods' — koṭi read only as 'crore', never as 'class/type'."
+    },
+    {
+      "id": 4,
+      "key": "colonial-distortion",
+      "name": "Colonial-era distortion",
+      "description": "Framings manufactured or hardened under colonial scholarship and administration, still circulating as neutral fact.",
+      "example": "Caste presented as one timeless, pan-Indian, scripturally fixed system — a picture substantially shaped by colonial census and law."
+    },
+    {
+      "id": 5,
+      "key": "conflation",
+      "name": "Conflation",
+      "description": "Two distinct things merged so a conclusion about one is smuggled onto the other: nation and civilization, founded religion and evolved tradition, text and practice.",
+      "example": "\"This Indus seal is 2,400 years older than Hinduism\" — treats an unfounded, evolved tradition as if it had a founding date."
+    },
+    {
+      "id": 6,
+      "key": "misattributed-origins",
+      "name": "Misattributed origins",
+      "description": "A contribution assigned to the wrong culture, person, or era — in either direction.",
+      "example": "'Arabic numerals' — Arabic sources themselves call the system 'Indian reckoning' (ḥisāb al-hind)."
+    },
+    {
+      "id": 7,
+      "key": "anachronism",
+      "name": "Anachronism",
+      "description": "Projecting a modern category — usually a nation-state, ideology, or identity — onto a past that predates it.",
+      "example": "\"Ancient Pakistani grammarian Pāṇini\" — a 1947 state projected 2,400 years backward onto Gandhāra."
+    },
+    {
+      "id": 8,
+      "key": "cherry-picking",
+      "name": "Cherry-picking",
+      "description": "Real but unrepresentative evidence presented as the norm; counter-evidence within the same tradition omitted.",
+      "example": "Satī presented as a universal Hindu command, omitting its regional/temporal boundedness and the tradition's own opposition to it."
+    },
+    {
+      "id": 9,
+      "key": "internal-overclaim",
+      "name": "Internal overclaim / pseudohistory",
+      "description": "Exaggerated or fabricated claims made in FAVOR of the tradition. The ledger corrects these with the same rigor as external distortions — inflated claims corrode the credible record.",
+      "example": "The Vaimānika Śāstra as proof of ancient aircraft — the text is early-20th-century and aerodynamically unsound."
+    },
+    {
+      "id": 10,
+      "key": "fabricated-evidence",
+      "name": "Fabricated evidence",
+      "description": "Invented quotes, doctored images, nonexistent studies, fake institutional endorsements.",
+      "example": "\"NASA declared Sanskrit the best language for computers\" — no such declaration exists; a real 1985 AI Magazine paper is inflated into a fake institutional endorsement."
+    },
+    {
+      "id": 11,
+      "key": "hate-dehumanization",
+      "name": "Hate speech / dehumanization",
+      "description": "Slurs, dehumanizing tropes, and eliminationist rhetoric. Documented as a pattern with prevalence data — distinct from criticism, which is not hate.",
+      "example": "Slur lexicons and 'dirty/backward' tropes tracked across platforms by network-contagion research."
+    },
+    {
+      "id": 12,
+      "key": "legitimate-debate",
+      "name": "Legitimate debate (not distortion)",
+      "description": "Genuine scholarly disagreement. Recorded so that real scholarship is never miscategorized as attack — and so partisans on either side cannot claim it as settled.",
+      "example": "Indo-Aryan migration and Indus–Vedic continuity: active research with serious evidence on multiple sides."
+    }
+  ],
+  "verdictDirections": [
+    { "key": "overclaim", "name": "Overclaim", "color": "var(--verdict-overclaim)", "meaning": "Exaggeration or fabrication in favor of the tradition." },
+    { "key": "misrepresentation", "name": "Misrepresentation", "color": "var(--verdict-misrep)", "meaning": "Distortion of, or appropriation from, the tradition." },
+    { "key": "legitimate", "name": "Legitimate scholarship", "color": "var(--verdict-legit)", "meaning": "Genuine scholarly work or open question — not distortion." }
+  ],
+  "flagForOptions": [
+    "Nation-state projected onto the ancient past (e.g. 'ancient Pakistan')",
+    "Heritage appropriation / severing from its living tradition",
+    "'Older than Hinduism' / founding-date fallacy",
+    "Fake quote or fake institutional endorsement (NASA, Einstein...)",
+    "Ancient-technology overclaim (vimāna, nuclear, plastic surgery...)",
+    "Scripture quoted out of context or mistranslated",
+    "Slur / dehumanizing trope",
+    "Wrong facts (date, place, person, number)",
+    "Something else (describe below)"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "tathya",
+  "version": "0.1.0",
+  "private": true,
+  "description": "tathya (तथ्य, 'fact') — an evidence-first atlas of Sanātana Dharma and a structured ledger that documents and counters propaganda about it. Truth wins, always.",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "validate": "tsx scripts/validate.ts",
+    "triage": "tsx scripts/triage.ts"
+  },
+  "dependencies": {
+    "next": "^15.3.3",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "tesseract.js": "^6.0.1",
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.8.0"
+  }
+}

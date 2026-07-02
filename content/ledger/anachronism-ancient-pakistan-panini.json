@@ -1,0 +1,67 @@
+{
+  "id": "anachronism-ancient-pakistan-panini",
+  "side": "ledger",
+  "claim": {
+    "text": "Pāṇini was an 'ancient Pakistani' grammarian, and Sanskrit is part of 'ancient Pakistan's' heritage as a civilization distinct from the Indic/Hindu tradition.",
+    "asCirculated": "\"Sanskrit was codified into its classical form by the ancient Pakistani grammarian Panini... he studied at Taxila university, one of the world's greatest centers of learning in ancient Pakistan! 🇵🇰\"",
+    "channels": ["x-twitter", "instagram", "youtube", "textbook-adjacent posts"],
+    "exampleRefs": ["flag-2026-0001"]
+  },
+  "category": 7,
+  "techniques": ["nation-retrojection", "appropriation-by-geography", "context-severing", "flag-emoji framing"],
+  "whatsTrue": "Pāṇini's birthplace Śalātura and the Taxila ruins lie in present-day Pakistan. Gandhāra was a major center of learning. Pakistan is the physical custodian of these sites, and Pakistanis are heirs to the region's history in the plain geographic sense. None of that is in dispute here.",
+  "whatsDistorted": "'Pakistan' is a state created on 14 August 1947; the name itself was coined in 1933 (Choudhry Rahmat Ali's pamphlet 'Now or Never'). Retrojecting it 2,400 years constructs a civilizational identity that never existed — and the framing's function is the tell: it presents Sanskrit's codifier while severing him from the Sanskrit-Vedic tradition his grammar exists to describe. The Aṣṭādhyāyī presupposes the Vedic corpus (it has special rules for Vedic forms, chandas). The same posts do not describe Taxila's Buddhist and Vedic curriculum, because the point is the flag, not the history.",
+  "evidence": {
+    "supporting": [
+      {
+        "point": "Śalātura is in Swabi District, Khyber Pakhtunkhwa; Taxila is in Pakistani Punjab — the geography is real.",
+        "sources": [
+          { "label": "Cardona, G., Pāṇini: A Survey of Research (1976) — biographical evidence", "kind": "reference", "independent": true }
+        ]
+      }
+    ],
+    "countering": [
+      {
+        "point": "The state of Pakistan dates to 1947; the name to 1933. No polity, ethnonym, or self-identity called 'Pakistan' existed in antiquity — 'ancient Pakistani' is a category error of the same shape as 'Jesus of Nazareth, ancient Israeli'.",
+        "sources": [
+          { "label": "Choudhry Rahmat Ali, \"Now or Never: Are We to Live or Perish for Ever?\" (Cambridge, 1933)", "kind": "primary", "independent": true },
+          { "label": "Talbot, I., Pakistan: A Modern History (Hurst, 1998)", "kind": "monograph", "independent": true }
+        ]
+      },
+      {
+        "point": "Pāṇini's work is a grammar OF Sanskrit, inside the Vedic-Sanskrit intellectual lineage — citing earlier Sanskrit grammarians and including Vedic-specific rules. Presenting him as heritage of a lineage defined against that tradition strips his work of its content.",
+        "sources": [
+          { "label": "Cardona, G., Pāṇini: A Survey of Research (1976)", "kind": "reference", "independent": true },
+          { "label": "Kiparsky, P., \"On the Architecture of Pāṇini's Grammar\" (2009)", "kind": "peer-reviewed", "independent": true }
+        ]
+      },
+      {
+        "point": "The pattern is documented, not incidental: scholars of Pakistani historiography describe a state-sponsored narrative that detaches the region's pre-Islamic past from its Indic context.",
+        "sources": [
+          { "label": "Aziz, K.K., The Murder of History: A Critique of History Textbooks Used in Pakistan (1993)", "kind": "monograph", "independent": true },
+          { "label": "Nayyar, A.H. & Salim, A. (eds.), The Subtle Subversion: The State of Curricula and Textbooks in Pakistan (SDPI, 2003)", "kind": "monograph", "independent": true }
+        ]
+      },
+      {
+        "point": "'Taxila university' is itself an inflation — see the linked entry: Taxila was a renowned hub of individual teacher-run schools, not an institutional university like later Nālandā.",
+        "sources": [
+          { "label": "Scharfe, H., Education in Ancient India (Brill, 2002)", "kind": "monograph", "independent": true }
+        ]
+      }
+    ]
+  },
+  "verdict": {
+    "direction": "misrepresentation",
+    "rationale": "Anachronism used for appropriation: true geography, false identity. The honest statement — 'Pāṇini, the Gandhāran codifier of Sanskrit grammar, was born in what is now Pakistan' — is fully available and is what the atlas entry says. The circulated version replaces the tradition he worked in with a flag that postdates him by ~2,375 years."
+  },
+  "relatedAtlas": ["panini-ashtadhyayi", "mehrgarh"],
+  "sources": [
+    { "label": "Cardona, G., Pāṇini: A Survey of Research (1976)", "kind": "reference", "independent": true },
+    { "label": "Rahmat Ali, \"Now or Never\" (1933)", "kind": "primary", "independent": true },
+    { "label": "Aziz, K.K., The Murder of History (1993)", "kind": "monograph", "independent": true },
+    { "label": "Nayyar & Salim, The Subtle Subversion (SDPI, 2003)", "kind": "monograph", "independent": true },
+    { "label": "Scharfe, H., Education in Ancient India (2002)", "kind": "monograph", "independent": true }
+  ],
+  "contributors": ["seed:ai-draft (claude-fable-5)"],
+  "vetting": { "status": "in-review", "vetters": [], "aiAssisted": true }
+}

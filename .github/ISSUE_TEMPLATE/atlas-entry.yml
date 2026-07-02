@@ -1,0 +1,59 @@
+name: "🕉️ Propose an atlas entry"
+description: "Add a person, text, place, event, concept, innovation, or artifact to the timeline. Sources required."
+title: "[atlas] "
+labels: ["atlas-entry", "needs-vetting"]
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Title (English; add Devanāgarī/IAST if you can)
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What is it?
+      options: [person, text, place, event, concept, innovation, artifact]
+    validations:
+      required: true
+  - type: input
+    id: dating
+    attributes:
+      label: When does it date to?
+      placeholder: "c. 3rd–2nd century BCE"
+    validations:
+      required: true
+  - type: dropdown
+    id: dating-tag
+    attributes:
+      label: Honesty tag on that dating
+      options:
+        - "firmly dated (C14/stratigraphy/epigraphy — say which)"
+        - "traditional date (reported as tradition)"
+        - "contested (you must list the competing positions)"
+        - "evolved over centuries (give the span)"
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary + why it matters
+    validations:
+      required: true
+  - type: textarea
+    id: throughline
+    attributes:
+      label: Modern through-line, if any
+      description: "Hop-by-hop chain to modern usage. Label it: documented / anticipation / conjectural."
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources (≥3; ≥5 independent for flagship claims)
+    validations:
+      required: true
+  - type: checkboxes
+    id: ai
+    attributes:
+      label: Drafting method
+      options:
+        - label: "I used an AI model to help draft this"

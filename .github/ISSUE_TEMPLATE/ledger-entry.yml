@@ -1,0 +1,55 @@
+name: "⚖️ Propose a ledger entry"
+description: "Document a circulating claim with evidence on both sides. Sources are required at submission."
+title: "[ledger] "
+labels: ["ledger-entry", "needs-vetting"]
+body:
+  - type: textarea
+    id: claim
+    attributes:
+      label: The claim, stated neutrally
+    validations:
+      required: true
+  - type: textarea
+    id: circulated
+    attributes:
+      label: How it actually circulates (verbatim flavor)
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category (best guess — vetters may reassign)
+      options:
+        - "1 · Factual error"
+        - "2 · Stripped context"
+        - "3 · Mistranslation / selective scripture"
+        - "4 · Colonial-era distortion"
+        - "5 · Conflation"
+        - "6 · Misattributed origins"
+        - "7 · Anachronism"
+        - "8 · Cherry-picking"
+        - "9 · Internal overclaim / pseudohistory"
+        - "10 · Fabricated evidence"
+        - "11 · Hate speech / dehumanization"
+        - "12 · Legitimate debate (not distortion)"
+    validations:
+      required: true
+  - type: textarea
+    id: whats-true
+    attributes:
+      label: What's true (the kernel, honestly conceded)
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence — for and against the claim as stated, WITH SOURCES
+      description: "No sources, no queue. Cite editions/journals; links where possible."
+    validations:
+      required: true
+  - type: checkboxes
+    id: ai
+    attributes:
+      label: Drafting method
+      options:
+        - label: "I used an AI model to help draft this (fine — a human vetter verifies every citation either way)"

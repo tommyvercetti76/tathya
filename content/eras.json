@@ -1,0 +1,9 @@
+[
+  { "id": "foundations", "name": "Deep Foundations", "span": "c. 7000–3300 BCE", "edtf": "-6999/-3299", "order": 1 },
+  { "id": "harappan", "name": "Indus–Sarasvatī / Harappan", "span": "c. 3300–1300 BCE", "edtf": "-3299/-1299", "order": 2 },
+  { "id": "vedic", "name": "Vedic", "span": "c. 1500–500 BCE", "edtf": "-1499/-0499", "order": 3 },
+  { "id": "classical", "name": "Classical", "span": "c. 500 BCE–500 CE", "edtf": "-0499/0500", "order": 4 },
+  { "id": "medieval", "name": "Medieval", "span": "c. 500–1500 CE", "edtf": "0500/1500", "order": 5 },
+  { "id": "earlymodern", "name": "Early Modern & Colonial", "span": "1500–1947 CE", "edtf": "1500/1947", "order": 6 },
+  { "id": "contemporary", "name": "Contemporary", "span": "1947 CE–present", "edtf": "1947/..", "order": 7 }
+]

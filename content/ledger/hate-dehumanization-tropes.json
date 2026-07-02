@@ -1,0 +1,43 @@
+{
+  "id": "hate-dehumanization-tropes",
+  "side": "ledger",
+  "claim": {
+    "text": "Dehumanizing trope cluster targeting Hindus: slur lexicon ('pajeet' etc.), 'dirty/unhygienic' memes, mockery of murti-worship and reverence for the cow as markers of subhumanity.",
+    "asCirculated": "Meme formats pairing Hindu religious practice with disgust imagery; slur-driven reply swarms under any India/Hinduism-related post.",
+    "channels": ["4chan", "x-twitter", "instagram", "telegram", "youtube comments"],
+    "exampleRefs": []
+  },
+  "category": 11,
+  "techniques": ["slur lexicon", "disgust framing", "collective attribution", "meme laundering (fringe → mainstream platforms)"],
+  "whatsTrue": "This category documents a PATTERN, not a debatable claim — there is no 'other side' to a slur. What must remain protected alongside it: criticism of caste, of Hindutva politics, of any practice or institution, is NOT hate and is never filed here (see category 12). The boundary is dehumanization of people, not disagreement with ideas.",
+  "whatsDistorted": "Not applicable in the usual sense — the entry's function is prevalence documentation: where the tropes originate, how they migrate from fringe boards to mainstream platforms, and at what volume, so that moderation and research have a citable record.",
+  "evidence": {
+    "supporting": [],
+    "countering": [
+      {
+        "point": "Quantified documentation: the Network Contagion Research Institute (Rutgers-affiliated researchers) traced anti-Hindu meme genealogies and measured a multi-fold surge of the slur lexicon on 4chan and Twitter, with genocidal meme templates ('all according to plan') migrating across platforms.",
+        "sources": [
+          { "label": "NCRI, \"Anti-Hindu Disinformation: A Case Study of Hinduphobia on Social Media\" (2022)", "url": "https://networkcontagion.us/reports/", "kind": "dataset", "independent": true }
+        ]
+      },
+      {
+        "point": "Platform-governance context: dehumanization framing tracks standard hate-speech research categories (dehumanizing comparisons, disgust attribution to a protected class).",
+        "sources": [
+          { "label": "Maynard, J.L. & Benesch, S., \"Dangerous Speech and Dangerous Ideology\", Genocide Studies and Prevention 9:3 (2016)", "kind": "peer-reviewed", "independent": true }
+        ]
+      }
+    ]
+  },
+  "verdict": {
+    "direction": "misrepresentation",
+    "rationale": "Dehumanization is documented as such. The ledger's job here is a well-sourced prevalence record plus a bright line: mockery of people ≠ critique of ideas, in either enforcement direction."
+  },
+  "relatedAtlas": [],
+  "sources": [
+    { "label": "NCRI report (2022)", "url": "https://networkcontagion.us/reports/", "kind": "dataset", "independent": true },
+    { "label": "Maynard & Benesch, GSP 9:3 (2016)", "kind": "peer-reviewed", "independent": true },
+    { "label": "Platform transparency/hate-speech policy documents (X, Meta) — category definitions", "kind": "reference", "independent": true }
+  ],
+  "contributors": ["seed:ai-draft (claude-fable-5)"],
+  "vetting": { "status": "in-review", "vetters": [], "aiAssisted": true }
+}

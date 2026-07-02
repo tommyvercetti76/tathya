@@ -1,0 +1,63 @@
+{
+  "id": "zero-place-value",
+  "side": "atlas",
+  "era": "medieval",
+  "slice": "Mathematics",
+  "title": { "en": "Śūnya — zero and decimal place value", "deva": "शून्य", "iast": "śūnya" },
+  "kind": "concept",
+  "dating": {
+    "display": "zero-as-number codified by 628 CE (Brahmagupta); earliest firmly dated written zero-in-place-value in India: 876 CE (Gwalior); Bakhshālī manuscript folios C14-dated 224–993 CE (contested)",
+    "edtf": "0628/0876",
+    "tag": "firm",
+    "basis": "Brāhmasphuṭasiddhānta (628 CE) gives explicit arithmetic rules for zero as a number. The Chaturbhuj temple inscription at Gwalior (876 CE) is epigraphically firm. The Bakhshālī manuscript's C14 dates are genuinely contested — both positions listed.",
+    "scientific": [
+      {
+        "method": "AMS radiocarbon (Bakhshālī manuscript, 3 folios)",
+        "result": "Bodleian Libraries, 2017: folios dated to 224–383 CE, 680–779 CE, and 885–993 CE — potentially pushing the written dot-zero centuries earlier.",
+        "source": { "label": "Bodleian Libraries, radiocarbon dating announcement (Sept 2017)", "url": "https://www.bodleian.ox.ac.uk/", "kind": "reportage", "independent": true }
+      },
+      {
+        "method": "Codicological / palaeographic critique of the C14 split",
+        "result": "Specialists argue the manuscript is a codicological unity (single scribe/period, likely 8th–10th c. CE) and that the three divergent C14 dates cannot each date the text written on them.",
+        "source": { "label": "Plofker, Keller, Hayashi, Montelle & Sarma, \"The Bakhshālī Manuscript: A Response to the Bodleian Library's Radiocarbon Dating\", History of Science in South Asia 5 (2017)", "url": "https://journals.library.ualberta.ca/hssa/index.php/hssa/article/view/22", "kind": "peer-reviewed", "independent": true }
+      }
+    ]
+  },
+  "summary": "Indian mathematics turned 'nothing' into a number: a placeholder dot/circle inside a decimal positional system, then a full arithmetic object with rules for adding, subtracting and multiplying by it (Brahmagupta, 628 CE — including the honest failure point: he could not settle 0÷0). The Gwalior inscription of 876 CE shows '270' with a zero, carved in stone, firmly dated.",
+  "whyItMatters": "Zero plus decimal place value is arguably the single most consequential export in the history of mathematics: every digital device and every ledger on Earth runs on it. It is also the atlas's model case for honest dating — a firm core (628/876 CE) with a genuinely contested earlier horizon (Bakhshālī), both shown.",
+  "honestyNote": "Other cultures had placeholder zeros (Babylonian sexagesimal placeholder; the Maya, independently). The Indian contribution is specifically zero as a NUMBER inside decimal place value, plus the transmission that made it global. Precision here is what keeps the claim unassailable.",
+  "locations": [
+    { "name": "Chaturbhuj temple inscription, Gwalior Fort, Madhya Pradesh, India", "lat": 26.23, "lng": 78.17 },
+    { "name": "Bakhshālī manuscript — found near Mardan (KPK, Pakistan); held at the Bodleian Library, Oxford", "lat": 51.754, "lng": -1.254, "note": "current holder: Bodleian Library, MS. Sansk. d. 14" }
+  ],
+  "throughLines": [
+    {
+      "to": "The global number system (and hence all digital computation)",
+      "status": "documented",
+      "chain": [
+        "Brahmagupta, Brāhmasphuṭasiddhānta (628 CE): arithmetic rules for zero and negatives",
+        "Severus Sebokht, Syriac bishop (662 CE): praises 'the nine signs' of Indian reckoning — Indian numerals already noted west of India",
+        "al-Khwārizmī, 'On Calculation with Hindu Numerals' (c. 825 CE), Baghdad — Arabic sources call the system ḥisāb al-hind, 'Indian reckoning'",
+        "Latin translations (12th c.), 'algorismus'; Fibonacci's Liber Abaci (1202) popularizes it for European commerce",
+        "The 'Hindu-Arabic' numerals become the world's numerals"
+      ],
+      "sources": [
+        { "label": "Colebrooke, H.T. (tr.), Algebra... from the Sanscrit of Brahmegupta and Bháscara (1817)", "kind": "reference", "independent": true },
+        { "label": "Burnett, C., \"The Semantics of Indian Numerals in Arabic, Greek and Latin\", Journal of Indian Philosophy 34 (2006)", "kind": "peer-reviewed", "independent": true },
+        { "label": "Chrisomalis, S., Numerical Notation: A Comparative History (Cambridge, 2010)", "kind": "monograph", "independent": true }
+      ]
+    }
+  ],
+  "flagship": true,
+  "sources": [
+    { "label": "Brāhmasphuṭasiddhānta ch. 18 (Colebrooke tr., 1817)", "kind": "primary", "independent": true },
+    { "label": "Plofker et al., History of Science in South Asia 5 (2017) — Bakhshālī response", "kind": "peer-reviewed", "independent": true },
+    { "label": "Bodleian Libraries announcement (2017)", "kind": "reportage", "independent": true },
+    { "label": "Chrisomalis, S., Numerical Notation (2010)", "kind": "monograph", "independent": true },
+    { "label": "Plofker, K., Mathematics in India (2009)", "kind": "monograph", "independent": true },
+    { "label": "Datta, B. & Singh, A.N., History of Hindu Mathematics (1935)", "kind": "reference", "independent": true }
+  ],
+  "relatedLedger": ["misattributed-arabic-numerals"],
+  "contributors": ["seed:ai-draft (claude-fable-5)"],
+  "vetting": { "status": "in-review", "vetters": [], "aiAssisted": true }
+}
