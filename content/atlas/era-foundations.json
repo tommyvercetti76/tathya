@@ -1,0 +1,461 @@
+[
+  {
+    "id": "bhimbetka",
+    "side": "atlas",
+    "era": "foundations",
+    "slice": "Origins of settled life",
+    "title": {
+      "en": "Bhimbetka rock shelters",
+      "deva": "भीमबेटका",
+      "iast": "Bhīmbeṭkā"
+    },
+    "kind": "place",
+    "dating": {
+      "display": "occupied from the Palaeolithic; painting tradition from c. 8000 BCE (Mesolithic) into the historic period",
+      "edtf": "-7999/1000",
+      "tag": "evolved",
+      "basis": "Stratified excavations (Wakankar, from 1971) and stylistic sequencing of superimposed painting layers; direct pigment dates are scarce, so painting ages rest on style and context.",
+      "positions": []
+    },
+    "summary": "Over 700 sandstone shelters in the Vindhyan hills, some 400 painted — hunting scenes, dancing figures, animals — in layers repainted over millennia. One of the world's densest and longest-running rock-art records, and a UNESCO World Heritage Site (2003).",
+    "whyItMatters": "It grounds the atlas's deepest layer: continuous human artistic and possibly ritual life on the subcontinent long before agriculture, cities, or texts. Later shrines in some shelters show the deep-time reuse of sacred space.",
+    "honestyNote": "Claims of '30,000-year-old paintings' circulate; most specialists place the oldest surviving paintings in the Mesolithic. Occupation is far older than the art. Connecting specific images to later Hindu iconography is speculative and is not asserted here.",
+    "locations": [
+      {
+        "name": "Bhimbetka, Raisen District, Madhya Pradesh, India",
+        "lat": 22.94,
+        "lng": 77.61
+      }
+    ],
+    "flagship": false,
+    "sources": [
+      {
+        "label": "UNESCO World Heritage Centre: Rock Shelters of Bhimbetka (2003), incl. ICOMOS evaluation",
+        "url": "https://whc.unesco.org/en/list/925/",
+        "kind": "archival",
+        "independent": true
+      },
+      {
+        "label": "Mathpal, Y., Prehistoric Art of India: Bhimbetka (1984)",
+        "kind": "monograph",
+        "independent": true
+      },
+      {
+        "label": "Wakankar, V.S., excavation reports and syntheses on Bhimbetka (1973–75)",
+        "kind": "primary",
+        "independent": true
+      }
+    ],
+    "contributors": [
+      "seed:ai-draft (claude-fable-5)"
+    ],
+    "vetting": {
+      "status": "in-review",
+      "vetters": [],
+      "aiAssisted": true
+    },
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/2_elephants_man_riding_one_pre_historic_Bhimbetka_rock_cave_paintings_Madhya_Pradesh_India.jpg/960px-2_elephants_man_riding_one_pre_historic_Bhimbetka_rock_cave_paintings_Madhya_Pradesh_India.jpg",
+      "alt": "Bhimbetka rock shelters",
+      "credit": "Arian Zwegers",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2_elephants_man_riding_one_pre_historic_Bhimbetka_rock_cave_paintings_Madhya_Pradesh_India.jpg"
+    }
+  },
+  {
+    "id": "mehrgarh-cotton",
+    "side": "atlas",
+    "era": "foundations",
+    "slice": "First technologies",
+    "title": {
+      "en": "Earliest known cotton thread (Mehrgarh)",
+      "iast": "kārpāsa"
+    },
+    "kind": "innovation",
+    "dating": {
+      "display": "6th millennium BCE",
+      "edtf": "-5999/-5000",
+      "tag": "firm",
+      "basis": "Mineralized cotton fibres preserved inside a copper bead from a Neolithic burial at Mehrgarh, identified by metallurgical microscopy; context dated by the site's radiocarbon sequence.",
+      "positions": []
+    },
+    "summary": "A copper bead from a Mehrgarh grave preserved threads of cotton — the earliest known use of cotton anywhere, roughly a millennium before Egyptian examples. Cotton (Sanskrit kārpāsa, the source of Greek kárpasos) became the subcontinent's signature textile.",
+    "whyItMatters": "Textile and metallurgical technology in the same tiny artifact, at the very base of the timeline. The subcontinent's later dominance of the world cotton trade — through the Indus cities to the Roman trade to early-modern calico — starts here.",
+    "locations": [
+      {
+        "name": "Mehrgarh, Balochistan, Pakistan",
+        "lat": 29.38,
+        "lng": 67.62,
+        "note": "approximate"
+      }
+    ],
+    "flagship": false,
+    "sources": [
+      {
+        "label": "Moulherat, C., Tengberg, M., Haquet, J.-F. & Mille, B., \"First Evidence of Cotton at Neolithic Mehrgarh, Pakistan\", Journal of Archaeological Science 29 (2002)",
+        "kind": "peer-reviewed",
+        "independent": true
+      },
+      {
+        "label": "Fuller, D.Q., \"The problem of unattested crops: cotton\", in overviews of South Asian agricultural origins (2008)",
+        "kind": "peer-reviewed",
+        "independent": true
+      },
+      {
+        "label": "Jarrige, C. et al., Mehrgarh: Field Reports 1974–1985 (1995)",
+        "kind": "archival",
+        "independent": true
+      }
+    ],
+    "contributors": [
+      "seed:ai-draft (claude-fable-5)"
+    ],
+    "vetting": {
+      "status": "in-review",
+      "vetters": [],
+      "aiAssisted": true
+    },
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/CottonPlant.JPG/960px-CottonPlant.JPG",
+      "alt": "Earliest known cotton thread (Mehrgarh)",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:CottonPlant.JPG"
+    }
+  },
+  {
+    "id": "zebu-domestication",
+    "side": "atlas",
+    "era": "foundations",
+    "slice": "First technologies",
+    "title": {
+      "en": "Domestication of zebu cattle",
+      "deva": "गो",
+      "iast": "go"
+    },
+    "kind": "innovation",
+    "dating": {
+      "display": "c. 7th millennium BCE, Indus borderlands",
+      "edtf": "-6999/-6000",
+      "tag": "firm",
+      "basis": "Convergence of two independent lines: the shrinking-cattle-bone sequence at Mehrgarh (Meadow) and mitochondrial genetics showing Bos indicus was domesticated separately from taurine cattle, from South Asian aurochs.",
+      "positions": []
+    },
+    "summary": "The humped zebu (Bos indicus) was domesticated independently in the northwestern subcontinent — a separate domestication event from Near Eastern cattle. The zebu became the economic engine of South Asian agriculture and, over millennia, an animal of extraordinary cultural weight.",
+    "whyItMatters": "The zebu on Indus seals, the cow's later sanctity in Hindu practice, and the animal's global spread (Brahman cattle in the Americas carry this genome) all trace to this event. The atlas's continuity questions — what the seals meant, when reverence became sanctity — are handled honestly in the linked entries; the domestication itself is hard science.",
+    "honestyNote": "Domestication is a process, not a date; the range given brackets the Mehrgarh faunal transition. Cattle veneration as documented religious practice is much later — do not read modern sanctity back into the Neolithic.",
+    "flagship": false,
+    "sources": [
+      {
+        "label": "Meadow, R., \"Animal domestication in the Middle East: a revised view from the eastern margin\", in Harappan Civilization (ed. Possehl)",
+        "kind": "peer-reviewed",
+        "independent": true
+      },
+      {
+        "label": "Chen, S. et al., \"Zebu cattle are an exclusive legacy of the South Asia Neolithic\", Molecular Biology and Evolution 27 (2010)",
+        "kind": "peer-reviewed",
+        "independent": true
+      },
+      {
+        "label": "Larson, G. & Fuller, D.Q., \"The Evolution of Animal Domestication\", Annual Review of Ecology, Evolution, and Systematics 45 (2014)",
+        "kind": "peer-reviewed",
+        "independent": true
+      }
+    ],
+    "relatedLedger": [
+      "conflation-older-than-hinduism-seal"
+    ],
+    "contributors": [
+      "seed:ai-draft (claude-fable-5)"
+    ],
+    "vetting": {
+      "status": "in-review",
+      "vetters": [],
+      "aiAssisted": true
+    },
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Above%2C_a_domestic_bull%2C_a_domestic_cow%2C_a_wild_bull_and_a_wi_Wellcome_V0020662EL.jpg/960px-Above%2C_a_domestic_bull%2C_a_domestic_cow%2C_a_wild_bull_and_a_wi_Wellcome_V0020662EL.jpg",
+      "alt": "Domestication of zebu cattle",
+      "license": "CC BY 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Above,_a_domestic_bull,_a_domestic_cow,_a_wild_bull_and_a_wi_Wellcome_V0020662EL.jpg"
+    }
+  },
+  {
+    "id": "lahuradewa-rice",
+    "side": "atlas",
+    "era": "foundations",
+    "slice": "First technologies",
+    "title": {
+      "en": "Early rice use in the Middle Ganga plain (Lahuradewa)",
+      "iast": "vrīhi"
+    },
+    "kind": "innovation",
+    "dating": {
+      "display": "rice use claimed from c. 7000–6000 BCE; domesticated rice agriculture secure by c. 2500–2000 BCE",
+      "edtf": "-6999/-2000",
+      "tag": "contested",
+      "basis": "Radiocarbon dates on early levels at Lahuradewa (Uttar Pradesh) with rice remains; the dispute is whether early grains are gathered wild rice or cultivated/domesticated rice.",
+      "positions": [
+        {
+          "position": "Very early rice cultivation (7th–6th millennium BCE)",
+          "holders": "Tewari and the excavation team",
+          "evidence": "Rice grains and husk in dated early-Holocene contexts at Lahuradewa."
+        },
+        {
+          "position": "Early use of wild rice; full domestication in the Ganges by c. 2500–2000 BCE, with possible japonica hybridization",
+          "holders": "Fuller and much of the archaeobotany community",
+          "evidence": "Grain morphometrics and spikelet-base analysis distinguishing wild, managed, and domesticated rice."
+        }
+      ]
+    },
+    "summary": "Lake-edge settlements in the Middle Ganga plain were using rice extremely early — how early, and how cultivated, is a genuinely open question between the excavators and archaeobotanists. Either way, the Ganga plain is one of the world's early rice heartlands.",
+    "whyItMatters": "Rice (vrīhi) is the ritual grain of much later Vedic and Hindu practice — akṣata in pūjā, the first solid food in annaprāśana. Its deep agricultural history in the Ganga basin is part of the substrate the tradition grew in. The entry also models how the atlas handles a live dating dispute: both positions, named holders, no verdict.",
+    "locations": [
+      {
+        "name": "Lahuradewa, Sant Kabir Nagar District, Uttar Pradesh, India",
+        "lat": 26.77,
+        "lng": 82.95,
+        "note": "approximate"
+      }
+    ],
+    "flagship": false,
+    "sources": [
+      {
+        "label": "Tewari, R. et al., \"Second preliminary report of the excavations at Lahuradewa\", Prāgdhārā 16 (2006)",
+        "kind": "primary",
+        "independent": true
+      },
+      {
+        "label": "Fuller, D.Q., \"Pathways to Asian Civilizations: Tracing the Origins and Spread of Rice and Rice Cultures\", Rice 4 (2011)",
+        "kind": "peer-reviewed",
+        "independent": true
+      },
+      {
+        "label": "Fuller, D.Q. et al., \"Consilience of genetics and archaeobotany in the entangled history of rice\", Archaeological and Anthropological Sciences 2 (2010)",
+        "kind": "peer-reviewed",
+        "independent": true
+      }
+    ],
+    "contributors": [
+      "seed:ai-draft (claude-fable-5)"
+    ],
+    "vetting": {
+      "status": "in-review",
+      "vetters": [],
+      "aiAssisted": true
+    },
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Rice_fields_Uttar_Pradesh_%282%29.jpg/960px-Rice_fields_Uttar_Pradesh_%282%29.jpg",
+      "alt": "Early rice use in the Middle Ganga plain (Lahuradewa)",
+      "credit": "Radosław Botev",
+      "license": "CC BY 3.0 pl",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rice_fields_Uttar_Pradesh_(2).jpg"
+    }
+  },
+  {
+    "id": "bhirrana-hakra",
+    "side": "atlas",
+    "era": "foundations",
+    "slice": "Toward the Indus cities",
+    "title": {
+      "en": "Bhirrana and the Hakra-ware horizon",
+      "iast": "Bhirṛāṇā"
+    },
+    "kind": "place",
+    "dating": {
+      "display": "pre-Harappan occupation; excavators claim c. 7500–6000 BCE, conventional chronology c. 4th millennium BCE",
+      "edtf": "-7499/-3000",
+      "tag": "contested",
+      "basis": "Radiocarbon and isotope studies from the site versus the established regional ceramic chronology.",
+      "positions": [
+        {
+          "position": "Occupation from the 8th–7th millennium BCE, making Bhirrana among the oldest villages on the Ghaggar",
+          "holders": "ASI excavators (L.S. Rao) and Sarkar et al. (2016)",
+          "evidence": "C14 and oxygen-isotope dates published from site materials."
+        },
+        {
+          "position": "Hakra-ware horizon belongs to the 4th millennium BCE; the very early dates need stratigraphic corroboration",
+          "holders": "Much of Indus archaeology (chronology syntheses)",
+          "evidence": "Regional ceramic sequences; concerns about dated samples' association with the cultural levels."
+        }
+      ]
+    },
+    "summary": "A village mound on the dry Ghaggar channel in Haryana with Hakra-ware levels beneath a full Harappan sequence. Its published early radiocarbon dates would push settled life on the Ghaggar back dramatically — which is exactly why they are argued about.",
+    "whyItMatters": "Bhirrana is the strongest single exhibit in 'the civilization is 9,000 years old' claims that circulate in both Indian and Pakistani framings (see the ledger). The evidence-grade statement: an important early site with a genuinely contested chronology — presented here with both positions.",
+    "honestyNote": "The '8,000-year-old Indus civilization' headlines (2016) rest on this site's dates plus a climate paper. Treating the earliest disputed date as the civilization's 'age' is the founding-date fallacy in reverse — see ledger categories 5 and 9.",
+    "locations": [
+      {
+        "name": "Bhirrana, Fatehabad District, Haryana, India",
+        "lat": 29.55,
+        "lng": 75.55,
+        "note": "approximate"
+      }
+    ],
+    "flagship": false,
+    "sources": [
+      {
+        "label": "Rao, L.S., \"Excavations at Bhirrana\", Purātattva 34–36 (2004–06)",
+        "kind": "primary",
+        "independent": true
+      },
+      {
+        "label": "Sarkar, A. et al., \"Oxygen isotope in archaeological bioapatites from India: Implications to climate change and decline of Bronze Age Harappan civilization\", Scientific Reports 6 (2016)",
+        "kind": "peer-reviewed",
+        "independent": true
+      },
+      {
+        "label": "Possehl, G., The Indus Civilization (2002) — regional chronology framework",
+        "kind": "monograph",
+        "independent": true
+      }
+    ],
+    "relatedLedger": [
+      "conflation-older-than-hinduism-seal"
+    ],
+    "contributors": [
+      "seed:ai-draft (claude-fable-5)"
+    ],
+    "vetting": {
+      "status": "in-review",
+      "vetters": [],
+      "aiAssisted": true
+    }
+  },
+  {
+    "id": "ghaggar-sarasvati",
+    "side": "atlas",
+    "era": "foundations",
+    "slice": "Toward the Indus cities",
+    "title": {
+      "en": "The Ghaggar–Hakra palaeochannel and the Sarasvatī question",
+      "deva": "सरस्वती",
+      "iast": "Sarasvatī"
+    },
+    "kind": "concept",
+    "dating": {
+      "display": "river system active in the early–mid Holocene; major Harappan settlement along it c. 3300–1900 BCE",
+      "edtf": "-7000/-1900",
+      "tag": "contested",
+      "basis": "Geological coring, luminescence dating, and remote sensing of the dry channel; the contest is over the river's Harappan-era character and its identification with the Ṛgvedic Sarasvatī.",
+      "positions": [
+        {
+          "position": "Monsoon-fed river, already diminished in the Harappan period; no glacial source during the urban phase",
+          "holders": "Giosan et al. (2012) and subsequent geomorphology",
+          "evidence": "PNAS study of the region's fluvial landscapes: no large glacier-fed river between the Indus and Ganges during the Holocene urban phase."
+        },
+        {
+          "position": "The Ghaggar–Hakra is the Ṛgvedic Sarasvatī, once a major river, its drying reflected in the text sequence",
+          "holders": "Danino and a school of Indian scholarship; parts of the philological record read this way",
+          "evidence": "Density of Harappan sites along the channel; Ṛgvedic descriptions of a mighty Sarasvatī between Yamunā and Śutudrī; later texts describe its disappearance."
+        },
+        {
+          "position": "The Ṛgvedic Sarasvatī is (at least partly) the Helmand/Haraxvaitī of the Iranian borderlands, or a composite",
+          "holders": "A strand of Vedic philology",
+          "evidence": "The Avestan cognate river name Haraxvaitī; layers of the hymns."
+        }
+      ]
+    },
+    "summary": "A dry river course from the Siwaliks toward the Rann of Kutch, lined with hundreds of Harappan sites, identified by many with the Sarasvatī celebrated and then mourned in Vedic literature. The geology, the settlement pattern, and the philology each say something real; they do not yet say the same thing.",
+    "whyItMatters": "This is the atlas's exemplar for a claim where science, archaeology, and scripture intersect and are all genuinely in play. It matters enormously to Indus–Vedic continuity arguments in both directions — which is why the entry presents positions rather than a verdict.",
+    "flagship": true,
+    "sources": [
+      {
+        "label": "Giosan, L. et al., \"Fluvial landscapes of the Harappan civilization\", PNAS 109 (2012)",
+        "url": "https://www.pnas.org/doi/10.1073/pnas.1112743109",
+        "kind": "peer-reviewed",
+        "independent": true
+      },
+      {
+        "label": "Danino, M., The Lost River: On the Trail of the Sarasvatī (Penguin, 2010)",
+        "kind": "monograph",
+        "independent": true
+      },
+      {
+        "label": "Witzel, M., \"Sur le chemin du ciel\" / EJVS discussions of Sarasvatī philology",
+        "kind": "peer-reviewed",
+        "independent": true
+      },
+      {
+        "label": "Singh, A. et al., \"Counter-intuitive influence of Himalayan river morphodynamics on Indus Civilisation urban settlements\", Nature Communications 8 (2017)",
+        "kind": "peer-reviewed",
+        "independent": true
+      },
+      {
+        "label": "Possehl, G., The Indus Civilization (2002) — settlement distributions",
+        "kind": "monograph",
+        "independent": true
+      }
+    ],
+    "relatedLedger": [
+      "legit-debate-indo-aryan-origins"
+    ],
+    "contributors": [
+      "seed:ai-draft (claude-fable-5)"
+    ],
+    "vetting": {
+      "status": "in-review",
+      "vetters": [],
+      "aiAssisted": true
+    }
+  },
+  {
+    "id": "mehrgarh-figurines",
+    "side": "atlas",
+    "era": "foundations",
+    "slice": "First technologies",
+    "title": {
+      "en": "Mehrgarh terracotta figurines",
+      "iast": "mṛṇmūrti"
+    },
+    "kind": "artifact",
+    "dating": {
+      "display": "c. 5500–3000 BCE (developing tradition)",
+      "edtf": "-5499/-3000",
+      "tag": "firm",
+      "basis": "Stratified finds across Mehrgarh's ceramic periods.",
+      "positions": []
+    },
+    "summary": "Thousands of small terracotta figures — increasingly elaborate female figurines with applied ornament, and cattle — from Mehrgarh's later Neolithic and Chalcolithic levels: among the earliest sustained figurine traditions in South Asia.",
+    "whyItMatters": "The subcontinent's unbroken habit of modeling the sacred (or at least the significant) in clay starts here — a craft lineage that runs through Indus figurines to the terracotta traditions of historic and modern India. Whether any of it is 'mother goddess' religion is exactly the kind of inference the honesty note exists for.",
+    "honestyNote": "'Mother goddess' is an interpretive label archaeologists now use with heavy caution; function (toys? votives? identity markers?) is unknown. The continuity of craft is documented; continuity of meaning is not.",
+    "locations": [
+      {
+        "name": "Mehrgarh, Balochistan, Pakistan; finds in Karachi and Quetta museums and the Musée Guimet",
+        "lat": 29.38,
+        "lng": 67.62,
+        "note": "approximate"
+      }
+    ],
+    "flagship": false,
+    "sources": [
+      {
+        "label": "Jarrige, C., \"The figurines of the first farmers at Mehrgarh and their offshoots\", Prāgdhārā 18 (2008)",
+        "kind": "peer-reviewed",
+        "independent": true
+      },
+      {
+        "label": "Kenoyer, J.M., Ancient Cities of the Indus Valley Civilization (1998) — figurine traditions",
+        "kind": "monograph",
+        "independent": true
+      },
+      {
+        "label": "Clark, S., The Social Lives of Figurines: Recontextualizing the Third-Millennium-BC Terracotta Figurines from Harappa (2017) — methodological caution on 'goddess' readings",
+        "kind": "monograph",
+        "independent": true
+      }
+    ],
+    "contributors": [
+      "seed:ai-draft (claude-fable-5)"
+    ],
+    "vetting": {
+      "status": "in-review",
+      "vetters": [],
+      "aiAssisted": true
+    },
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/2/23/Statuette_Mehrgarh.jpg",
+      "alt": "Mehrgarh terracotta figurines",
+      "license": "CC BY-SA 1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Statuette_Mehrgarh.jpg"
+    }
+  }
+]

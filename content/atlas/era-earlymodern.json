@@ -1,0 +1,448 @@
+[
+  {
+    "id": "vijayanagara-hampi",
+    "side": "atlas",
+    "era": "earlymodern",
+    "slice": "Empire & temple cities",
+    "title": {
+      "en": "Vijayanagara (Hampi)",
+      "deva": "विजयनगर",
+      "iast": "Vijayanagara"
+    },
+    "kind": "place",
+    "dating": {
+      "display": "founded 1336 CE; peak under Kṛṣṇadevarāya (r. 1509–1529); sacked after Talikota, 1565",
+      "edtf": "1336/1565",
+      "tag": "firm",
+      "basis": "Dynastic inscriptions in the thousands, foreign travelers' accounts (Nicolò de' Conti, Paes, Nuniz, Abdur Razzāq), and battlefield chronology.",
+      "positions": []
+    },
+    "summary": "Capital of the last great South Indian empire — at its height among the largest cities on Earth (Paes, c. 1520, compared it to Rome), an urban fabric of temple complexes (Virūpākṣa, Viṭṭhala with its stone chariot), waterworks, markets, and imperial ritual. Sacked and abandoned after the 1565 defeat; its ruins at Hampi are a UNESCO site.",
+    "whyItMatters": "The scale of organized Hindu polity, temple economy, and urbanism on the eve of the early modern period — documented by outside eyewitnesses, which makes it unusually resistant to both inflation and denial.",
+    "honestyNote": "Vijayanagara is heavily mythologized in modern content ('golden age' framing flattens its wars, slavery in its markets described by the same travelers, and its own aggressions). The travelers' astonishment is real and quotable; so is the rest of what they wrote.",
+    "locations": [
+      {
+        "name": "Hampi, Vijayanagara District, Karnataka, India",
+        "lat": 15.335,
+        "lng": 76.46
+      }
+    ],
+    "flagship": false,
+    "sources": [
+      {
+        "label": "Sewell, R., A Forgotten Empire: Vijayanagar (1900) — incl. Paes and Nuniz translations",
+        "kind": "primary",
+        "independent": true
+      },
+      {
+        "label": "Fritz, J. & Michell, G., Hampi Vijayanagara (2014)",
+        "kind": "monograph",
+        "independent": true
+      },
+      {
+        "label": "UNESCO World Heritage Centre: Group of Monuments at Hampi (1986)",
+        "url": "https://whc.unesco.org/en/list/241/",
+        "kind": "archival",
+        "independent": true
+      }
+    ],
+    "contributors": [
+      "seed:ai-draft (claude-fable-5)"
+    ],
+    "vetting": {
+      "status": "in-review",
+      "vetters": [],
+      "aiAssisted": true
+    },
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Iconic_Stone_Chariot_%40_Vittala_Temple%2C_Hampi%2C_Karnataka.jpg/960px-Iconic_Stone_Chariot_%40_Vittala_Temple%2C_Hampi%2C_Karnataka.jpg",
+      "alt": "Vijayanagara (Hampi)",
+      "credit": "Ram Nagesh Thota",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Iconic_Stone_Chariot_@_Vittala_Temple,_Hampi,_Karnataka.jpg"
+    }
+  },
+  {
+    "id": "ramcharitmanas",
+    "side": "atlas",
+    "era": "earlymodern",
+    "slice": "Vernacular scripture",
+    "title": {
+      "en": "Rāmcaritmānas of Tulsīdās",
+      "deva": "रामचरितमानस",
+      "iast": "Rāmcaritmānas"
+    },
+    "kind": "text",
+    "dating": {
+      "display": "begun 1574 CE in Ayodhya (the poet dates it himself); completed within a few years",
+      "edtf": "1574/1577",
+      "tag": "firm",
+      "basis": "The text states its own start date (Vikram 1631); near-contemporary manuscripts and biography (Nābhādās) corroborate.",
+      "positions": []
+    },
+    "summary": "The Rāmāyaṇa retold in Avadhi — the vernacular of the people rather than Sanskrit — recasting Vālmīki's epic as devotion to Rāma as supreme. It became North India's most performed scripture: the basis of Rāmlīlā theater (UNESCO ICH 2008) and, arguably, the most read religious text of modern North India.",
+    "whyItMatters": "The decisive demonstration that vernacular bhakti could carry scripture to everyone — Tulsīdās was attacked by Sanskrit orthodoxy for exactly this, and won. For millions, 'the Ramayana' means this text; no account of lived Hinduism can skip it.",
+    "honestyNote": "It is a devotional retelling, not a translation — it differs from Vālmīki deliberately (and from the many other regional Rāmāyaṇas; Ramanujan's 'Three Hundred Rāmāyaṇas' maps that plurality). A handful of its verses are staples of out-of-context quotation wars in both directions — genre and idiom matter (see ledger categories 2–3).",
+    "locations": [
+      {
+        "name": "Ayodhya / Varanasi, Uttar Pradesh, India — composition and the poet's life",
+        "lat": 26.8,
+        "lng": 82.2,
+        "note": "approximate midpoint of the tradition's geography"
+      }
+    ],
+    "flagship": false,
+    "sources": [
+      {
+        "label": "Lutgendorf, P., The Life of a Text: Performing the Rāmcaritmānas of Tulsidas (California, 1991)",
+        "kind": "monograph",
+        "independent": true
+      },
+      {
+        "label": "Growse, F.S. (tr.), The Rámáyana of Tulsi Dás (1877–81)",
+        "kind": "reference",
+        "independent": true
+      },
+      {
+        "label": "Ramanujan, A.K., \"Three Hundred Rāmāyaṇas\", in Many Rāmāyaṇas (ed. Richman, 1991)",
+        "kind": "peer-reviewed",
+        "independent": true
+      }
+    ],
+    "contributors": [
+      "seed:ai-draft (claude-fable-5)"
+    ],
+    "vetting": {
+      "status": "in-review",
+      "vetters": [],
+      "aiAssisted": true
+    },
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/R%C4%81macaritam%C4%81nasa_manuscript_%2819th_century%29.png/960px-R%C4%81macaritam%C4%81nasa_manuscript_%2819th_century%29.png",
+      "alt": "Rāmcaritmānas of Tulsīdās",
+      "credit": "Jānak De (scribe)",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:R%C4%81macaritam%C4%81nasa_manuscript_(19th_century).png"
+    }
+  },
+  {
+    "id": "jantar-mantar",
+    "side": "atlas",
+    "era": "earlymodern",
+    "slice": "Science & instruments",
+    "title": {
+      "en": "Jai Singh II's observatories (Jantar Mantar)",
+      "deva": "जन्तर मन्तर",
+      "iast": "yantra mandira"
+    },
+    "kind": "place",
+    "dating": {
+      "display": "built 1724–c. 1738 (Delhi, Jaipur, Ujjain, Varanasi, Mathura)",
+      "edtf": "1724/1738",
+      "tag": "firm",
+      "basis": "Court records of Sawai Jai Singh II of Amber and the instruments themselves; Jaipur's is UNESCO-listed (2010).",
+      "positions": []
+    },
+    "summary": "Five monumental masonry observatories whose giant fixed instruments — the 27 m Samrāṭ Yantra sundial reads time to ~2 seconds — pushed naked-eye positional astronomy to its physical limits. Jai Singh's project deliberately synthesized Hindu siddhānta astronomy, Islamic zīj methods (he had Ulugh Beg's tables), and European data he commissioned.",
+    "whyItMatters": "Living proof that Indian observational astronomy was active, funded, and self-consciously cross-cultural on the eve of colonialism — neither a dead tradition nor an isolated one. Also an honest datum about timing: built after the telescope, by choice of method.",
+    "honestyNote": "Sometimes presented as 'ancient Vedic observatories' (they are 18th-century) or dismissed as obsolete curiosities (they achieved real precision and calendar authority — Jaipur's still calibrates the local almanac). Both framings fail; the real story is synthesis.",
+    "locations": [
+      {
+        "name": "Jantar Mantar, Jaipur, Rajasthan, India (largest surviving)",
+        "lat": 26.9247,
+        "lng": 75.8246
+      }
+    ],
+    "flagship": false,
+    "sources": [
+      {
+        "label": "Sharma, V.N., Sawai Jai Singh and His Astronomy (Motilal Banarsidass, 1995)",
+        "kind": "monograph",
+        "independent": true
+      },
+      {
+        "label": "UNESCO World Heritage Centre: The Jantar Mantar, Jaipur (2010)",
+        "url": "https://whc.unesco.org/en/list/1338/",
+        "kind": "archival",
+        "independent": true
+      },
+      {
+        "label": "Ansari, S.M.R., \"Astronomy in medieval India\", in Encyclopaedia of the History of Science, Technology, and Medicine in Non-Western Cultures",
+        "kind": "reference",
+        "independent": true
+      }
+    ],
+    "contributors": [
+      "seed:ai-draft (claude-fable-5)"
+    ],
+    "vetting": {
+      "status": "in-review",
+      "vetters": [],
+      "aiAssisted": true
+    },
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Jantar_Mantar_at_Jaipur.jpg/960px-Jantar_Mantar_at_Jaipur.jpg",
+      "alt": "Jai Singh II's observatories (Jantar Mantar)",
+      "credit": "Knowledge Seeker",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jantar_Mantar_at_Jaipur.jpg"
+    }
+  },
+  {
+    "id": "jones-1786",
+    "side": "atlas",
+    "era": "earlymodern",
+    "slice": "Encounter with Europe",
+    "title": {
+      "en": "William Jones and the Indo-European announcement",
+      "iast": "—"
+    },
+    "kind": "event",
+    "dating": {
+      "display": "Asiatic Society founded 1784; Third Anniversary Discourse delivered 2 February 1786",
+      "edtf": "1784/1786-02-02",
+      "tag": "firm",
+      "basis": "The Society's published proceedings; the discourse text survives verbatim.",
+      "positions": []
+    },
+    "summary": "In Calcutta, Jones declared that Sanskrit bore to Greek and Latin 'a stronger affinity... than could possibly have been produced by accident', such that all three must have 'sprung from some common source, which, perhaps, no longer exists' — the charter statement of comparative linguistics and the Indo-European family.",
+    "whyItMatters": "Sanskrit's grammar — Pāṇini's object — became the catalyst of modern historical linguistics. The event is deliberately double-edged in this atlas: the same colonial scholarship that recovered chronology and comparative method also manufactured the racialized 'Aryan' misreadings the ledger documents. One event, both legacies, both sourced.",
+    "honestyNote": "Jones had predecessors (Sassetti's 16th-c. observations; Père Cœurdoux's 1767 memorandum) and his discourse contains plenty of error; the 'common source' insight is what endured. Crediting European philology here does not diminish Pāṇini — it was Pāṇinian analysis, reaching Europe, that made the discovery possible (Bloomfield's own assessment).",
+    "locations": [
+      {
+        "name": "Asiatic Society, Park Street, Kolkata, India",
+        "lat": 22.5518,
+        "lng": 88.3512
+      }
+    ],
+    "flagship": false,
+    "sources": [
+      {
+        "label": "Jones, W., \"The Third Anniversary Discourse, on the Hindus\" (1786), in Asiatick Researches I (1788)",
+        "kind": "primary",
+        "independent": true
+      },
+      {
+        "label": "Trautmann, T., Aryans and British India (California, 1997)",
+        "kind": "monograph",
+        "independent": true
+      },
+      {
+        "label": "Cannon, G., The Life and Mind of Oriental Jones (Cambridge, 1990)",
+        "kind": "monograph",
+        "independent": true
+      }
+    ],
+    "relatedLedger": [
+      "legit-debate-indo-aryan-origins",
+      "colonial-distortion-caste-census"
+    ],
+    "contributors": [
+      "seed:ai-draft (claude-fable-5)"
+    ],
+    "vetting": {
+      "status": "in-review",
+      "vetters": [],
+      "aiAssisted": true
+    },
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/2/25/Sir_William_Jones_by_William_Evans_1804.jpg",
+      "alt": "William Jones and the Indo-European announcement",
+      "credit": "William Evans / After Arthur William Devis",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sir_William_Jones_by_William_Evans_1804.jpg"
+    }
+  },
+  {
+    "id": "brahmo-samaj",
+    "side": "atlas",
+    "era": "earlymodern",
+    "slice": "Reform from within",
+    "title": {
+      "en": "Brahmo Samaj and the reform century",
+      "deva": "ब्राह्म समाज",
+      "iast": "Brāhmo Samāj"
+    },
+    "kind": "event",
+    "dating": {
+      "display": "founded 20 August 1828, Calcutta (as Brahmo Sabha)",
+      "edtf": "1828-08-20",
+      "tag": "firm",
+      "basis": "Founding records and contemporary press; the movement's own documented history.",
+      "positions": []
+    },
+    "summary": "Rammohan Roy's congregation for the worship of 'the Eternal, Unsearchable and Immutable Being' — Upaniṣad-based theism stripped of image worship — became the seedbed of a century of Hindu self-reform: against satī and child marriage, for widow remarriage (Vidyāsāgar's 1856 Act) and women's education, spawning and provoking the Ārya Samāj (1875, Dayānanda's 'back to the Vedas'), the Ramakrishna movement, and much of the Indian public sphere.",
+    "whyItMatters": "The institutional beginning of modern Hinduism's argument with itself — indispensable context for every ledger entry where 'Hinduism' is treated as static. The reformers claimed the tradition's own sources (Roy argued from Upaniṣads and śāstra), making this internal history, not imported critique.",
+    "honestyNote": "Reform movements were elite, urban, and small in numbers relative to the tradition they addressed; their influence ran through law, print, and education rather than mass conversion. Counter-reform (orthodox Dharma Sabhā) is part of the same documented story.",
+    "locations": [
+      {
+        "name": "Kolkata, West Bengal, India",
+        "lat": 22.57,
+        "lng": 88.36
+      }
+    ],
+    "flagship": false,
+    "sources": [
+      {
+        "label": "Kopf, D., The Brahmo Samaj and the Shaping of the Modern Indian Mind (Princeton, 1979)",
+        "kind": "monograph",
+        "independent": true
+      },
+      {
+        "label": "Collet, S.D., The Life and Letters of Raja Rammohun Roy (1900)",
+        "kind": "reference",
+        "independent": true
+      },
+      {
+        "label": "Hatcher, B., Bourgeois Hinduism, or the Faith of the Modern Vedantists (OUP, 2008)",
+        "kind": "monograph",
+        "independent": true
+      }
+    ],
+    "relatedLedger": [
+      "cherry-picking-sati"
+    ],
+    "contributors": [
+      "seed:ai-draft (claude-fable-5)"
+    ],
+    "vetting": {
+      "status": "in-review",
+      "vetters": [],
+      "aiAssisted": true
+    },
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Bust_portrait_of_the_Hindu_reformer_Ram_Mohan_Roy..jpg/960px-Bust_portrait_of_the_Hindu_reformer_Ram_Mohan_Roy..jpg",
+      "alt": "Brahmo Samaj and the reform century",
+      "credit": "anonymous",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bust_portrait_of_the_Hindu_reformer_Ram_Mohan_Roy..jpg"
+    }
+  },
+  {
+    "id": "vivekananda-1893",
+    "side": "atlas",
+    "era": "earlymodern",
+    "slice": "Encounter with Europe",
+    "title": {
+      "en": "Vivekananda at the World's Parliament of Religions",
+      "deva": "विवेकानन्द",
+      "iast": "Vivekānanda"
+    },
+    "kind": "event",
+    "dating": {
+      "display": "11–27 September 1893, Chicago",
+      "edtf": "1893-09-11/1893-09-27",
+      "tag": "firm",
+      "basis": "The Parliament's published proceedings (Barrows, 1893) and extensive contemporary press coverage.",
+      "positions": []
+    },
+    "summary": "A 30-year-old monk of the Ramakrishna lineage opened with 'Sisters and brothers of America' and presented Vedānta as a universal, rational religion of tolerance — the moment Hinduism entered the Western public square on its own terms rather than through missionary or colonial description. He founded the Vedanta Society (1894) and Ramakrishna Mission (1897).",
+    "whyItMatters": "The template for every subsequent global presentation of Hindu thought, and a hinge in the tradition's self-understanding. Documented to the hour, which makes it a fixed point among this era's contested narratives.",
+    "honestyNote": "The standing-ovation lore has grown in retelling (contemporary reports confirm enthusiasm, not the two-minute mythology); and 'Vivekananda introduced yoga to the West' compresses a broader traffic (his 1896 Rāja Yoga is meditative Patañjali, not postures — see the modern-yoga entry).",
+    "locations": [
+      {
+        "name": "Art Institute of Chicago (Parliament venue), Chicago, USA",
+        "lat": 41.8796,
+        "lng": -87.6237
+      }
+    ],
+    "flagship": false,
+    "sources": [
+      {
+        "label": "Barrows, J.H. (ed.), The World's Parliament of Religions, 2 vols. (1893) — proceedings",
+        "kind": "primary",
+        "independent": true
+      },
+      {
+        "label": "The Complete Works of Swami Vivekananda, Vol. I — the addresses",
+        "kind": "primary",
+        "independent": true
+      },
+      {
+        "label": "Jackson, C., Vedanta for the West (Indiana, 1994)",
+        "kind": "monograph",
+        "independent": true
+      }
+    ],
+    "contributors": [
+      "seed:ai-draft (claude-fable-5)"
+    ],
+    "vetting": {
+      "status": "in-review",
+      "vetters": [],
+      "aiAssisted": true
+    },
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Swami_Vivekananda-1893-09-signed.jpg",
+      "alt": "Vivekananda at the World's Parliament of Religions",
+      "credit": "The original uploader was Dziewa at English Wikipedia.",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Swami_Vivekananda-1893-09-signed.jpg"
+    }
+  },
+  {
+    "id": "modern-postural-yoga",
+    "side": "atlas",
+    "era": "earlymodern",
+    "slice": "Science & instruments",
+    "title": {
+      "en": "The making of modern postural yoga",
+      "deva": "योग",
+      "iast": "yoga"
+    },
+    "kind": "concept",
+    "dating": {
+      "display": "c. 1890s–1930s (Mysore synthesis and parallel lineages), on a haṭha base of c. 11th–15th century texts",
+      "edtf": "1890/1939",
+      "tag": "evolved",
+      "basis": "Documented careers of Krishnamacharya (Mysore Palace, 1930s), Kuvalayananda, Yogendra; the haṭha textual corpus is dated by manuscript scholarship (Mallinson, Birch).",
+      "positions": []
+    },
+    "summary": "The yoga practiced in studios worldwide — flowing āsana sequences, sūrya namaskāra, therapeutic framing — took shape in early 20th-century India: Krishnamacharya's Mysore school (teacher of Iyengar, Pattabhi Jois, Indra Devi), Kuvalayananda's physiological laboratory (1924), and a milieu that blended genuine haṭha inheritance (Haṭhapradīpikā, 15th c.; Amṛtasiddhi, 11th c.) with modern physical culture.",
+    "whyItMatters": "Yoga is the tradition's most successful global export, and its real history is a perfect tathya case: an authentic thousand-year lineage AND a substantially modern synthesis, both true at once. The atlas needs this entry so neither '5,000-year-old sun salutations' nor 'yoga is a colonial gymnastics invention' survives contact with the sources.",
+    "honestyNote": "Singleton's 'modern synthesis' thesis is itself debated at the margins (Mallinson documents more premodern āsana than Yoga Body allowed); the entry cites both. Patañjali's system is meditative (see the Yogasūtras entry); haṭha's postures are real but different in repertoire and purpose from a modern vinyāsa class.",
+    "locations": [
+      {
+        "name": "Jaganmohan Palace yogaśālā, Mysore, Karnataka, India",
+        "lat": 12.303,
+        "lng": 76.653
+      }
+    ],
+    "flagship": false,
+    "sources": [
+      {
+        "label": "Singleton, M., Yoga Body: The Origins of Modern Posture Practice (OUP, 2010)",
+        "kind": "monograph",
+        "independent": true
+      },
+      {
+        "label": "Mallinson, J. & Singleton, M., Roots of Yoga (Penguin, 2017)",
+        "kind": "reference",
+        "independent": true
+      },
+      {
+        "label": "Birch, J., \"The Meaning of haṭha in Early Haṭhayoga\", JAOS 131 (2011)",
+        "kind": "peer-reviewed",
+        "independent": true
+      }
+    ],
+    "relatedLedger": [
+      "overclaim-vaimanika-shastra"
+    ],
+    "contributors": [
+      "seed:ai-draft (claude-fable-5)"
+    ],
+    "vetting": {
+      "status": "in-review",
+      "vetters": [],
+      "aiAssisted": true
+    },
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Pant_Pratinidhi_1928_Surya_Namaskar_Sequence.jpg",
+      "alt": "The making of modern postural yoga",
+      "credit": "Pant Pratinidhi (d. 1951)",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pant_Pratinidhi_1928_Surya_Namaskar_Sequence.jpg"
+    }
+  }
+]

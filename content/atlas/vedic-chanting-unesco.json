@@ -3,7 +3,11 @@
   "side": "atlas",
   "era": "contemporary",
   "slice": "Living heritage",
-  "title": { "en": "UNESCO recognition of Vedic chanting", "deva": "वैदिक पाठ परम्परा", "iast": "vaidika pāṭha paramparā" },
+  "title": {
+    "en": "UNESCO recognition of Vedic chanting",
+    "deva": "वैदिक पाठ परम्परा",
+    "iast": "vaidika pāṭha paramparā"
+  },
   "kind": "event",
   "dating": {
     "display": "proclaimed 2003; inscribed on the Representative List 2008",
@@ -17,11 +21,37 @@
   "honestyNote": "Recognition is of the chanting tradition's cultural value, not an endorsement of any historical claim about the texts' dates or content; UNESCO's records also note the tradition's fragility (few full śākhā lineages survive).",
   "flagship": false,
   "sources": [
-    { "label": "UNESCO Intangible Cultural Heritage: Tradition of Vedic Chanting (inscription record)", "url": "https://ich.unesco.org/en/RL/tradition-of-vedic-chanting-00062", "kind": "archival", "independent": true },
-    { "label": "Staal, F., \"The Fidelity of Oral Tradition and the Origins of Science\" (1986)", "kind": "monograph", "independent": true },
-    { "label": "Jamison, S. & Brereton, J., The Rigveda (OUP, 2014), introduction — on the recitation systems", "kind": "reference", "independent": true }
+    {
+      "label": "UNESCO Intangible Cultural Heritage: Tradition of Vedic Chanting (inscription record)",
+      "url": "https://ich.unesco.org/en/RL/tradition-of-vedic-chanting-00062",
+      "kind": "archival",
+      "independent": true
+    },
+    {
+      "label": "Staal, F., \"The Fidelity of Oral Tradition and the Origins of Science\" (1986)",
+      "kind": "monograph",
+      "independent": true
+    },
+    {
+      "label": "Jamison, S. & Brereton, J., The Rigveda (OUP, 2014), introduction — on the recitation systems",
+      "kind": "reference",
+      "independent": true
+    }
   ],
   "relatedLedger": [],
-  "contributors": ["seed:ai-draft (claude-fable-5)"],
-  "vetting": { "status": "in-review", "vetters": [], "aiAssisted": true }
+  "contributors": [
+    "seed:ai-draft (claude-fable-5)"
+  ],
+  "vetting": {
+    "status": "in-review",
+    "vetters": [],
+    "aiAssisted": true
+  },
+  "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Homa_or_Yajna_at_a_rural_village_home_during_puja.jpg/960px-Homa_or_Yajna_at_a_rural_village_home_during_puja.jpg",
+    "alt": "Homa/yajña fire ritual — the living Vedic ritual context",
+    "credit": "Prititunna",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Homa_or_Yajna_at_a_rural_village_home_during_puja.jpg"
+  }
 }

@@ -3,7 +3,11 @@
   "side": "atlas",
   "era": "vedic",
   "slice": "The oral corpus",
-  "title": { "en": "Ṛgveda", "deva": "ऋग्वेद", "iast": "Ṛgveda" },
+  "title": {
+    "en": "Ṛgveda",
+    "deva": "ऋग्वेद",
+    "iast": "Ṛgveda"
+  },
   "kind": "text",
   "dating": {
     "display": "composed c. 1500–1000 BCE; transmitted orally; oldest surviving manuscripts c. 14th century CE",
@@ -36,20 +40,64 @@
         "UNESCO proclaimed the tradition of Vedic chanting a Masterpiece of the Oral and Intangible Heritage of Humanity (2003/2008 list)"
       ],
       "sources": [
-        { "label": "Staal, F., \"The Fidelity of Oral Tradition and the Origins of Science\" (North-Holland, 1986)", "kind": "monograph", "independent": true },
-        { "label": "UNESCO Intangible Cultural Heritage: Tradition of Vedic Chanting", "url": "https://ich.unesco.org/en/RL/tradition-of-vedic-chanting-00062", "kind": "archival", "independent": true }
+        {
+          "label": "Staal, F., \"The Fidelity of Oral Tradition and the Origins of Science\" (North-Holland, 1986)",
+          "kind": "monograph",
+          "independent": true
+        },
+        {
+          "label": "UNESCO Intangible Cultural Heritage: Tradition of Vedic Chanting",
+          "url": "https://ich.unesco.org/en/RL/tradition-of-vedic-chanting-00062",
+          "kind": "archival",
+          "independent": true
+        }
       ]
     }
   ],
   "flagship": true,
   "sources": [
-    { "label": "Jamison, S. & Brereton, J., The Rigveda: The Earliest Religious Poetry of India (OUP, 2014)", "kind": "reference", "independent": true },
-    { "label": "Witzel, M., \"Vedas and Upaniṣads\", in The Blackwell Companion to Hinduism (2003)", "kind": "reference", "independent": true },
-    { "label": "Staal, F., \"The Fidelity of Oral Tradition and the Origins of Science\" (1986)", "kind": "monograph", "independent": true },
-    { "label": "Anthony, D., The Horse, the Wheel, and Language (Princeton, 2007) — Mitanni synchronism", "kind": "monograph", "independent": true },
-    { "label": "Bryant, E., The Quest for the Origins of Vedic Culture (OUP, 2001) — survey of the dating debate on all sides", "kind": "monograph", "independent": true }
+    {
+      "label": "Jamison, S. & Brereton, J., The Rigveda: The Earliest Religious Poetry of India (OUP, 2014)",
+      "kind": "reference",
+      "independent": true
+    },
+    {
+      "label": "Witzel, M., \"Vedas and Upaniṣads\", in The Blackwell Companion to Hinduism (2003)",
+      "kind": "reference",
+      "independent": true
+    },
+    {
+      "label": "Staal, F., \"The Fidelity of Oral Tradition and the Origins of Science\" (1986)",
+      "kind": "monograph",
+      "independent": true
+    },
+    {
+      "label": "Anthony, D., The Horse, the Wheel, and Language (Princeton, 2007) — Mitanni synchronism",
+      "kind": "monograph",
+      "independent": true
+    },
+    {
+      "label": "Bryant, E., The Quest for the Origins of Vedic Culture (OUP, 2001) — survey of the dating debate on all sides",
+      "kind": "monograph",
+      "independent": true
+    }
   ],
-  "relatedLedger": ["legit-debate-indo-aryan-origins"],
-  "contributors": ["seed:ai-draft (claude-fable-5)"],
-  "vetting": { "status": "in-review", "vetters": [], "aiAssisted": true }
+  "relatedLedger": [
+    "legit-debate-indo-aryan-origins"
+  ],
+  "contributors": [
+    "seed:ai-draft (claude-fable-5)"
+  ],
+  "vetting": {
+    "status": "in-review",
+    "vetters": [],
+    "aiAssisted": true
+  },
+  "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/1500-1200_BCE%2C_Rigveda_manuscript_page_sample_iii%2C_Sanskrit%2C_Devanagari.jpg/960px-1500-1200_BCE%2C_Rigveda_manuscript_page_sample_iii%2C_Sanskrit%2C_Devanagari.jpg",
+    "alt": "Ṛgveda",
+    "credit": "Ms Sarah Welch",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:1500-1200_BCE,_Rigveda_manuscript_page_sample_iii,_Sanskrit,_Devanagari.jpg"
+  }
 }

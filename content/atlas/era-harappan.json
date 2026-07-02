@@ -1,0 +1,444 @@
+[
+  {
+    "id": "mohenjo-daro",
+    "side": "atlas",
+    "era": "harappan",
+    "slice": "Cities & engineering",
+    "title": {
+      "en": "Mohenjo-daro",
+      "deva": "मोहनजोदड़ो",
+      "iast": "Mohenjo-dāṛo"
+    },
+    "kind": "place",
+    "dating": {
+      "display": "c. 2600–1900 BCE (Mature Harappan urban phase)",
+      "edtf": "-2599/-1900",
+      "tag": "firm",
+      "basis": "Stratigraphy and radiocarbon across the Indus urban horizon; excavated from 1922 (Banerji, Marshall, Mackay), surveyed since.",
+      "positions": []
+    },
+    "summary": "The largest city of the Indus civilization: gridded streets, standardized fired brick, private wells by the hundreds, bathing platforms, covered drains with inspection traps — and the Great Bath, a watertight brick tank sealed with bitumen, the ancient world's earliest known public water ritual structure (whatever the ritual was). A UNESCO World Heritage Site (1980).",
+    "whyItMatters": "Urban water engineering unmatched anywhere in the Bronze Age. If any Indus building fed forward into later South Asian religious practice, the Great Bath — with its echo in temple tanks and ritual bathing — is the usual candidate; the honesty note says how far that can be pushed.",
+    "honestyNote": "'Ritual bath ancestral to Hindu temple tanks' is an attractive, unprovable continuity: the function of the Great Bath is inferred from form. The script is undeciphered; the city's own name is unknown ('Mohenjo-daro' is modern Sindhi, 'mound of the dead'). Custodianship: Sindh, Pakistan; conservation is a live concern (salt attack on the brick).",
+    "locations": [
+      {
+        "name": "Mohenjo-daro, Larkana District, Sindh, Pakistan",
+        "lat": 27.32,
+        "lng": 68.14
+      }
+    ],
+    "flagship": true,
+    "sources": [
+      {
+        "label": "Marshall, J. (ed.), Mohenjo-daro and the Indus Civilization, 3 vols. (1931)",
+        "kind": "primary",
+        "independent": true
+      },
+      {
+        "label": "Jansen, M., \"Water supply and sewage disposal at Mohenjo-Daro\", World Archaeology 21 (1989)",
+        "kind": "peer-reviewed",
+        "independent": true
+      },
+      {
+        "label": "Possehl, G., The Indus Civilization (2002)",
+        "kind": "monograph",
+        "independent": true
+      },
+      {
+        "label": "Kenoyer, J.M., Ancient Cities of the Indus Valley Civilization (1998)",
+        "kind": "monograph",
+        "independent": true
+      },
+      {
+        "label": "UNESCO World Heritage Centre: Archaeological Ruins at Moenjodaro",
+        "url": "https://whc.unesco.org/en/list/138/",
+        "kind": "archival",
+        "independent": true
+      }
+    ],
+    "relatedLedger": [
+      "anachronism-ancient-pakistan-panini"
+    ],
+    "contributors": [
+      "seed:ai-draft (claude-fable-5)"
+    ],
+    "vetting": {
+      "status": "in-review",
+      "vetters": [],
+      "aiAssisted": true
+    },
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Mohenjo-daro.jpg/960px-Mohenjo-daro.jpg",
+      "alt": "Mohenjo-daro",
+      "credit": "Saqib Qayyum",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mohenjo-daro.jpg"
+    }
+  },
+  {
+    "id": "dholavira",
+    "side": "atlas",
+    "era": "harappan",
+    "slice": "Cities & engineering",
+    "title": {
+      "en": "Dholavira",
+      "deva": "धोलावीरा",
+      "iast": "Dholāvīrā"
+    },
+    "kind": "place",
+    "dating": {
+      "display": "c. 3000–1500 BCE (long occupation through Harappan phases)",
+      "edtf": "-2999/-1500",
+      "tag": "firm",
+      "basis": "ASI excavations (R.S. Bisht, 1989–2005) with stratified sequence spanning pre-urban to post-urban stages.",
+      "positions": []
+    },
+    "summary": "A Harappan city on an island in the Rann of Kutch that survived on hydraulic genius: enormous rock-cut reservoirs, check dams on seasonal streams, and cascaded water storage in one of the subcontinent's driest places. Also the find-spot of the 'signboard' — ten large Indus signs, possibly a civic inscription. UNESCO World Heritage (2021).",
+    "whyItMatters": "Dholavira is the Indian-side anchor of Indus urbanism (most other giant cities lie in Pakistan) and the civilization's clearest demonstration of water management as statecraft — a theme that never leaves South Asian history.",
+    "honestyNote": "The 'signboard' has been read by no one: ten undeciphered signs. Any reading offered online is conjecture (see the Indus script entry).",
+    "locations": [
+      {
+        "name": "Dholavira, Khadir island, Kutch, Gujarat, India",
+        "lat": 23.89,
+        "lng": 70.21
+      }
+    ],
+    "flagship": false,
+    "sources": [
+      {
+        "label": "Bisht, R.S., Excavations at Dholavira (1989–2005), ASI report (2015)",
+        "kind": "primary",
+        "independent": true
+      },
+      {
+        "label": "UNESCO World Heritage Centre: Dholavira: a Harappan City (2021)",
+        "url": "https://whc.unesco.org/en/list/1645/",
+        "kind": "archival",
+        "independent": true
+      },
+      {
+        "label": "Kenoyer, J.M., Ancient Cities of the Indus Valley Civilization (1998)",
+        "kind": "monograph",
+        "independent": true
+      }
+    ],
+    "contributors": [
+      "seed:ai-draft (claude-fable-5)"
+    ],
+    "vetting": {
+      "status": "in-review",
+      "vetters": [],
+      "aiAssisted": true
+    },
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Water_reservoir_at_Dholavira_site.jpg/960px-Water_reservoir_at_Dholavira_site.jpg",
+      "alt": "Dholavira",
+      "credit": "Bhajish Bharathan",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Water_reservoir_at_Dholavira_site.jpg"
+    }
+  },
+  {
+    "id": "indus-script",
+    "side": "atlas",
+    "era": "harappan",
+    "slice": "Artifacts & continuity questions",
+    "title": {
+      "en": "The Indus script",
+      "iast": "Sindhu lipi"
+    },
+    "kind": "concept",
+    "dating": {
+      "display": "in use c. 2600–1900 BCE; earliest sign-like graffiti somewhat earlier",
+      "edtf": "-2599/-1900",
+      "tag": "firm",
+      "basis": "Sign-bearing seals and tablets are stratigraphically well dated; what is contested is not the date but the decipherment.",
+      "positions": []
+    },
+    "summary": "Roughly 4,000–5,000 short inscriptions — average length under five signs — on seals, tablets, and pottery, in a sign system of ~400–700 distinct characters. Undeciphered: no bilingual text, unknown underlying language, texts too short for statistical certainty.",
+    "whyItMatters": "Decipherment would settle (or explode) half the continuity debates in this atlas — which is why premature 'decipherments' appear constantly and why the honest position is a list of hypotheses. Every strong claim about what the Indus people believed runs through this bottleneck.",
+    "honestyNote": "Live hypotheses, none established: Dravidian (Parpola, Mahadevan — the most developed school), Indo-Aryan (a minority), other language families, and the Farmer–Sproat–Witzel thesis that the signs are not a full writing system at all. Periodic 'AI has deciphered the Indus script' headlines have all been false so far; machine-learning work (e.g. Rao et al. 2009 on conditional entropy) constrains, but does not read, the corpus.",
+    "flagship": true,
+    "sources": [
+      {
+        "label": "Parpola, A., Deciphering the Indus Script (Cambridge, 1994)",
+        "kind": "monograph",
+        "independent": true
+      },
+      {
+        "label": "Mahadevan, I., The Indus Script: Texts, Concordance and Tables (ASI, 1977)",
+        "kind": "reference",
+        "independent": true
+      },
+      {
+        "label": "Farmer, S., Sproat, R. & Witzel, M., \"The Collapse of the Indus-Script Thesis\", Electronic Journal of Vedic Studies 11 (2004)",
+        "kind": "peer-reviewed",
+        "independent": true
+      },
+      {
+        "label": "Rao, R. et al., \"Entropic Evidence for Linguistic Structure in the Indus Script\", Science 324 (2009)",
+        "kind": "peer-reviewed",
+        "independent": true
+      },
+      {
+        "label": "Possehl, G., Indus Age: The Writing System (1996)",
+        "kind": "monograph",
+        "independent": true
+      }
+    ],
+    "relatedLedger": [
+      "conflation-older-than-hinduism-seal"
+    ],
+    "contributors": [
+      "seed:ai-draft (claude-fable-5)"
+    ],
+    "vetting": {
+      "status": "in-review",
+      "vetters": [],
+      "aiAssisted": true
+    },
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/IndusValleySeals_unicorns.jpg/960px-IndusValleySeals_unicorns.jpg",
+      "alt": "The Indus script",
+      "credit": "Mukerjee",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:IndusValleySeals_unicorns.jpg"
+    }
+  },
+  {
+    "id": "rakhigarhi",
+    "side": "atlas",
+    "era": "harappan",
+    "slice": "Cities & engineering",
+    "title": {
+      "en": "Rakhigarhi",
+      "deva": "राखीगढ़ी",
+      "iast": "Rākhīgaṛhī"
+    },
+    "kind": "place",
+    "dating": {
+      "display": "occupation from the 5th millennium BCE; urban phase c. 2600–1900 BCE",
+      "edtf": "-4999/-1900",
+      "tag": "firm",
+      "basis": "Excavations by ASI (Nath) and Deccan College (Shinde); the urban-phase dating follows the standard Harappan sequence.",
+      "positions": []
+    },
+    "summary": "Probably the largest Indus site by area, on the dry Drishadvati/Ghaggar system in Haryana — and the source of the first published ancient genome from an Indus burial (2019), which carried no Steppe-pastoralist ancestry and anchors the 'Indus periphery' ancestry that remains the largest component in most modern South Asians.",
+    "whyItMatters": "Rakhigarhi moved the ancient-DNA debate from rhetoric to data. Its genome is claimed by every side of the origins argument — the atlas states what the papers state and routes the interpretive fight to the ledger's category-12 entry.",
+    "honestyNote": "One genome is one genome; the same 2019 paper's authors emphasized different conclusions in the journal and at the press conference. Site custodianship and excavation publication are ongoing; much of the mound lies under the modern village.",
+    "locations": [
+      {
+        "name": "Rakhigarhi, Hisar District, Haryana, India",
+        "lat": 29.29,
+        "lng": 76.11
+      }
+    ],
+    "flagship": false,
+    "sources": [
+      {
+        "label": "Shinde, V. et al., \"An Ancient Harappan Genome Lacks Ancestry from Steppe Pastoralists or Iranian Farmers\", Cell 179 (2019)",
+        "url": "https://www.cell.com/cell/fulltext/S0092-8674(19)30967-5",
+        "kind": "peer-reviewed",
+        "independent": true
+      },
+      {
+        "label": "Nath, A., Excavations at Rakhigarhi 1997–2000 (ASI report, 2015)",
+        "kind": "primary",
+        "independent": true
+      },
+      {
+        "label": "Narasimhan, V. et al., Science 365 (2019) — the Indus-periphery ancestry framework",
+        "kind": "peer-reviewed",
+        "independent": true
+      }
+    ],
+    "relatedLedger": [
+      "legit-debate-indo-aryan-origins"
+    ],
+    "contributors": [
+      "seed:ai-draft (claude-fable-5)"
+    ],
+    "vetting": {
+      "status": "in-review",
+      "vetters": [],
+      "aiAssisted": true
+    },
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Rakhigarhi_Harappan_civilization.jpg/960px-Rakhigarhi_Harappan_civilization.jpg",
+      "alt": "Rakhigarhi",
+      "credit": "Durgeshkushvaha",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rakhigarhi_Harappan_civilization.jpg"
+    }
+  },
+  {
+    "id": "indus-weights",
+    "side": "atlas",
+    "era": "harappan",
+    "slice": "Cities & engineering",
+    "title": {
+      "en": "Standardized weights and measures",
+      "iast": "māna"
+    },
+    "kind": "innovation",
+    "dating": {
+      "display": "c. 2600–1900 BCE",
+      "edtf": "-2599/-1900",
+      "tag": "firm",
+      "basis": "Hundreds of surviving chert weights measured across sites; the ratio system is empirical.",
+      "positions": []
+    },
+    "summary": "Polished chert cubes in a binary-then-decimal ratio series (1, 2, 4, 8, 16, 32, 64, then 160, 320, 640...) with the 16th-ratio unit near 13.7 g — consistent from Shortugai on the Oxus to Lothal on the Gujarat coast. Uniform brick proportions (4:2:1) and graduated rules (ivory scale at Lothal, shell at Mohenjo-daro) complete the picture.",
+    "whyItMatters": "Standardization across a million square kilometers implies shared administration or shared convention on a scale unmatched in the Bronze Age. It is also a favorite of overclaim posts ('Harappans invented the metric system') — the real, sourced version is impressive without inflation.",
+    "flagship": false,
+    "sources": [
+      {
+        "label": "Kenoyer, J.M., \"Indus weights and measures\", in Ancient Cities of the Indus Valley Civilization (1998)",
+        "kind": "monograph",
+        "independent": true
+      },
+      {
+        "label": "Miller, H.M.-L., \"Weighty matters: evidence for unity and regional diversity from the Indus civilization weights\", in Connections and Complexity (2013)",
+        "kind": "peer-reviewed",
+        "independent": true
+      },
+      {
+        "label": "Rao, S.R., Lothal: A Harappan Port Town, ASI reports (1979/1985) — the ivory scale",
+        "kind": "primary",
+        "independent": true
+      }
+    ],
+    "contributors": [
+      "seed:ai-draft (claude-fable-5)"
+    ],
+    "vetting": {
+      "status": "in-review",
+      "vetters": [],
+      "aiAssisted": true
+    }
+  },
+  {
+    "id": "dancing-girl",
+    "side": "atlas",
+    "era": "harappan",
+    "slice": "Artifacts & continuity questions",
+    "title": {
+      "en": "The 'Dancing Girl' of Mohenjo-daro",
+      "iast": "nartakī"
+    },
+    "kind": "artifact",
+    "dating": {
+      "display": "c. 2500 BCE",
+      "edtf": "-2500~",
+      "tag": "firm",
+      "basis": "Excavated 1926 (DK area, Mohenjo-daro) in Mature Harappan context.",
+      "positions": []
+    },
+    "summary": "A 10.5 cm bronze of a poised adolescent girl — arm stacked with bangles, head tilted, utterly confident — cast by the lost-wax (cire perdue) process ~4,500 years ago. One of the earliest lost-wax bronzes anywhere, and the Indus civilization's most famous artwork.",
+    "whyItMatters": "Documents sophisticated bronze casting at the civilization's height; the same lost-wax craft lineage resurfaces spectacularly in the Chola Naṭarāja bronzes 3,500 years later (craft continuity — documented; continuity of meaning — not claimed). Her custodianship is itself part of the story: excavated in Sindh, displayed in Delhi, periodically requested back by Pakistan.",
+    "honestyNote": "'Dancing' is Marshall-era caption-writing; her actual pose's meaning is unknown. The custody question (National Museum, New Delhi, under pre-Partition finds distribution; Pakistani claims raised repeatedly) is reported, not adjudicated.",
+    "locations": [
+      {
+        "name": "Excavated: Mohenjo-daro, Sindh, Pakistan",
+        "lat": 27.32,
+        "lng": 68.14
+      },
+      {
+        "name": "Current holder: National Museum, New Delhi, India",
+        "lat": 28.61,
+        "lng": 77.22
+      }
+    ],
+    "flagship": false,
+    "sources": [
+      {
+        "label": "Mackay, E., Further Excavations at Mohenjo-daro (1938) — find context",
+        "kind": "primary",
+        "independent": true
+      },
+      {
+        "label": "Kenoyer, J.M., Ancient Cities of the Indus Valley Civilization (1998) — metallurgy",
+        "kind": "monograph",
+        "independent": true
+      },
+      {
+        "label": "National Museum, New Delhi, collection records (acc. no. 5721/195)",
+        "kind": "archival",
+        "independent": true
+      }
+    ],
+    "contributors": [
+      "seed:ai-draft (claude-fable-5)"
+    ],
+    "vetting": {
+      "status": "in-review",
+      "vetters": [],
+      "aiAssisted": true
+    },
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Bronze_%22Dancing_Girl%2C%22_Mohenjo-daro%2C_c._2500_BC.jpg/960px-Bronze_%22Dancing_Girl%2C%22_Mohenjo-daro%2C_c._2500_BC.jpg",
+      "alt": "The 'Dancing Girl' of Mohenjo-daro",
+      "credit": "Gary Todd",
+      "license": "CC0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bronze_%22Dancing_Girl,%22_Mohenjo-daro,_c._2500_BC.jpg"
+    }
+  },
+  {
+    "id": "kalibangan-fire-altars",
+    "side": "atlas",
+    "era": "harappan",
+    "slice": "Artifacts & continuity questions",
+    "title": {
+      "en": "Kalibangan and the 'fire altar' question",
+      "deva": "कालीबंगा",
+      "iast": "Kālībaṅgā"
+    },
+    "kind": "place",
+    "dating": {
+      "display": "Early and Mature Harappan, c. 2900–1900 BCE; also the world's earliest recorded ploughed field surface",
+      "edtf": "-2899/-1900",
+      "tag": "firm",
+      "basis": "ASI excavations (Thapar & Lal, 1960–69); the site dating is secure — the 'altar' interpretation is what's argued.",
+      "positions": []
+    },
+    "summary": "A Harappan town on the Ghaggar in Rajasthan, famous for two things: a pre-Harappan field surface with criss-cross plough furrows (the earliest anywhere), and rows of clay-lined pits with burnt material and terracotta 'cakes' on the citadel that the excavators interpreted as ritual fire altars.",
+    "whyItMatters": "If the 'fire altars' are ritual fire installations, they are the single most Vedic-looking feature in Indus archaeology — which is why they carry so much weight in continuity arguments. The interpretation, not the excavation, is the contested part; the atlas keeps that line bright.",
+    "honestyNote": "Skeptics note the 'altars' could be hearths, kilns, or domestic installations; no independent criterion separates 'fire ritual' from 'fire use'. The excavators' reading has serious defenders and serious doubters — cited on both sides below.",
+    "locations": [
+      {
+        "name": "Kalibangan, Hanumangarh District, Rajasthan, India",
+        "lat": 29.47,
+        "lng": 74.13
+      }
+    ],
+    "flagship": false,
+    "sources": [
+      {
+        "label": "Lal, B.B. & Thapar, B.K., Kalibangan excavation reports; Lal, The Earliest Civilization of South Asia (1997) — the altar interpretation",
+        "kind": "primary",
+        "independent": true
+      },
+      {
+        "label": "Possehl, G., The Indus Civilization (2002) — skeptical assessment of 'fire altars'",
+        "kind": "monograph",
+        "independent": true
+      },
+      {
+        "label": "Thapar, B.K., \"Kalibangan: a Harappan metropolis beyond the Indus valley\", Expedition 17 (1975) — incl. the ploughed field",
+        "kind": "peer-reviewed",
+        "independent": true
+      }
+    ],
+    "relatedLedger": [
+      "legit-debate-indo-aryan-origins"
+    ],
+    "contributors": [
+      "seed:ai-draft (claude-fable-5)"
+    ],
+    "vetting": {
+      "status": "in-review",
+      "vetters": [],
+      "aiAssisted": true
+    }
+  }
+]

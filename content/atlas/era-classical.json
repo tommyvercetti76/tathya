@@ -1,0 +1,427 @@
+[
+  {
+    "id": "bhagavad-gita",
+    "side": "atlas",
+    "era": "classical",
+    "slice": "Texts & philosophy",
+    "title": {
+      "en": "Bhagavad Gītā",
+      "deva": "भगवद्गीता",
+      "iast": "Bhagavad Gītā"
+    },
+    "kind": "text",
+    "dating": {
+      "display": "composed c. 2nd century BCE – 2nd century CE (within Mahābhārata book 6); traditional setting: the Kurukṣetra war",
+      "edtf": "-0199/0200",
+      "tag": "evolved",
+      "basis": "Language, doctrinal synthesis (Sāṅkhya, Yoga, bhakti), and position within the epic's textual history; the critical edition (BORI) frames the text's layered growth.",
+      "positions": [
+        {
+          "position": "c. 2nd c. BCE – 2nd c. CE composition",
+          "holders": "Mainstream Indology (Malinar, van Buitenen)",
+          "evidence": "Language and doctrine relative to datable texts."
+        },
+        {
+          "position": "Traditional: spoken by Kṛṣṇa at Kurukṣetra (traditional epoch 3102 BCE)",
+          "holders": "Devotional tradition",
+          "evidence": "The Kali-yuga epoch; reported as tradition, not as a composition date."
+        }
+      ]
+    },
+    "summary": "Seven hundred verses on a battlefield: Arjuna's collapse before killing kin, and Kṛṣṇa's reply — a synthesis of duty (karma-yoga), knowledge (jñāna), and devotion (bhakti) that became Hinduism's most read, most translated, most commented text, from Śaṅkara's commentary to Gandhi's.",
+    "whyItMatters": "The Gītā is the tradition's portable core — the text through which most of the modern world meets Hindu thought (first English translation: Wilkins, 1785, the first Sanskrit work printed in English). Its reception history alone spans Thoreau, Oppenheimer's misquoted 'destroyer of worlds', and India's independence movement.",
+    "honestyNote": "Oppenheimer's famous line is a real (post-hoc, self-reported) allusion but circulates with fabricated embellishments; and the '5,000-year-old Gītā' framing states the traditional epoch as a composition date — see the dating positions.",
+    "flagship": true,
+    "sources": [
+      {
+        "label": "van Buitenen, J.A.B., The Bhagavadgītā in the Mahābhārata (Chicago, 1981)",
+        "kind": "reference",
+        "independent": true
+      },
+      {
+        "label": "Malinar, A., The Bhagavadgītā: Doctrines and Contexts (Cambridge, 2007)",
+        "kind": "monograph",
+        "independent": true
+      },
+      {
+        "label": "Wilkins, C. (tr.), The Bhăgvăt-Gēētā (1785) — the reception landmark",
+        "kind": "primary",
+        "independent": true
+      },
+      {
+        "label": "Davis, R., The Bhagavad Gita: A Biography (Princeton, 2014) — reception history",
+        "kind": "monograph",
+        "independent": true
+      },
+      {
+        "label": "Sukthankar, V.S. et al., Mahābhārata critical edition (BORI, 1933–66)",
+        "kind": "reference",
+        "independent": true
+      }
+    ],
+    "contributors": [
+      "seed:ai-draft (claude-fable-5)"
+    ],
+    "vetting": {
+      "status": "in-review",
+      "vetters": [],
+      "aiAssisted": true
+    },
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/BhagavadGita-19th-century-Illustrated-Sanskrit-Chapter_1.20.21.jpg/960px-BhagavadGita-19th-century-Illustrated-Sanskrit-Chapter_1.20.21.jpg",
+      "alt": "Bhagavad Gītā",
+      "credit": "Unknown artistUnknown artist",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:BhagavadGita-19th-century-Illustrated-Sanskrit-Chapter_1.20.21.jpg"
+    }
+  },
+  {
+    "id": "arthashastra",
+    "side": "atlas",
+    "era": "classical",
+    "slice": "Texts & philosophy",
+    "title": {
+      "en": "Arthaśāstra of Kauṭilya",
+      "deva": "अर्थशास्त्र",
+      "iast": "Arthaśāstra"
+    },
+    "kind": "text",
+    "dating": {
+      "display": "layered composition; extant redaction c. 1st–3rd century CE, with material plausibly reaching back toward the Mauryan period (4th c. BCE)",
+      "edtf": "-0350/0300",
+      "tag": "contested",
+      "basis": "Statistical and content analysis of the text's layers (Trautmann); Olivelle's redactional history; the traditional attribution ties it to Candragupta Maurya's minister.",
+      "positions": [
+        {
+          "position": "Composite text, final form early centuries CE",
+          "holders": "Trautmann (1971), Olivelle (2013), McClish",
+          "evidence": "Layer analysis; vocabulary; institutional references postdating the Mauryas."
+        },
+        {
+          "position": "Substantially the work of Kauṭilya/Cāṇakya, 4th c. BCE",
+          "holders": "Traditional attribution; some earlier Indology (Kangle defends a unified early text)",
+          "evidence": "Internal attribution verses; Kangle's rebuttals to layer analysis."
+        }
+      ]
+    },
+    "summary": "A cold-eyed manual of statecraft rediscovered in 1905 (Shamasastry's Mysore manuscript): taxation, espionage, diplomacy (the maṇḍala theory of neighboring states), law, urban administration, even workplace regulations — realpolitik with checklists, often compared to Machiavelli and usually harder-headed.",
+    "whyItMatters": "It falsifies the cliché that classical India produced only otherworldly speculation: here is empirical, amoral administrative science. Its rediscovery reshaped the study of ancient Indian polity, and its dating debate is a model case of tradition vs text-criticism, held openly.",
+    "flagship": false,
+    "sources": [
+      {
+        "label": "Olivelle, P., King, Governance, and Law in Ancient India: Kauṭilya's Arthaśāstra (OUP, 2013)",
+        "kind": "reference",
+        "independent": true
+      },
+      {
+        "label": "Trautmann, T., Kauṭilya and the Arthaśāstra (Brill, 1971)",
+        "kind": "monograph",
+        "independent": true
+      },
+      {
+        "label": "Kangle, R.P., The Kauṭilīya Arthaśāstra, 3 vols. (Bombay, 1960–65)",
+        "kind": "reference",
+        "independent": true
+      }
+    ],
+    "contributors": [
+      "seed:ai-draft (claude-fable-5)"
+    ],
+    "vetting": {
+      "status": "in-review",
+      "vetters": [],
+      "aiAssisted": true
+    },
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chanakya_artistic_depiction.jpg/960px-Chanakya_artistic_depiction.jpg",
+      "alt": "Arthaśāstra of Kauṭilya",
+      "credit": "Unknown authorUnknown author",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chanakya_artistic_depiction.jpg"
+    }
+  },
+  {
+    "id": "charaka-samhita",
+    "side": "atlas",
+    "era": "classical",
+    "slice": "Medicine",
+    "title": {
+      "en": "Caraka Saṃhitā",
+      "deva": "चरकसंहिता",
+      "iast": "Caraka Saṃhitā"
+    },
+    "kind": "text",
+    "dating": {
+      "display": "layered: Agniveśa core (older), Caraka's redaction c. 1st–2nd century CE, Dṛḍhabala's completion c. 4th–5th century CE",
+      "edtf": "-0100/0500",
+      "tag": "evolved",
+      "basis": "The text names its own redactional history; Meulenbeld's survey synthesizes the dating.",
+      "positions": []
+    },
+    "summary": "The medical counterpart to Suśruta's surgery: internal medicine (kāyacikitsā) in eight books — etiology, diagnosis, pharmacology (hundreds of plant drugs), dietetics, ethics of practice (including a physician's oath), and an explicitly empirical temper: 'the science of life is verified by direct observation, inference, and authority, and yukti — reasoned judgment.'",
+    "whyItMatters": "Foundational text of Āyurveda's rational-medicine stream, and evidence of institutionalized medical education, ethics, and pharmacological method in classical India. Its honest framing matters: a historical medical system to be studied and mined for leads — not a certified modern pharmacopoeia.",
+    "honestyNote": "Classical Āyurveda's humoral framework (tridoṣa) is a pre-modern theory; individual drugs and practices need modern trials on their own merits (some pass, many untested). Both 'ancient quackery' and 'complete science of everything' framings fail the record — see ledger category 9 and 12 boundaries.",
+    "flagship": false,
+    "sources": [
+      {
+        "label": "Meulenbeld, G.J., A History of Indian Medical Literature, Vol. IA (1999)",
+        "kind": "reference",
+        "independent": true
+      },
+      {
+        "label": "Sharma, P.V. (ed./tr.), Caraka Saṃhitā, 4 vols. (Chaukhambha, 1981–94)",
+        "kind": "reference",
+        "independent": true
+      },
+      {
+        "label": "Wujastyk, D., The Roots of Ayurveda (Penguin, 2003)",
+        "kind": "monograph",
+        "independent": true
+      }
+    ],
+    "contributors": [
+      "seed:ai-draft (claude-fable-5)"
+    ],
+    "vetting": {
+      "status": "in-review",
+      "vetters": [],
+      "aiAssisted": true
+    },
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/13th-century_Cikitsa-sara-sangraha%2C_Vangasena%2C_medical_text%2C_Sanskrit%2C_palm_leaf_manuscript.jpg/960px-13th-century_Cikitsa-sara-sangraha%2C_Vangasena%2C_medical_text%2C_Sanskrit%2C_palm_leaf_manuscript.jpg",
+      "alt": "Sanskrit palm-leaf medical manuscript (13th-c. Cikitsāsārasaṅgraha of Vaṅgasena) — illustrative of the āyurvedic manuscript tradition",
+      "credit": "Ms Sarah Welch",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:13th-century_Cikitsa-sara-sangraha,_Vangasena,_medical_text,_Sanskrit,_palm_leaf_manuscript.jpg"
+    }
+  },
+  {
+    "id": "yogasutras",
+    "side": "atlas",
+    "era": "classical",
+    "slice": "Texts & philosophy",
+    "title": {
+      "en": "Yogasūtras of Patañjali",
+      "deva": "योगसूत्र",
+      "iast": "Yogasūtra"
+    },
+    "kind": "text",
+    "dating": {
+      "display": "c. 325–425 CE (Maas); traditional attributions much earlier",
+      "edtf": "0325/0425",
+      "tag": "contested",
+      "basis": "Philipp Maas's text-historical work dates the sūtras with their Bhāṣya as a unit; older scholarship spread dates from 2nd c. BCE to 4th c. CE.",
+      "positions": [
+        {
+          "position": "c. 325–425 CE, sūtras and Bhāṣya composed together (Pātañjalayogaśāstra)",
+          "holders": "Maas (2013) and much current scholarship",
+          "evidence": "Manuscript colophons, citation history, doctrinal cross-references."
+        },
+        {
+          "position": "Sūtras centuries earlier than the commentary; or Patañjali = the grammarian (2nd c. BCE)",
+          "holders": "Older Indology; parts of tradition",
+          "evidence": "The grammarian identification is traditional; text-critics find it unsupported."
+        }
+      ]
+    },
+    "summary": "195 aphorisms systematizing yoga as an eight-limbed discipline (yama through samādhi) on a Sāṅkhya metaphysical base — the classical philosophy of meditative practice, with almost nothing about physical postures: āsana gets three sūtras, defined simply as a steady, comfortable seat.",
+    "whyItMatters": "The intellectual charter of yoga as a darśana, and the text every modern yoga lineage cites. The gap between its three āsana sūtras and the modern postural universe is itself historically important — documented in the modern-yoga entry (Early Modern era) and the through-line below.",
+    "throughLines": [
+      {
+        "to": "Modern global yoga",
+        "status": "documented",
+        "chain": [
+          "Pātañjala yoga (4th c. CE): meditative eight-limb system",
+          "Haṭha corpus (c. 11th–15th c. CE: Amṛtasiddhi, Haṭhapradīpikā) develops postures, breath, and body techniques",
+          "19th–20th c. revival hybridizes haṭha with modern physical culture (Krishnamacharya's Mysore lineage and others)",
+          "Global postural yoga, which cites Patañjali as charter while practicing a substantially modern synthesis — both halves documented"
+        ],
+        "sources": [
+          {
+            "label": "Mallinson, J. & Singleton, M., Roots of Yoga (Penguin, 2017)",
+            "kind": "reference",
+            "independent": true
+          },
+          {
+            "label": "Singleton, M., Yoga Body: The Origins of Modern Posture Practice (OUP, 2010)",
+            "kind": "monograph",
+            "independent": true
+          }
+        ]
+      }
+    ],
+    "flagship": true,
+    "sources": [
+      {
+        "label": "Maas, P., \"A Concise Historiography of Classical Yoga Philosophy\", in Periodization and Historiography of Indian Philosophy (2013)",
+        "kind": "peer-reviewed",
+        "independent": true
+      },
+      {
+        "label": "Bryant, E., The Yoga Sūtras of Patañjali (North Point, 2009)",
+        "kind": "reference",
+        "independent": true
+      },
+      {
+        "label": "Mallinson, J. & Singleton, M., Roots of Yoga (2017)",
+        "kind": "reference",
+        "independent": true
+      },
+      {
+        "label": "Singleton, M., Yoga Body (2010)",
+        "kind": "monograph",
+        "independent": true
+      },
+      {
+        "label": "White, D.G., The Yoga Sutra of Patanjali: A Biography (Princeton, 2014)",
+        "kind": "monograph",
+        "independent": true
+      }
+    ],
+    "contributors": [
+      "seed:ai-draft (claude-fable-5)"
+    ],
+    "vetting": {
+      "status": "in-review",
+      "vetters": [],
+      "aiAssisted": true
+    },
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Patanjali_Yoga_Sutras_manuscript.jpg/960px-Patanjali_Yoga_Sutras_manuscript.jpg",
+      "alt": "Yogasūtras of Patañjali",
+      "credit": "Patanjali (original author)",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Patanjali_Yoga_Sutras_manuscript.jpg"
+    }
+  },
+  {
+    "id": "aryabhatiya",
+    "side": "atlas",
+    "era": "classical",
+    "slice": "Mathematics",
+    "title": {
+      "en": "Āryabhaṭa and the Āryabhaṭīya",
+      "deva": "आर्यभट — आर्यभटीय",
+      "iast": "Āryabhaṭa — Āryabhaṭīya"
+    },
+    "kind": "person",
+    "dating": {
+      "display": "499 CE (self-dated: composed when the author was 23, in Kali year 3600)",
+      "edtf": "0499",
+      "tag": "firm",
+      "basis": "The text dates itself (Kālakriyā 10); one of the firmest dates in early Indian science.",
+      "positions": []
+    },
+    "summary": "121 verses that compress a mathematical-astronomical system: place-value arithmetic with an alphabetic numeral code, π as 3.1416 explicitly called 'approximate' (āsanna), a sine-difference table, the kuṭṭaka algorithm for linear indeterminate equations — and the Earth rotating on its axis, with the sky's westward wheel explained as relative motion, like a boat rider seeing the bank move.",
+    "whyItMatters": "The fountainhead of the classical Indian astronomy schools, transmitted into Arabic (as 'Arjabhar') in the 8th century — a genuine link in the chain that carried Indian mathematical astronomy west. His rotation thesis, argued and then rejected by his own successors, is a case study of internal scientific debate.",
+    "honestyNote": "Āryabhaṭa taught rotation, not heliocentrism — planets still orbit a central Earth in his system. 'Āryabhaṭa discovered heliocentrism before Copernicus' is a ledger-grade overclaim; the sourced claim (axial rotation, relative motion, deliberate approximation of π) is remarkable enough.",
+    "locations": [
+      {
+        "name": "Kusumapura/Pāṭaliputra (Patna, Bihar, India) — his stated location",
+        "lat": 25.61,
+        "lng": 85.14,
+        "note": "approximate"
+      }
+    ],
+    "flagship": false,
+    "sources": [
+      {
+        "label": "Shukla, K.S. & Sarma, K.V., Āryabhaṭīya of Āryabhaṭa: Critical Edition and Translation (INSA, 1976)",
+        "kind": "reference",
+        "independent": true
+      },
+      {
+        "label": "Plofker, K., Mathematics in India (2009), ch. 4",
+        "kind": "monograph",
+        "independent": true
+      },
+      {
+        "label": "Pingree, D., \"The Greek Influence on Early Islamic Mathematical Astronomy\" and jyotiṣa survey articles — Arabic transmission",
+        "kind": "peer-reviewed",
+        "independent": true
+      }
+    ],
+    "relatedLedger": [
+      "overclaim-vaimanika-shastra"
+    ],
+    "contributors": [
+      "seed:ai-draft (claude-fable-5)"
+    ],
+    "vetting": {
+      "status": "in-review",
+      "vetters": [],
+      "aiAssisted": true
+    },
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/a/af/2064_aryabhata-crp.jpg",
+      "alt": "Āryabhaṭa and the Āryabhaṭīya",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2064_aryabhata-crp.jpg"
+    }
+  },
+  {
+    "id": "iron-pillar-delhi",
+    "side": "atlas",
+    "era": "classical",
+    "slice": "Material culture",
+    "title": {
+      "en": "The Iron Pillar of Delhi",
+      "deva": "लौह स्तम्भ",
+      "iast": "lauha stambha"
+    },
+    "kind": "artifact",
+    "dating": {
+      "display": "c. 375–415 CE (reign of Candragupta II, by the inscription's palaeography and content)",
+      "edtf": "0375/0415",
+      "tag": "firm",
+      "basis": "The pillar's six-line Sanskrit inscription eulogizes a king 'Candra'; palaeography and content point to Candragupta II Vikramāditya. Originally erected as a Viṣṇu standard, later moved to the Qutb complex.",
+      "positions": []
+    },
+    "summary": "A 7.2 m, ~6-tonne forge-welded wrought-iron column that has stood in the open for 1,600 years with only superficial rust. The mechanism is understood: high phosphorus (no manganese/sulfur control), Delhi's dry climate, and a self-healing protective layer of iron hydrogen phosphate ('misawite') characterized by IIT Kanpur metallurgists.",
+    "whyItMatters": "A masterpiece of Gupta-era ferrous metallurgy — the largest hand-forged iron object of antiquity — and the atlas's model for handling 'mystery' framing: the pillar is extraordinary AND fully explained by materials science. Wonder and explanation are not opponents.",
+    "honestyNote": "'Rust-proof miracle metal beyond modern science' is a recurring overclaim; the corrosion resistance is published, peer-reviewed metallurgy (and the buried base does corrode). The achievement is the smiths', not the supernatural's.",
+    "locations": [
+      {
+        "name": "Qutb complex, Mehrauli, Delhi, India",
+        "lat": 28.5245,
+        "lng": 77.1855
+      }
+    ],
+    "flagship": false,
+    "sources": [
+      {
+        "label": "Balasubramaniam, R., \"On the corrosion resistance of the Delhi iron pillar\", Corrosion Science 42 (2000)",
+        "kind": "peer-reviewed",
+        "independent": true
+      },
+      {
+        "label": "Balasubramaniam, R., Delhi Iron Pillar: New Insights (IIAS, 2002)",
+        "kind": "monograph",
+        "independent": true
+      },
+      {
+        "label": "Fleet, J.F., Corpus Inscriptionum Indicarum III (1888) — the inscription",
+        "kind": "primary",
+        "independent": true
+      }
+    ],
+    "relatedLedger": [
+      "overclaim-vaimanika-shastra"
+    ],
+    "contributors": [
+      "seed:ai-draft (claude-fable-5)"
+    ],
+    "vetting": {
+      "status": "in-review",
+      "vetters": [],
+      "aiAssisted": true
+    },
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Delhi_Iron_pillar%2C_2010-09-27.jpg/960px-Delhi_Iron_pillar%2C_2010-09-27.jpg",
+      "alt": "The Iron Pillar of Delhi",
+      "credit": "Aiwok",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Delhi_Iron_pillar,_2010-09-27.jpg"
+    }
+  }
+]

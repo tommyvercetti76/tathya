@@ -98,6 +98,15 @@ export const Location = z.object({
   note: z.string().optional(), // "approximate", "current holder: Bodleian Library", ...
 });
 
+/** Images carry provenance like everything else: credit, license, source link. */
+export const EntryImage = z.object({
+  src: z.string().url(), // hotlinked from Wikimedia Commons (self-host later at scale)
+  alt: z.string(),
+  credit: z.string().optional(), // artist/photographer, from Commons metadata
+  license: z.string().optional(), // e.g. "CC BY-SA 4.0", "Public domain"
+  sourceUrl: z.string().url().optional(), // Commons file page
+});
+
 export const Vetting = z.object({
   status: z.enum(["draft", "in-review", "published"]),
   vetters: z.array(z.string()), // named humans; empty only while draft/in-review
@@ -130,6 +139,7 @@ export const AtlasEntry = z.object({
   summary: z.string(),
   whyItMatters: z.string(),
   honestyNote: z.string().optional(), // the uncertainty or caveat we refuse to bury
+  image: EntryImage.optional(),
   locations: z.array(Location).optional(),
   throughLines: z.array(ThroughLine).optional(), // presence => appears in the "Great Ideas" lens
   flagship: z.boolean().default(false), // flagship entries need >= 5 independent sources

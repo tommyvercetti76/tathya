@@ -1,0 +1,465 @@
+[
+  {
+    "id": "hindu-code-bills",
+    "side": "atlas",
+    "era": "contemporary",
+    "slice": "Law & reform",
+    "title": {
+      "en": "The Hindu Code Acts",
+      "iast": "—"
+    },
+    "kind": "event",
+    "dating": {
+      "display": "1955–56 (Marriage, Succession, Minority & Guardianship, Adoptions & Maintenance Acts); Ambedkar's resignation over the stalled bill, 1951",
+      "edtf": "1951/1956",
+      "tag": "firm",
+      "basis": "Parliamentary record of the Republic of India.",
+      "positions": []
+    },
+    "summary": "Independent India codified and reformed Hindu personal law by statute: monogamy required, divorce created, inter-caste marriage validated, daughters given inheritance rights (completed by the 2005 amendment's equal coparcenary). Ambedkar drafted the original consolidated bill and resigned as Law Minister when it stalled; Nehru pushed the split acts through after the 1952 elections.",
+    "whyItMatters": "The largest single legal reform of Hindu practice in history — the tradition's rules of marriage and inheritance rewritten by democratic legislation, over orthodox objection, within a decade of independence. Ends the atlas's reform thread (Roy → Vidyāsāgar → Ambedkar → Parliament) with a documented structural change.",
+    "honestyNote": "Reform was partial and contested: the acts apply only to Hindus (with Buddhists, Jains, Sikhs folded in — itself controversial), left gaps women's-rights scholarship documents, and the 'Hindu' definition in law is a modern legal artifact, not a theological one.",
+    "locations": [
+      {
+        "name": "Parliament of India, New Delhi",
+        "lat": 28.617,
+        "lng": 77.208
+      }
+    ],
+    "flagship": false,
+    "sources": [
+      {
+        "label": "The Hindu Marriage Act 1955; Hindu Succession Act 1956 (statute texts)",
+        "kind": "primary",
+        "independent": true
+      },
+      {
+        "label": "Williams, R.V., Postcolonial Politics and Personal Laws (OUP, 2006)",
+        "kind": "monograph",
+        "independent": true
+      },
+      {
+        "label": "Ambedkar, B.R., resignation statement (10 Oct 1951), in Dr. Babasaheb Ambedkar: Writings and Speeches Vol. 14",
+        "kind": "primary",
+        "independent": true
+      }
+    ],
+    "relatedLedger": [
+      "colonial-distortion-caste-census"
+    ],
+    "contributors": [
+      "seed:ai-draft (claude-fable-5)"
+    ],
+    "vetting": {
+      "status": "in-review",
+      "vetters": [],
+      "aiAssisted": true
+    },
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Statue_of_B._R._Ambedkar_in_Amritsar_03.jpg/960px-Statue_of_B._R._Ambedkar_in_Amritsar_03.jpg",
+      "alt": "Statue of B. R. Ambedkar, principal drafter of the Hindu Code Bill",
+      "credit": "Kritzolina",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Statue_of_B._R._Ambedkar_in_Amritsar_03.jpg"
+    }
+  },
+  {
+    "id": "global-bhakti-iskcon",
+    "side": "atlas",
+    "era": "contemporary",
+    "slice": "Global tradition",
+    "title": {
+      "en": "Bhakti goes global — ISKCON",
+      "iast": "—"
+    },
+    "kind": "event",
+    "dating": {
+      "display": "founded 1966, New York (A.C. Bhaktivedanta Swami Prabhupāda, arrived 1965)",
+      "edtf": "1965/1966",
+      "tag": "firm",
+      "basis": "Incorporation records and the movement's documented history.",
+      "positions": []
+    },
+    "summary": "A 69-year-old Gauḍīya Vaiṣṇava monk sailed to New York with a trunk of books and founded the International Society for Krishna Consciousness — carrying Caitanya's 16th-century Bengali devotional lineage (see the Bhakti entry) into a worldwide movement of temples, the Bhagavad Gītā As It Is in 80+ languages, and 'Hare Krishna' as a global cultural fact.",
+    "whyItMatters": "The clearest single demonstration that the medieval bhakti lineages remain live transmission chains, not museum pieces: an unbroken guru-paramparā operating on six continents. Also a real case study in diaspora religion's frictions and reforms (documented in the scholarship cited).",
+    "honestyNote": "ISKCON's history includes serious, documented institutional failures after the founder's death (child-protection scandals the movement itself has published investigations of) — provenance discipline applies to the recent past too.",
+    "locations": [
+      {
+        "name": "26 Second Avenue, New York — first storefront temple",
+        "lat": 40.7226,
+        "lng": -73.9884
+      }
+    ],
+    "flagship": false,
+    "sources": [
+      {
+        "label": "Bryant, E. & Ekstrand, M. (eds.), The Hare Krishna Movement: The Postcharismatic Fate of a Religious Transplant (Columbia, 2004)",
+        "kind": "monograph",
+        "independent": true
+      },
+      {
+        "label": "Goswami, S.D., Śrīla Prabhupāda-līlāmṛta (multi-volume biography)",
+        "kind": "reference",
+        "independent": true
+      },
+      {
+        "label": "Rochford, E.B., Hare Krishna Transformed (NYU, 2007)",
+        "kind": "monograph",
+        "independent": true
+      }
+    ],
+    "contributors": [
+      "seed:ai-draft (claude-fable-5)"
+    ],
+    "vetting": {
+      "status": "in-review",
+      "vetters": [],
+      "aiAssisted": true
+    },
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Main_gate_of_ISKCON%2C_Mayapur_07102013.jpg/960px-Main_gate_of_ISKCON%2C_Mayapur_07102013.jpg",
+      "alt": "Bhakti goes global — ISKCON",
+      "credit": "Joydeep",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Main_gate_of_ISKCON,_Mayapur_07102013.jpg"
+    }
+  },
+  {
+    "id": "yoga-day-un",
+    "side": "atlas",
+    "era": "contemporary",
+    "slice": "Global tradition",
+    "title": {
+      "en": "International Day of Yoga",
+      "deva": "योग दिवस",
+      "iast": "yoga divasa"
+    },
+    "kind": "event",
+    "dating": {
+      "display": "UN General Assembly resolution 69/131 adopted 11 December 2014; first observance 21 June 2015",
+      "edtf": "2014-12-11/2015-06-21",
+      "tag": "firm",
+      "basis": "UN records: the resolution passed with a record 177 co-sponsoring member states.",
+      "positions": []
+    },
+    "summary": "The UN designated the June solstice as International Day of Yoga after India's proposal — the fastest, most co-sponsored cultural resolution of its kind — with the first Delhi observance setting Guinness records for the largest yoga session. Yoga practice worldwide is now measured in the hundreds of millions.",
+    "whyItMatters": "State-level, documentable evidence of the tradition's contemporary global footprint — the endpoint of the through-line that starts at Patañjali's three āsana sūtras. It also illustrates the modern entanglement of heritage, soft power, and practice that the ledger tracks when claims inflate.",
+    "honestyNote": "A diplomatic observance is evidence of reach, not of antiquity or efficacy; health claims for yoga stand or fall on clinical literature, and the practice being celebrated is the modern synthesis documented in the Early Modern entry.",
+    "locations": [
+      {
+        "name": "United Nations, New York; first mass observance: Rajpath, New Delhi",
+        "lat": 28.6129,
+        "lng": 77.2295
+      }
+    ],
+    "flagship": false,
+    "sources": [
+      {
+        "label": "UN General Assembly resolution A/RES/69/131 (2014)",
+        "url": "https://docs.un.org/en/A/RES/69/131",
+        "kind": "primary",
+        "independent": true
+      },
+      {
+        "label": "UN press coverage of the resolution and co-sponsorship record (2014)",
+        "kind": "reportage",
+        "independent": true
+      },
+      {
+        "label": "Singleton, M. & Goldberg, E. (eds.), Gurus of Modern Yoga (OUP, 2013) — the modern context",
+        "kind": "monograph",
+        "independent": true
+      }
+    ],
+    "contributors": [
+      "seed:ai-draft (claude-fable-5)"
+    ],
+    "vetting": {
+      "status": "in-review",
+      "vetters": [],
+      "aiAssisted": true
+    },
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/8/83/Stamp_of_India_-_2015_-_Colnect_567031_-_International_Day_of_Yoga_Miniature_Sheet.jpeg",
+      "alt": "International Day of Yoga",
+      "credit": "Post of India",
+      "license": "GODL-India",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stamp_of_India_-_2015_-_Colnect_567031_-_International_Day_of_Yoga_Miniature_Sheet.jpeg"
+    }
+  },
+  {
+    "id": "artifact-repatriations",
+    "side": "atlas",
+    "era": "contemporary",
+    "slice": "Heritage & custody",
+    "title": {
+      "en": "The idol-trafficking cases and artifact repatriations",
+      "iast": "—"
+    },
+    "kind": "event",
+    "dating": {
+      "display": "Kapoor network exposed from 2011 (Operation Hidden Idol); major returns 2014–present (incl. 307 objects from Manhattan, 2022; Australia's NGA returns)",
+      "edtf": "2011/..",
+      "tag": "firm",
+      "basis": "Court records (Subhash Kapoor convicted, Kumbakonam court 2022), Manhattan DA repatriation announcements, National Gallery of Australia provenance decisions.",
+      "positions": []
+    },
+    "summary": "Investigations into the Manhattan dealer Subhash Kapoor's network exposed industrial-scale theft of temple sculpture — including living-worship Chola bronzes stolen from Tamil Nadu village temples — laundered through fabricated provenance into major museums. The fallout: hundreds of objects returned to India, museums forced into provenance research, and citizen projects (India Pride Project) crowd-matching stolen idols to auction catalogs.",
+    "whyItMatters": "Provenance — this project's design principle — operating as law and activism in the present: the same evidence disciplines (photographs, records, matching) that vet an atlas entry also bring a god home. It also grounds the custodianship debates (see the Dancing Girl and the 'custodian' tweets in the ledger) in current, documented practice.",
+    "honestyNote": "Repatriation is politically charged in all directions; this entry records convictions and completed returns, not the broader restitution arguments. Numbers change frequently — treat totals as of-date snapshots.",
+    "locations": [
+      {
+        "name": "Sripuranthan & Suthamalli temples, Ariyalur District, Tamil Nadu — key theft sites",
+        "lat": 11.14,
+        "lng": 79.08,
+        "note": "approximate"
+      }
+    ],
+    "flagship": false,
+    "sources": [
+      {
+        "label": "Manhattan District Attorney's Office, repatriation press releases (2022) — incl. the 307-object return",
+        "kind": "reportage",
+        "independent": true
+      },
+      {
+        "label": "Vijay Kumar, S., The Idol Thief (Juggernaut, 2018)",
+        "kind": "monograph",
+        "independent": true
+      },
+      {
+        "label": "National Gallery of Australia, Asian Art Provenance Project findings (2014–21)",
+        "kind": "archival",
+        "independent": true
+      }
+    ],
+    "relatedLedger": [
+      "conflation-older-than-hinduism-seal"
+    ],
+    "contributors": [
+      "seed:ai-draft (claude-fable-5)"
+    ],
+    "vetting": {
+      "status": "in-review",
+      "vetters": [],
+      "aiAssisted": true
+    },
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Nataraja%2C_Chola_period_bronze%2C_11th_century%2C_Government_Museum%2C_Chennai_%286%29.jpg/960px-Nataraja%2C_Chola_period_bronze%2C_11th_century%2C_Government_Museum%2C_Chennai_%286%29.jpg",
+      "alt": "The idol-trafficking cases and artifact repatriations",
+      "credit": "Richard Mortel from Riyadh, Saudi Arabia",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nataraja,_Chola_period_bronze,_11th_century,_Government_Museum,_Chennai_(6).jpg"
+    }
+  },
+  {
+    "id": "bakhshali-c14-2017",
+    "side": "atlas",
+    "era": "contemporary",
+    "slice": "Science meets the sources",
+    "title": {
+      "en": "Radiocarbon dating of the Bakhshālī manuscript",
+      "iast": "—"
+    },
+    "kind": "event",
+    "dating": {
+      "display": "Bodleian announcement September 2017; scholarly response the same year",
+      "edtf": "2017-09",
+      "tag": "firm",
+      "basis": "The dating event itself is fully documented (the manuscript's date remains contested — see the zero entry).",
+      "positions": []
+    },
+    "summary": "The Bodleian Library carbon-dated three folios of the Bakhshālī manuscript — the birch-bark mathematical text with the dot zero — and announced dates spanning 224–993 CE, headlined worldwide as 'zero is 500 years older than thought'. Within weeks, five specialists in Indian mathematics published a detailed rebuttal arguing the manuscript is codicologically one object and the split dates cannot each date the writing.",
+    "whyItMatters": "A perfect live specimen of the atlas's central discipline: hard science, institutional press amplification, and philological pushback, all on the record. The lab result is data; the headline was an interpretation; the argument continues — and tathya's job is to show all three layers.",
+    "honestyNote": "This entry documents the EVENT; the substantive dating question lives in the zero/place-value entry with both positions. Media 'oldest zero' league tables routinely ignore the rebuttal — a stock example for the detection pipeline's fabricated/inflated-authority patterns.",
+    "locations": [
+      {
+        "name": "Bodleian Library, Oxford, UK — MS. Sansk. d. 14",
+        "lat": 51.754,
+        "lng": -1.254
+      }
+    ],
+    "flagship": false,
+    "sources": [
+      {
+        "label": "Bodleian Libraries, \"Carbon dating finds Bakhshali manuscript contains oldest recorded origins of the symbol 'zero'\" (Sept 2017)",
+        "kind": "reportage",
+        "independent": true
+      },
+      {
+        "label": "Plofker, Keller, Hayashi, Montelle & Sarma, History of Science in South Asia 5 (2017)",
+        "url": "https://journals.library.ualberta.ca/hssa/index.php/hssa/article/view/22",
+        "kind": "peer-reviewed",
+        "independent": true
+      },
+      {
+        "label": "Hayashi, T., The Bakhshālī Manuscript: An Ancient Indian Mathematical Treatise (Groningen, 1995)",
+        "kind": "reference",
+        "independent": true
+      }
+    ],
+    "contributors": [
+      "seed:ai-draft (claude-fable-5)"
+    ],
+    "vetting": {
+      "status": "in-review",
+      "vetters": [],
+      "aiAssisted": true
+    },
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Radcliffe_Camera%2C_Oxford_-_Oct_2006.jpg/960px-Radcliffe_Camera%2C_Oxford_-_Oct_2006.jpg",
+      "alt": "Radcliffe Camera, Bodleian Libraries, Oxford — where the Bakhshālī manuscript is held",
+      "credit": "Diliff",
+      "license": "CC BY 2.5",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Radcliffe_Camera,_Oxford_-_Oct_2006.jpg"
+    }
+  },
+  {
+    "id": "digital-sanskrit",
+    "side": "atlas",
+    "era": "contemporary",
+    "slice": "Science meets the sources",
+    "title": {
+      "en": "Digital Sanskrit — corpora and computational grammar",
+      "iast": "—"
+    },
+    "kind": "innovation",
+    "dating": {
+      "display": "1990s–present (GRETIL from 2001; Sanskrit Heritage engine from ~2002; Digital Corpus of Sanskrit; SARIT)",
+      "edtf": "1994/..",
+      "tag": "firm",
+      "basis": "The projects' own release histories.",
+      "positions": []
+    },
+    "summary": "The Sanskrit corpus is going machine-readable: GRETIL's e-texts, SARIT's TEI-encoded editions, Hellwig's Digital Corpus of Sanskrit (morphologically tagged), and Gérard Huet's Sanskrit Heritage engine — a computational implementation of Pāṇinian morphology that segments and parses sandhi-joined text. Modern NLP treats Sanskrit as a serious test case (dependency treebanks, word-segmentation shared tasks).",
+    "whyItMatters": "Pāṇini's formal grammar is now literally running as software — the cleanest contemporary vindication of the through-line in his atlas entry (and the honest version of every 'Sanskrit and computers' meme the ledger debunks). Open corpora also make tathya-style source-checking dramatically easier.",
+    "honestyNote": "None of this makes Sanskrit 'the best language for AI' (see the NASA-Sanskrit ledger entry); it makes it a well-formalized language with excellent ancient tooling. Coverage is uneven and OCR/encoding of manuscripts remains a bottleneck.",
+    "throughLines": [
+      {
+        "to": "Computational linguistics in daily scholarly use",
+        "status": "documented",
+        "chain": [
+          "Pāṇini's Aṣṭādhyāyī: generative rule system for Sanskrit",
+          "Huet's Sanskrit Heritage platform and successors implement Pāṇinian analysis computationally (from ~2002)",
+          "Tagged corpora (DCS) and shared tasks make Sanskrit NLP a live research field"
+        ],
+        "sources": [
+          {
+            "label": "Huet, G., \"A Functional Toolkit for Morphological and Phonological Processing\" and the Sanskrit Heritage site",
+            "url": "https://sanskrit.inria.fr/",
+            "kind": "dataset",
+            "independent": true
+          },
+          {
+            "label": "Hellwig, O., Digital Corpus of Sanskrit",
+            "url": "http://www.sanskrit-linguistics.org/dcs/",
+            "kind": "dataset",
+            "independent": true
+          }
+        ]
+      }
+    ],
+    "flagship": false,
+    "sources": [
+      {
+        "label": "GRETIL — Göttingen Register of Electronic Texts in Indian Languages",
+        "url": "https://gretil.sub.uni-goettingen.de/",
+        "kind": "dataset",
+        "independent": true
+      },
+      {
+        "label": "Huet, G., Sanskrit Heritage engine (INRIA)",
+        "url": "https://sanskrit.inria.fr/",
+        "kind": "dataset",
+        "independent": true
+      },
+      {
+        "label": "Hellwig, O., Digital Corpus of Sanskrit",
+        "url": "http://www.sanskrit-linguistics.org/dcs/",
+        "kind": "dataset",
+        "independent": true
+      }
+    ],
+    "relatedLedger": [
+      "fabricated-nasa-sanskrit"
+    ],
+    "contributors": [
+      "seed:ai-draft (claude-fable-5)"
+    ],
+    "vetting": {
+      "status": "in-review",
+      "vetters": [],
+      "aiAssisted": true
+    },
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Prashna_Upanishad_sample_manuscript_page%2C_Sanskrit%2C_Devanagari_script.jpg/960px-Prashna_Upanishad_sample_manuscript_page%2C_Sanskrit%2C_Devanagari_script.jpg",
+      "alt": "Devanāgarī manuscript page (Praśna Upaniṣad) — the kind of text digital corpora encode",
+      "credit": "Ms Sarah Welch",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Prashna_Upanishad_sample_manuscript_page,_Sanskrit,_Devanagari_script.jpg"
+    }
+  },
+  {
+    "id": "kumbh-mela",
+    "side": "atlas",
+    "era": "contemporary",
+    "slice": "Living heritage",
+    "title": {
+      "en": "Kumbh Melā",
+      "deva": "कुम्भ मेला",
+      "iast": "Kumbha Melā"
+    },
+    "kind": "event",
+    "dating": {
+      "display": "UNESCO ICH inscription 2017; the gathering's documented modern history runs through colonial records to the present (2019 Prayagraj; 2025 Mahākumbh)",
+      "edtf": "2017/..",
+      "tag": "evolved",
+      "basis": "The festival cycle is documented continuously in the modern period; its ANTIQUITY as 'the Kumbh' specifically is a genuine historical question (see honesty note).",
+      "positions": []
+    },
+    "summary": "The rotating riverbank festival at Prayagraj, Haridwar, Nashik, and Ujjain — at its peaks the largest human gathering on Earth (official estimates for Prayagraj 2019 exceeded 120 million visits across the season; 2025 claims ran far higher). Inscribed by UNESCO as Intangible Cultural Heritage (2017). A city of tents, akhāṛās, and pilgrims materializes on a floodplain and disappears.",
+    "whyItMatters": "Living Hindu practice at civilizational scale, in the present tense — the atlas's closing exhibit that this is a functioning tradition, not an archaeological one. Also a crowd-science and urban-logistics research site (Harvard's 2013 Kumbh study).",
+    "honestyNote": "Two honesty flags: attendance numbers are official estimates with real methodological softness (count-inflation is routine); and 'the Kumbh is millennia old' compresses a complex history — bathing festivals at Prayāga are ancient (Xuanzang describes one, 7th c.), but the four-site Kumbh system as such is documented in its present form mainly from the early modern period (Maclean's study). Both the depth and the construction are real.",
+    "locations": [
+      {
+        "name": "Triveni Sangam, Prayagraj, Uttar Pradesh, India",
+        "lat": 25.4224,
+        "lng": 81.8866
+      }
+    ],
+    "flagship": false,
+    "sources": [
+      {
+        "label": "UNESCO ICH: Kumbh Mela (inscribed 2017)",
+        "url": "https://ich.unesco.org/en/RL/kumbh-mela-01258",
+        "kind": "archival",
+        "independent": true
+      },
+      {
+        "label": "Maclean, K., Pilgrimage and Power: The Kumbh Mela in Allahabad, 1765–1954 (OUP, 2008)",
+        "kind": "monograph",
+        "independent": true
+      },
+      {
+        "label": "Mehrotra, R. & Vera, F., Kumbh Mela: Mapping the Ephemeral Megacity (Harvard, 2015)",
+        "kind": "monograph",
+        "independent": true
+      }
+    ],
+    "contributors": [
+      "seed:ai-draft (claude-fable-5)"
+    ],
+    "vetting": {
+      "status": "in-review",
+      "vetters": [],
+      "aiAssisted": true
+    },
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Kumbh_Mela_2013_Sangam%2C_Allahabd.jpg/960px-Kumbh_Mela_2013_Sangam%2C_Allahabd.jpg",
+      "alt": "Kumbh Melā",
+      "credit": "Lokankara",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kumbh_Mela_2013_Sangam,_Allahabd.jpg"
+    }
+  }
+]

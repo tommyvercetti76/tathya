@@ -26,6 +26,25 @@ const TAG_LABEL: Record<string, string> = {
 function EntryDetail({ e }: { e: AtlasEntry }) {
   return (
     <div className="tcard-body">
+      {e.image && (
+        <figure className="tfigure">
+          <img src={e.image.src} alt={e.image.alt} loading="lazy" />
+          <figcaption>
+            {e.image.alt}
+            {" · "}
+            {e.image.credit ? `${e.image.credit} · ` : ""}
+            {e.image.license ?? ""}
+            {e.image.sourceUrl && (
+              <>
+                {" · "}
+                <a href={e.image.sourceUrl} target="_blank" rel="noreferrer">
+                  source
+                </a>
+              </>
+            )}
+          </figcaption>
+        </figure>
+      )}
       <div className="dating-row">
         <span className={`dating-tag ${e.dating.tag}`}>{TAG_LABEL[e.dating.tag]}</span>
         <span>{e.dating.display}</span>
@@ -109,6 +128,13 @@ function EntryCard({
   return (
     <article className={`tcard ${open ? "open" : ""}`} id={e.id} data-tag={e.dating.tag}>
       <button className="tcard-head" onClick={onToggle} aria-expanded={open}>
+        {e.image ? (
+          <img className="tthumb" src={e.image.src} alt="" loading="lazy" aria-hidden />
+        ) : (
+          <span className="tthumb tthumb-empty" aria-hidden>
+            {e.title.deva?.[0] ?? e.title.en[0]}
+          </span>
+        )}
         <span className="tindex">{toDevanagari(index)}</span>
         <span className="tcard-title">
           {e.title.en}

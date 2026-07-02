@@ -108,6 +108,20 @@ a { color: var(--accent-soft); text-decoration-thickness: 1px; text-underline-of
   width: 100%; background: none; border: none; color: var(--text);
   font: inherit; padding: 13px 16px; cursor: pointer; text-align: left;
 }
+.tthumb {
+  width: 44px; height: 44px; border-radius: 8px; object-fit: cover;
+  border: 1px solid var(--line); flex-shrink: 0; background: var(--bg-inset);
+}
+.tthumb-empty {
+  display: inline-flex; align-items: center; justify-content: center;
+  color: var(--accent); font-family: var(--font-serif); font-size: 1.3rem;
+}
+.tfigure { margin: 14px 0 4px; }
+.tfigure img {
+  width: 100%; max-height: 340px; object-fit: cover; border-radius: 10px;
+  border: 1px solid var(--line); display: block;
+}
+.tfigure figcaption { font-size: 0.76rem; color: var(--text-dim); margin-top: 6px; }
 .tindex { color: var(--accent); font-family: var(--font-serif); min-width: 1.6ch; }
 .tcard-title { font-family: var(--font-serif); font-size: 1.05rem; }
 .tcard-title .deva { color: var(--accent-soft); font-size: 0.95em; font-weight: 400; }

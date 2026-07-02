@@ -4,13 +4,17 @@ import { AtlasEntry, LedgerEntry, Era, Flag } from "./schema";
 
 const ROOT = path.join(process.cwd(), "content");
 
+/** A content file holds one entry (object) or an era bundle (array of entries). */
 function readDir<T>(dir: string, parse: (raw: unknown) => T): T[] {
   const full = path.join(ROOT, dir);
   if (!fs.existsSync(full)) return [];
   return fs
     .readdirSync(full)
     .filter((f) => f.endsWith(".json"))
-    .map((f) => parse(JSON.parse(fs.readFileSync(path.join(full, f), "utf8"))));
+    .flatMap((f) => {
+      const raw = JSON.parse(fs.readFileSync(path.join(full, f), "utf8")) as unknown;
+      return (Array.isArray(raw) ? raw : [raw]).map(parse);
+    });
 }
 
 export function loadAtlas(): AtlasEntry[] {

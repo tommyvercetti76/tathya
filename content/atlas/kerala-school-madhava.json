@@ -3,7 +3,11 @@
   "side": "atlas",
   "era": "medieval",
   "slice": "Mathematics",
-  "title": { "en": "Mādhava and the Kerala school — infinite series", "deva": "माधव — केरल गणित परम्परा", "iast": "Mādhava of Saṅgamagrāma" },
+  "title": {
+    "en": "Mādhava and the Kerala school — infinite series",
+    "deva": "माधव — केरल गणित परम्परा",
+    "iast": "Mādhava of Saṅgamagrāma"
+  },
   "kind": "innovation",
   "dating": {
     "display": "Mādhava fl. c. 1340–1425 CE; key surviving expositions: Nīlakaṇṭha's Tantrasaṅgraha (1501) and Jyeṣṭhadeva's Yuktibhāṣā (c. 1530)",
@@ -16,7 +20,12 @@
   "whyItMatters": "Core results of early calculus — infinite series expansions of trigonometric functions — documented in India two to three centuries before Newton, Leibniz and Gregory, with attribution chains preserved inside the tradition itself. Recognized in mainstream history of mathematics (Katz, Plofker).",
   "honestyNote": "Two separate claims must not be merged. (1) PRIORITY of the series results in Kerala: documented, mainstream. (2) TRANSMISSION of those results to Europe via Jesuits in Malabar: a hypothesis with circumstantial evidence only — no manuscript trail has been found. The through-line marks (2) as conjectural. Asserting (2) as fact is a category-9 overclaim; dismissing (1) because of (2) is a category-6 misattribution.",
   "locations": [
-    { "name": "Saṅgamagrāma (identified with the Irinjalakuda region, Thrissur, Kerala, India)", "lat": 10.34, "lng": 76.21, "note": "approximate; identification debated" }
+    {
+      "name": "Saṅgamagrāma (identified with the Irinjalakuda region, Thrissur, Kerala, India)",
+      "lat": 10.34,
+      "lng": 76.21,
+      "note": "approximate; identification debated"
+    }
   ],
   "throughLines": [
     {
@@ -28,9 +37,21 @@
         "Whish (1834) introduces the corpus to European scholarship; 20th-c. history of mathematics (Rajagopal, Katz, Plofker) establishes priority"
       ],
       "sources": [
-        { "label": "Katz, V., \"Ideas of Calculus in Islam and India\", Mathematics Magazine 68:3 (1995)", "kind": "peer-reviewed", "independent": true },
-        { "label": "Sarma, K.V. (ed./tr.), Gaṇita-Yukti-Bhāṣā of Jyeṣṭhadeva, 2 vols. (Springer, 2008)", "kind": "reference", "independent": true },
-        { "label": "Whish, C.M., \"On the Hindú Quadrature of the Circle...\", Transactions of the Royal Asiatic Society 3 (1834)", "kind": "primary", "independent": true }
+        {
+          "label": "Katz, V., \"Ideas of Calculus in Islam and India\", Mathematics Magazine 68:3 (1995)",
+          "kind": "peer-reviewed",
+          "independent": true
+        },
+        {
+          "label": "Sarma, K.V. (ed./tr.), Gaṇita-Yukti-Bhāṣā of Jyeṣṭhadeva, 2 vols. (Springer, 2008)",
+          "kind": "reference",
+          "independent": true
+        },
+        {
+          "label": "Whish, C.M., \"On the Hindú Quadrature of the Circle...\", Transactions of the Royal Asiatic Society 3 (1834)",
+          "kind": "primary",
+          "independent": true
+        }
       ]
     },
     {
@@ -42,20 +63,61 @@
         "Status: no documentary chain located; mainstream assessment is 'possible, unproven'"
       ],
       "sources": [
-        { "label": "Raju, C.K., Cultural Foundations of Mathematics (Pearson, 2007) — the transmission thesis (minority position, labeled as such)", "kind": "monograph", "independent": true },
-        { "label": "Plofker, K., Mathematics in India (2009) — mainstream assessment of the transmission question", "kind": "monograph", "independent": true }
+        {
+          "label": "Raju, C.K., Cultural Foundations of Mathematics (Pearson, 2007) — the transmission thesis (minority position, labeled as such)",
+          "kind": "monograph",
+          "independent": true
+        },
+        {
+          "label": "Plofker, K., Mathematics in India (2009) — mainstream assessment of the transmission question",
+          "kind": "monograph",
+          "independent": true
+        }
       ]
     }
   ],
   "flagship": true,
   "sources": [
-    { "label": "Katz, V., Mathematics Magazine 68:3 (1995)", "kind": "peer-reviewed", "independent": true },
-    { "label": "Sarma, K.V., Gaṇita-Yukti-Bhāṣā (Springer, 2008)", "kind": "reference", "independent": true },
-    { "label": "Plofker, K., Mathematics in India (2009), ch. 7", "kind": "monograph", "independent": true },
-    { "label": "Whish, C.M., TRAS 3 (1834)", "kind": "primary", "independent": true },
-    { "label": "Joseph, G.G., The Crest of the Peacock: Non-European Roots of Mathematics, 3rd ed. (Princeton, 2011)", "kind": "monograph", "independent": true }
+    {
+      "label": "Katz, V., Mathematics Magazine 68:3 (1995)",
+      "kind": "peer-reviewed",
+      "independent": true
+    },
+    {
+      "label": "Sarma, K.V., Gaṇita-Yukti-Bhāṣā (Springer, 2008)",
+      "kind": "reference",
+      "independent": true
+    },
+    {
+      "label": "Plofker, K., Mathematics in India (2009), ch. 7",
+      "kind": "monograph",
+      "independent": true
+    },
+    {
+      "label": "Whish, C.M., TRAS 3 (1834)",
+      "kind": "primary",
+      "independent": true
+    },
+    {
+      "label": "Joseph, G.G., The Crest of the Peacock: Non-European Roots of Mathematics, 3rd ed. (Princeton, 2011)",
+      "kind": "monograph",
+      "independent": true
+    }
   ],
   "relatedLedger": [],
-  "contributors": ["seed:ai-draft (claude-fable-5)"],
-  "vetting": { "status": "in-review", "vetters": [], "aiAssisted": true }
+  "contributors": [
+    "seed:ai-draft (claude-fable-5)"
+  ],
+  "vetting": {
+    "status": "in-review",
+    "vetters": [],
+    "aiAssisted": true
+  },
+  "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Kerala_school_chain_of_teachers.jpg/960px-Kerala_school_chain_of_teachers.jpg",
+    "alt": "Mādhava and the Kerala school — infinite series",
+    "credit": "ChandlerMinh",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kerala_school_chain_of_teachers.jpg"
+  }
 }

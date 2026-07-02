@@ -3,7 +3,11 @@
   "side": "atlas",
   "era": "classical",
   "slice": "Language & grammar",
-  "title": { "en": "Pāṇini and the Aṣṭādhyāyī", "deva": "पाणिनि — अष्टाध्यायी", "iast": "Pāṇini — Aṣṭādhyāyī" },
+  "title": {
+    "en": "Pāṇini and the Aṣṭādhyāyī",
+    "deva": "पाणिनि — अष्टाध्यायी",
+    "iast": "Pāṇini — Aṣṭādhyāyī"
+  },
   "kind": "person",
   "dating": {
     "display": "c. 6th–4th century BCE",
@@ -11,16 +15,34 @@
     "tag": "contested",
     "basis": "No contemporary records; dated by linguistic references (mentions Greek script 'yavanānī' on some readings), citations by later grammarians, and relative chronology with the Buddhist canon.",
     "positions": [
-      { "position": "c. 5th–4th century BCE", "holders": "Cardona and much of modern Indology", "evidence": "The yavanānī reference and relative chronology with Kātyāyana and Patañjali." },
-      { "position": "c. 6th century BCE or earlier", "holders": "Goldstücker and older scholarship; some Indian traditional accounts place him earlier still", "evidence": "Absence of Buddhist vocabulary; traditional biographies. Reported as tradition, not as an established date." }
+      {
+        "position": "c. 5th–4th century BCE",
+        "holders": "Cardona and much of modern Indology",
+        "evidence": "The yavanānī reference and relative chronology with Kātyāyana and Patañjali."
+      },
+      {
+        "position": "c. 6th century BCE or earlier",
+        "holders": "Goldstücker and older scholarship; some Indian traditional accounts place him earlier still",
+        "evidence": "Absence of Buddhist vocabulary; traditional biographies. Reported as tradition, not as an established date."
+      }
     ]
   },
   "summary": "Grammarian of Śalātura in Gandhāra (near modern Lahor village, Swabi District, Khyber Pakhtunkhwa, Pakistan). His Aṣṭādhyāyī compresses the whole of Sanskrit grammar into ~4,000 sūtras: an ordered system of rewrite rules with a defined metalanguage, abbreviation conventions (pratyāhāras), default-and-override rule ordering, and recursion — a generative grammar, two and a half millennia before the term existed.",
   "whyItMatters": "The Aṣṭādhyāyī is the earliest surviving formal system for describing a language completely. Leonard Bloomfield called it 'one of the greatest monuments of human intelligence.' Modern generative linguistics and the rule-based formalisms of computer science recognize their own methods in it.",
   "honestyNote": "Pāṇini codified Sanskrit — he did not invent it; his grammar presupposes the Vedic corpus and cites earlier grammarians (Śākaṭāyana, Sphoṭāyana...). His birthplace lies in present-day Pakistan; he belongs to the Sanskrit-Vedic tradition his work describes. Both facts are recorded here — see the ledger entry on 'ancient Pakistani grammarian' framing.",
   "locations": [
-    { "name": "Śalātura (Lahor, Swabi District, KPK, Pakistan) — birthplace", "lat": 34.12, "lng": 72.47, "note": "approximate; identified from Xuanzang's itinerary and the toponym" },
-    { "name": "Taxila (Takṣaśilā), Punjab, Pakistan — the learning hub of Gandhāra", "lat": 33.74, "lng": 72.79, "note": "association traditional; see ledger on the 'Taxila university' framing" }
+    {
+      "name": "Śalātura (Lahor, Swabi District, KPK, Pakistan) — birthplace",
+      "lat": 34.12,
+      "lng": 72.47,
+      "note": "approximate; identified from Xuanzang's itinerary and the toponym"
+    },
+    {
+      "name": "Taxila (Takṣaśilā), Punjab, Pakistan — the learning hub of Gandhāra",
+      "lat": 33.74,
+      "lng": 72.79,
+      "note": "association traditional; see ledger on the 'Taxila university' framing"
+    }
   ],
   "throughLines": [
     {
@@ -33,22 +55,74 @@
         "Ingerman (CACM, 1967) proposed renaming BNF 'Pāṇini–Backus Form' in recognition of the anticipation"
       ],
       "sources": [
-        { "label": "Ingerman, P.Z., \"'Pāṇini-Backus Form' Suggested\", Communications of the ACM 10:3 (1967)", "kind": "peer-reviewed", "independent": true },
-        { "label": "Kiparsky, P., \"On the Architecture of Pāṇini's Grammar\" (2009)", "kind": "peer-reviewed", "independent": true },
-        { "label": "Staal, F., \"Euclid and Pāṇini\", Philosophy East and West 15 (1965)", "kind": "peer-reviewed", "independent": true }
+        {
+          "label": "Ingerman, P.Z., \"'Pāṇini-Backus Form' Suggested\", Communications of the ACM 10:3 (1967)",
+          "kind": "peer-reviewed",
+          "independent": true
+        },
+        {
+          "label": "Kiparsky, P., \"On the Architecture of Pāṇini's Grammar\" (2009)",
+          "kind": "peer-reviewed",
+          "independent": true
+        },
+        {
+          "label": "Staal, F., \"Euclid and Pāṇini\", Philosophy East and West 15 (1965)",
+          "kind": "peer-reviewed",
+          "independent": true
+        }
       ]
     }
   ],
   "flagship": true,
   "sources": [
-    { "label": "Cardona, G., Pāṇini: A Survey of Research (Mouton, 1976)", "kind": "reference", "independent": true },
-    { "label": "Bloomfield, L., Language (1933), ch. 1 — the 'monuments' assessment", "kind": "monograph", "independent": true },
-    { "label": "Ingerman, P.Z., CACM 10:3 (1967)", "kind": "peer-reviewed", "independent": true },
-    { "label": "Kiparsky, P., \"On the Architecture of Pāṇini's Grammar\" (2009)", "kind": "peer-reviewed", "independent": true },
-    { "label": "Scharfe, H., Education in Ancient India (Brill, 2002) — on Gandhāran learning and what Taxila was and wasn't", "kind": "monograph", "independent": true },
-    { "label": "Xuanzang, Records of the Western World (tr. Beal) — Śalātura identification", "kind": "primary", "independent": true }
+    {
+      "label": "Cardona, G., Pāṇini: A Survey of Research (Mouton, 1976)",
+      "kind": "reference",
+      "independent": true
+    },
+    {
+      "label": "Bloomfield, L., Language (1933), ch. 1 — the 'monuments' assessment",
+      "kind": "monograph",
+      "independent": true
+    },
+    {
+      "label": "Ingerman, P.Z., CACM 10:3 (1967)",
+      "kind": "peer-reviewed",
+      "independent": true
+    },
+    {
+      "label": "Kiparsky, P., \"On the Architecture of Pāṇini's Grammar\" (2009)",
+      "kind": "peer-reviewed",
+      "independent": true
+    },
+    {
+      "label": "Scharfe, H., Education in Ancient India (Brill, 2002) — on Gandhāran learning and what Taxila was and wasn't",
+      "kind": "monograph",
+      "independent": true
+    },
+    {
+      "label": "Xuanzang, Records of the Western World (tr. Beal) — Śalātura identification",
+      "kind": "primary",
+      "independent": true
+    }
   ],
-  "relatedLedger": ["anachronism-ancient-pakistan-panini", "factual-error-taxila-university"],
-  "contributors": ["seed:ai-draft (claude-fable-5)"],
-  "vetting": { "status": "in-review", "vetters": [], "aiAssisted": true }
+  "relatedLedger": [
+    "anachronism-ancient-pakistan-panini",
+    "factual-error-taxila-university"
+  ],
+  "contributors": [
+    "seed:ai-draft (claude-fable-5)"
+  ],
+  "vetting": {
+    "status": "in-review",
+    "vetters": [],
+    "aiAssisted": true
+  },
+  "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/7/77/Stamp_of_India_-_2004_-_Colnect_158527_-_Panini.jpeg",
+    "alt": "Pāṇini and the Aṣṭādhyāyī",
+    "credit": "Post of India",
+    "license": "GODL-India",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stamp_of_India_-_2004_-_Colnect_158527_-_Panini.jpeg"
+  }
 }

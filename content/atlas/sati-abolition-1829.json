@@ -3,7 +3,11 @@
   "side": "atlas",
   "era": "earlymodern",
   "slice": "Reform from within",
-  "title": { "en": "Abolition of satī — Rammohan Roy and Regulation XVII", "deva": "सती प्रथा उन्मूलन", "iast": "satī-pratha unmūlana" },
+  "title": {
+    "en": "Abolition of satī — Rammohan Roy and Regulation XVII",
+    "deva": "सती प्रथा उन्मूलन",
+    "iast": "satī-pratha unmūlana"
+  },
   "kind": "event",
   "dating": {
     "display": "campaign c. 1818–1829; Bengal Regulation XVII: 4 December 1829",
@@ -16,16 +20,51 @@
   "whyItMatters": "The atlas's clearest example of the tradition's capacity for argued self-reform: the decisive public case was made in the śāstras' own terms by a Hindu reformer, not imposed as pure external fiat. It is also the historical anchor for the ledger's satī entry — both the reality of the practice and the reality of internal opposition.",
   "honestyNote": "Agency was genuinely dual: Roy's internal textual campaign AND the colonial state's legislative power. Crediting either alone distorts. The practice also did not vanish by decree — isolated cases recurred (Roop Kanwar, Rajasthan, 1987, prompting India's Commission of Sati (Prevention) Act, 1987).",
   "locations": [
-    { "name": "Calcutta (Kolkata), West Bengal, India — seat of the Regulation", "lat": 22.57, "lng": 88.36 }
+    {
+      "name": "Calcutta (Kolkata), West Bengal, India — seat of the Regulation",
+      "lat": 22.57,
+      "lng": 88.36
+    }
   ],
   "flagship": false,
   "sources": [
-    { "label": "Bengal Regulation XVII of 1829 (text in parliamentary papers)", "kind": "primary", "independent": true },
-    { "label": "Rammohan Roy, Conference between an Advocate for, and an Opponent of, the Practice of Burning Widows Alive (1818; second tract 1820)", "kind": "primary", "independent": true },
-    { "label": "Mani, L., Contentious Traditions: The Debate on Sati in Colonial India (California, 1998)", "kind": "monograph", "independent": true },
-    { "label": "Kane, P.V., History of Dharmaśāstra, Vol. II — satī section and the śāstric debate", "kind": "reference", "independent": true }
+    {
+      "label": "Bengal Regulation XVII of 1829 (text in parliamentary papers)",
+      "kind": "primary",
+      "independent": true
+    },
+    {
+      "label": "Rammohan Roy, Conference between an Advocate for, and an Opponent of, the Practice of Burning Widows Alive (1818; second tract 1820)",
+      "kind": "primary",
+      "independent": true
+    },
+    {
+      "label": "Mani, L., Contentious Traditions: The Debate on Sati in Colonial India (California, 1998)",
+      "kind": "monograph",
+      "independent": true
+    },
+    {
+      "label": "Kane, P.V., History of Dharmaśāstra, Vol. II — satī section and the śāstric debate",
+      "kind": "reference",
+      "independent": true
+    }
   ],
-  "relatedLedger": ["cherry-picking-sati"],
-  "contributors": ["seed:ai-draft (claude-fable-5)"],
-  "vetting": { "status": "in-review", "vetters": [], "aiAssisted": true }
+  "relatedLedger": [
+    "cherry-picking-sati"
+  ],
+  "contributors": [
+    "seed:ai-draft (claude-fable-5)"
+  ],
+  "vetting": {
+    "status": "in-review",
+    "vetters": [],
+    "aiAssisted": true
+  },
+  "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Portrait_of_Raja_Ram_Mohun_Roy%2C_1833.jpg/960px-Portrait_of_Raja_Ram_Mohun_Roy%2C_1833.jpg",
+    "alt": "Abolition of satī — Rammohan Roy and Regulation XVII",
+    "credit": "Rembrandt Peale",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Portrait_of_Raja_Ram_Mohun_Roy,_1833.jpg"
+  }
 }

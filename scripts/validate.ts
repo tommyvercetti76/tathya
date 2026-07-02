@@ -25,21 +25,35 @@ function filesIn(dir: string): string[] {
   return fs.readdirSync(full).filter((f) => f.endsWith(".json")).map((f) => path.join(full, f));
 }
 
+/** Each file holds one entry or an array of entries; yield [label, raw] pairs. */
+function entriesIn(dir: string): [string, unknown][] {
+  return filesIn(dir).flatMap((f) => {
+    const rel = path.relative(ROOT, f);
+    const raw = JSON.parse(fs.readFileSync(f, "utf8")) as unknown;
+    return Array.isArray(raw)
+      ? raw.map((r, i): [string, unknown] => [`${rel}[${i}]`, r])
+      : ([[rel, raw]] as [string, unknown][]);
+  });
+}
+
 console.log("tathya content validation\n");
 
 const ledgerIds = new Set<string>();
-for (const f of filesIn("ledger")) {
-  ledgerIds.add(JSON.parse(fs.readFileSync(f, "utf8")).id);
+for (const [, raw] of entriesIn("ledger")) {
+  ledgerIds.add((raw as { id: string }).id);
 }
 const atlasIds = new Set<string>();
-for (const f of filesIn("atlas")) {
-  atlasIds.add(JSON.parse(fs.readFileSync(f, "utf8")).id);
+const atlasIdSeen = new Set<string>();
+for (const [rel, raw] of entriesIn("atlas")) {
+  const id = (raw as { id: string }).id;
+  if (atlasIdSeen.has(id)) fail(rel, `duplicate atlas id "${id}"`);
+  atlasIdSeen.add(id);
+  atlasIds.add(id);
 }
 
-for (const f of filesIn("atlas")) {
-  const rel = path.relative(ROOT, f);
+for (const [rel, raw] of entriesIn("atlas")) {
   try {
-    const e = AtlasEntry.parse(JSON.parse(fs.readFileSync(f, "utf8")));
+    const e = AtlasEntry.parse(raw);
     const independent = e.sources.filter((s) => s.independent).length;
     if (e.flagship && independent < 5)
       fail(rel, `flagship entry has ${independent} independent sources; needs >= 5`);
@@ -55,10 +69,9 @@ for (const f of filesIn("atlas")) {
 }
 
 const seenCategories = new Set<number>();
-for (const f of filesIn("ledger")) {
-  const rel = path.relative(ROOT, f);
+for (const [rel, raw] of entriesIn("ledger")) {
   try {
-    const e = LedgerEntry.parse(JSON.parse(fs.readFileSync(f, "utf8")));
+    const e = LedgerEntry.parse(raw);
     seenCategories.add(e.category);
     if (e.evidence.countering.length === 0 && e.category !== 12)
       fail(rel, `ledger entry has no countering evidence`);

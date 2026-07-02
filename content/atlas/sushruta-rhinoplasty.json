@@ -3,7 +3,11 @@
   "side": "atlas",
   "era": "classical",
   "slice": "Medicine",
-  "title": { "en": "Suśruta Saṃhitā — reconstructive surgery", "deva": "सुश्रुतसंहिता", "iast": "Suśruta Saṃhitā" },
+  "title": {
+    "en": "Suśruta Saṃhitā — reconstructive surgery",
+    "deva": "सुश्रुतसंहिता",
+    "iast": "Suśruta Saṃhitā"
+  },
   "kind": "text",
   "dating": {
     "display": "core possibly mid-1st millennium BCE; extant text redacted over centuries, stabilizing by c. 500 CE",
@@ -11,8 +15,16 @@
     "tag": "evolved",
     "basis": "Meulenbeld's survey of Indian medical literature: the compendium is a layered text with a kernel attributed to Suśruta of Vārāṇasī and later redaction (traditionally by Nāgārjuna). Single-point dates for 'Suśruta the surgeon, 600 BCE' overstate the evidence.",
     "positions": [
-      { "position": "Layered text, extant form by the Gupta period", "holders": "Meulenbeld and mainstream Indology", "evidence": "Internal stratification, citations, language." },
-      { "position": "Traditional date: Suśruta as a near-contemporary of the Buddha or earlier", "holders": "Traditional accounts; often repeated in popular medicine histories", "evidence": "Attribution and legend; reported as tradition." }
+      {
+        "position": "Layered text, extant form by the Gupta period",
+        "holders": "Meulenbeld and mainstream Indology",
+        "evidence": "Internal stratification, citations, language."
+      },
+      {
+        "position": "Traditional date: Suśruta as a near-contemporary of the Buddha or earlier",
+        "holders": "Traditional accounts; often repeated in popular medicine histories",
+        "evidence": "Attribution and legend; reported as tradition."
+      }
     ]
   },
   "summary": "The surgical classic of Āyurveda: instruments, suturing, cataract couching, lithotomy, wound care, cadaver dissection for training — and pedicled-flap nasal reconstruction (nāsā-sandhāna), rebuilding a severed nose with living tissue from the cheek. Rhinoplasty had steady demand: nose-cutting was a judicial and war mutilation.",
@@ -30,21 +42,67 @@
         "The technique enters European surgery as 'the Indian method'; the paramedian forehead flap remains a workhorse of nasal reconstruction today"
       ],
       "sources": [
-        { "label": "\"B.L.\", letter, The Gentleman's Magazine 64 (Oct 1794), p. 891, with engraving", "kind": "primary", "independent": true },
-        { "label": "Carpue, J.C., An Account of Two Successful Operations for Restoring a Lost Nose (London, 1816)", "kind": "primary", "independent": true },
-        { "label": "Whitaker, I.S. et al., \"The birth of plastic surgery: the story of nasal reconstruction from the Edwin Smith papyrus to the radial forearm flap\", Plast Reconstr Surg / historical review (2007)", "kind": "peer-reviewed", "independent": true }
+        {
+          "label": "\"B.L.\", letter, The Gentleman's Magazine 64 (Oct 1794), p. 891, with engraving",
+          "kind": "primary",
+          "independent": true
+        },
+        {
+          "label": "Carpue, J.C., An Account of Two Successful Operations for Restoring a Lost Nose (London, 1816)",
+          "kind": "primary",
+          "independent": true
+        },
+        {
+          "label": "Whitaker, I.S. et al., \"The birth of plastic surgery: the story of nasal reconstruction from the Edwin Smith papyrus to the radial forearm flap\", Plast Reconstr Surg / historical review (2007)",
+          "kind": "peer-reviewed",
+          "independent": true
+        }
       ]
     }
   ],
   "flagship": true,
   "sources": [
-    { "label": "Bhishagratna, K.K. (tr.), An English Translation of the Sushruta Samhita, 3 vols. (Calcutta, 1907–16)", "kind": "reference", "independent": true },
-    { "label": "Meulenbeld, G.J., A History of Indian Medical Literature, Vol. IA (Groningen, 1999) — dating and stratification", "kind": "reference", "independent": true },
-    { "label": "The Gentleman's Magazine 64 (Oct 1794)", "kind": "primary", "independent": true },
-    { "label": "Carpue, J.C. (1816)", "kind": "primary", "independent": true },
-    { "label": "Wujastyk, D., The Roots of Ayurveda (Penguin, 2003)", "kind": "monograph", "independent": true }
+    {
+      "label": "Bhishagratna, K.K. (tr.), An English Translation of the Sushruta Samhita, 3 vols. (Calcutta, 1907–16)",
+      "kind": "reference",
+      "independent": true
+    },
+    {
+      "label": "Meulenbeld, G.J., A History of Indian Medical Literature, Vol. IA (Groningen, 1999) — dating and stratification",
+      "kind": "reference",
+      "independent": true
+    },
+    {
+      "label": "The Gentleman's Magazine 64 (Oct 1794)",
+      "kind": "primary",
+      "independent": true
+    },
+    {
+      "label": "Carpue, J.C. (1816)",
+      "kind": "primary",
+      "independent": true
+    },
+    {
+      "label": "Wujastyk, D., The Roots of Ayurveda (Penguin, 2003)",
+      "kind": "monograph",
+      "independent": true
+    }
   ],
-  "relatedLedger": ["overclaim-vaimanika-shastra"],
-  "contributors": ["seed:ai-draft (claude-fable-5)"],
-  "vetting": { "status": "in-review", "vetters": [], "aiAssisted": true }
+  "relatedLedger": [
+    "overclaim-vaimanika-shastra"
+  ],
+  "contributors": [
+    "seed:ai-draft (claude-fable-5)"
+  ],
+  "vetting": {
+    "status": "in-review",
+    "vetters": [],
+    "aiAssisted": true
+  },
+  "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Susruta._Pen_drawing._Wellcome_V0006619.jpg/960px-Susruta._Pen_drawing._Wellcome_V0006619.jpg",
+    "alt": "Suśruta Saṃhitā — reconstructive surgery",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Susruta._Pen_drawing._Wellcome_V0006619.jpg"
+  }
 }

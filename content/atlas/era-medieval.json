@@ -1,0 +1,404 @@
+[
+  {
+    "id": "bhaskara-ii",
+    "side": "atlas",
+    "era": "medieval",
+    "slice": "Mathematics",
+    "title": {
+      "en": "Bhāskara II (Bhāskarācārya)",
+      "deva": "भास्कराचार्य",
+      "iast": "Bhāskarācārya"
+    },
+    "kind": "person",
+    "dating": {
+      "display": "born 1114 CE (self-stated); Siddhāntaśiromaṇi composed 1150 CE",
+      "edtf": "1114/1185",
+      "tag": "firm",
+      "basis": "Bhāskara states his own birth year (Śaka 1036) and composition date in the Golādhyāya; a 1207 inscription records an endowment for the study of his works.",
+      "positions": []
+    },
+    "summary": "The high point of classical Indian mathematics: the Līlāvatī (arithmetic, addressed to a woman — traditionally his daughter), Bījagaṇita (algebra: negatives, surds, the cakravāla cyclic method solving Pell-type equations like x² = 61y² + 1, five centuries before Fermat posed it), and Siddhāntaśiromaṇi (astronomy, with instantaneous velocity of planets computed via a sine-difference relation equivalent to a derivative).",
+    "whyItMatters": "The cakravāla and the instantaneous-motion work are the standard exhibits of pre-modern Indian mathematics at the research frontier of its age — recognized as such in mainstream history of mathematics, no inflation required.",
+    "honestyNote": "'Bhāskara invented calculus' overstates it: he computed an instantaneous rate in one astronomical context; there is no general theory of limits or integration here — that synthesis belongs to the Kerala school (for series) and to Newton/Leibniz (for the full calculus). The Līlāvatī 'grieving daughter' frame story is late legend, not documented biography.",
+    "locations": [
+      {
+        "name": "Vijjadavida (identified near Chalisgaon, Maharashtra); worked at Ujjain observatory tradition",
+        "lat": 20.46,
+        "lng": 75.02,
+        "note": "approximate"
+      }
+    ],
+    "flagship": false,
+    "sources": [
+      {
+        "label": "Colebrooke, H.T. (tr.), Algebra, with Arithmetic and Mensuration, from the Sanscrit of Brahmegupta and Bháscara (1817)",
+        "kind": "reference",
+        "independent": true
+      },
+      {
+        "label": "Plofker, K., Mathematics in India (2009), ch. 6 — cakravāla and instantaneous motion",
+        "kind": "monograph",
+        "independent": true
+      },
+      {
+        "label": "Patwardhan, K.S. et al., Līlāvatī of Bhāskarācārya (Motilal Banarsidass, 2001)",
+        "kind": "reference",
+        "independent": true
+      }
+    ],
+    "contributors": [
+      "seed:ai-draft (claude-fable-5)"
+    ],
+    "vetting": {
+      "status": "in-review",
+      "vetters": [],
+      "aiAssisted": true
+    },
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Hindi_Manuscript_803%2C_folio_36b_Wellcome_L0024663.jpg/960px-Hindi_Manuscript_803%2C_folio_36b_Wellcome_L0024663.jpg",
+      "alt": "Manuscript folio of the Līlāvatī tradition (Wellcome Hindi MS 803)",
+      "license": "CC BY 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hindi_Manuscript_803,_folio_36b_Wellcome_L0024663.jpg"
+    }
+  },
+  {
+    "id": "adi-shankara",
+    "side": "atlas",
+    "era": "medieval",
+    "slice": "Philosophy & devotion",
+    "title": {
+      "en": "Ādi Śaṅkara",
+      "deva": "आदि शङ्कर",
+      "iast": "Ādi Śaṅkara"
+    },
+    "kind": "person",
+    "dating": {
+      "display": "c. 700–750 CE (mainstream); monastery traditions range from 509 BCE to 788–820 CE",
+      "edtf": "0700/0750",
+      "tag": "contested",
+      "basis": "No contemporary records; dated by citation networks (he quotes Dharmakīrti; is answered by later authors) and doxographic position.",
+      "positions": [
+        {
+          "position": "c. 700–750 CE (or slightly earlier, 650–700)",
+          "holders": "Modern scholarship (Potter, Isayeva, Harimoto)",
+          "evidence": "He cites 7th-century Buddhist logicians; his opponents' and successors' dates bracket him."
+        },
+        {
+          "position": "788–820 CE",
+          "holders": "Widely repeated conventional date; some maṭha records",
+          "evidence": "Late hagiographies; convenient but weakly grounded."
+        },
+        {
+          "position": "509–477 BCE",
+          "holders": "Dvārakā and Kāñcī maṭha chronologies",
+          "evidence": "Monastic succession lists; incompatible with the citation evidence; reported as tradition."
+        }
+      ]
+    },
+    "summary": "Philosopher-monk from Kaladi (Kerala) who systematized Advaita Vedānta — nondual brahman, the world as neither simply real nor unreal, liberation through knowledge — in commentaries on the Upaniṣads, Gītā, and Brahmasūtras that set the format of Indian philosophical debate for a millennium. Tradition credits him with founding four (or more) monastic seats and reorganizing ascetic orders.",
+    "whyItMatters": "Arguably the most influential Hindu philosopher, and simultaneously the atlas's best case study in dating honesty: a figure whose ideas are precisely documented and whose century is genuinely uncertain — with the tradition's own institutions disagreeing by 1,200 years.",
+    "honestyNote": "Hundreds of works circulate under his name; text-critics accept a much smaller core (the major commentaries and Upadeśasāhasrī). The 'digvijaya' biographies are centuries-later hagiography.",
+    "locations": [
+      {
+        "name": "Kaladi, Ernakulam District, Kerala, India — traditional birthplace",
+        "lat": 10.17,
+        "lng": 76.44
+      }
+    ],
+    "flagship": false,
+    "sources": [
+      {
+        "label": "Potter, K. (ed.), Encyclopedia of Indian Philosophies, Vol. III: Advaita Vedānta up to Śaṃkara (1981)",
+        "kind": "reference",
+        "independent": true
+      },
+      {
+        "label": "Isayeva, N., Shankara and Indian Philosophy (SUNY, 1993)",
+        "kind": "monograph",
+        "independent": true
+      },
+      {
+        "label": "Harimoto, K., \"The Date of Śaṅkara: Between the Cālukyas and the Rāṣṭrakūṭas\", Journal of Indological Studies (2006)",
+        "kind": "peer-reviewed",
+        "independent": true
+      }
+    ],
+    "contributors": [
+      "seed:ai-draft (claude-fable-5)"
+    ],
+    "vetting": {
+      "status": "in-review",
+      "vetters": [],
+      "aiAssisted": true
+    },
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Shri_Shankaracharya.jpg",
+      "alt": "Ādi Śaṅkara",
+      "credit": "Hvadga",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shri_Shankaracharya.jpg"
+    }
+  },
+  {
+    "id": "kailasa-ellora",
+    "side": "atlas",
+    "era": "medieval",
+    "slice": "Temple & craft",
+    "title": {
+      "en": "Kailāsa temple, Ellora",
+      "deva": "कैलास मन्दिर",
+      "iast": "Kailāsanātha"
+    },
+    "kind": "place",
+    "dating": {
+      "display": "substantially 8th century CE (Rāṣṭrakūṭa Kṛṣṇa I, r. c. 756–773), with later additions",
+      "edtf": "0756/0800",
+      "tag": "firm",
+      "basis": "Epigraphic and stylistic evidence; a copper-plate grant of Karka II (812 CE) already describes the temple as astonishing its own architects.",
+      "positions": []
+    },
+    "summary": "A full-scale Śiva temple — courtyard, gateway, pavilion, shrine tower, life-size elephants — carved DOWNWARD out of a single basalt hillside, removing an estimated 200,000+ tonnes of rock. Not built: excavated, as one piece, to imitate Mount Kailāsa.",
+    "whyItMatters": "The most audacious rock-cut project of the ancient world and the summit of a thousand-year Indian cave-architecture tradition (Barabar → Ajanta → Elephanta → Ellora). Its 'impossible' reputation feeds ancient-aliens-style content — the honest wonder (planning, logistics, generations of masons) needs no aliens.",
+    "honestyNote": "Construction sequence and exact duration are debated (single reign vs multiple phases); 'built in 18 years by unknown technology' claims are content-farm inventions. Chisels, measured planning, and dynastic resources are the documented technology.",
+    "locations": [
+      {
+        "name": "Ellora Caves (cave 16), Aurangabad District, Maharashtra, India",
+        "lat": 20.026,
+        "lng": 75.179
+      }
+    ],
+    "flagship": false,
+    "sources": [
+      {
+        "label": "UNESCO World Heritage Centre: Ellora Caves (1983)",
+        "url": "https://whc.unesco.org/en/list/243/",
+        "kind": "archival",
+        "independent": true
+      },
+      {
+        "label": "Dhavalikar, M.K., Ellora (Oxford Monuments series, 2003)",
+        "kind": "monograph",
+        "independent": true
+      },
+      {
+        "label": "Goetz, H., \"The Kailasa of Ellora and the Chronology of Rashtrakuta Art\", Artibus Asiae 15 (1952)",
+        "kind": "peer-reviewed",
+        "independent": true
+      }
+    ],
+    "relatedLedger": [
+      "overclaim-vaimanika-shastra"
+    ],
+    "contributors": [
+      "seed:ai-draft (claude-fable-5)"
+    ],
+    "vetting": {
+      "status": "in-review",
+      "vetters": [],
+      "aiAssisted": true
+    },
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Courtyard_and_Mahabharata_Reliefs_at_the_Kailasa_Temple%2C_Ellora_01.jpg/960px-Courtyard_and_Mahabharata_Reliefs_at_the_Kailasa_Temple%2C_Ellora_01.jpg",
+      "alt": "Kailāsa temple, Ellora",
+      "credit": "Rohit Sharma",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Courtyard_and_Mahabharata_Reliefs_at_the_Kailasa_Temple,_Ellora_01.jpg"
+    }
+  },
+  {
+    "id": "chola-nataraja",
+    "side": "atlas",
+    "era": "medieval",
+    "slice": "Temple & craft",
+    "title": {
+      "en": "Chola bronzes — the Naṭarāja",
+      "deva": "नटराज",
+      "iast": "Naṭarāja"
+    },
+    "kind": "artifact",
+    "dating": {
+      "display": "iconography matured c. 10th century CE (Chola dynasty); casting tradition continuous to the present",
+      "edtf": "0900/1279",
+      "tag": "firm",
+      "basis": "Dated temple commissions and inscriptions; the canonical form (dance of bliss within the flaming circle) is fixed under the imperial Cholas.",
+      "positions": []
+    },
+    "summary": "Śiva as Lord of the Dance: drum of creation, fire of dissolution, raised foot of release, dwarf of ignorance underfoot — theology compressed into a bronze form cast by the lost-wax process in the same craft lineage attested at Mohenjo-daro 3,500 years earlier, and still cast today by hereditary sthapatis in Swamimalai.",
+    "whyItMatters": "Among the most recognized religious artworks on Earth and a favorite of modern physics culture (Coomaraswamy's 1918 essay 'The Dance of Śiva'; the 2m Naṭarāja gifted by India to CERN in 2004). Also central to modern repatriation law: stolen Chola bronzes have driven landmark art-trafficking cases and returns.",
+    "honestyNote": "'The Naṭarāja encodes modern cosmology' is metaphor, not physics — CERN's statue carries a plaque quoting Fritjof Capra's analogy, and an analogy is what it is. The craft continuity (lost-wax) is documented; identity of religious meaning across 3,500 years is not claimed.",
+    "locations": [
+      {
+        "name": "Chidambaram Naṭarāja temple, Tamil Nadu — the cult's center",
+        "lat": 11.399,
+        "lng": 79.693
+      },
+      {
+        "name": "Swamimalai, Thanjavur District — living casting tradition",
+        "lat": 10.957,
+        "lng": 79.329
+      }
+    ],
+    "flagship": false,
+    "sources": [
+      {
+        "label": "Coomaraswamy, A.K., \"The Dance of Śiva\" (1918)",
+        "kind": "primary",
+        "independent": true
+      },
+      {
+        "label": "Dehejia, V., The Sensuous and the Sacred: Chola Bronzes from South India (2002)",
+        "kind": "monograph",
+        "independent": true
+      },
+      {
+        "label": "Srinivasan, S., \"Shiva as 'cosmic dancer': on Pallava origins for the Nataraja bronze\", World Archaeology 36 (2004) — archaeometallurgy and dating",
+        "kind": "peer-reviewed",
+        "independent": true
+      }
+    ],
+    "contributors": [
+      "seed:ai-draft (claude-fable-5)"
+    ],
+    "vetting": {
+      "status": "in-review",
+      "vetters": [],
+      "aiAssisted": true
+    },
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Shiva_as_the_Lord_of_Dance_LACMA_edit.jpg/960px-Shiva_as_the_Lord_of_Dance_LACMA_edit.jpg",
+      "alt": "Chola bronzes — the Naṭarāja",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shiva_as_the_Lord_of_Dance_LACMA_edit.jpg"
+    }
+  },
+  {
+    "id": "bhakti-movement",
+    "side": "atlas",
+    "era": "medieval",
+    "slice": "Philosophy & devotion",
+    "title": {
+      "en": "The Bhakti movements",
+      "deva": "भक्ति",
+      "iast": "bhakti"
+    },
+    "kind": "concept",
+    "dating": {
+      "display": "Tamil Āḻvārs and Nāyaṉmār c. 6th–9th century CE; successive regional waves through the 17th century",
+      "edtf": "0500/1700",
+      "tag": "evolved",
+      "basis": "The saint-poets' corpora and hagiographies are datable regionally; 'movement' singular is a modern historiographic frame (Hawley) for linked regional surges.",
+      "positions": []
+    },
+    "summary": "Devotion as direct access: Tamil poet-saints singing to Viṣṇu and Śiva in the vernacular, then wave after regional wave — Vīraśaivas in Karnataka (Basava, Akka Mahādēvī), Varkaris in Maharashtra (Jñāneśvar, Tukārām, Nāmdev), Mīrābāī in Rajasthan, Caitanya in Bengal, Ravidās and Kabīr in the north — poetry over priestcraft, often explicitly against caste exclusion, composed by weavers, cobblers, women.",
+    "whyItMatters": "Bhakti reshaped Hinduism into the devotional religion most Hindus actually practice, created the classical literatures of a dozen modern languages, and preserves the tradition's own internal critique of hierarchy — indispensable context for ledger entries on caste and reform.",
+    "honestyNote": "Romantic overreading is easy in both directions: bhakti saints were not modern social revolutionaries, and yet the anti-caste voice in their poetry is textually real (Ravidās, Kabīr, the Vīraśaiva vacanas). 'One unified movement' is a modern narrative convenience — Hawley's study traces how that framing was built.",
+    "flagship": false,
+    "sources": [
+      {
+        "label": "Hawley, J.S., A Storm of Songs: India and the Idea of the Bhakti Movement (Harvard, 2015)",
+        "kind": "monograph",
+        "independent": true
+      },
+      {
+        "label": "Ramanujan, A.K., Speaking of Śiva (Penguin, 1973) — vacana translations",
+        "kind": "reference",
+        "independent": true
+      },
+      {
+        "label": "Novetzke, C., Religion and Public Memory: A Cultural History of Saint Namdev in India (Columbia, 2008)",
+        "kind": "monograph",
+        "independent": true
+      }
+    ],
+    "relatedLedger": [
+      "colonial-distortion-caste-census",
+      "cherry-picking-sati"
+    ],
+    "contributors": [
+      "seed:ai-draft (claude-fable-5)"
+    ],
+    "vetting": {
+      "status": "in-review",
+      "vetters": [],
+      "aiAssisted": true
+    },
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Kangra_painting_of_Mirabai%2C_the_female_Bhakti_saint.jpg",
+      "alt": "The Bhakti movements",
+      "credit": "Unknown author",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kangra_painting_of_Mirabai,_the_female_Bhakti_saint.jpg"
+    }
+  },
+  {
+    "id": "nalanda",
+    "side": "atlas",
+    "era": "medieval",
+    "slice": "Institutions",
+    "title": {
+      "en": "Nālandā Mahāvihāra",
+      "deva": "नालन्दा",
+      "iast": "Nālandā"
+    },
+    "kind": "place",
+    "dating": {
+      "display": "founded 5th century CE (Gupta, Kumāragupta I); functioned ~700 years; destroyed/abandoned c. 1200 CE",
+      "edtf": "0427/1200",
+      "tag": "firm",
+      "basis": "Seals and inscriptions from the site fix the Gupta foundation; Xuanzang (7th c.) and Yijing describe it in operation; Persian chronicle and archaeology mark the end.",
+      "positions": []
+    },
+    "summary": "THE institutional university of ancient India — endowed by kings, residential, corporate, with admission examinations, a famed library (Dharmagañja), and an international student body from China, Korea, and Southeast Asia. Curriculum: Buddhist philosophy foremost, plus Vedas, logic, grammar, medicine. Xuanzang studied and taught here and carried its texts to China.",
+    "whyItMatters": "When posts inflate Taxila into 'the world's first university', Nālandā is the casualty: it is the site that actually earns the institutional title. Its destruction around 1200 (Bakhtiyār Khaljī's raids, per the Tabaqāt-i-Nāṣirī) and the end of Buddhist scholasticism in India is among the pivotal ruptures in South Asian intellectual history.",
+    "honestyNote": "The Tabaqāt-i-Nāṣirī describes the sack of a fortified monastery generally identified with the Nālandā region; the popular details ('library burned for three/six months') are later embellishment. Decline was also underway before the raids. Precision here, as ever, strengthens rather than weakens the historical case.",
+    "locations": [
+      {
+        "name": "Nalanda, Bihar, India — UNESCO World Heritage (2016)",
+        "lat": 25.1357,
+        "lng": 85.4436
+      }
+    ],
+    "flagship": false,
+    "sources": [
+      {
+        "label": "Beal, S. (tr.), Si-yu-ki: Buddhist Records of the Western World (Xuanzang) (1884)",
+        "kind": "primary",
+        "independent": true
+      },
+      {
+        "label": "Scharfe, H., Education in Ancient India (2002) — the institutional contrast with Taxila",
+        "kind": "monograph",
+        "independent": true
+      },
+      {
+        "label": "UNESCO World Heritage Centre: Archaeological Site of Nalanda Mahavihara (2016)",
+        "url": "https://whc.unesco.org/en/list/1502/",
+        "kind": "archival",
+        "independent": true
+      },
+      {
+        "label": "Minhāj-i-Sirāj, Tabaqāt-i-Nāṣirī (tr. Raverty, 1881) — the destruction account",
+        "kind": "primary",
+        "independent": true
+      }
+    ],
+    "relatedLedger": [
+      "factual-error-taxila-university"
+    ],
+    "contributors": [
+      "seed:ai-draft (claude-fable-5)"
+    ],
+    "vetting": {
+      "status": "in-review",
+      "vetters": [],
+      "aiAssisted": true
+    },
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Temple_3_-_Sariputta_Stupa_-_Brick_Votive_Stupas_-_Nalanda_Mahavihara_%2812%29.jpg/960px-Temple_3_-_Sariputta_Stupa_-_Brick_Votive_Stupas_-_Nalanda_Mahavihara_%2812%29.jpg",
+      "alt": "Nālandā Mahāvihāra",
+      "credit": "Sumitsurai",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Temple_3_-_Sariputta_Stupa_-_Brick_Votive_Stupas_-_Nalanda_Mahavihara_(12).jpg"
+    }
+  }
+]

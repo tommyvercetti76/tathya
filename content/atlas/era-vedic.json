@@ -1,0 +1,481 @@
+[
+  {
+    "id": "upanishads-early",
+    "side": "atlas",
+    "era": "vedic",
+    "slice": "The oral corpus",
+    "title": {
+      "en": "The early Upaniṣads",
+      "deva": "उपनिषद्",
+      "iast": "Upaniṣad"
+    },
+    "kind": "text",
+    "dating": {
+      "display": "oldest prose Upaniṣads (Bṛhadāraṇyaka, Chāndogya) c. 700–500 BCE; the classical set composed over centuries",
+      "edtf": "-0699/-0300",
+      "tag": "evolved",
+      "basis": "Relative chronology by language and cross-reference (Olivelle's assessment); absolute dates are inferential, as with all Vedic texts.",
+      "positions": []
+    },
+    "summary": "The speculative culmination of the Vedic corpus: dialogues — often staged as debates, with kings, women (Gārgī, Maitreyī), and rival teachers — that turn ritual questions into questions about consciousness, death, and the self. Core theses: ātman = brahman; karma and rebirth get their first clear articulations here.",
+    "whyItMatters": "Every subsequent Indian philosophical system positions itself relative to these texts. Their modern global reach is documented, not vague: a Persian translation (Dārā Shikōh, 1657) reached Europe as Anquetil-Duperron's Latin Oupnek'hat (1801–02), which Schopenhauer famously called 'the solace of my life' — a traceable transmission chain from Sanskrit to European philosophy.",
+    "throughLines": [
+      {
+        "to": "Global philosophy of consciousness (documented reception chain)",
+        "status": "documented",
+        "chain": [
+          "Bṛhadāraṇyaka & Chāndogya Upaniṣads (c. 700–500 BCE)",
+          "Dārā Shikōh's Persian Sirr-i-Akbar (1657, Delhi)",
+          "Anquetil-Duperron's Latin Oupnek'hat (1801–02, Paris)",
+          "Schopenhauer's explicit engagement (Parerga and Paralipomena; 'the solace of my life'), then 19th–20th c. philosophy and comparative religion"
+        ],
+        "sources": [
+          {
+            "label": "App, U., Schopenhauer's Compass (2014) — the documented reception",
+            "kind": "monograph",
+            "independent": true
+          },
+          {
+            "label": "Olivelle, P., The Early Upaniṣads: Annotated Text and Translation (OUP, 1998)",
+            "kind": "reference",
+            "independent": true
+          }
+        ]
+      }
+    ],
+    "flagship": true,
+    "sources": [
+      {
+        "label": "Olivelle, P., The Early Upaniṣads (OUP, 1998)",
+        "kind": "reference",
+        "independent": true
+      },
+      {
+        "label": "App, U., Schopenhauer's Compass (2014)",
+        "kind": "monograph",
+        "independent": true
+      },
+      {
+        "label": "Brereton, J., \"The Upanishads\", in Approaches to the Asian Classics (1990)",
+        "kind": "peer-reviewed",
+        "independent": true
+      },
+      {
+        "label": "Anquetil-Duperron, Oupnek'hat (1801–02) — the transmission document itself",
+        "kind": "primary",
+        "independent": true
+      },
+      {
+        "label": "Black, B., The Character of the Self in Ancient India (SUNY, 2007)",
+        "kind": "monograph",
+        "independent": true
+      }
+    ],
+    "contributors": [
+      "seed:ai-draft (claude-fable-5)"
+    ],
+    "vetting": {
+      "status": "in-review",
+      "vetters": [],
+      "aiAssisted": true
+    },
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Isha_Upanishad_Verses_1_to_3%2C_Shukla_Yajurveda%2C_Sanskrit%2C_Devanagari.jpg/960px-Isha_Upanishad_Verses_1_to_3%2C_Shukla_Yajurveda%2C_Sanskrit%2C_Devanagari.jpg",
+      "alt": "The early Upaniṣads",
+      "credit": "Ms Sarah Welch",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Isha_Upanishad_Verses_1_to_3,_Shukla_Yajurveda,_Sanskrit,_Devanagari.jpg"
+    }
+  },
+  {
+    "id": "samaveda",
+    "side": "atlas",
+    "era": "vedic",
+    "slice": "The oral corpus",
+    "title": {
+      "en": "Sāmaveda — the sung Veda",
+      "deva": "सामवेद",
+      "iast": "Sāmaveda"
+    },
+    "kind": "text",
+    "dating": {
+      "display": "c. 1200–1000 BCE (compilation; verses mostly drawn from the Ṛgveda)",
+      "edtf": "-1199/-1000",
+      "tag": "evolved",
+      "basis": "Standard Vedic relative chronology: post-Ṛgvedic compilation, pre-Upaniṣadic.",
+      "positions": []
+    },
+    "summary": "Nearly all its 1,875 verses come from the Ṛgveda — what is new is the music: the sāman chants stretch, ornament, and interpolate syllables (stobhas) into elaborate melodic lines, preserved in oral notation and later hand-sign systems. It is the liturgical soundtrack of the soma sacrifice.",
+    "whyItMatters": "The oldest continuously transmitted music tradition on record. Indian musicological tradition (Nāradīyā Śikṣā onward) treats the sāman scale as ancestral to later Indian music theory — a lineage claim the sources discuss with appropriate care.",
+    "honestyNote": "'Indian classical music comes from Sāmaveda' is the popular compression; the documented statement is thinner — a continuous chant practice plus later theorists' own claims of descent. The chant survives in a handful of śākhā lineages (Jaiminīya in Kerala/Tamil Nadu among the most archaic).",
+    "flagship": false,
+    "sources": [
+      {
+        "label": "Staal, F., \"The Fidelity of Oral Tradition and the Origins of Science\" (1986)",
+        "kind": "monograph",
+        "independent": true
+      },
+      {
+        "label": "Howard, W., Sāmavedic Chant (Yale, 1977)",
+        "kind": "monograph",
+        "independent": true
+      },
+      {
+        "label": "Jamison, S. & Witzel, M., \"Vedic Hinduism\" (1992 survey) — corpus chronology",
+        "kind": "peer-reviewed",
+        "independent": true
+      }
+    ],
+    "contributors": [
+      "seed:ai-draft (claude-fable-5)"
+    ],
+    "vetting": {
+      "status": "in-review",
+      "vetters": [],
+      "aiAssisted": true
+    },
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/1636_CE_Samaveda%2C_Sadvimsha_Brahmana%2C_Varanasi_Sanskrit_college%2C_Edward_Cowell_collection%2C_sample_iii%2C_Sanskrit%2C_Devanagari.jpg/960px-1636_CE_Samaveda%2C_Sadvimsha_Brahmana%2C_Varanasi_Sanskrit_college%2C_Edward_Cowell_collection%2C_sample_iii%2C_Sanskrit%2C_Devanagari.jpg",
+      "alt": "Sāmaveda — the sung Veda",
+      "credit": "Ms Sarah Welch",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:1636_CE_Samaveda,_Sadvimsha_Brahmana,_Varanasi_Sanskrit_college,_Edward_Cowell_collection,_sample_iii,_Sanskrit,_Devanagari.jpg"
+    }
+  },
+  {
+    "id": "shulbasutras",
+    "side": "atlas",
+    "era": "vedic",
+    "slice": "Mathematics",
+    "title": {
+      "en": "Śulbasūtras — ritual geometry",
+      "deva": "शुल्बसूत्र",
+      "iast": "Śulbasūtra"
+    },
+    "kind": "text",
+    "dating": {
+      "display": "c. 800–350 BCE (Baudhāyana oldest, then Āpastamba, Kātyāyana, Mānava)",
+      "edtf": "-0799/-0350",
+      "tag": "contested",
+      "basis": "Dated by language and position within the Kalpasūtra literature; no external anchors.",
+      "positions": [
+        {
+          "position": "Baudhāyana c. 800–600 BCE",
+          "holders": "Standard histories of Indian mathematics (Plofker; Sen & Bag)",
+          "evidence": "Sūtra-period language; presupposed by later ritual literature."
+        },
+        {
+          "position": "Considerably earlier core, contemporary with Brāhmaṇa ritual",
+          "holders": "Seidenberg (arguing ritual origins of geometry)",
+          "evidence": "The altar constructions presuppose the geometry; a minority reading of the priority question."
+        }
+      ]
+    },
+    "summary": "Manuals for building Vedic fire altars with cords and pegs: they state the diagonal rule ('the diagonal of a rectangle produces both areas...') — the 'Pythagorean' theorem in words, before or around Pythagoras — give √2 correct to five decimal places (1 + 1/3 + 1/(3·4) − 1/(3·4·34)), constructions for squaring shapes, and Pythagorean triples, all in the service of altar proportions.",
+    "whyItMatters": "The earliest South Asian mathematical texts, and the standard exhibit for mathematics growing out of ritual requirements. The theorem statement is genuinely early and genuinely independent — and genuinely a statement, not a proof, which is the honest boundary of the claim.",
+    "honestyNote": "No proofs are given; these are construction manuals. 'Baudhāyana discovered the Pythagorean theorem before Pythagoras' is defensible for the statement (and Babylonian tablets state cases earlier still); claims of 'proof' or of transmission to Greece are not supported.",
+    "throughLines": [
+      {
+        "to": "Geometry — early exact statement of the right-triangle rule and root approximations",
+        "status": "anticipation",
+        "chain": [
+          "Baudhāyana Śulbasūtra 1.9–1.12: the diagonal rule and √2 approximation",
+          "Later Indian mathematics (Āryabhaṭa onward) builds on the computational tradition",
+          "Modern histories of mathematics credit the Śulbasūtras' priority for the explicit general statement in South Asia"
+        ],
+        "sources": [
+          {
+            "label": "Sen, S.N. & Bag, A.K., The Śulbasūtras (Indian National Science Academy, 1983) — critical edition and translation",
+            "kind": "reference",
+            "independent": true
+          },
+          {
+            "label": "Plofker, K., Mathematics in India (2009), ch. 2",
+            "kind": "monograph",
+            "independent": true
+          }
+        ]
+      }
+    ],
+    "flagship": false,
+    "sources": [
+      {
+        "label": "Sen, S.N. & Bag, A.K., The Śulbasūtras (1983)",
+        "kind": "reference",
+        "independent": true
+      },
+      {
+        "label": "Plofker, K., Mathematics in India (2009)",
+        "kind": "monograph",
+        "independent": true
+      },
+      {
+        "label": "Seidenberg, A., \"The Ritual Origin of Geometry\", Archive for History of Exact Sciences 1 (1962)",
+        "kind": "peer-reviewed",
+        "independent": true
+      }
+    ],
+    "contributors": [
+      "seed:ai-draft (claude-fable-5)"
+    ],
+    "vetting": {
+      "status": "in-review",
+      "vetters": [],
+      "aiAssisted": true
+    }
+  },
+  {
+    "id": "vedanga-jyotisha",
+    "side": "atlas",
+    "era": "vedic",
+    "slice": "Mathematics",
+    "title": {
+      "en": "Vedāṅga Jyotiṣa — calendrical astronomy",
+      "deva": "वेदाङ्गज्योतिष",
+      "iast": "Vedāṅga Jyotiṣa"
+    },
+    "kind": "text",
+    "dating": {
+      "display": "astronomical epoch c. 1400–1200 BCE; composition possibly c. 700–500 BCE",
+      "edtf": "-1399/-0500",
+      "tag": "contested",
+      "basis": "The text's stated solstice position (winter solstice at Śraviṣṭhā/Delphini) fits c. 1400–1200 BCE by precession; its language looks later — so epoch and composition may be centuries apart.",
+      "positions": [
+        {
+          "position": "The astronomical data preserve a genuine 2nd-millennium observation; the text as we have it is later",
+          "holders": "Standard history of the exact sciences (Pingree, Plofker)",
+          "evidence": "Precession calculation vs late-Vedic language."
+        },
+        {
+          "position": "Composition itself is as old as the epoch",
+          "holders": "Parts of Indian traditional scholarship",
+          "evidence": "Takes the solstice statement as contemporary observation; reported as a position."
+        }
+      ]
+    },
+    "summary": "Lagadha's short verse manual (Ṛk and Yajus recensions) for scheduling Vedic sacrifice: a five-year yuga calendar of 62 synodic months with intercalation rules, day-length ratios, and nakṣatra positions — India's oldest surviving astronomical text.",
+    "whyItMatters": "It shows quantitative, predictive astronomy embedded in ritual needs, and its solstice datum is a rare astronomical time-anchor inside the Vedic corpus — used carefully, it constrains chronology; used carelessly, it fuels date inflation in both directions.",
+    "flagship": false,
+    "sources": [
+      {
+        "label": "Kuppanna Sastry, T.S., Vedāṅga Jyotiṣa of Lagadha (INSA, 1985) — edition, translation, epoch analysis",
+        "kind": "reference",
+        "independent": true
+      },
+      {
+        "label": "Pingree, D., \"The Mesopotamian Origin of Early Indian Mathematical Astronomy\", JHA 4 (1973) — the skeptical-transmission reading",
+        "kind": "peer-reviewed",
+        "independent": true
+      },
+      {
+        "label": "Plofker, K., Mathematics in India (2009), ch. 2",
+        "kind": "monograph",
+        "independent": true
+      }
+    ],
+    "contributors": [
+      "seed:ai-draft (claude-fable-5)"
+    ],
+    "vetting": {
+      "status": "in-review",
+      "vetters": [],
+      "aiAssisted": true
+    }
+  },
+  {
+    "id": "ganga-iron",
+    "side": "atlas",
+    "era": "vedic",
+    "slice": "Material culture",
+    "title": {
+      "en": "Early iron metallurgy in the Ganga plain",
+      "iast": "ayas / kṛṣṇāyas"
+    },
+    "kind": "innovation",
+    "dating": {
+      "display": "c. 1800–1000 BCE at sites in the central Ganga plain and Vindhyas",
+      "edtf": "-1799/-1000",
+      "tag": "firm",
+      "basis": "Radiocarbon-dated iron-bearing levels at Malhar, Raja Nala-ka-Tila, Dadupur and related sites (Tewari 2003), corroborated by subsequent work.",
+      "positions": []
+    },
+    "summary": "Smelted iron — furnaces, slag, artifacts — appears in the Ganga–Vindhya zone by the early 2nd millennium BCE, earlier than older textbooks assumed and plausibly an independent development rather than a diffusion from the west.",
+    "whyItMatters": "Recalibrates the material backdrop of the Vedic period: kṛṣṇa ayas ('dark metal') in later Vedic texts now has a local, dated metallurgical context. Also a corrective in both directions — against 'iron came late and only from outside', and against inflating these dates further than the labs do.",
+    "locations": [
+      {
+        "name": "Malhar, Chandauli District, Uttar Pradesh, India",
+        "lat": 24.99,
+        "lng": 83.26,
+        "note": "approximate; one of several dated sites"
+      }
+    ],
+    "flagship": false,
+    "sources": [
+      {
+        "label": "Tewari, R., \"The origins of iron-working in India: new evidence from the Central Ganga Plain and the Eastern Vindhyas\", Antiquity 77 (2003)",
+        "kind": "peer-reviewed",
+        "independent": true
+      },
+      {
+        "label": "Chakrabarti, D.K., The Early Use of Iron in India (OUP, 1992)",
+        "kind": "monograph",
+        "independent": true
+      },
+      {
+        "label": "Johansen, P., overviews of South Asian iron chronology in Journal of World Prehistory (2014)",
+        "kind": "peer-reviewed",
+        "independent": true
+      }
+    ],
+    "contributors": [
+      "seed:ai-draft (claude-fable-5)"
+    ],
+    "vetting": {
+      "status": "in-review",
+      "vetters": [],
+      "aiAssisted": true
+    }
+  },
+  {
+    "id": "pgw-hastinapura",
+    "side": "atlas",
+    "era": "vedic",
+    "slice": "Material culture",
+    "title": {
+      "en": "Painted Grey Ware culture and Hastināpura",
+      "deva": "हस्तिनापुर",
+      "iast": "Hastināpura"
+    },
+    "kind": "artifact",
+    "dating": {
+      "display": "c. 1200–600 BCE across the Ganga–Yamuna doab",
+      "edtf": "-1199/-0600",
+      "tag": "firm",
+      "basis": "Stratified sequences from B.B. Lal's Hastinapura excavation (1950–52) onward; widely replicated.",
+      "positions": []
+    },
+    "summary": "A fine wheel-made grey pottery with black-painted patterns marks the Iron Age villages of the western Ganga plain — the region and rough period in which later Vedic texts situate the Kuru realm. Lal's Hastinapura dig famously found a flood-truncated PGW level, which he correlated with the Mahābhārata tradition of Hastināpura's flooding.",
+    "whyItMatters": "PGW is the standard archaeological horizon put in conversation with the later Vedic world and epic geography — the strongest available case study in how (and how far) texts and strata can be linked.",
+    "honestyNote": "Pottery is not a people and not a text: 'PGW = Vedic Kurus' is a correlation argued from geography and chronology, not an identification the sherds themselves can prove. The Mahābhārata flood correlation is evocative, unverifiable, and labeled as such by careful archaeologists.",
+    "locations": [
+      {
+        "name": "Hastinapura, Meerut District, Uttar Pradesh, India",
+        "lat": 29.16,
+        "lng": 78.02
+      }
+    ],
+    "flagship": false,
+    "sources": [
+      {
+        "label": "Lal, B.B., \"Excavation at Hastināpura and other explorations\", Ancient India 10–11 (1954–55)",
+        "kind": "primary",
+        "independent": true
+      },
+      {
+        "label": "Witzel, M., \"Early Sanskritization: Origins and Development of the Kuru State\", EJVS 1 (1995)",
+        "kind": "peer-reviewed",
+        "independent": true
+      },
+      {
+        "label": "Singh, U., A History of Ancient and Early Medieval India (2008) — PGW synthesis",
+        "kind": "reference",
+        "independent": true
+      }
+    ],
+    "contributors": [
+      "seed:ai-draft (claude-fable-5)"
+    ],
+    "vetting": {
+      "status": "in-review",
+      "vetters": [],
+      "aiAssisted": true
+    }
+  },
+  {
+    "id": "agnicayana",
+    "side": "atlas",
+    "era": "vedic",
+    "slice": "Ritual & continuity",
+    "title": {
+      "en": "Śrauta ritual and the Agnicayana",
+      "deva": "अग्निचयन",
+      "iast": "Agnicayana"
+    },
+    "kind": "concept",
+    "dating": {
+      "display": "codified in the Brāhmaṇa/Sūtra period (c. 900–500 BCE); still performed",
+      "edtf": "-0899/..",
+      "tag": "evolved",
+      "basis": "Textual codification dated by the standard Vedic sequence; the living performances are directly documented.",
+      "positions": []
+    },
+    "summary": "The most elaborate Vedic śrauta rite: twelve days of ritual centered on building a five-layer, thousand-brick fire altar in the shape of a bird — the rite whose geometry the Śulbasūtras exist to serve. In 1975 a full Agnicayana was performed by Nambudiri brahmins in Panjal, Kerala, and documented exhaustively by Frits Staal's team.",
+    "whyItMatters": "A ritual system codified ~2,500+ years ago, still performable from living memory, is the atlas's strongest continuity datum — not inferred from artifacts but filmed. It anchors the claim that Vedic tradition is a living transmission, without needing any embellishment.",
+    "honestyNote": "Continuity of ritual form does not mean frozen identity of meaning or of society around it; performances are now rare, and the 1975 event itself involved compromises (documented in Staal's volumes) that show tradition adapting to survive.",
+    "locations": [
+      {
+        "name": "Panjal, Thrissur District, Kerala, India — 1975 documented performance",
+        "lat": 10.72,
+        "lng": 76.32,
+        "note": "approximate"
+      }
+    ],
+    "throughLines": [
+      {
+        "to": "Living practice, continuously transmitted to the present",
+        "status": "documented",
+        "chain": [
+          "Śatapatha Brāhmaṇa and śrauta sūtras codify the rite (c. 900–500 BCE)",
+          "Unbroken (if narrowing) Nambudiri and other śrauta lineages carry the recitation and procedure",
+          "1975 Panjal Agnicayana filmed and published in full (Staal, AGNI, 2 vols., 1983); later performances continue"
+        ],
+        "sources": [
+          {
+            "label": "Staal, F., AGNI: The Vedic Ritual of the Fire Altar, 2 vols. (1983)",
+            "kind": "reference",
+            "independent": true
+          },
+          {
+            "label": "UNESCO ICH: Tradition of Vedic Chanting — the transmission context",
+            "url": "https://ich.unesco.org/en/RL/tradition-of-vedic-chanting-00062",
+            "kind": "archival",
+            "independent": true
+          }
+        ]
+      }
+    ],
+    "flagship": false,
+    "sources": [
+      {
+        "label": "Staal, F., AGNI: The Vedic Ritual of the Fire Altar (1983)",
+        "kind": "reference",
+        "independent": true
+      },
+      {
+        "label": "Eggeling, J. (tr.), Śatapatha Brāhmaṇa (SBE, 1882–1900)",
+        "kind": "primary",
+        "independent": true
+      },
+      {
+        "label": "Plofker, K., Mathematics in India (2009) — altar geometry context",
+        "kind": "monograph",
+        "independent": true
+      }
+    ],
+    "contributors": [
+      "seed:ai-draft (claude-fable-5)"
+    ],
+    "vetting": {
+      "status": "in-review",
+      "vetters": [],
+      "aiAssisted": true
+    },
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Agnidhriyam.JPG/960px-Agnidhriyam.JPG",
+      "alt": "Śrauta ritual and the Agnicayana",
+      "credit": "വെള്ളെഴുത്ത്",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Agnidhriyam.JPG"
+    }
+  }
+]

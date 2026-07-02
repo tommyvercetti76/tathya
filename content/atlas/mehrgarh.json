@@ -3,7 +3,11 @@
   "side": "atlas",
   "era": "foundations",
   "slice": "Origins of settled life",
-  "title": { "en": "Mehrgarh", "deva": "मेहरगढ़", "iast": "Mehrgaṛh" },
+  "title": {
+    "en": "Mehrgarh",
+    "deva": "मेहरगढ़",
+    "iast": "Mehrgaṛh"
+  },
   "kind": "place",
   "dating": {
     "display": "c. 7000–2600 BCE (occupation)",
@@ -37,17 +41,60 @@
   "whyItMatters": "Mehrgarh anchors the deep-time start of the atlas. It shows continuous settled life on the subcontinent ~9,000 years ago and is widely treated as a precursor tradition to the Indus Valley Civilization — the substrate on which everything later in this atlas stands.",
   "honestyNote": "Mehrgarh is pre-Vedic and pre-literate. Calling it 'Hindu' would itself be an overclaim (see ledger category 9); equally, calling it 'ancient Pakistan' as a civilizational identity is an anachronism (see ledger category 7). It belongs to the shared deep history of the subcontinent, and its physical custodianship is Pakistani.",
   "locations": [
-    { "name": "Mehrgarh, Kacchi District, Balochistan, Pakistan", "lat": 29.38, "lng": 67.62, "note": "approximate; site is unexcavated backfill today" }
+    {
+      "name": "Mehrgarh, Kacchi District, Balochistan, Pakistan",
+      "lat": 29.38,
+      "lng": 67.62,
+      "note": "approximate; site is unexcavated backfill today"
+    }
   ],
   "flagship": true,
   "sources": [
-    { "label": "Jarrige, J.-F. & Meadow, R., \"The Antecedents of Civilization in the Indus Valley\", Scientific American 243 (1980)", "kind": "peer-reviewed", "independent": true },
-    { "label": "Coppa, A. et al., \"Early Neolithic tradition of dentistry\", Nature 440 (2006)", "url": "https://www.nature.com/articles/440755a", "kind": "peer-reviewed", "independent": true },
-    { "label": "Possehl, G., The Indus Civilization: A Contemporary Perspective (AltaMira, 2002)", "kind": "monograph", "independent": true },
-    { "label": "Kenoyer, J.M., Ancient Cities of the Indus Valley Civilization (OUP, 1998)", "kind": "monograph", "independent": true },
-    { "label": "UNESCO Tentative List: Archaeological Site of Mehrgarh", "url": "https://whc.unesco.org/en/tentativelists/1876/", "kind": "archival", "independent": true }
+    {
+      "label": "Jarrige, J.-F. & Meadow, R., \"The Antecedents of Civilization in the Indus Valley\", Scientific American 243 (1980)",
+      "kind": "peer-reviewed",
+      "independent": true
+    },
+    {
+      "label": "Coppa, A. et al., \"Early Neolithic tradition of dentistry\", Nature 440 (2006)",
+      "url": "https://www.nature.com/articles/440755a",
+      "kind": "peer-reviewed",
+      "independent": true
+    },
+    {
+      "label": "Possehl, G., The Indus Civilization: A Contemporary Perspective (AltaMira, 2002)",
+      "kind": "monograph",
+      "independent": true
+    },
+    {
+      "label": "Kenoyer, J.M., Ancient Cities of the Indus Valley Civilization (OUP, 1998)",
+      "kind": "monograph",
+      "independent": true
+    },
+    {
+      "label": "UNESCO Tentative List: Archaeological Site of Mehrgarh",
+      "url": "https://whc.unesco.org/en/tentativelists/1876/",
+      "kind": "archival",
+      "independent": true
+    }
   ],
-  "relatedLedger": ["anachronism-ancient-pakistan-panini", "conflation-older-than-hinduism-seal"],
-  "contributors": ["seed:ai-draft (claude-fable-5)"],
-  "vetting": { "status": "in-review", "vetters": [], "aiAssisted": true }
+  "relatedLedger": [
+    "anachronism-ancient-pakistan-panini",
+    "conflation-older-than-hinduism-seal"
+  ],
+  "contributors": [
+    "seed:ai-draft (claude-fable-5)"
+  ],
+  "vetting": {
+    "status": "in-review",
+    "vetters": [],
+    "aiAssisted": true
+  },
+  "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Mehrgarh_ruins.jpg/960px-Mehrgarh_ruins.jpg",
+    "alt": "Mehrgarh",
+    "credit": "Ashish_Premier",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mehrgarh_ruins.jpg"
+  }
 }
