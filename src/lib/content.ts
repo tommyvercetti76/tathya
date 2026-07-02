@@ -40,11 +40,4 @@ export function loadTaxonomy(): {
   return JSON.parse(fs.readFileSync(path.join(ROOT, "taxonomy.json"), "utf8"));
 }
 
-/** Devanāgarī numeral indexing: 1 → १, 108 → १०८ */
-export function toDevanagari(n: number): string {
-  const digits = "०१२३४५६७८९";
-  return String(n)
-    .split("")
-    .map((d) => (/\d/.test(d) ? digits[Number(d)] : d))
-    .join("");
-}
+export { toDevanagari } from "./deva";

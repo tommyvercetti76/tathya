@@ -67,8 +67,62 @@ a { color: var(--accent-soft); text-decoration-thickness: 1px; text-underline-of
 }
 .side-toggle a.active { background: var(--glow); color: var(--accent-soft); border: 1px solid var(--accent); }
 
+/* ---------------- atlas: era rail (sticky timeline spine) ---------------- */
+.era-rail {
+  position: sticky; top: 0; z-index: 20;
+  display: flex; gap: 6px; overflow-x: auto;
+  padding: 10px 0 12px; margin-top: 18px;
+  background: color-mix(in srgb, var(--bg) 90%, transparent);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--line);
+  scrollbar-width: thin;
+}
+.era-rail button {
+  flex: 1 0 auto; min-width: 108px; max-width: 190px;
+  display: flex; flex-direction: column; align-items: flex-start; gap: 1px;
+  background: none; border: 1px solid var(--line); border-radius: 10px;
+  padding: 7px 12px; cursor: pointer; font: inherit; color: var(--text-dim);
+  text-align: left;
+}
+.era-rail button:hover { border-color: var(--accent); }
+.era-rail button.active { border-color: var(--accent); background: var(--glow); color: var(--accent-soft); }
+.rail-num { color: var(--accent); font-family: var(--font-serif); font-size: 1.05rem; line-height: 1.1; }
+.rail-name { font-size: 0.78rem; color: inherit; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100%; }
+.rail-span { font-size: 0.68rem; color: var(--text-dim); white-space: nowrap; }
+
+/* ---------------- atlas: nested entry cards on the spine ---------------- */
+.spine { border-left: 2px solid var(--line); margin-left: 9px; padding-left: 24px; }
+.tcard { position: relative; background: var(--bg-raised); border: 1px solid var(--line); border-radius: 10px; margin: 10px 0; }
+.tcard::before {
+  content: ""; position: absolute; left: -31px; top: 20px;
+  width: 9px; height: 9px; border-radius: 50%;
+  background: var(--bg); border: 2px solid var(--text-dim);
+}
+.tcard[data-tag="firm"]::before { border-color: var(--dating-firm); }
+.tcard[data-tag="traditional"]::before { border-color: var(--dating-traditional); }
+.tcard[data-tag="contested"]::before { border-color: var(--dating-contested); }
+.tcard[data-tag="evolved"]::before { border-color: var(--dating-evolved); }
+.tcard:hover, .tcard.open { border-color: var(--accent); box-shadow: 0 0 24px var(--glow); }
+.tcard-head {
+  display: flex; align-items: center; gap: 10px; flex-wrap: wrap;
+  width: 100%; background: none; border: none; color: var(--text);
+  font: inherit; padding: 13px 16px; cursor: pointer; text-align: left;
+}
+.tindex { color: var(--accent); font-family: var(--font-serif); min-width: 1.6ch; }
+.tcard-title { font-family: var(--font-serif); font-size: 1.05rem; }
+.tcard-title .deva { color: var(--accent-soft); font-size: 0.95em; font-weight: 400; }
+.tcard-date { color: var(--text-dim); font-size: 0.8rem; max-width: 230px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.chev { margin-left: auto; color: var(--text-dim); transition: transform 0.18s ease; }
+.tcard.open > .tcard-head .chev { transform: rotate(90deg); }
+.tcard-body { padding: 2px 20px 16px; border-top: 1px solid var(--line); }
+.era-count { margin-left: auto; font-size: 0.76rem; color: var(--text-dim); border: 1px solid var(--line); border-radius: 999px; padding: 2px 10px; }
+@media (max-width: 640px) {
+  .tcard-date { display: none; }
+  .era-rail button { min-width: 84px; }
+}
+
 /* ---------------- atlas ---------------- */
-.era { margin-top: 44px; }
+.era { margin-top: 44px; scroll-margin-top: 86px; }
 .era-head { display: flex; align-items: baseline; gap: 14px; }
 .era-index { font-family: var(--font-serif); font-size: 1.5rem; color: var(--accent); min-width: 2ch; }
 .era-name { font-family: var(--font-serif); font-size: 1.25rem; margin: 0; }

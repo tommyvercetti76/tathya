@@ -1,0 +1,27 @@
+{
+  "id": "vedic-chanting-unesco",
+  "side": "atlas",
+  "era": "contemporary",
+  "slice": "Living heritage",
+  "title": { "en": "UNESCO recognition of Vedic chanting", "deva": "वैदिक पाठ परम्परा", "iast": "vaidika pāṭha paramparā" },
+  "kind": "event",
+  "dating": {
+    "display": "proclaimed 2003; inscribed on the Representative List 2008",
+    "edtf": "2003/2008",
+    "tag": "firm",
+    "basis": "UNESCO's own proclamation and inscription records.",
+    "positions": []
+  },
+  "summary": "UNESCO proclaimed the tradition of Vedic chanting a Masterpiece of the Oral and Intangible Heritage of Humanity (2003) and inscribed it on the Representative List (2008) — recognizing the pāṭha recitation systems (pada, krama, jaṭā, ghana) still transmitted teacher-to-student in living śākhās, the same error-detecting oral architecture that carried the Ṛgveda across roughly three millennia.",
+  "whyItMatters": "It closes the atlas's arc: the transmission system documented in the Vedic-era entries is not an archaeological memory but a living practice with international heritage status — deep time arriving intact in the present.",
+  "honestyNote": "Recognition is of the chanting tradition's cultural value, not an endorsement of any historical claim about the texts' dates or content; UNESCO's records also note the tradition's fragility (few full śākhā lineages survive).",
+  "flagship": false,
+  "sources": [
+    { "label": "UNESCO Intangible Cultural Heritage: Tradition of Vedic Chanting (inscription record)", "url": "https://ich.unesco.org/en/RL/tradition-of-vedic-chanting-00062", "kind": "archival", "independent": true },
+    { "label": "Staal, F., \"The Fidelity of Oral Tradition and the Origins of Science\" (1986)", "kind": "monograph", "independent": true },
+    { "label": "Jamison, S. & Brereton, J., The Rigveda (OUP, 2014), introduction — on the recitation systems", "kind": "reference", "independent": true }
+  ],
+  "relatedLedger": [],
+  "contributors": ["seed:ai-draft (claude-fable-5)"],
+  "vetting": { "status": "in-review", "vetters": [], "aiAssisted": true }
+}
