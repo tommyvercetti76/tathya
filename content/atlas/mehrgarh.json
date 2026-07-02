@@ -96,5 +96,29 @@
     "credit": "Ashish_Premier",
     "license": "CC BY-SA 3.0",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mehrgarh_ruins.jpg"
+  },
+  "dharmicTie": {
+    "status": "substrate",
+    "statement": "Pre-Vedic material substrate: the farming-herding world from which the Indus civilization — and through it the subcontinent's continuous settled life — descends. No doctrinal tie is claimable, and saying so plainly is what keeps this atlas's direct-scriptural claims unimpeachable."
+  },
+  "custody": {
+    "holder": "Department of Archaeology and Museums, Government of Pakistan / Government of Balochistan",
+    "place": "Kacchi plain, Balochistan, Pakistan (site); finds in National Museum Karachi, Quetta Museum, and Musée Guimet, Paris",
+    "legalBasis": "Pakistan Antiquities Act, 1975 (site and national collections); French-held material via the excavation partage terms of the French Archaeological Mission (1974–2000).",
+    "parallels": [
+      {
+        "name": "Neolithic figurine assemblages",
+        "holder": "Musée Guimet, Paris",
+        "note": "mission partage"
+      },
+      {
+        "name": "Balochistan prehistoric collections",
+        "holder": "National Museum of Pakistan, Karachi"
+      },
+      {
+        "name": "Kacchi–Bolan comparative material",
+        "holder": "Quetta Museum, Balochistan"
+      }
+    ]
   }
 }

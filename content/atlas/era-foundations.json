@@ -60,6 +60,10 @@
       "credit": "Arian Zwegers",
       "license": "CC BY 2.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:2_elephants_man_riding_one_pre_historic_Bhimbetka_rock_cave_paintings_Madhya_Pradesh_India.jpg"
+    },
+    "dharmicTie": {
+      "status": "substrate",
+      "statement": "Deep artistic substrate. Continuity of sacred use is site-level, not doctrinal: several shelters and the adjacent hilltops carry later Hindu shrines, showing reuse of the same landscape across ages."
     }
   },
   {
@@ -120,6 +124,16 @@
       "alt": "Earliest known cotton thread (Mehrgarh)",
       "license": "Public domain",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:CottonPlant.JPG"
+    },
+    "dharmicTie": {
+      "status": "substrate",
+      "statement": "Material substrate with a named afterlife: cotton is kārpāsa in the dharmaśāstra world — Manusmṛti prescribes a cotton sacred thread for brahmins — making the fibre first spun here part of the tradition's later ritual fabric.",
+      "scriptureRefs": [
+        {
+          "ref": "Manusmṛti 2.44",
+          "text": "kārpāsam upavītaṁ syāt — the sacred thread should be of cotton"
+        }
+      ]
     }
   },
   {
@@ -177,6 +191,20 @@
       "alt": "Domestication of zebu cattle",
       "license": "CC BY 4.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Above,_a_domestic_bull,_a_domestic_cow,_a_wild_bull_and_a_wi_Wellcome_V0020662EL.jpg"
+    },
+    "dharmicTie": {
+      "status": "substrate",
+      "statement": "The animal domesticated here becomes the go of the Ṛgveda — hymned, economically central, and bearing the epithet aghnyā ('not to be slain'). Reverence is documented from the Vedic corpus onward; reading full sanctity back into the Neolithic is not claimed.",
+      "scriptureRefs": [
+        {
+          "ref": "Ṛgveda 6.28",
+          "text": "the hymn to the Cows: 'The Cows have come and brought us good fortune...'"
+        },
+        {
+          "ref": "aghnyā epithet (Ṛgveda, multiple hymns)",
+          "text": "the cow as 'not to be slain'"
+        }
+      ]
     }
   },
   {
@@ -249,6 +277,20 @@
       "credit": "Radosław Botev",
       "license": "CC BY 3.0 pl",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rice_fields_Uttar_Pradesh_(2).jpg"
+    },
+    "dharmicTie": {
+      "status": "substrate",
+      "statement": "Rice (vrīhi) becomes a core ritual grain of the tradition: named among sacrificial grains in the Yajurvedic saṃhitās, and the substance of the child's first-feeding saṃskāra (annaprāśana) in the gṛhyasūtras.",
+      "scriptureRefs": [
+        {
+          "ref": "Taittirīya Saṃhitā (vrīhi among yajña grains)",
+          "text": "rice in the śrauta offering lists"
+        },
+        {
+          "ref": "Āśvalāyana Gṛhyasūtra 1.16",
+          "text": "annaprāśana — the first solid food rite"
+        }
+      ]
     }
   },
   {
@@ -318,6 +360,16 @@
       "status": "in-review",
       "vetters": [],
       "aiAssisted": true
+    },
+    "dharmicTie": {
+      "status": "contested-continuity",
+      "statement": "The site sits on the Ghaggar channel that a serious school of scholarship identifies with the Ṛgvedic Sarasvatī; if that identification holds, these villages sat on the tradition's most celebrated lost river. The identification is contested — see the Sarasvatī entry for all positions.",
+      "scriptureRefs": [
+        {
+          "ref": "Ṛgveda 7.95.2",
+          "text": "Sarasvatī 'pure in her course from the mountains to the sea'"
+        }
+      ]
     }
   },
   {
@@ -395,6 +447,24 @@
       "status": "in-review",
       "vetters": [],
       "aiAssisted": true
+    },
+    "dharmicTie": {
+      "status": "contested-continuity",
+      "statement": "The Sarasvatī is directly scriptural — lavishly praised in the Ṛgveda, her disappearance at Vinaśana recorded in the Mahābhārata. What is contested is solely the identification of that river with this channel. The scripture is fixed; the geography is the open question.",
+      "scriptureRefs": [
+        {
+          "ref": "Ṛgveda 7.95.2",
+          "text": "'giribhya ā samudrāt' — flowing pure from the mountains to the sea"
+        },
+        {
+          "ref": "Ṛgveda 10.75.5 (Nadīstuti)",
+          "text": "Sarasvatī named in the river litany between Yamunā and Śutudrī"
+        },
+        {
+          "ref": "Mahābhārata, Vana Parva (tīrthayātrā)",
+          "text": "Vinaśana — 'the place where Sarasvatī disappeared'"
+        }
+      ]
     }
   },
   {
@@ -456,6 +526,10 @@
       "alt": "Mehrgarh terracotta figurines",
       "license": "CC BY-SA 1.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Statuette_Mehrgarh.jpg"
+    },
+    "dharmicTie": {
+      "status": "substrate",
+      "statement": "Craft substrate: the subcontinent's unbroken habit of modeling in clay begins here. Continuity of craft is documented; continuity of meaning ('mother goddess') is explicitly not asserted."
     }
   }
 ]

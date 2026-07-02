@@ -69,6 +69,12 @@
         "label": "Black, B., The Character of the Self in Ancient India (SUNY, 2007)",
         "kind": "monograph",
         "independent": true
+      },
+      {
+        "label": "Vedic Heritage Portal (IGNCA) — Upaniṣad texts and expositions",
+        "url": "https://vedicheritage.gov.in/",
+        "kind": "dataset",
+        "independent": true
       }
     ],
     "contributors": [
@@ -85,6 +91,20 @@
       "credit": "Ms Sarah Welch",
       "license": "CC BY-SA 4.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Isha_Upanishad_Verses_1_to_3,_Shukla_Yajurveda,_Sanskrit,_Devanagari.jpg"
+    },
+    "dharmicTie": {
+      "status": "direct-scriptural",
+      "statement": "Śruti — the vedānta ('end of the Veda') in the literal sense, and the scriptural foundation of every Vedānta school.",
+      "scriptureRefs": [
+        {
+          "ref": "Bṛhadāraṇyaka Upaniṣad 1.4.10",
+          "text": "ahaṁ brahmāsmi"
+        },
+        {
+          "ref": "Chāndogya Upaniṣad 6.8.7",
+          "text": "tat tvam asi"
+        }
+      ]
     }
   },
   {
@@ -124,6 +144,12 @@
         "label": "Jamison, S. & Witzel, M., \"Vedic Hinduism\" (1992 survey) — corpus chronology",
         "kind": "peer-reviewed",
         "independent": true
+      },
+      {
+        "label": "Vedic Heritage Portal (IGNCA) — Sāmavedic recitation recordings",
+        "url": "https://vedicheritage.gov.in/",
+        "kind": "dataset",
+        "independent": true
       }
     ],
     "contributors": [
@@ -140,6 +166,16 @@
       "credit": "Ms Sarah Welch",
       "license": "CC BY-SA 4.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:1636_CE_Samaveda,_Sadvimsha_Brahmana,_Varanasi_Sanskrit_college,_Edward_Cowell_collection,_sample_iii,_Sanskrit,_Devanagari.jpg"
+    },
+    "dharmicTie": {
+      "status": "direct-scriptural",
+      "statement": "Śruti — and the Veda the Gītā's Kṛṣṇa names as his own among the four.",
+      "scriptureRefs": [
+        {
+          "ref": "Bhagavad Gītā 10.22",
+          "text": "vedānāṁ sāmavedo 'smi — of the Vedas I am the Sāmaveda"
+        }
+      ]
     }
   },
   {
@@ -213,6 +249,12 @@
         "label": "Seidenberg, A., \"The Ritual Origin of Geometry\", Archive for History of Exact Sciences 1 (1962)",
         "kind": "peer-reviewed",
         "independent": true
+      },
+      {
+        "label": "Indian National Science Academy — Sen & Bag critical edition publisher; IJHS studies",
+        "url": "https://insa.nic.in/",
+        "kind": "peer-reviewed",
+        "independent": true
       }
     ],
     "contributors": [
@@ -222,6 +264,20 @@
       "status": "in-review",
       "vetters": [],
       "aiAssisted": true
+    },
+    "dharmicTie": {
+      "status": "direct-scriptural",
+      "statement": "Vedāṅga literature in the strict sense: these texts exist inside the kalpa limb of Vedic study, written to build the altars the śrauta rites require. The geometry is ritual scripture's working notes.",
+      "scriptureRefs": [
+        {
+          "ref": "Baudhāyana Śulbasūtra 1.9–1.12",
+          "text": "the diagonal (so-called Pythagorean) rule, stated for altar construction"
+        },
+        {
+          "ref": "Pāṇinīya Śikṣā 41–42",
+          "text": "the six vedāṅgas as limbs of the Veda — kalpa its hands"
+        }
+      ]
     }
   },
   {
@@ -280,6 +336,16 @@
       "status": "in-review",
       "vetters": [],
       "aiAssisted": true
+    },
+    "dharmicTie": {
+      "status": "direct-scriptural",
+      "statement": "The jyotiṣa vedāṅga itself — the Veda's own calendar science, by its own account existing so the sacrifices happen on time.",
+      "scriptureRefs": [
+        {
+          "ref": "Vedāṅga Jyotiṣa (Ṛk recension) v. 36",
+          "text": "yo jyotiṣaṁ veda sa veda yajñān — who knows the luminaries' science knows the sacrifices"
+        }
+      ]
     }
   },
   {
@@ -334,6 +400,16 @@
       "status": "in-review",
       "vetters": [],
       "aiAssisted": true
+    },
+    "dharmicTie": {
+      "status": "historical-lineage",
+      "statement": "The 'dark metal' of the later Vedic corpus now has a dated local metallurgy. The Atharvaveda already knows śyāma metal as a distinct material.",
+      "scriptureRefs": [
+        {
+          "ref": "Atharvaveda 11.3.7",
+          "text": "śyāmam ayaḥ — the dark metal, distinguished from the red (copper)"
+        }
+      ]
     }
   },
   {
@@ -389,6 +465,16 @@
       "status": "in-review",
       "vetters": [],
       "aiAssisted": true
+    },
+    "dharmicTie": {
+      "status": "contested-continuity",
+      "statement": "Hastināpura is directly epic — the Kuru capital of the Mahābhārata; what is contested is only how far the excavated PGW town can be identified with the text's city. The correlation (geography + period) is serious scholarship; the identification is not provable from sherds.",
+      "scriptureRefs": [
+        {
+          "ref": "Mahābhārata, Ādi Parva",
+          "text": "Hastināpura as the seat of the Kuru dynasty"
+        }
+      ]
     }
   },
   {
@@ -476,6 +562,20 @@
       "credit": "വെള്ളെഴുത്ത്",
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Agnidhriyam.JPG"
+    },
+    "dharmicTie": {
+      "status": "living-practice",
+      "statement": "Directly scriptural AND alive: the rite is codified across Śatapatha Brāhmaṇa books 6–10 and the śrauta sūtras, and it has been performed within living memory by unbroken Nambudiri lineages — filmed in 1975.",
+      "scriptureRefs": [
+        {
+          "ref": "Śatapatha Brāhmaṇa 6–10",
+          "text": "the Agnicayana doctrine and procedure"
+        },
+        {
+          "ref": "Taittirīya Saṃhitā 4 (with Śatarudrīya at 4.5)",
+          "text": "the Yajurvedic liturgy of the fire-altar"
+        }
+      ]
     }
   }
 ]

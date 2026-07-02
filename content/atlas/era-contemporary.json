@@ -61,6 +61,10 @@
       "credit": "Kritzolina",
       "license": "CC BY-SA 4.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Statue_of_B._R._Ambedkar_in_Amritsar_03.jpg"
+    },
+    "dharmicTie": {
+      "status": "historical-lineage",
+      "statement": "Democratic legislation operating on dharmaśāstra's historic domain (marriage, adoption, inheritance) — the latest layer in a jurisprudential lineage that runs from the smṛtis through commentary and Anglo-Hindu case law to Parliament."
     }
   },
   {
@@ -122,6 +126,16 @@
       "credit": "Joydeep",
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Main_gate_of_ISKCON,_Mayapur_07102013.jpg"
+    },
+    "dharmicTie": {
+      "status": "living-practice",
+      "statement": "An unbroken Gauḍīya Vaiṣṇava guru-paramparā (from Caitanya) operating globally; its liturgy is the mahāmantra whose locus classicus is Upaniṣadic.",
+      "scriptureRefs": [
+        {
+          "ref": "Kali-Saṇṭāraṇa Upaniṣad",
+          "text": "the Hare Kṛṣṇa mahāmantra's textual source"
+        }
+      ]
     }
   },
   {
@@ -185,6 +199,16 @@
       "credit": "Post of India",
       "license": "GODL-India",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stamp_of_India_-_2015_-_Colnect_567031_-_International_Day_of_Yoga_Miniature_Sheet.jpeg"
+    },
+    "dharmicTie": {
+      "status": "living-practice",
+      "statement": "Global observance of a practice whose charter texts sit inside the tradition's own canon.",
+      "scriptureRefs": [
+        {
+          "ref": "Bhagavad Gītā 6.17",
+          "text": "yuktāhāra-vihārasya — yoga as the discipline of the measured life"
+        }
+      ]
     }
   },
   {
@@ -231,6 +255,11 @@
         "label": "National Gallery of Australia, Asian Art Provenance Project findings (2014–21)",
         "kind": "archival",
         "independent": true
+      },
+      {
+        "label": "India Pride Project — citizen provenance-matching that drove several returns (S. Vijay Kumar et al.)",
+        "kind": "dataset",
+        "independent": true
       }
     ],
     "relatedLedger": [
@@ -250,6 +279,16 @@
       "credit": "Richard Mortel from Riyadh, Saudi Arabia",
       "license": "CC BY 2.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nataraja,_Chola_period_bronze,_11th_century,_Government_Museum,_Chennai_(6).jpg"
+    },
+    "dharmicTie": {
+      "status": "living-practice",
+      "statement": "The law itself recognized the tie: in the London Bumper case (1991), the pillaged Pathur Naṭarāja was returned because Indian law treats the consecrated deity as a juristic person — the idol sued, and won. These are not 'artworks' in the tradition's own terms; they are installed deities (prāṇapratiṣṭhā) taken from active worship.",
+      "scriptureRefs": [
+        {
+          "ref": "Āgama corpus (prāṇapratiṣṭhā rites)",
+          "text": "consecration that makes an image a deity in worship — the basis of the juristic-person doctrine"
+        }
+      ]
     }
   },
   {
@@ -312,6 +351,10 @@
       "credit": "Diliff",
       "license": "CC BY 2.5",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Radcliffe_Camera,_Oxford_-_Oct_2006.jpg"
+    },
+    "dharmicTie": {
+      "status": "historical-lineage",
+      "statement": "The manuscript under the microscope is a Sanskrit mathematical text of the siddhānta world — the dating fight is a modern chapter in the tradition's own knowledge history."
     }
   },
   {
@@ -378,6 +421,12 @@
         "url": "http://www.sanskrit-linguistics.org/dcs/",
         "kind": "dataset",
         "independent": true
+      },
+      {
+        "label": "National Mission for Manuscripts (NAMAMI, Govt. of India) — the national manuscript census and digitization program",
+        "url": "https://www.namami.gov.in/",
+        "kind": "archival",
+        "independent": true
       }
     ],
     "relatedLedger": [
@@ -397,6 +446,16 @@
       "credit": "Ms Sarah Welch",
       "license": "CC BY-SA 4.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Prashna_Upanishad_sample_manuscript_page,_Sanskrit,_Devanagari_script.jpg"
+    },
+    "dharmicTie": {
+      "status": "living-practice",
+      "statement": "The vedāṅga of grammar, executing: Pāṇini's rule system now runs as software that parses the tradition's corpus daily — the liveliest possible sense of a living knowledge system.",
+      "scriptureRefs": [
+        {
+          "ref": "Aṣṭādhyāyī (as implemented in the Sanskrit Heritage engine)",
+          "text": "the grammar itself, in daily computational use"
+        }
+      ]
     }
   },
   {
@@ -444,6 +503,12 @@
         "label": "Mehrotra, R. & Vera, F., Kumbh Mela: Mapping the Ephemeral Megacity (Harvard, 2015)",
         "kind": "monograph",
         "independent": true
+      },
+      {
+        "label": "IGNCA Kumbh documentation (Ministry of Culture)",
+        "url": "https://ignca.gov.in/",
+        "kind": "archival",
+        "independent": true
       }
     ],
     "contributors": [
@@ -460,6 +525,20 @@
       "credit": "Lokankara",
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kumbh_Mela_2013_Sangam,_Allahabd.jpg"
+    },
+    "dharmicTie": {
+      "status": "living-practice",
+      "statement": "The largest recurring act of Sanātana Dharma on Earth. The bathing sanctity of Prayāga is ancient (the confluence-bathing verse tradition; Xuanzang describes the gathering in the 7th century); the specific amṛta-kumbha framing draws on the purāṇic churning of the ocean, with its modern four-site system honestly dated in this entry.",
+      "scriptureRefs": [
+        {
+          "ref": "Ṛgveda Khila ('sitāsite sarite yatra saṅgate...')",
+          "text": "the celebrated verse on bathing where the white and dark rivers meet — quoted in the Mahābhārata's praise of Prayāga"
+        },
+        {
+          "ref": "Bhāgavata Purāṇa 8.5–8.12 (samudra-manthana)",
+          "text": "the churning narrative behind the amṛta-kumbha framing (its link to the melā is late — stated honestly)"
+        }
+      ]
     }
   }
 ]

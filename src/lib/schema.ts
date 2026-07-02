@@ -98,6 +98,43 @@ export const Location = z.object({
   note: z.string().optional(), // "approximate", "current holder: Bodleian Library", ...
 });
 
+/** A scripture citation: reference, gist, and (preferably Indian-hosted) link. */
+export const ScriptureRef = z.object({
+  ref: z.string(), // "Ṛgveda 10.18.8", "Bhagavad Gītā 10.22"
+  text: z.string().optional(), // the gist or key phrase, transliterated/translated
+  link: z.string().url().optional(), // prefer Indian scholarly portals (Vedic Heritage, Gita Supersite...)
+});
+
+/**
+ * The entry's tie to Sanātana Dharma — explicit and GRADED, never vague.
+ * Grading is the shield: labeling Mehrgarh honestly as "substrate" is what
+ * makes "direct-scriptural" unimpeachable where it's claimed.
+ */
+export const DharmicTie = z.object({
+  status: z.enum([
+    "direct-scriptural", // named or constituted in śruti/smṛti/śāstra
+    "living-practice", // continuous practice within the tradition today
+    "historical-lineage", // documented lineage inside the tradition's knowledge systems
+    "contested-continuity", // tie argued seriously, evidence divided — positions shown
+    "substrate", // pre-Vedic material substrate; regional/ancestral, not doctrinal
+  ]),
+  statement: z.string(),
+  scriptureRefs: z.array(ScriptureRef).optional(), // required by validator for the first two statuses
+});
+
+/** Custody: who holds it, where, under which legal instrument, and parallels abroad. */
+export const CustodyParallel = z.object({
+  name: z.string(),
+  holder: z.string(),
+  note: z.string().optional(),
+});
+export const Custody = z.object({
+  holder: z.string(), // who owns/administers it
+  place: z.string(), // where it physically is
+  legalBasis: z.string(), // why it is there — treaty, act, agreement, case law
+  parallels: z.array(CustodyParallel).min(3).optional(), // at least 3 comparable items internationally
+});
+
 /** Images carry provenance like everything else: credit, license, source link. */
 export const EntryImage = z.object({
   src: z.string().url(), // hotlinked from Wikimedia Commons (self-host later at scale)
@@ -139,6 +176,8 @@ export const AtlasEntry = z.object({
   summary: z.string(),
   whyItMatters: z.string(),
   honestyNote: z.string().optional(), // the uncertainty or caveat we refuse to bury
+  dharmicTie: DharmicTie.optional(), // validator requires this on every atlas entry
+  custody: Custody.optional(), // for artifacts/places/manuscripts with a real custody story
   image: EntryImage.optional(),
   locations: z.array(Location).optional(),
   throughLines: z.array(ThroughLine).optional(), // presence => appears in the "Great Ideas" lens

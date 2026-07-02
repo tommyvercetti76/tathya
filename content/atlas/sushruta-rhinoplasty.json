@@ -104,5 +104,15 @@
     "alt": "Suśruta Saṃhitā — reconstructive surgery",
     "license": "CC BY 4.0",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Susruta._Pen_drawing._Wellcome_V0006619.jpg"
+  },
+  "dharmicTie": {
+    "status": "historical-lineage",
+    "statement": "Āyurveda situates itself inside the Vedic corpus: the Suśruta Saṃhitā opens by declaring itself the upāṅga of the Atharvaveda, and its practice continued within dharmic institutional settings for two millennia.",
+    "scriptureRefs": [
+      {
+        "ref": "Suśruta Saṃhitā, Sūtrasthāna 1",
+        "text": "āyurveda as upāṅga of the Atharvaveda"
+      }
+    ]
   }
 }

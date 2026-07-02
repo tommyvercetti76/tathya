@@ -61,6 +61,14 @@ for (const [rel, raw] of entriesIn("atlas")) {
       fail(rel, `dating tagged "contested" must list >= 2 positions`);
     if (e.vetting.status === "published" && e.vetting.vetters.length === 0)
       fail(rel, `published with no named vetters`);
+    if (!e.dharmicTie)
+      fail(rel, `missing dharmicTie — every atlas entry must state its tie to Sanātana Dharma, graded honestly`);
+    if (
+      e.dharmicTie &&
+      ["direct-scriptural", "living-practice"].includes(e.dharmicTie.status) &&
+      (!e.dharmicTie.scriptureRefs || e.dharmicTie.scriptureRefs.length === 0)
+    )
+      fail(rel, `dharmicTie status "${e.dharmicTie.status}" requires scripture references`);
     for (const id of e.relatedLedger ?? [])
       if (!ledgerIds.has(id)) fail(rel, `relatedLedger references unknown id "${id}"`);
   } catch (err) {

@@ -66,5 +66,19 @@
     "credit": "Rembrandt Peale",
     "license": "Public domain",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Portrait_of_Raja_Ram_Mohun_Roy,_1833.jpg"
+  },
+  "dharmicTie": {
+    "status": "direct-scriptural",
+    "statement": "The decisive argument was scriptural: Roy's case stood on the Ṛgvedic funeral hymn itself — which sends the widow back to the living — and on the anti-satī jurists within dharmaśāstra. The tradition's own texts ended the practice's textual defense.",
+    "scriptureRefs": [
+      {
+        "ref": "Ṛgveda 10.18.8",
+        "text": "udīrṣva nāri — 'rise, woman, to the world of the living' — the funeral hymn's actual instruction"
+      },
+      {
+        "ref": "Medhātithi on Manusmṛti (anti-satī position)",
+        "text": "the jurists' condemnation Brick's study documents"
+      }
+    ]
   }
 }

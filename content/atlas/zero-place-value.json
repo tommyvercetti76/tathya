@@ -114,6 +114,12 @@
       "label": "Datta, B. & Singh, A.N., History of Hindu Mathematics (1935)",
       "kind": "reference",
       "independent": true
+    },
+    {
+      "label": "Indian Journal of History of Science (Indian National Science Academy) — the standing Indian venue for this scholarship",
+      "url": "https://insa.nic.in/",
+      "kind": "peer-reviewed",
+      "independent": true
     }
   ],
   "relatedLedger": [
@@ -133,5 +139,36 @@
     "credit": "National Geographic",
     "license": "Public domain",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bakhshali_manuscript_zero_detail.jpg"
+  },
+  "dharmicTie": {
+    "status": "historical-lineage",
+    "statement": "Śūnya as a working symbol first appears inside the chandas vedāṅga (Piṅgala's algorithms), and the mathematics matured in siddhānta astronomy — a science whose institutional home was the dharmic scholarly world and whose texts open with maṅgala invocations.",
+    "scriptureRefs": [
+      {
+        "ref": "Piṅgala, Chandaḥśāstra 8.29–31",
+        "text": "śūnya used as an algorithmic marker in the meter calculus"
+      }
+    ]
+  },
+  "custody": {
+    "holder": "Bodleian Libraries, University of Oxford (Bakhshālī manuscript, MS. Sansk. d. 14)",
+    "place": "Oxford, United Kingdom",
+    "legalBasis": "Found near Bakhshali (then British India) in 1881; passed via the colonial administration and A.F.R. Hoernle, who presented it to the Bodleian in 1902. A colonial-era transfer predating the UNESCO 1970 Convention (which is not retroactive) — legal under the law of its time, which is precisely the category modern restitution debates contest. The Gwalior inscription, by contrast, is in situ under the Archaeological Survey of India (AMASR Act, 1958).",
+    "parallels": [
+      {
+        "name": "Bower Manuscript (early Sanskrit medical text)",
+        "holder": "Bodleian Libraries, Oxford"
+      },
+      {
+        "name": "Gilgit manuscripts",
+        "holder": "split: National Archives of India / Sri Pratap Singh Museum, Srinagar / British Library",
+        "note": "one corpus, three custodians"
+      },
+      {
+        "name": "Sanskrit manuscript collections",
+        "holder": "Cambridge University Library",
+        "note": "colonial-era acquisition"
+      }
+    ]
   }
 }

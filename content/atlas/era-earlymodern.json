@@ -44,6 +44,12 @@
         "url": "https://whc.unesco.org/en/list/241/",
         "kind": "archival",
         "independent": true
+      },
+      {
+        "label": "Archaeological Survey of India — Hampi circle records",
+        "url": "https://asi.nic.in/",
+        "kind": "archival",
+        "independent": true
       }
     ],
     "contributors": [
@@ -60,6 +66,38 @@
       "credit": "Ram Nagesh Thota",
       "license": "CC BY-SA 4.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Iconic_Stone_Chariot_@_Vittala_Temple,_Hampi,_Karnataka.jpg"
+    },
+    "dharmicTie": {
+      "status": "living-practice",
+      "statement": "The sacred geography precedes and outlives the empire: Hampi is Pampā-kṣetra, identified in the sthala tradition with Kiṣkindhā of the Rāmāyaṇa, and the Virūpākṣa temple has remained in continuous worship from before the empire's founding to this morning's pūjā.",
+      "scriptureRefs": [
+        {
+          "ref": "Rāmāyaṇa, Kiṣkindhā-kāṇḍa",
+          "text": "the Vānara kingdom the sthala tradition locates here (traditional identification, labeled as such)"
+        }
+      ]
+    },
+    "custody": {
+      "holder": "Archaeological Survey of India (monuments); Virūpākṣa temple in active worship under HR&CE-equivalent administration",
+      "place": "Hampi, Karnataka, India — UNESCO World Heritage (1986)",
+      "legalBasis": "AMASR Act, 1958; World Heritage Convention (1986 inscription).",
+      "parallels": [
+        {
+          "name": "Vijayanagara-period bronzes and sculpture",
+          "holder": "museums worldwide incl. Met, V&A",
+          "note": "post-1565 dispersal and later trade"
+        },
+        {
+          "name": "Angkor (Khmer temple-city)",
+          "holder": "APSARA Authority, Cambodia",
+          "note": "the closest scale-comparison for a sacked sacred capital"
+        },
+        {
+          "name": "Ayutthaya",
+          "holder": "Thailand — UNESCO listed",
+          "note": "contemporaneous sacked capital, comparative case"
+        }
+      ]
     }
   },
   {
@@ -107,6 +145,11 @@
         "label": "Ramanujan, A.K., \"Three Hundred Rāmāyaṇas\", in Many Rāmāyaṇas (ed. Richman, 1991)",
         "kind": "peer-reviewed",
         "independent": true
+      },
+      {
+        "label": "Gita Press, Gorakhpur — the standard mass edition that made the text universally available",
+        "kind": "reference",
+        "independent": true
       }
     ],
     "contributors": [
@@ -123,6 +166,16 @@
       "credit": "Jānak De (scribe)",
       "license": "Public domain",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:R%C4%81macaritam%C4%81nasa_manuscript_(19th_century).png"
+    },
+    "dharmicTie": {
+      "status": "direct-scriptural",
+      "statement": "Vernacular scripture in its own right: the text through which Rāma's story is scripture for most of North India, recited, sung, and staged (Rāmlīlā) continuously since composition.",
+      "scriptureRefs": [
+        {
+          "ref": "Rāmcaritmānas, Bālakāṇḍa maṅgalācaraṇa",
+          "text": "the invocation that opens the vernacular epic"
+        }
+      ]
     }
   },
   {
@@ -186,6 +239,10 @@
       "credit": "Knowledge Seeker",
       "license": "Public domain",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jantar_Mantar_at_Jaipur.jpg"
+    },
+    "dharmicTie": {
+      "status": "historical-lineage",
+      "statement": "The jyotiṣa mandate in masonry: calendar authority for ritual timing (the Jaipur observatory still calibrates the local pañcāṅga) — the vedāṅga's job, executed with 18th-century instruments."
     }
   },
   {
@@ -251,6 +308,10 @@
       "credit": "William Evans / After Arthur William Devis",
       "license": "Public domain",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sir_William_Jones_by_William_Evans_1804.jpg"
+    },
+    "dharmicTie": {
+      "status": "historical-lineage",
+      "statement": "The event is ABOUT the tradition's corpus: it was Sanskrit — Pāṇini's object — whose structure forced European scholarship to reorganize its entire picture of human language history. Both the recovery and the later racialized distortions are documented in the linked ledger entries."
     }
   },
   {
@@ -316,6 +377,16 @@
       "credit": "anonymous",
       "license": "Public domain",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bust_portrait_of_the_Hindu_reformer_Ram_Mohan_Roy..jpg"
+    },
+    "dharmicTie": {
+      "status": "historical-lineage",
+      "statement": "Reform argued from within the canon: Roy's theism was grounded in the Upaniṣads he translated and printed — the Īśā's first verse was his standing argument.",
+      "scriptureRefs": [
+        {
+          "ref": "Īśā Upaniṣad 1",
+          "text": "īśāvāsyam idaṁ sarvam — 'all this is pervaded by the Lord'"
+        }
+      ]
     }
   },
   {
@@ -378,6 +449,20 @@
       "credit": "The original uploader was Dziewa at English Wikipedia.",
       "license": "Public domain",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Swami_Vivekananda-1893-09-signed.jpg"
+    },
+    "dharmicTie": {
+      "status": "living-practice",
+      "statement": "Vedānta presented as living religion — and he opened his Chicago address by quoting the tradition's own universalism from memory.",
+      "scriptureRefs": [
+        {
+          "ref": "Śiva Mahimnaḥ Stotram 7",
+          "text": "ruchīnāṁ vaichitryāt... — 'as different streams... all lead to Thee' (quoted in the 11 Sept 1893 address)"
+        },
+        {
+          "ref": "Bhagavad Gītā 4.11",
+          "text": "ye yathā māṁ prapadyante — also quoted in the address"
+        }
+      ]
     }
   },
   {
@@ -443,6 +528,16 @@
       "credit": "Pant Pratinidhi (d. 1951)",
       "license": "Public domain",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pant_Pratinidhi_1928_Surya_Namaskar_Sequence.jpg"
+    },
+    "dharmicTie": {
+      "status": "living-practice",
+      "statement": "A modern synthesis on an authentic textual base: the haṭha corpus is the tradition's own literature, and its first limb is āsana — the honest version of the lineage claim, with the modern hybridization stated alongside.",
+      "scriptureRefs": [
+        {
+          "ref": "Haṭhapradīpikā 1.17",
+          "text": "āsana named first among haṭha's limbs"
+        }
+      ]
     }
   }
 ]

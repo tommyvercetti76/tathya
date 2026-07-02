@@ -59,6 +59,16 @@
       "alt": "Manuscript folio of the Līlāvatī tradition (Wellcome Hindi MS 803)",
       "license": "CC BY 4.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hindi_Manuscript_803,_folio_36b_Wellcome_L0024663.jpg"
+    },
+    "dharmicTie": {
+      "status": "historical-lineage",
+      "statement": "The capstone of siddhānta mathematics, composed inside the tradition's scholarly culture — the Līlāvatī opens with an invocation to Gaṇeśa, and a 1207 inscription endows a maṭha specifically to study his works.",
+      "scriptureRefs": [
+        {
+          "ref": "Līlāvatī, maṅgalācaraṇa",
+          "text": "the Gaṇeśa invocation opening the arithmetic"
+        }
+      ]
     }
   },
   {
@@ -137,6 +147,16 @@
       "credit": "Hvadga",
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shri_Shankaracharya.jpg"
+    },
+    "dharmicTie": {
+      "status": "direct-scriptural",
+      "statement": "His work IS scripture-commentary: the Advaita he systematized is argued verse by verse on the prasthānatrayī, and the monastic orders attributed to him remain living institutions of the tradition.",
+      "scriptureRefs": [
+        {
+          "ref": "Brahmasūtra 1.1.1 (with Śaṅkara's bhāṣya)",
+          "text": "athāto brahmajijñāsā — 'now, therefore, the inquiry into Brahman'"
+        }
+      ]
     }
   },
   {
@@ -184,6 +204,12 @@
         "label": "Goetz, H., \"The Kailasa of Ellora and the Chronology of Rashtrakuta Art\", Artibus Asiae 15 (1952)",
         "kind": "peer-reviewed",
         "independent": true
+      },
+      {
+        "label": "Archaeological Survey of India — Ellora records",
+        "url": "https://asi.nic.in/",
+        "kind": "archival",
+        "independent": true
       }
     ],
     "relatedLedger": [
@@ -203,6 +229,38 @@
       "credit": "Rohit Sharma",
       "license": "CC BY-SA 4.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Courtyard_and_Mahabharata_Reliefs_at_the_Kailasa_Temple,_Ellora_01.jpg"
+    },
+    "dharmicTie": {
+      "status": "direct-scriptural",
+      "statement": "A Śiva temple carved as Mount Kailāsa itself — the purāṇic abode of Śiva rendered in stone. Iconographic program (Rāvaṇa shaking Kailāsa, Śaiva and Vaiṣṇava reliefs) is scriptural narrative throughout.",
+      "scriptureRefs": [
+        {
+          "ref": "Śiva Purāṇa (Kailāsa as Śiva's abode); Rāmāyaṇa episodes in the reliefs",
+          "text": "the temple's program is purāṇic narrative in stone"
+        }
+      ]
+    },
+    "custody": {
+      "holder": "Archaeological Survey of India; UNESCO World Heritage (1983)",
+      "place": "Ellora, Chhatrapati Sambhajinagar (Aurangabad) district, Maharashtra, India",
+      "legalBasis": "AMASR Act, 1958; World Heritage Convention (1983 inscription). Being living rock, it is the rare masterpiece that cannot be trafficked — only neglected.",
+      "parallels": [
+        {
+          "name": "Great Temple of Ramesses II, Abu Simbel",
+          "holder": "Egypt (UNESCO relocation project)",
+          "note": "the world's other great rock-cut colossus"
+        },
+        {
+          "name": "Petra",
+          "holder": "Jordan — UNESCO listed",
+          "note": "rock-cut monumental city"
+        },
+        {
+          "name": "Longmen Grottoes",
+          "holder": "China — UNESCO listed",
+          "note": "rock-cut sacred complex; heavily looted in the 20th c. — the counter-example custody law exists for"
+        }
+      ]
     }
   },
   {
@@ -269,6 +327,40 @@
       "alt": "Chola bronzes — the Naṭarāja",
       "license": "Public domain",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shiva_as_the_Lord_of_Dance_LACMA_edit.jpg"
+    },
+    "dharmicTie": {
+      "status": "living-practice",
+      "statement": "Scripturally constituted and continuously worshipped: the ānanda-tāṇḍava form is expounded in the Tamil Śaiva canon, consecrated bronzes are processional deities in active temple worship (which is why their theft is sacrilege, not just larceny — see custody), and the casting lineage is unbroken.",
+      "scriptureRefs": [
+        {
+          "ref": "Tirumūlar, Tirumantiram",
+          "text": "the dance of Śiva as cosmic act — the theology the icon compresses"
+        },
+        {
+          "ref": "Uṉmai Viḷakkam (Tamil Śaiva canon)",
+          "text": "the classical exposition of the Naṭarāja symbolism (drum, fire, foot of release)"
+        }
+      ]
+    },
+    "custody": {
+      "holder": "Living temples (administered under Tamil Nadu's HR&CE Act, 1959) and museums worldwide",
+      "place": "Chidambaram and temple Tamil Nadu (in worship); Government Museum Chennai; and diaspora holdings from New York to Canberra",
+      "legalBasis": "In India: temple property under HR&CE administration; export barred by the Antiquities and Art Treasures Act, 1972. Abroad: acquisitions contested case by case — the London Bumper judgment (1991) returned the Pathur Naṭarāja on the doctrine that the consecrated deity is a juristic person; UNESCO 1970 governs post-1970 trafficking.",
+      "parallels": [
+        {
+          "name": "Śiva Naṭarāja (c. 950 CE)",
+          "holder": "Metropolitan Museum of Art, New York"
+        },
+        {
+          "name": "Naṭarāja (the Pathur bronze)",
+          "holder": "returned to Tamil Nadu, 1991, via UK courts",
+          "note": "the precedent case"
+        },
+        {
+          "name": "Dancing Śiva",
+          "holder": "National Gallery of Australia — returned to India 2014 after the Kapoor exposures"
+        }
+      ]
     }
   },
   {
@@ -328,6 +420,20 @@
       "credit": "Unknown author",
       "license": "Public domain",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kangra_painting_of_Mirabai,_the_female_Bhakti_saint.jpg"
+    },
+    "dharmicTie": {
+      "status": "living-practice",
+      "statement": "The devotional mainstream of the tradition as practiced today, with its charter in smṛti itself.",
+      "scriptureRefs": [
+        {
+          "ref": "Bhagavad Gītā 9.26",
+          "text": "patraṁ puṣpaṁ phalaṁ toyam — the leaf-flower-fruit-water verse of accessible devotion"
+        },
+        {
+          "ref": "Bhāgavata Purāṇa 7.5.23–24",
+          "text": "the ninefold bhakti (navadhā bhakti)"
+        }
+      ]
     }
   },
   {
@@ -380,6 +486,12 @@
         "label": "Minhāj-i-Sirāj, Tabaqāt-i-Nāṣirī (tr. Raverty, 1881) — the destruction account",
         "kind": "primary",
         "independent": true
+      },
+      {
+        "label": "Archaeological Survey of India — Nalanda excavation and site records",
+        "url": "https://asi.nic.in/",
+        "kind": "archival",
+        "independent": true
       }
     ],
     "relatedLedger": [
@@ -399,6 +511,31 @@
       "credit": "Sumitsurai",
       "license": "CC BY-SA 4.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Temple_3_-_Sariputta_Stupa_-_Brick_Votive_Stupas_-_Nalanda_Mahavihara_(12).jpg"
+    },
+    "dharmicTie": {
+      "status": "historical-lineage",
+      "statement": "Primarily a Buddhist mahāvihāra — stated honestly — inside the shared Indic knowledge world: Xuanzang records Vedas, grammar, logic, and medicine in its curriculum, and its scholastic method shaped every darśana's debate culture, including Vedānta's."
+    },
+    "custody": {
+      "holder": "Archaeological Survey of India; UNESCO World Heritage (2016)",
+      "place": "Nalanda district, Bihar, India",
+      "legalBasis": "AMASR Act, 1958; World Heritage Convention (inscription 2016).",
+      "parallels": [
+        {
+          "name": "Vikramaśīlā mahāvihāra",
+          "holder": "ASI, Bihar",
+          "note": "sister university, destroyed in the same period"
+        },
+        {
+          "name": "Somapura Mahāvihāra (Paharpur)",
+          "holder": "Bangladesh Department of Archaeology — UNESCO listed",
+          "note": "the Pāla monastic university in Bengal"
+        },
+        {
+          "name": "Nālandā manuscripts and bronzes",
+          "holder": "dispersed: Tibetan monasteries (carried by fleeing monks), museums incl. Nalanda ASI museum"
+        }
+      ]
     }
   }
 ]

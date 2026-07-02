@@ -124,5 +124,19 @@
     "credit": "Post of India",
     "license": "GODL-India",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stamp_of_India_-_2004_-_Colnect_158527_-_Panini.jpeg"
+  },
+  "dharmicTie": {
+    "status": "direct-scriptural",
+    "statement": "Vyākaraṇa is a vedāṅga: the tradition's own stated purpose for grammar is rakṣā — protection of the Veda. Pāṇini's grammar contains dedicated rules for Vedic (chandas) forms; severing him from this corpus (see ledger) erases what the Aṣṭādhyāyī is for.",
+    "scriptureRefs": [
+      {
+        "ref": "Patañjali, Mahābhāṣya, Paspaśāhnika",
+        "text": "rakṣā — preservation of the Veda — named first among grammar's purposes"
+      },
+      {
+        "ref": "Pāṇinīya Śikṣā 41–42",
+        "text": "chandaḥ pādau tu vedasya... — the vedāṅgas as the Veda's limbs"
+      }
+    ]
   }
 }

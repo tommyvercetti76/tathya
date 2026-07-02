@@ -177,6 +177,37 @@ a { color: var(--accent-soft); text-decoration-thickness: 1px; text-underline-of
 .tl-status.anticipation { color: var(--dating-traditional); border-color: var(--dating-traditional); }
 .tl-status.conjectural { color: var(--dating-contested); border-color: var(--dating-contested); }
 
+/* ---------------- dharmic tie & custody facts ---------------- */
+.dharmic {
+  border: 1px solid var(--atlas-accent); border-radius: 10px;
+  padding: 12px 16px; margin: 12px 0; background: var(--atlas-glow);
+}
+.dharmic-head { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.dharmic-label { font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--atlas-accent-soft); }
+.dharmic p { margin: 8px 0 4px; font-size: 0.92rem; }
+.tie-chip { font-size: 0.72rem; padding: 2px 11px; border-radius: 999px; border: 1.5px solid; text-transform: uppercase; letter-spacing: 0.07em; font-weight: 600; }
+.tie-chip.direct-scriptural { color: var(--atlas-accent-soft); border-color: var(--atlas-accent); background: rgba(212,169,78,0.12); }
+.tie-chip.living-practice { color: var(--verdict-legit); border-color: var(--verdict-legit); }
+.tie-chip.historical-lineage { color: var(--dating-evolved); border-color: var(--dating-evolved); }
+.tie-chip.contested-continuity { color: var(--dating-contested); border-color: var(--dating-contested); }
+.tie-chip.substrate { color: var(--text-dim); border-color: var(--text-dim); }
+.dharmic.dharmic-contested-continuity, .dharmic.dharmic-substrate { border-style: dashed; background: var(--bg-inset); }
+.scripture-refs { margin: 8px 0 2px; padding-left: 18px; font-size: 0.88rem; }
+.scripture-refs li { margin: 5px 0; }
+.scripture-refs b { font-family: var(--font-serif); color: var(--atlas-accent-soft); }
+
+.facts { border: 1px solid var(--line); border-radius: 10px; margin: 12px 0; background: var(--bg-inset); overflow: hidden; }
+.facts-title {
+  font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.12em;
+  color: var(--accent-soft); padding: 9px 16px; border-bottom: 1px solid var(--line); background: var(--glow);
+}
+.fact-row { display: grid; grid-template-columns: 140px 1fr; gap: 12px; padding: 9px 16px; border-bottom: 1px solid var(--line); font-size: 0.88rem; }
+.fact-row:last-child { border-bottom: none; }
+.fact-key { color: var(--text-dim); font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.08em; padding-top: 2px; }
+.parallel-list { margin: 0; padding-left: 16px; }
+.parallel-list li { margin: 4px 0; }
+@media (max-width: 640px) { .fact-row { grid-template-columns: 1fr; gap: 2px; } }
+
 /* provenance is a feature, not a footnote */
 .provenance { margin-top: 12px; border-top: 1px solid var(--line); padding-top: 10px; }
 .provenance summary { cursor: pointer; color: var(--accent-soft); font-size: 0.84rem; }

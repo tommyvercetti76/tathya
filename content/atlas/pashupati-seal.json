@@ -73,5 +73,34 @@
     "credit": "unknown Indus Valley Civilization sealmaker from Mohenjodaro archaeological site",
     "license": "Public domain",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shiva_Pashupati.jpg"
+  },
+  "dharmicTie": {
+    "status": "contested-continuity",
+    "statement": "The comparison object is scriptural: Rudra bears the title paśūnāṁ pati ('lord of beasts') in the Śatarudrīya litany, which is why Marshall reached for 'proto-Śiva'. Whether this seal depicts anything ancestral to that figure is the field's longest-running open question — both positions are in this entry's sources.",
+    "scriptureRefs": [
+      {
+        "ref": "Śatarudrīya (Taittirīya Saṃhitā 4.5 / Vājasaneyi Saṃhitā 16)",
+        "text": "namaḥ paśūnāṁ pataye — homage to the lord of beasts"
+      }
+    ]
+  },
+  "custody": {
+    "holder": "National Museum, New Delhi (seal DK 5175/420)",
+    "place": "New Delhi, India",
+    "legalBasis": "Excavated 1928–29 under the (undivided) Archaeological Survey of India; allocated to Delhi in the Partition-era division of collections; protected under the Antiquities and Art Treasures Act, 1972.",
+    "parallels": [
+      {
+        "name": "'Unicorn' and animal seals from Mohenjo-daro/Harappa",
+        "holder": "British Museum, London"
+      },
+      {
+        "name": "Indus seal collections",
+        "holder": "National Museum of Pakistan, Karachi"
+      },
+      {
+        "name": "Harappan seals and tablets",
+        "holder": "Islamabad Museum / Harappa Museum, Pakistan"
+      }
+    ]
   }
 }

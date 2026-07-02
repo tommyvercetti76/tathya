@@ -57,6 +57,12 @@
         "label": "Sukthankar, V.S. et al., Mahābhārata critical edition (BORI, 1933–66)",
         "kind": "reference",
         "independent": true
+      },
+      {
+        "label": "Gita Supersite (IIT Kanpur) — critical text, 20+ commentaries, multiple translations",
+        "url": "https://www.gitasupersite.iitk.ac.in/",
+        "kind": "dataset",
+        "independent": true
       }
     ],
     "contributors": [
@@ -73,6 +79,20 @@
       "credit": "Unknown artistUnknown artist",
       "license": "Public domain",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:BhagavadGita-19th-century-Illustrated-Sanskrit-Chapter_1.20.21.jpg"
+    },
+    "dharmicTie": {
+      "status": "direct-scriptural",
+      "statement": "Smṛti with near-śruti standing: one of the three prasthānas (with Upaniṣads and Brahmasūtras) on which every Vedānta school must comment.",
+      "scriptureRefs": [
+        {
+          "ref": "Bhagavad Gītā 2.47",
+          "text": "karmaṇy evādhikāras te — the charter verse of karma-yoga"
+        },
+        {
+          "ref": "Bhagavad Gītā 18.66",
+          "text": "sarva-dharmān parityajya — the carama-śloka"
+        }
+      ]
     }
   },
   {
@@ -138,6 +158,16 @@
       "credit": "Unknown authorUnknown author",
       "license": "Public domain",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chanakya_artistic_depiction.jpg"
+    },
+    "dharmicTie": {
+      "status": "historical-lineage",
+      "statement": "Statecraft inside the dharmic knowledge frame: the text's own curriculum for the king places the trayī (the three Vedas) among the four sciences, and its law sections work the same terrain as dharmaśāstra.",
+      "scriptureRefs": [
+        {
+          "ref": "Arthaśāstra 1.2–1.3",
+          "text": "ānvīkṣikī, trayī, vārttā, daṇḍanīti — the four vidyās, the Veda among them"
+        }
+      ]
     }
   },
   {
@@ -193,6 +223,16 @@
       "credit": "Ms Sarah Welch",
       "license": "CC BY-SA 4.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:13th-century_Cikitsa-sara-sangraha,_Vangasena,_medical_text,_Sanskrit,_palm_leaf_manuscript.jpg"
+    },
+    "dharmicTie": {
+      "status": "historical-lineage",
+      "statement": "The rational-medicine stream of Āyurveda, framed by the text itself as knowledge descending through a ṛṣi lineage (Brahmā → Prajāpati → Aśvins → Indra → Bharadvāja) — the tradition's standard way of situating a science within dharma.",
+      "scriptureRefs": [
+        {
+          "ref": "Caraka Saṃhitā, Sūtrasthāna 1",
+          "text": "the transmission lineage of āyurveda"
+        }
+      ]
     }
   },
   {
@@ -292,6 +332,20 @@
       "credit": "Patanjali (original author)",
       "license": "Public domain",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Patanjali_Yoga_Sutras_manuscript.jpg"
+    },
+    "dharmicTie": {
+      "status": "direct-scriptural",
+      "statement": "One of the six darśanas of Hindu philosophy; the yoga it systematizes is already defined in the Upaniṣads.",
+      "scriptureRefs": [
+        {
+          "ref": "Yogasūtra 1.2",
+          "text": "yogaś citta-vṛtti-nirodhaḥ"
+        },
+        {
+          "ref": "Kaṭha Upaniṣad 6.10–11 (2.3.10–11)",
+          "text": "the earliest formal definition of yoga as the steady holding of the senses"
+        }
+      ]
     }
   },
   {
@@ -339,6 +393,12 @@
         "label": "Pingree, D., \"The Greek Influence on Early Islamic Mathematical Astronomy\" and jyotiṣa survey articles — Arabic transmission",
         "kind": "peer-reviewed",
         "independent": true
+      },
+      {
+        "label": "Indian Journal of History of Science (INSA) — Āryabhaṭa studies; INSA published the 1976 critical edition",
+        "url": "https://insa.nic.in/",
+        "kind": "peer-reviewed",
+        "independent": true
       }
     ],
     "relatedLedger": [
@@ -357,6 +417,16 @@
       "alt": "Āryabhaṭa and the Āryabhaṭīya",
       "license": "Public domain",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:2064_aryabhata-crp.jpg"
+    },
+    "dharmicTie": {
+      "status": "historical-lineage",
+      "statement": "Jyotiṣa in the vedāṅga lineage, carried by a self-consciously dharmic scholarly culture — the treatise opens with an invocation to Brahman before turning to mathematics.",
+      "scriptureRefs": [
+        {
+          "ref": "Āryabhaṭīya, Gītikāpāda 1",
+          "text": "praṇipatyaikam anekam — bowing to the One who is also many, the true deity"
+        }
+      ]
     }
   },
   {
@@ -403,6 +473,12 @@
         "label": "Fleet, J.F., Corpus Inscriptionum Indicarum III (1888) — the inscription",
         "kind": "primary",
         "independent": true
+      },
+      {
+        "label": "Archaeological Survey of India — monument records, Qutb complex",
+        "url": "https://asi.nic.in/",
+        "kind": "archival",
+        "independent": true
       }
     ],
     "relatedLedger": [
@@ -422,6 +498,38 @@
       "credit": "Aiwok",
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Delhi_Iron_pillar,_2010-09-27.jpg"
+    },
+    "dharmicTie": {
+      "status": "direct-scriptural",
+      "statement": "The object's own inscription is the tie: the pillar was erected as a dhvaja (standard) of Bhagavān Viṣṇu on Viṣṇupada hill by a king whose devotion it records in Sanskrit verse. This is not an inference — it is carved into the artifact.",
+      "scriptureRefs": [
+        {
+          "ref": "The pillar's Sanskrit inscription (c. 4th–5th c. CE)",
+          "text": "erected as viṣṇor dhvaja on Viṣṇupada hill — a Vaiṣṇava votive monument"
+        }
+      ]
+    },
+    "custody": {
+      "holder": "Archaeological Survey of India",
+      "place": "Qutb complex, Mehrauli, Delhi — moved there in the medieval period from its original site (Viṣṇupada hill, location debated; Udayagiri is the leading candidate)",
+      "legalBasis": "Ancient Monuments and Archaeological Sites and Remains (AMASR) Act, 1958; within the Qutb Minar World Heritage property (1993). Its presence in a mosque complex is itself medieval history: relocated as spolia — documented, not euphemized.",
+      "parallels": [
+        {
+          "name": "Dhar iron pillar (fragments)",
+          "holder": "Dhar, Madhya Pradesh, ASI",
+          "note": "larger Gupta-era forge-welded pillar, broken"
+        },
+        {
+          "name": "Heliodorus pillar (Garuḍa-dhvaja)",
+          "holder": "Vidisha, Madhya Pradesh, ASI",
+          "note": "a Greek ambassador's Vaiṣṇava votive column, 2nd c. BCE"
+        },
+        {
+          "name": "Aśokan pillars",
+          "holder": "various sites, ASI",
+          "note": "the older monolithic-column tradition"
+        }
+      ]
     }
   }
 ]

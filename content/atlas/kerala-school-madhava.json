@@ -102,6 +102,12 @@
       "label": "Joseph, G.G., The Crest of the Peacock: Non-European Roots of Mathematics, 3rd ed. (Princeton, 2011)",
       "kind": "monograph",
       "independent": true
+    },
+    {
+      "label": "Indian Journal of History of Science (INSA) — Kerala-school studies incl. K.V. Sarma's corpus",
+      "url": "https://insa.nic.in/",
+      "kind": "peer-reviewed",
+      "independent": true
     }
   ],
   "relatedLedger": [],
@@ -119,5 +125,15 @@
     "credit": "ChandlerMinh",
     "license": "CC BY-SA 4.0",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kerala_school_chain_of_teachers.jpg"
+  },
+  "dharmicTie": {
+    "status": "historical-lineage",
+    "statement": "A Nambudiri brahmin lineage doing jyotiṣa: the series mathematics served astronomical computation for the ritual calendar, and the texts carry the tradition's standard invocations (Nīlakaṇṭha's Tantrasaṅgraha opens and closes invoking Viṣṇu).",
+    "scriptureRefs": [
+      {
+        "ref": "Tantrasaṅgraha, opening invocation",
+        "text": "the school's own dharmic frame around its mathematics"
+      }
+    ]
   }
 }

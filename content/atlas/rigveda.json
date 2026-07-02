@@ -80,6 +80,18 @@
       "label": "Bryant, E., The Quest for the Origins of Vedic Culture (OUP, 2001) — survey of the dating debate on all sides",
       "kind": "monograph",
       "independent": true
+    },
+    {
+      "label": "Vedic Heritage Portal (IGNCA / Ministry of Culture, Govt. of India) — recordings, texts, śākhā documentation",
+      "url": "https://vedicheritage.gov.in/",
+      "kind": "dataset",
+      "independent": true
+    },
+    {
+      "label": "Bhandarkar Oriental Research Institute, Pune — the UNESCO Memory of the World Rigveda manuscripts",
+      "url": "https://www.bori.ac.in/",
+      "kind": "archival",
+      "independent": true
     }
   ],
   "relatedLedger": [
@@ -99,5 +111,39 @@
     "credit": "Ms Sarah Welch",
     "license": "CC BY-SA 4.0",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:1500-1200_BCE,_Rigveda_manuscript_page_sample_iii,_Sanskrit,_Devanagari.jpg"
+  },
+  "dharmicTie": {
+    "status": "direct-scriptural",
+    "statement": "Śruti itself — the root text of Sanātana Dharma, in continuous liturgical use for roughly three millennia. Every other tie in this atlas is measured against this one.",
+    "scriptureRefs": [
+      {
+        "ref": "Ṛgveda 10.129 (Nāsadīya Sūkta)",
+        "text": "the creation hymn that ends in honest cosmological doubt — the tradition's own model of intellectual honesty"
+      },
+      {
+        "ref": "Ṛgveda 1.164.46",
+        "text": "ekaṁ sad viprā bahudhā vadanti — Truth is one; the wise call it by many names"
+      }
+    ]
+  },
+  "custody": {
+    "holder": "Bhandarkar Oriental Research Institute (BORI), Pune — 30 manuscripts inscribed in UNESCO's Memory of the World Register (2007)",
+    "place": "Pune, Maharashtra, India (the registered manuscript set); the text's primary existence remains oral, in the śākhā lineages",
+    "legalBasis": "Institutional collection of a chartered Indian research institute; UNESCO Memory of the World inscription (2007) recognizes — it does not transfer — custody.",
+    "parallels": [
+      {
+        "name": "Rigveda manuscripts",
+        "holder": "British Library, London",
+        "note": "colonial-era acquisitions"
+      },
+      {
+        "name": "Vedic manuscript collections",
+        "holder": "Cambridge University Library"
+      },
+      {
+        "name": "Sanskrit codices incl. Vedic texts",
+        "holder": "Bibliothèque nationale de France, Paris"
+      }
+    ]
   }
 }

@@ -73,6 +73,37 @@
       "credit": "Saqib Qayyum",
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mohenjo-daro.jpg"
+    },
+    "dharmicTie": {
+      "status": "contested-continuity",
+      "statement": "The Great Bath is the standard exhibit for continuity between Indus water ritual and the tradition's later tīrtha, snāna, and temple-tank culture. The parallel is argued by serious scholars and resisted by others; the Vedic reverence for waters as purifying is, separately, directly scriptural.",
+      "scriptureRefs": [
+        {
+          "ref": "Ṛgveda 10.9.1–3 (Āpo hi ṣṭhā)",
+          "text": "the waters as bearers of healing and purity — thematic, not a claim that the hymn describes this building"
+        }
+      ]
+    },
+    "custody": {
+      "holder": "Government of Sindh / Department of Archaeology, Pakistan; UNESCO World Heritage Site (1980)",
+      "place": "Larkana District, Sindh, Pakistan",
+      "legalBasis": "Pakistan Antiquities Act, 1975; World Heritage Convention, 1972 (inscription 1980, following the 1974 UNESCO international safeguarding campaign for the site).",
+      "parallels": [
+        {
+          "name": "Harappa",
+          "holder": "Punjab, Pakistan — Department of Archaeology",
+          "note": "the other type-site"
+        },
+        {
+          "name": "Dholavira",
+          "holder": "ASI, Gujarat, India — UNESCO listed 2021"
+        },
+        {
+          "name": "Rakhigarhi",
+          "holder": "ASI / village co-occupation, Haryana, India",
+          "note": "largest site by area"
+        }
+      ]
     }
   },
   {
@@ -120,6 +151,12 @@
         "label": "Kenoyer, J.M., Ancient Cities of the Indus Valley Civilization (1998)",
         "kind": "monograph",
         "independent": true
+      },
+      {
+        "label": "Archaeological Survey of India — Dholavira excavation reports (Bisht)",
+        "url": "https://asi.nic.in/",
+        "kind": "archival",
+        "independent": true
       }
     ],
     "contributors": [
@@ -136,6 +173,10 @@
       "credit": "Bhajish Bharathan",
       "license": "CC BY-SA 4.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Water_reservoir_at_Dholavira_site.jpg"
+    },
+    "dharmicTie": {
+      "status": "contested-continuity",
+      "statement": "Monumental water storage prefigures the reservoir-and-stepped-tank grammar of later Indian sacred architecture (puṣkariṇī, kalyāṇī). A formal parallel argued from architecture; no textual identification exists."
     }
   },
   {
@@ -203,6 +244,10 @@
       "credit": "Mukerjee",
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:IndusValleySeals_unicorns.jpg"
+    },
+    "dharmicTie": {
+      "status": "contested-continuity",
+      "statement": "Undeciphered, therefore unclaimable — by anyone. If the script one day reads out a Dravidian or Indo-Aryan language, half the continuity debates in this atlas resolve; until then every confident claim in either direction is propaganda-grade (see the ledger)."
     }
   },
   {
@@ -269,6 +314,10 @@
       "credit": "Durgeshkushvaha",
       "license": "CC BY-SA 4.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rakhigarhi_Harappan_civilization.jpg"
+    },
+    "dharmicTie": {
+      "status": "substrate",
+      "statement": "Continuity of people, documented genetically: the Indus-periphery ancestry sequenced here remains the largest single component of most modern South Asians — including the practitioners of Sanātana Dharma today. Continuity of population is a different claim from continuity of doctrine, and only the former is made here."
     }
   },
   {
@@ -315,6 +364,16 @@
       "status": "in-review",
       "vetters": [],
       "aiAssisted": true
+    },
+    "dharmicTie": {
+      "status": "contested-continuity",
+      "statement": "The dharmaśāstra weight system is seed-based (raktikā/ratti, māṣa) and scholars have long noted the persistence of ratti-class jewellers' weights in the subcontinent; a direct chain from Indus chert cubes is argued but not established.",
+      "scriptureRefs": [
+        {
+          "ref": "Manusmṛti 8.132–137",
+          "text": "the enumeration of weights from raktikā upward — the tradition's own metrology"
+        }
+      ]
     }
   },
   {
@@ -381,6 +440,38 @@
       "credit": "Gary Todd",
       "license": "CC0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bronze_%22Dancing_Girl,%22_Mohenjo-daro,_c._2500_BC.jpg"
+    },
+    "dharmicTie": {
+      "status": "historical-lineage",
+      "statement": "Craft lineage, documented at both ends: lost-wax (cire perdue) casting appears here and is codified millennia later in the tradition's own śilpaśāstra literature as madhūcchiṣṭa-vidhāna — the method still used for temple bronzes at Swamimalai.",
+      "scriptureRefs": [
+        {
+          "ref": "Śilpaśāstra corpus (Mānasāra, madhūcchiṣṭa-vidhāna)",
+          "text": "the lost-wax procedure codified for sacred images"
+        }
+      ]
+    },
+    "custody": {
+      "holder": "National Museum, New Delhi (acc. no. 5721/195)",
+      "place": "New Delhi, India",
+      "legalBasis": "1947–49 Partition-era division of the Archaeological Survey's excavated collections by the India–Pakistan joint committee (the celebrated split under which India retained the Dancing Girl and Pakistan received the Priest-King); export now barred by the Antiquities and Art Treasures Act, 1972. Pakistan has periodically raised return claims; no treaty compels transfer.",
+      "parallels": [
+        {
+          "name": "Priest-King",
+          "holder": "National Museum of Pakistan, Karachi",
+          "note": "the other half of the same Partition division"
+        },
+        {
+          "name": "Indus seals and material from 1920s–30s excavations",
+          "holder": "British Museum, London",
+          "note": "colonial-era partage"
+        },
+        {
+          "name": "Mohenjo-daro finds",
+          "holder": "Lahore Museum, Pakistan",
+          "note": "pre-Partition ASI distribution"
+        }
+      ]
     }
   },
   {
@@ -427,6 +518,12 @@
         "label": "Thapar, B.K., \"Kalibangan: a Harappan metropolis beyond the Indus valley\", Expedition 17 (1975) — incl. the ploughed field",
         "kind": "peer-reviewed",
         "independent": true
+      },
+      {
+        "label": "Archaeological Survey of India — Kalibangan excavation reports",
+        "url": "https://asi.nic.in/",
+        "kind": "archival",
+        "independent": true
       }
     ],
     "relatedLedger": [
@@ -439,6 +536,16 @@
       "status": "in-review",
       "vetters": [],
       "aiAssisted": true
+    },
+    "dharmicTie": {
+      "status": "contested-continuity",
+      "statement": "If the excavators' reading is right, these are the most Vedic-looking installations in Indus archaeology — ordered fire pits on a citadel platform, side by side with the śrauta tradition's altar geometry. The interpretation is genuinely divided; the scriptural fire cult itself is fixed and later.",
+      "scriptureRefs": [
+        {
+          "ref": "Śatapatha Brāhmaṇa 6–10 (Agnicayana)",
+          "text": "the fire-altar doctrine the comparison is made against"
+        }
+      ]
     }
   }
 ]

@@ -3,7 +3,11 @@
   "side": "atlas",
   "era": "classical",
   "slice": "Mathematics",
-  "title": { "en": "Piṅgala's Chandaḥśāstra — binary enumeration of meters", "deva": "पिङ्गल — छन्दःशास्त्र", "iast": "Piṅgala — Chandaḥśāstra" },
+  "title": {
+    "en": "Piṅgala's Chandaḥśāstra — binary enumeration of meters",
+    "deva": "पिङ्गल — छन्दःशास्त्र",
+    "iast": "Piṅgala — Chandaḥśāstra"
+  },
   "kind": "innovation",
   "dating": {
     "display": "c. 3rd–2nd century BCE (text); key expansions in later commentary",
@@ -11,8 +15,16 @@
     "tag": "contested",
     "basis": "Dated by language and by position in the śāstra tradition; estimates range from 4th to 2nd century BCE. Some algorithms are explicit only in Halāyudha's 10th-century CE commentary.",
     "positions": [
-      { "position": "c. 300–200 BCE", "holders": "Most historians of Indian mathematics (Plofker, Sridharan)", "evidence": "Sūtra style and grammatical stage." },
-      { "position": "Earlier (4th c. BCE, contemporary with or before Pāṇini)", "holders": "Parts of the Indian tradition identify Piṅgala as Pāṇini's brother", "evidence": "Traditional attribution only." }
+      {
+        "position": "c. 300–200 BCE",
+        "holders": "Most historians of Indian mathematics (Plofker, Sridharan)",
+        "evidence": "Sūtra style and grammatical stage."
+      },
+      {
+        "position": "Earlier (4th c. BCE, contemporary with or before Pāṇini)",
+        "holders": "Parts of the Indian tradition identify Piṅgala as Pāṇini's brother",
+        "evidence": "Traditional attribution only."
+      }
     ]
   },
   "summary": "A treatise on Sanskrit prosody that solves a combinatorial problem: enumerate all meters of n syllables, each syllable light (laghu) or heavy (guru). Piṅgala's pratyaya algorithms generate the k-th pattern from its index and recover the index from a pattern — binary encoding and decoding. The mātrā-meter counts (made explicit by Virahāṅka, c. 700 CE) are the Fibonacci numbers; the meru-prastāra laid out by Halāyudha is Pascal's triangle.",
@@ -29,21 +41,71 @@
         "Modern credit: Knuth documents Piṅgala's priority in The Art of Computer Programming, Vol. 4A"
       ],
       "sources": [
-        { "label": "Van Nooten, B., \"Binary Numbers in Indian Antiquity\", Journal of Indian Philosophy 21 (1993)", "kind": "peer-reviewed", "independent": true },
-        { "label": "Singh, Parmanand, \"The So-called Fibonacci Numbers in Ancient and Medieval India\", Historia Mathematica 12 (1985)", "kind": "peer-reviewed", "independent": true },
-        { "label": "Knuth, D., The Art of Computer Programming, Vol. 4A (2011), §7.2.1.7 history notes", "kind": "reference", "independent": true }
+        {
+          "label": "Van Nooten, B., \"Binary Numbers in Indian Antiquity\", Journal of Indian Philosophy 21 (1993)",
+          "kind": "peer-reviewed",
+          "independent": true
+        },
+        {
+          "label": "Singh, Parmanand, \"The So-called Fibonacci Numbers in Ancient and Medieval India\", Historia Mathematica 12 (1985)",
+          "kind": "peer-reviewed",
+          "independent": true
+        },
+        {
+          "label": "Knuth, D., The Art of Computer Programming, Vol. 4A (2011), §7.2.1.7 history notes",
+          "kind": "reference",
+          "independent": true
+        }
       ]
     }
   ],
   "flagship": true,
   "sources": [
-    { "label": "Van Nooten, B., Journal of Indian Philosophy 21 (1993)", "kind": "peer-reviewed", "independent": true },
-    { "label": "Singh, Parmanand, Historia Mathematica 12 (1985)", "kind": "peer-reviewed", "independent": true },
-    { "label": "Plofker, K., Mathematics in India (Princeton, 2009), ch. 3", "kind": "monograph", "independent": true },
-    { "label": "Knuth, D., TAOCP Vol. 4A (2011)", "kind": "reference", "independent": true },
-    { "label": "Sridharan, R., \"Sanskrit Prosody, Piṅgala Sūtras and Binary Arithmetic\", in Contributions to the History of Indian Mathematics (2005)", "kind": "peer-reviewed", "independent": true }
+    {
+      "label": "Van Nooten, B., Journal of Indian Philosophy 21 (1993)",
+      "kind": "peer-reviewed",
+      "independent": true
+    },
+    {
+      "label": "Singh, Parmanand, Historia Mathematica 12 (1985)",
+      "kind": "peer-reviewed",
+      "independent": true
+    },
+    {
+      "label": "Plofker, K., Mathematics in India (Princeton, 2009), ch. 3",
+      "kind": "monograph",
+      "independent": true
+    },
+    {
+      "label": "Knuth, D., TAOCP Vol. 4A (2011)",
+      "kind": "reference",
+      "independent": true
+    },
+    {
+      "label": "Sridharan, R., \"Sanskrit Prosody, Piṅgala Sūtras and Binary Arithmetic\", in Contributions to the History of Indian Mathematics (2005)",
+      "kind": "peer-reviewed",
+      "independent": true
+    }
   ],
-  "relatedLedger": ["overclaim-vaimanika-shastra"],
-  "contributors": ["seed:ai-draft (claude-fable-5)"],
-  "vetting": { "status": "in-review", "vetters": [], "aiAssisted": true }
+  "relatedLedger": [
+    "overclaim-vaimanika-shastra"
+  ],
+  "contributors": [
+    "seed:ai-draft (claude-fable-5)"
+  ],
+  "vetting": {
+    "status": "in-review",
+    "vetters": [],
+    "aiAssisted": true
+  },
+  "dharmicTie": {
+    "status": "direct-scriptural",
+    "statement": "The Chandaḥśāstra IS the chandas vedāṅga — the limb of Vedic study that measures the meters of śruti. The binary enumeration exists because the Veda's poetry needed cataloguing.",
+    "scriptureRefs": [
+      {
+        "ref": "Pāṇinīya Śikṣā 41–42",
+        "text": "chandaḥ pādau tu vedasya — 'meter is the Veda's two feet'"
+      }
+    ]
+  }
 }

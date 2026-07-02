@@ -36,6 +36,12 @@
       "label": "Jamison, S. & Brereton, J., The Rigveda (OUP, 2014), introduction — on the recitation systems",
       "kind": "reference",
       "independent": true
+    },
+    {
+      "label": "Vedic Heritage Portal (IGNCA) — the national documentation behind the UNESCO inscription",
+      "url": "https://vedicheritage.gov.in/",
+      "kind": "dataset",
+      "independent": true
     }
   ],
   "relatedLedger": [],
@@ -53,5 +59,15 @@
     "credit": "Prititunna",
     "license": "CC BY-SA 4.0",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Homa_or_Yajna_at_a_rural_village_home_during_puja.jpg"
+  },
+  "dharmicTie": {
+    "status": "living-practice",
+    "statement": "The śruti transmission system itself, alive: the pāṭha architecture the śikṣā vedāṅga codifies, still taught mouth to ear in unbroken śākhā lineages.",
+    "scriptureRefs": [
+      {
+        "ref": "Pāṇinīya Śikṣā",
+        "text": "the vedāṅga of correct recitation — the theory behind the practice UNESCO inscribed"
+      }
+    ]
   }
 }

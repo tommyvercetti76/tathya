@@ -23,6 +23,14 @@ const TAG_LABEL: Record<string, string> = {
   evolved: "evolved over centuries",
 };
 
+const TIE_LABEL: Record<string, string> = {
+  "direct-scriptural": "direct scriptural tie",
+  "living-practice": "living practice",
+  "historical-lineage": "historical lineage",
+  "contested-continuity": "contested continuity",
+  substrate: "substrate (pre-Vedic)",
+};
+
 function EntryDetail({ e }: { e: AtlasEntry }) {
   return (
     <div className="tcard-body">
@@ -52,10 +60,67 @@ function EntryDetail({ e }: { e: AtlasEntry }) {
           ⟨{e.dating.edtf}⟩
         </span>
       </div>
+      {e.dharmicTie && (
+        <div className={`dharmic dharmic-${e.dharmicTie.status}`}>
+          <div className="dharmic-head">
+            <span className={`tie-chip ${e.dharmicTie.status}`}>{TIE_LABEL[e.dharmicTie.status]}</span>
+            <span className="dharmic-label">Tie to Sanātana Dharma</span>
+          </div>
+          <p>{e.dharmicTie.statement}</p>
+          {e.dharmicTie.scriptureRefs && e.dharmicTie.scriptureRefs.length > 0 && (
+            <ul className="scripture-refs">
+              {e.dharmicTie.scriptureRefs.map((s, i) => (
+                <li key={i}>
+                  <b>{s.ref}</b>
+                  {s.text && <> — {s.text}</>}
+                  {s.link && (
+                    <>
+                      {" "}
+                      <a href={s.link} target="_blank" rel="noreferrer">
+                        text ↗
+                      </a>
+                    </>
+                  )}
+                </li>
+              ))}
+            </ul>
+          )}
+        </div>
+      )}
       <p className="summary">{e.summary}</p>
       <p className="why">
         <b>Why it matters:</b> {e.whyItMatters}
       </p>
+      {e.custody && (
+        <div className="facts">
+          <div className="facts-title">Custody — who holds it, and why</div>
+          <div className="fact-row">
+            <span className="fact-key">Held by</span>
+            <span>{e.custody.holder}</span>
+          </div>
+          <div className="fact-row">
+            <span className="fact-key">Where</span>
+            <span>{e.custody.place}</span>
+          </div>
+          <div className="fact-row">
+            <span className="fact-key">Why there</span>
+            <span>{e.custody.legalBasis}</span>
+          </div>
+          {e.custody.parallels && (
+            <div className="fact-row">
+              <span className="fact-key">Similar, held abroad</span>
+              <ul className="parallel-list">
+                {e.custody.parallels.map((p, i) => (
+                  <li key={i}>
+                    <b>{p.name}</b> — {p.holder}
+                    {p.note && <span className="note"> ({p.note})</span>}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+        </div>
+      )}
       {e.honestyNote && (
         <div className="honesty">
           <b>Named uncertainty:</b> {e.honestyNote}
