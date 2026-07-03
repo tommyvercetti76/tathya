@@ -7,7 +7,7 @@ You do not need to know git, JSON, or Sanskrit to contribute — and if you do c
 Prerequisites: **Node.js ≥ 20** (22 recommended — see `.nvmrc`) and npm.
 
 ```bash
-git clone https://github.com/OWNER/tathya && cd tathya
+git clone https://github.com/tommyvercetti76/tathya && cd tathya
 npm ci                 # install (uses the lockfile)
 npm run dev            # → http://localhost:3000
 npm run check          # validate content + production build — MUST pass before any PR

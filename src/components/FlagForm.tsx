@@ -46,7 +46,7 @@ const CHANNELS = [
 ] as const;
 
 // Point this at the deployed repo once it has a home on GitHub.
-const REPO_ISSUES_URL = "https://github.com/OWNER/tathya/issues/new";
+const REPO_ISSUES_URL = "https://github.com/tommyvercetti76/tathya/issues/new";
 
 export function FlagForm({
   flagForOptions,
