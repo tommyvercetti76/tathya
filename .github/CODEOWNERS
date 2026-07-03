@@ -1,0 +1,7 @@
+# Fill in real handles before enabling required-review branch protection.
+# The trust-critical trio: content, the schema, and the validator.
+#
+# content/                 @OWNER1 @OWNER2
+# src/lib/schema.ts        @OWNER1 @OWNER2
+# scripts/validate.ts      @OWNER1 @OWNER2
+# *                        @OWNER1

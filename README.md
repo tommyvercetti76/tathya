@@ -30,9 +30,20 @@ That last command demonstrates the detection layer: it fires the *nation-retroje
 - **Provenance as design**: sources, dating evidence, contributor credit, AI-assistance labels, and vetting status render on every card — not in a footnote.
 - **Governance** ([docs/GOVERNANCE.md](docs/GOVERNANCE.md)): anyone submits (sources required at submission) → trusted vetters verify every citation → publication. AI drafts; humans verify; the seed content in this repo is itself marked `in-review` for that reason.
 
+## Documentation
+
+| doc | what it covers |
+|---|---|
+| [CLAUDE.md](CLAUDE.md) | **Start here (humans and AI agents alike):** repo map, invariants, recipes, gotchas |
+| [docs/API.md](docs/API.md) | data contracts, library API, stable URL contract, planned HTTP API |
+| [docs/DETECTION.md](docs/DETECTION.md) | the detection pipeline design and its scientific basis |
+| [docs/GOVERNANCE.md](docs/GOVERNANCE.md) | who publishes what, vetting, the AI policy |
+| [docs/SECURITY.md](docs/SECURITY.md) | threat model + admin hardening handbook |
+| [docs/INDIC-SOURCES.md](docs/INDIC-SOURCES.md) | Indian research infrastructure, cited on merit |
+
 ## Contributing
 
-Three doors — flag propaganda (2 minutes, no code), propose an entry (a form), or hack on the pipeline. See [CONTRIBUTING.md](CONTRIBUTING.md).
+Three doors — flag propaganda (2 minutes, no code), propose an entry (a form), or hack on the pipeline. See [CONTRIBUTING.md](CONTRIBUTING.md). AI-agent contributors: read [CLAUDE.md](CLAUDE.md) first — the validator enforces the project's editorial constitution, and `npm run check` must pass before any PR.
 
 ## License
 

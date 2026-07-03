@@ -9,7 +9,8 @@
     "build": "next build",
     "start": "next start",
     "validate": "tsx scripts/validate.ts",
-    "triage": "tsx scripts/triage.ts"
+    "triage": "tsx scripts/triage.ts",
+    "check": "npm run validate && next build"
   },
   "dependencies": {
     "next": "^15.3.3",

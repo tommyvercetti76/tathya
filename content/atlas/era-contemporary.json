@@ -395,7 +395,7 @@
           },
           {
             "label": "Hellwig, O., Digital Corpus of Sanskrit",
-            "url": "http://www.sanskrit-linguistics.org/dcs/",
+            "url": "https://github.com/OliverHellwig/sanskrit",
             "kind": "dataset",
             "independent": true
           }
@@ -418,7 +418,7 @@
       },
       {
         "label": "Hellwig, O., Digital Corpus of Sanskrit",
-        "url": "http://www.sanskrit-linguistics.org/dcs/",
+        "url": "https://github.com/OliverHellwig/sanskrit",
         "kind": "dataset",
         "independent": true
       },

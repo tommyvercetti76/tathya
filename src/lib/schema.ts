@@ -18,6 +18,17 @@
  */
 import { z } from "zod";
 
+/**
+ * All URLs in content must be https. `z.string().url()` alone accepts
+ * javascript:/data:/http: — a stored-XSS and downgrade vector once content
+ * is community-contributed. Scheme is enforced at the schema layer so no
+ * renderer ever has to remember to check.
+ */
+const httpsUrl = z
+  .string()
+  .url()
+  .refine((u) => u.startsWith("https://"), { message: "URLs must be https://" });
+
 // ---------------------------------------------------------------- sources
 
 export const SourceKind = z.enum([
@@ -33,7 +44,7 @@ export const SourceKind = z.enum([
 export const Source = z.object({
   label: z.string(), // short human citation, e.g. "Coppa et al., Nature 440 (2006)"
   detail: z.string().optional(), // full citation / what it establishes
-  url: z.string().url().optional(),
+  url: httpsUrl.optional(),
   kind: SourceKind,
   independent: z.boolean().default(true), // false if derivative of another listed source
 });
@@ -102,7 +113,7 @@ export const Location = z.object({
 export const ScriptureRef = z.object({
   ref: z.string(), // "Ṛgveda 10.18.8", "Bhagavad Gītā 10.22"
   text: z.string().optional(), // the gist or key phrase, transliterated/translated
-  link: z.string().url().optional(), // prefer Indian scholarly portals (Vedic Heritage, Gita Supersite...)
+  link: httpsUrl.optional(), // prefer Indian scholarly portals (Vedic Heritage, Gita Supersite...)
 });
 
 /**
@@ -137,11 +148,11 @@ export const Custody = z.object({
 
 /** Images carry provenance like everything else: credit, license, source link. */
 export const EntryImage = z.object({
-  src: z.string().url(), // hotlinked from Wikimedia Commons (self-host later at scale)
+  src: httpsUrl, // hotlinked from Wikimedia Commons (self-host later at scale)
   alt: z.string(),
   credit: z.string().optional(), // artist/photographer, from Commons metadata
   license: z.string().optional(), // e.g. "CC BY-SA 4.0", "Public domain"
-  sourceUrl: z.string().url().optional(), // Commons file page
+  sourceUrl: httpsUrl.optional(), // Commons file page
 });
 
 export const Vetting = z.object({
