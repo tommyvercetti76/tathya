@@ -1,0 +1,33 @@
+name: "🐛 Bug report (code)"
+description: "Something in the app, pipeline, or build is broken. (For wrong content, use the entry/flag templates instead.)"
+title: "[bug] "
+labels: ["bug"]
+body:
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options: [frontend (pages/components/CSS), detection pipeline (src/lib/detect), content validation (schema/validate), scripts/CLI, build/CI, other]
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. npm run dev
+        2. open /drill
+        3. …
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected vs actual
+    validations:
+      required: true
+  - type: input
+    id: env
+    attributes:
+      label: Environment
+      placeholder: "macOS 15 / Node 22.14 / Chrome 132"

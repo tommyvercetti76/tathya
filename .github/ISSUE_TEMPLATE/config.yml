@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: "📖 Start here — contributor guide"
+    url: "https://github.com/OWNER/tathya/blob/main/CONTRIBUTING.md"
+    about: "Dev setup in 10 minutes; frontend, backend, content, and research lanes."
+  - name: "🔐 Report a security vulnerability (privately)"
+    url: "https://github.com/OWNER/tathya/security/advisories/new"
+    about: "Do not open public issues for security problems."

@@ -4,6 +4,9 @@
   "private": true,
   "description": "tathya (तथ्य, 'fact') — an evidence-first atlas of Sanātana Dharma and a structured ledger that documents and counters propaganda about it. Truth wins, always.",
   "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",

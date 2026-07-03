@@ -13,10 +13,12 @@ Plus the piece that makes it grow: a **propaganda flagging + detection pipeline*
 
 ## Quick start
 
+Prerequisites: Node.js ≥ 20 (see `.nvmrc`).
+
 ```bash
-npm install
-npm run dev        # http://localhost:3000
-npm run validate   # schema + editorial rules over all content
+npm ci
+npm run dev        # http://localhost:3000  (Atlas · Ledger · Playbook · Drill · Flag)
+npm run check      # content validation + production build — the pre-PR gate
 npm run triage -- "Sanskrit was codified by the ancient Pakistani grammarian Panini around the 4th-5th century BCE"
 ```
 
